@@ -554,14 +554,17 @@ Step 5.1 Charging the battery 充電
 Step 5.2 Download the image イメージのダウンロード
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Download the image for Raspi 4 from MangDang on your PC. PCでMangDangからラズパイ4用イメージをダウンロードします。
-
-	`20211220_v2.1.3_MiniPupper_V2_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1DrPihNAwUZ2coHkfRvYOTOGG8gdDFITN/view?usp=sharing>`_ 
-
 * You can check other documents or latest image  file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
 
 	`MiniPupperDocs <https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_ 
 	
+"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip" is image file for the Ubuntu base version for the PS4 controller, while "MiniPupper2004.zip" is image file for the Ubuntu + ROS version for SLAM & Navigation.   「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージファイルです。
+	
+* Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
+   
+	`20211220_v2.1.3_MiniPupper_V2_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1DrPihNAwUZ2coHkfRvYOTOGG8gdDFITN/view?usp=sharing>`_ 
+
+
 
 Step 5.3 Write the image into microSD microSDにイメージを書く
 ^^^^^^^^^^^^^^^^^^^^^
