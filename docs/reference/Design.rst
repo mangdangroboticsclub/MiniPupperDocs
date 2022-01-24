@@ -18,4 +18,9 @@ Link: `Bill of Materials <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5
     <iframe height = 400 width = 600 src="https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287&rtpof=true&amp;headers=false"></iframe>
 
     
+STL 
+-------------------
+Link: `STL for 3D ptint <https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_
+
+.. raw:: html    
     
