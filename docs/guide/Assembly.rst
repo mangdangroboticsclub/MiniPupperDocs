@@ -6,7 +6,7 @@ Assembly 組み立て方
 1. Position of the screws ネジの配置
 -------------
 
-* The pictures shows the position of the screws briefly. 写真はネジの位置を簡単に示しています。
+* The pictures show the position of the screws briefly. 写真はネジの位置を簡単に示しています。
     
 .. image:: ../_static/136.jpg
     :align: center
