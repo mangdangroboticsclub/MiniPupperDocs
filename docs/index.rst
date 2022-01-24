@@ -26,7 +26,7 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
 
     guide/Assembly
     guide/Operation
-
+    guide/SLAM&Navigation
 
 .. toctree::
     :maxdepth: 1
