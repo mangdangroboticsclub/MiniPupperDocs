@@ -3,7 +3,36 @@ Assembly 組み立て方
 
 .. contents 目次:: :depth: 2
 
-1. Legs Assembly 脚の組み立て方
+1. Position of the screws ネジの配置
+-------------
+
+* The pictures shows the position of the screws briefly. 写真はネジの位置を簡単に示しています。
+    
+.. image:: ../_static/136.jpg
+    :align: center
+    
+.. image:: ../_static/137.jpg
+    :align: center  
+    
+.. image:: ../_static/138.jpg
+    :align: center
+    
+.. image:: ../_static/139.jpg
+    :align: center
+    
+.. image:: ../_static/140.jpg
+    :align: center  
+    
+.. image:: ../_static/144.jpg
+    :align: center
+    
+.. image:: ../_static/141.jpg
+    :align: center  
+    
+.. image:: ../_static/142.jpg
+    :align: center  
+    
+2. Legs Assembly 脚の組み立て方
 -------------
 
 Tools 工具
@@ -20,7 +49,7 @@ Bolt to use 使用するボルト
 * M2x12mm	1x4=4	⑤+⑦
 * M2x15mm	1x4=4	③+⑤ (Changed to M2x14mm in the latest kit 最新のキットではM2x14mmに変更)
 
-Step 1.1 Single leg 片脚
+Step 2.1 Single leg 片脚
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Assemble the four legs. The front and back of the right side are the same, and so are the front and back of the left side. Show you how to assemble the right side. / 脚を4つ組み立てます。右の前と後ろは共通で、同様に左の前と後ろも共通です。では、右側の組み立て方を解説します。
@@ -186,13 +215,13 @@ opposite side / 裏
 .. image:: ../_static/35.jpg
     :align: center
     
-Step 1.2 Four legs 4脚分
+Step 2.2 Four legs 4脚分
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/36.jpg
     :align: center
 
-Step 1.3 Locktite ロックタイト
+Step 2.3 Locktite ロックタイト
 ^^^^^^^^^^^^^^^^^^^^^
 
 * As the nut is on a moving joint, it will loosen quickly if tightened too tightly. They should be secured with Loctite. It is possible to dismantle the nut later, as it can be loosened by a strong force. ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。
@@ -201,7 +230,7 @@ Step 1.3 Locktite ロックタイト
     :align: center
 
 
-2. Hips Assembly 臀部の組み立て方
+3. Hips Assembly 臀部の組み立て方
 -------------
 
 Tools 工具
@@ -219,7 +248,7 @@ Bolt to use 使用するボルト
 * M2x6mm(Self tapping)	1x4=4	
 * M2x5mm	1x4+4x4=20  (Changed to M2x6mm in the latest kit 最新のキットではM2x6mmに変更)
 
-Step 2.1 Hip 臀部
+Step 3.1 Hip 臀部
 ^^^^^^^^^^^^^^^^^^^^^
 
 * There are four hips to assemble, all with different shapes. Here shows how to assemble the rear right hip. 臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。
@@ -273,14 +302,14 @@ Assemble leg and hip 脚部を臀部に取り付ける
     :align: center 
     
 
-Step 2.2 Four Hips / 4臀部分
+Step 3.2 Four Hips / 4臀部分
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/47.jpg
     :align: center 
     
     
-3. Body Frame Assembly ボディフレームの組み立て方 
+4. Body Frame Assembly ボディフレームの組み立て方 
 -------------
 
 Tools 工具
@@ -299,7 +328,7 @@ Bolt to use 使用するボルト
 * M3x8mm	2+2=4	
 * M2x5mm	8+8+4=20
 
-Step 3.1 Center parts 中央パーツ
+Step 4.1 Center parts 中央パーツ
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
@@ -323,7 +352,7 @@ Step 3.1 Center parts 中央パーツ
 .. image:: ../_static/51.jpg
     :align: center 
 
-Step 3.2 Front parts 前面パーツ
+Step 4.2 Front parts 前面パーツ
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Tighten the two M3x8mm screws with a screwdriver. The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。
@@ -335,7 +364,7 @@ Step 3.2 Front parts 前面パーツ
     :align: center 
 
 
-Step 3.3 Rear side 後部
+Step 4.3 Rear side 後部
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The same procedure as for the front part. 前部と同じ要領です。
@@ -359,7 +388,7 @@ Step 3.3 Rear side 後部
     :align: center 
 
 
-Step 3.4 Bottom plate 底のプレート
+Step 4.4 Bottom plate 底のプレート
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the hole is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に穴が来る必要があります。
@@ -370,7 +399,7 @@ Step 3.4 Bottom plate 底のプレート
 .. image:: ../_static/62.jpg
     :align: center 
     
-Step 3.5 Top plate and supports/ トッププレートと支柱
+Step 4.5 Top plate and supports/ トッププレートと支柱
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x5mm screws and four short supports. M2x5mmのボルト4本と短い支柱4本を使用します。
@@ -382,7 +411,7 @@ Step 3.5 Top plate and supports/ トッププレートと支柱
     :align: center 
 
     
-Step 3.6 Top plate トッププレート
+Step 4.6 Top plate トッププレート
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に大きな開口部が来る必要があります。
@@ -396,7 +425,7 @@ Step 3.6 Top plate トッププレート
 .. image:: ../_static/67.jpg
     :align: center 
 
-4. Assemble the function component 機能コンポーネントの組み立て
+5. Assemble the function component 機能コンポーネントの組み立て
 -------------
 
 Tools 工具
@@ -411,7 +440,7 @@ Bolt to use 使用するボルト
 * M2x5mm	2	
 * M1.4x3mm(皿)  4
 
-Step 4.1 Display 画面
+Step 5.1 Display 画面
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use two M2x5mm screws. Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible. M2x5mmのボルト2本を使用します。ディスプレイの保護シールはここで取りましょう。ディスプレイと専用基板の間に通る薄いフレキシブルケーブル(通称フレキ)をディスプレイの端で折ります。基板、ディスプレイの順に本体に取り付けます。ディスプレイを取り付ける際に、フレキがなるべく奥にいくように棒状の物で軽く押すと良いです。
@@ -438,7 +467,7 @@ Step 4.1 Display 画面
 .. image:: ../_static/78.jpg
     :align: center 
     
-Step 4.2 Frame of face 顔の枠 
+Step 5.2 Frame of face 顔の枠 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M1.4x3mm countersunk screws. Be careful with the yellow parts as it has a front and back. M1.4x3mmの皿ネジを4本使用します。黄色いパーツには表裏の区別があるので気をつけましょう。
@@ -452,7 +481,7 @@ Step 4.2 Frame of face 顔の枠
 .. image:: ../_static/81.jpg
     :align: center 
 
-Step 4.3 Battery バッテリー 
+Step 5.3 Battery バッテリー 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。
@@ -475,7 +504,7 @@ Step 4.3 Battery バッテリー
 .. image:: ../_static/87.jpg
     :align: center 
     
-Step 4.4 Custom circuit board カスタム回路基板 
+Step 5.4 Custom circuit board カスタム回路基板 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four long supports. First, plug the display cable into the custom circuit board. Then, plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board as temporary solution. Next, you need to insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. After inserting the 12 cables, pull the custom circuit board closer to the body. The board may float, but you can use four long posts to hold it in place. 長い支柱4本を使用します。最初にディスプレイのケーブルをカスタム回路基板に挿します。次にバッテリーのケーブルを挿します。このコネクタが臀部パーツに干渉する恐れがあるので、（暫定対策として）このコネクタを基板の真ん中の穴に通して逃しておきます。次にサーボのケーブルを12本挿します。写真で説明すると、J1,J2,J3...J12順番の通りに挿していきます。茶色がGNDなので全て手前になるように挿しましょう。12本のケーブルを挿したらカスタム回路基板をぐっと力を入れてボティに近づけます。ケーブルの反発で基板が浮いてきますが、長い支柱を4本挿して固定しましょう。
@@ -509,7 +538,7 @@ Step 4.4 Custom circuit board カスタム回路基板
 .. image:: ../_static/134.png
     :align: center
 
-Step 4.5 Raspberry Pi 4
+Step 5.5 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
@@ -525,7 +554,7 @@ Step 4.5 Raspberry Pi 4
     :align: center 
 
 
-5. Software Setup ソフトウェアセットアップ
+6. Software Setup ソフトウェアセットアップ
 -------------
 
 Tools 工具
@@ -542,7 +571,7 @@ In addition to the tools included in the kit, the following items are required f
 * USB charger
 
 
-Step 5.1 Charging the battery 充電
+Step 6.1 Charging the battery 充電
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
@@ -550,7 +579,7 @@ Step 5.1 Charging the battery 充電
 .. image:: ../_static/100.jpg
     :align: center 
 
-Step 5.2 Download the image イメージのダウンロード
+Step 6.2 Download the image イメージのダウンロード
 ^^^^^^^^^^^^^^^^^^^^^
 
 * You can check other documents or latest image  file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
@@ -565,7 +594,7 @@ Step 5.2 Download the image イメージのダウンロード
 
 
 
-Step 5.3 Write the image into microSD microSDにイメージを書く
+Step 6.3 Write the image into microSD microSDにイメージを書く
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Insert the microSD card into your PC's SD card reader and pwrite the image. We recommend the image creation tool balenaEtcher as it is easy and reliable. Please refer to the official manual and below link. It may take a while to complete. PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。
@@ -574,7 +603,7 @@ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <h
 
 参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 <https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_ 
 
-Step 5.4 Startup raspberry pi ラズパイの起動
+Step 6.4 Startup raspberry pi ラズパイの起動
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Remove the SD card from the PC and insert it into the Raspberry pi. PCからSDカードを抜いて、ラズパイに挿す
@@ -586,7 +615,7 @@ Step 5.4 Startup raspberry pi ラズパイの起動
 .. image:: ../_static/101.jpg
     :align: center 
 
-Step 5.5  Log in ログイン
+Step 6.5  Log in ログイン
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Press ubuntu on the purple screen to log in. 紫の画面でubuntuを押してログインします。
@@ -594,7 +623,7 @@ Step 5.5  Log in ログイン
 * Default password / 初期パスワード：mangdang
 * You should change your password. パスワードは各自変更しましょう。
 
-Step 5.6  Set keyboard キーボードの設定
+Step 6.6  Set keyboard キーボードの設定
 ^^^^^^^^^^^^^^^^^^^^^
 
 * If you are using a Japanese keyboard, you will need this setting. Press the menu button in the bottom left corner and type settings to bring up settings. 日本語キーボードを使ってる場合、この設定が必要です。左下のメニューボタンを押し、 settings とタイプして設定を起動します。
@@ -604,7 +633,7 @@ Step 5.6  Set keyboard キーボードの設定
 
 * Select Region & Language and press + for Input Sources. On the screen that comes up, select the three dots for other and type Japanese to select it. Type Japanese to select it. Region & Language を選択し、Input Sourcesの＋を押します。出てきた画面で点3つを選ぶとotherが出るので、 Japanese とタイプして選択します。English(US)はゴミ箱マークを押して消してしまってもOKです。
 
-Step 5.7  Enable wifi Wifiの有効化
+Step 6.7  Enable wifi Wifiの有効化
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Press the menu button at the bottom left and type terminal to start the terminal. In the terminal, open the configuration file. 左下のメニューボタンを押し、 terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。
@@ -621,7 +650,7 @@ Step 5.7  Enable wifi Wifiの有効化
 
 * Type ip a. See and make a note of IP address. This will be necessary when you connect to your PC via ssh. The configuration within Ubuntu is now complete. ターミナルで ip a とタイプし、ラズパイに割り振られたIPアドレスを確認します。PCからsshで接続するときに必要になるのでメモしておきましょう。Ubuntu内の設定はこれで完了です。
 
-Step 5.8 Open ports for ssh / ssh接続のためのポート開放
+Step 6.8 Open ports for ssh / ssh接続のためのポート開放
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Attempt to make an ssh connection from your PC to Ubuntu. PCからUbuntuにssh接続を試みます。
@@ -637,7 +666,7 @@ Step 5.8 Open ports for ssh / ssh接続のためのポート開放
 
 	sudo ufw enable
 
-Step 5.9 Leg servos calibration キャリブレーション
+Step 6.9 Leg servos calibration キャリブレーション
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The first step is to make the Mini Pupper stand up, so that legs touch the floor. まずMini Pupperのすべての脚が床に触れるように立たせます。
@@ -681,7 +710,7 @@ Step 5.9 Leg servos calibration キャリブレーション
 .. image:: ../_static/110.jpg
     :align: center   
 
-Step 5.10 Connect PS4 controller Playstation4コントローラの接続
+Step 6.10 Connect PS4 controller Playstation4コントローラの接続
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Please check the next chapter. 次の章を参照ください。
@@ -689,7 +718,7 @@ Step 5.10 Connect PS4 controller Playstation4コントローラの接続
 * If you can control it with a ps4 controller, it's OK. ps4コントローラで操作できればOKです。
 
 
-Step 5.11 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウン
+Step 6.11 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウン
 ^^^^^^^^^^^^^^^^^^^^^
 
 * You will need to shut down on Ubuntu. If you have a screen + keyboard connected, type the following command directly, or if not, type the following command from your PC via ssh connection. 下面にあるボタン長押しで突然電源供給を止めると、SDカードが破壊されるリスクがあります。Ubuntu上でシャットダウンする必要があります。画面＋キーボードを接続しているなら直接、繋いでいないならPCからssh接続で下記のコマンドを打ちます。
@@ -701,7 +730,7 @@ Step 5.11 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダ�
 * You can shutdown Ubuntu by pressing and holding the triangle button. △ボタンを長押しでUbuntuをシャットダウンできます。
 
     
-6. Cover Assembly 外装の組み立て方
+7. Cover Assembly 外装の組み立て方
 -------------
 
 Tools 工具
@@ -717,7 +746,7 @@ Bolt to use 使用するボルト
 * M2x8mm	4
 * M2x10mm	4
 
-Step 6.1 Side panels 脇のパネル
+Step 7.1 Side panels 脇のパネル
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M1.4x3mm countersunk screws. M1.4x3mmの皿ネジを8本使用します。
@@ -728,7 +757,7 @@ Step 6.1 Side panels 脇のパネル
 .. image:: ../_static/112.jpg
     :align: center   
 
-Step 6.2 Shin guards すね
+Step 7.2 Shin guards すね
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x10mm countersunk screws. M2x10mmのボルトを4本使用します。
@@ -739,7 +768,7 @@ Step 6.2 Shin guards すね
 .. image:: ../_static/114.jpg
     :align: center 
 
-Step 6.3 Shoulders 肩
+Step 7.3 Shoulders 肩
 ^^^^^^^^^^^^^^^^^^^^^ 
 
 * Use 8 x M2x4mm screws. Insert only the screws first and then insert the shoulder parts into the gap. Insert the 2 mm hex driver into the hole in the shoulder part and tighten the screws. M2x4mmボルトを8本使用します。先にボルトだけ挿し、その隙間に肩パーツを差し込みます。肩パーツの穴に2mm六角レンチを入れてボルトを締めます。
@@ -756,10 +785,10 @@ Step 6.3 Shoulders 肩
 .. image:: ../_static/118.jpg
     :align: center   
     
-Step 6.4 Top cover トップカバー
+Step 7.4 Top cover トップカバー
 ^^^^^^^^^^^^^^^^^^^^^   
 
-* Use four M2x8mm screws; if the holes are too small to fit the screws, as the part is made with a 3D printer, you can enlarge the holes by turning them with the supplied 2mm hexagonal screwdriver. M2x8mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。
+* Use four M2x10mm screws; if the holes are too small to fit the screws, as the part is made with a 3D printer, you can enlarge the holes by turning them with the supplied 2mm hexagonal screwdriver. M2x10mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。
 
 .. image:: ../_static/119.jpg
     :align: center   
@@ -770,7 +799,7 @@ Step 6.4 Top cover トップカバー
 .. image:: ../_static/121.jpg
     :align: center   
     
-Step 6.5 Shoes 靴
+Step 7.5 Shoes 靴
 ^^^^^^^^^^^^^^^^^^^^^  
 
 * Put on 4 shoes. 靴を4足履く
@@ -782,7 +811,7 @@ Step 6.5 Shoes 靴
     :align: center   
     
     
-Step 6.5 Completion!  完成！   
+Step 7.6 Completion!  完成！   
 ^^^^^^^^^^^^^^^^^^^^^  
 
 .. image:: ../_static/124.jpg
