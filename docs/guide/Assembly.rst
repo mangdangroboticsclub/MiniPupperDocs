@@ -245,7 +245,10 @@ Assemble servo horn and hip parts サーボホーンと臀部部品の組み立�
 .. image:: ../_static/41.jpg
     :align: center  
     
-Put two servos into hip parts サーボ2つを臀部部品に入れる 
+Put two servos into hip parts サーボ2つを臀部部品に入れる。
+
+※ You may need to clean the residue around the holes in the 3D printed part at first. Make sure the servo mounting surface is flat. 最初に、3Dプリントされたパーツの穴の周りの残留物をきれいにする必要があるかもしれません。サーボ取付面が平らであることを確認してください。
+
 
 * Insert two servo into the box and fix them with M2x5mm screws. 2つのサーボを箱にはめて、M2x5mmのボルト4本で固定します。
 
@@ -302,8 +305,10 @@ Step 3.1 Center parts 中央パーツ
 
 * The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
 
-.. image:: ../_static/52.jpg
+.. image:: ../_static/52.png
     :align: center 
+
+※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
 
 * Use four M2x8mm screws. It is useful to put masking tape on the cables and write the number of servomotors during this process to make it easier later. M2x8mmのボルト4本を使って取り付けます。この工程でケーブルにマスキングテープを貼り番号を書くと、後で楽です。
 
@@ -499,6 +504,11 @@ Step 4.4 Custom circuit board カスタム回路基板
     
 .. image:: ../_static/95.jpg
     :align: center 
+
+※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. No.1サーボのケーブルに圧倒されないように注意する必要があります。
+
+.. image:: ../_static/134.png
+    :align: center
 
 Step 4.5 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^
