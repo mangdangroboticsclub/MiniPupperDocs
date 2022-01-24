@@ -218,7 +218,6 @@ Bolt to use 使用するボルト
 
 * M2x6mm(Self tapping)	1x4=4	
 * M2x5mm	1x4+4x4=20  (Changed to M2x6mm in the latest kit 最新のキットではM2x6mmに変更)
-* M2x12mm	1x4=4	
 
 Step 2.1 Hip 臀部
 ^^^^^^^^^^^^^^^^^^^^^
@@ -296,7 +295,7 @@ In addition to the tools included in the kit, the following items are required f
 
 Bolt to use 使用するボルト
 ^^^^^^^^^^^^^^^^^^^^^
-* M2x8mm	4+4=8	 (Changed to M2x6mm in the latest kit 最新のキットではM2x6mmに変更)
+* M2x8mm	4+4=8	 
 * M3x8mm	2+2=4	
 * M2x5mm	8+8+4=20
 
