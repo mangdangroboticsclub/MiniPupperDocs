@@ -20,7 +20,7 @@ Link: `Bill of Materials <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5
     
 STL 
 -------------------
-Link: `STL for 3D ptint <https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_
+Link: `STL for 3D print <https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_
 
 .. raw:: html    
     
