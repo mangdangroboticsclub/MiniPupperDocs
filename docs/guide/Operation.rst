@@ -66,6 +66,10 @@ Robot controls 本体の制御
 
 * Power off  電源オフ
 
+※ Note that a broken SD card will not be restored... It's a bit of a pain, but you can end it with a command. After about 30 seconds, it will shut down and you can press and ※ hold the button on the bottom to turn it off. 壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。
+
+※ You can shutdown Ubuntu by pressing and holding the triangle button. △ボタンを長押しでUbuntuをシャットダウンできます。
+
 .. image:: ../_static/133.gif
     :align: center
 
