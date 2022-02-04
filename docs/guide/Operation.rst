@@ -6,7 +6,7 @@ Running the robot ミニぷぱ（以下、本体）を起動
 -----------------
 1. Power On Mini Pupper 電源オン
     
-    * Push on the power button for at least 3 seconds on the battery to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off. 
+    * Push on the power button for at least 3 seconds on the battery to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off. 本体の電源をオンにするために3秒以上電源ボタンを押してください．電源を入れた後，また3秒以上電源ボタンを押すと，電源がオフになります．
 
 .. image:: ../_static/127.gif
     :align: center
