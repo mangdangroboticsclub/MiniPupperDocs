@@ -52,7 +52,7 @@ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <h
 
 参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 <https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_ 
 
-
+* Remove the SD card from the PC and insert it into the Raspberry pi. PCからSDカードを抜いて、ラズパイに挿す
 
 .. image:: ../_static/145.jpg
     :align: center 
