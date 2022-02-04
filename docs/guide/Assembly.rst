@@ -3,7 +3,62 @@ Assembly 組み立て方
 
 .. contents 目次:: :depth: 2
 
-1. Position of the screws ネジの配置
+1. Write the image into microSD microSDにイメージを書く
+-------------
+
+Tools 工具
+^^^^^^^^^^^^^^^^^^^^^
+In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
+
+* USB keyboardUSB キーボード 
+* USB mouse USB マウス 
+* PC
+* microSD card interface microSDカードリーダ  
+* HDMI DisplayHDMI ディスプレイ 
+* HDMI microHDMI convertorHDMI⇔microHDMI変換 
+* microUSB cable microUSB ケーブル 
+* USB charger
+
+
+Step 1.1 Charging the battery 充電
+^^^^^^^^^^^^^^^^^^^^^
+
+* The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
+
+.. image:: ../_static/100.jpg
+    :align: center 
+
+Step 1.2 Download the image イメージのダウンロード
+^^^^^^^^^^^^^^^^^^^^^
+
+* You can check other documents or latest image  file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
+
+	`MiniPupperDocs <https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_ 
+	
+"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip" is image file for the Ubuntu base version for the PS4 controller, while "MiniPupper2004.zip" is image file for the Ubuntu + ROS version for SLAM & Navigation.   「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージファイルです。
+	
+* Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
+   
+	`20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip <https://drive.google.com/file/d/1ZYJCfCb-1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_ 
+
+
+
+Step 1.3 Write the image into microSD microSDにイメージを書く
+^^^^^^^^^^^^^^^^^^^^^
+
+* Insert the microSD card into your PC's SD card reader and pwrite the image. We recommend the image creation tool balenaEtcher as it is easy and reliable. Please refer to the official manual and below link. It may take a while to complete. PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。
+
+Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <https://etcherpc.com/?usp=sharing>`_ 
+
+参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 <https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_ 
+
+
+
+.. image:: ../_static/145.jpg
+    :align: center 
+
+
+2. Position of the screws ネジの配置
 -------------
 
 * The pictures show the position of the screws briefly. 写真はネジの位置を簡単に示しています。
@@ -32,7 +87,7 @@ Assembly 組み立て方
 .. image:: ../_static/142.jpg
     :align: center  
     
-2. Legs Assembly 脚の組み立て方
+3. Legs Assembly 脚の組み立て方
 -------------
 
 Tools 工具
@@ -49,7 +104,7 @@ Bolt to use 使用するボルト
 * M2x12mm	1x4=4	⑤+⑦
 * M2x15mm	1x4=4	③+⑤ (Changed to M2x14mm in the latest kit 最新のキットではM2x14mmに変更)
 
-Step 2.1 Single leg 片脚
+Step 3.1 Single leg 片脚
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Assemble the four legs. The front and back of the right side are the same, and so are the front and back of the left side. Show you how to assemble the right side. / 脚を4つ組み立てます。右の前と後ろは共通で、同様に左の前と後ろも共通です。では、右側の組み立て方を解説します。
@@ -215,13 +270,13 @@ opposite side / 裏
 .. image:: ../_static/35.jpg
     :align: center
     
-Step 2.2 Four legs 4脚分
+Step 3.2 Four legs 4脚分
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/36.jpg
     :align: center
 
-Step 2.3 Locktite ロックタイト
+Step 3.3 Locktite ロックタイト
 ^^^^^^^^^^^^^^^^^^^^^
 
 * As the nut is on a moving joint, it will loosen quickly if tightened too tightly. They should be secured with Loctite. It is possible to dismantle the nut later, as it can be loosened by a strong force. ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。
@@ -230,7 +285,7 @@ Step 2.3 Locktite ロックタイト
     :align: center
 
 
-3. Hips Assembly 臀部の組み立て方
+4. Hips Assembly 臀部の組み立て方
 -------------
 
 Tools 工具
@@ -248,7 +303,7 @@ Bolt to use 使用するボルト
 * M2x6mm(Self tapping)	1x4=4	
 * M2x5mm	1x4+4x4=20  (Changed to M2x6mm in the latest kit 最新のキットではM2x6mmに変更)
 
-Step 3.1 Hip 臀部
+Step 4.1 Hip 臀部
 ^^^^^^^^^^^^^^^^^^^^^
 
 * There are four hips to assemble, all with different shapes. Here shows how to assemble the rear right hip. 臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。
@@ -302,14 +357,14 @@ Assemble leg and hip 脚部を臀部に取り付ける
     :align: center 
     
 
-Step 3.2 Four Hips / 4臀部分
+Step 4.2 Four Hips / 4臀部分
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/47.jpg
     :align: center 
     
     
-4. Body Frame Assembly ボディフレームの組み立て方 
+5. Body Frame Assembly ボディフレームの組み立て方 
 -------------
 
 Tools 工具
@@ -328,7 +383,7 @@ Bolt to use 使用するボルト
 * M3x8mm	2+2=4	
 * M2x5mm	8+8+4=20
 
-Step 4.1 Center parts 中央パーツ
+Step 5.1 Center parts 中央パーツ
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
@@ -352,7 +407,7 @@ Step 4.1 Center parts 中央パーツ
 .. image:: ../_static/51.jpg
     :align: center 
 
-Step 4.2 Front parts 前面パーツ
+Step 5.2 Front parts 前面パーツ
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Tighten the two M3x8mm screws with a screwdriver. The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。
@@ -364,7 +419,7 @@ Step 4.2 Front parts 前面パーツ
     :align: center 
 
 
-Step 4.3 Rear side 後部
+Step 5.3 Rear side 後部
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The same procedure as for the front part. 前部と同じ要領です。
@@ -388,7 +443,7 @@ Step 4.3 Rear side 後部
     :align: center 
 
 
-Step 4.4 Bottom plate 底のプレート
+Step 5.4 Bottom plate 底のプレート
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the hole is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に穴が来る必要があります。
@@ -399,7 +454,7 @@ Step 4.4 Bottom plate 底のプレート
 .. image:: ../_static/62.jpg
     :align: center 
     
-Step 4.5 Top plate and supports/ トッププレートと支柱
+Step 5.5 Top plate and supports/ トッププレートと支柱
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x5mm screws and four short supports. M2x5mmのボルト4本と短い支柱4本を使用します。
@@ -411,7 +466,7 @@ Step 4.5 Top plate and supports/ トッププレートと支柱
     :align: center 
 
     
-Step 4.6 Top plate トッププレート
+Step 5.6 Top plate トッププレート
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に大きな開口部が来る必要があります。
@@ -425,7 +480,7 @@ Step 4.6 Top plate トッププレート
 .. image:: ../_static/67.jpg
     :align: center 
 
-5. Assemble the function component 機能コンポーネントの組み立て
+6. Assemble the function component 機能コンポーネントの組み立て
 -------------
 
 Tools 工具
@@ -440,7 +495,7 @@ Bolt to use 使用するボルト
 * M2x5mm	2	
 * M1.4x3mm(皿)  4
 
-Step 5.1 Display 画面
+Step 6.1 Display 画面
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use two M2x5mm screws. Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible. M2x5mmのボルト2本を使用します。ディスプレイの保護シールはここで取りましょう。ディスプレイと専用基板の間に通る薄いフレキシブルケーブル(通称フレキ)をディスプレイの端で折ります。基板、ディスプレイの順に本体に取り付けます。ディスプレイを取り付ける際に、フレキがなるべく奥にいくように棒状の物で軽く押すと良いです。
@@ -467,7 +522,7 @@ Step 5.1 Display 画面
 .. image:: ../_static/78.jpg
     :align: center 
     
-Step 5.2 Frame of face 顔の枠 
+Step 6.2 Frame of face 顔の枠 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M1.4x3mm countersunk screws. Be careful with the yellow parts as it has a front and back. M1.4x3mmの皿ネジを4本使用します。黄色いパーツには表裏の区別があるので気をつけましょう。
@@ -481,7 +536,7 @@ Step 5.2 Frame of face 顔の枠
 .. image:: ../_static/81.jpg
     :align: center 
 
-Step 5.3 Battery バッテリー 
+Step 6.3 Battery バッテリー 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。
@@ -504,7 +559,7 @@ Step 5.3 Battery バッテリー
 .. image:: ../_static/87.jpg
     :align: center 
     
-Step 5.4 Custom circuit board カスタム回路基板 
+Step 6.4 Custom circuit board カスタム回路基板 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four long supports. First, plug the display cable into the custom circuit board. Then, plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board as temporary solution. Next, you need to insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. After inserting the 12 cables, pull the custom circuit board closer to the body. The board may float, but you can use four long posts to hold it in place. 長い支柱4本を使用します。最初にディスプレイのケーブルをカスタム回路基板に挿します。次にバッテリーのケーブルを挿します。このコネクタが臀部パーツに干渉する恐れがあるので、（暫定対策として）このコネクタを基板の真ん中の穴に通して逃しておきます。次にサーボのケーブルを12本挿します。写真で説明すると、J1,J2,J3...J12順番の通りに挿していきます。茶色がGNDなので全て手前になるように挿しましょう。12本のケーブルを挿したらカスタム回路基板をぐっと力を入れてボティに近づけます。ケーブルの反発で基板が浮いてきますが、長い支柱を4本挿して固定しましょう。
@@ -538,7 +593,7 @@ Step 5.4 Custom circuit board カスタム回路基板
 .. image:: ../_static/134.png
     :align: center
 
-Step 5.5 Raspberry Pi 4
+Step 6.5 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
@@ -553,183 +608,7 @@ Step 5.5 Raspberry Pi 4
 .. image:: ../_static/99.jpg
     :align: center 
 
-
-6. Software Setup ソフトウェアセットアップ
--------------
-
-Tools 工具
-^^^^^^^^^^^^^^^^^^^^^
-In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
-
-* USB keyboardUSB キーボード 
-* USB mouse USB マウス 
-* PC
-* microSD card interface microSDカードリーダ  
-* HDMI DisplayHDMI ディスプレイ 
-* HDMI microHDMI convertorHDMI⇔microHDMI変換 
-* microUSB cable microUSB ケーブル 
-* USB charger
-
-
-Step 6.1 Charging the battery 充電
-^^^^^^^^^^^^^^^^^^^^^
-
-* The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
-
-.. image:: ../_static/100.jpg
-    :align: center 
-
-Step 6.2 Download the image イメージのダウンロード
-^^^^^^^^^^^^^^^^^^^^^
-
-* You can check other documents or latest image  file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
-
-	`MiniPupperDocs <https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_ 
-	
-"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip" is image file for the Ubuntu base version for the PS4 controller, while "MiniPupper2004.zip" is image file for the Ubuntu + ROS version for SLAM & Navigation.   「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージファイルです。
-	
-* Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
    
-	`20211220_v2.1.3_MiniPupper_V2_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1DrPihNAwUZ2coHkfRvYOTOGG8gdDFITN/view?usp=sharing>`_ 
-
-
-
-Step 6.3 Write the image into microSD microSDにイメージを書く
-^^^^^^^^^^^^^^^^^^^^^
-
-* Insert the microSD card into your PC's SD card reader and pwrite the image. We recommend the image creation tool balenaEtcher as it is easy and reliable. Please refer to the official manual and below link. It may take a while to complete. PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。
-
-Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <https://etcherpc.com/?usp=sharing>`_ 
-
-参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 <https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_ 
-
-Step 6.4 Startup raspberry pi ラズパイの起動
-^^^^^^^^^^^^^^^^^^^^^
-
-* Remove the SD card from the PC and insert it into the Raspberry pi. PCからSDカードを抜いて、ラズパイに挿す
-* Connect the Raspberry pi to the display with a microHDMI cable. ラズパイとディスプレイの間をmicroHDMIケーブルで繋ぐ
-* Connect a USB keyboard and mouse to the Raspberry pi. USBのキーボードとマウスをラズパイに繋ぐ
-* Press and hold the button on the bottom of the Mini Pupper to start Raspberry pi for three seconds. Mini Pupperの底にあるボタンを3秒長押しして、起動します。
-* If you can see Ubuntu running on your screen, you have succeeded. You should also see the face on Mini Pupper display. If you don't see both screen, then you have followed the instructions incorrectly. 画面にUbuntuの起動している様子が映れば成功です。さらに、Mini Pupperの画面も表示されます。もし表示されない場合は、これまで行った手順に誤りがあります。
-
-.. image:: ../_static/101.jpg
-    :align: center 
-
-Step 6.5  Log in ログイン
-^^^^^^^^^^^^^^^^^^^^^
-
-* Press ubuntu on the purple screen to log in. 紫の画面でubuntuを押してログインします。
-* Default username / 初期ユーザ名:ubuntu
-* Default password / 初期パスワード：mangdang
-* You should change your password. パスワードは各自変更しましょう。
-
-Step 6.6  Set keyboard キーボードの設定
-^^^^^^^^^^^^^^^^^^^^^
-
-* If you are using a Japanese keyboard, you will need this setting. Press the menu button in the bottom left corner and type settings to bring up settings. 日本語キーボードを使ってる場合、この設定が必要です。左下のメニューボタンを押し、 settings とタイプして設定を起動します。
-
-.. image:: ../_static/102.jpg
-    :align: center 
-
-* Select Region & Language and press + for Input Sources. On the screen that comes up, select the three dots for other and type Japanese to select it. Type Japanese to select it. Region & Language を選択し、Input Sourcesの＋を押します。出てきた画面で点3つを選ぶとotherが出るので、 Japanese とタイプして選択します。English(US)はゴミ箱マークを押して消してしまってもOKです。
-
-Step 6.7  Enable wifi Wifiの有効化
-^^^^^^^^^^^^^^^^^^^^^
-
-* Press the menu button at the bottom left and type terminal to start the terminal. In the terminal, open the configuration file. 左下のメニューボタンを押し、 terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。
-
-	sudo gedit /boot/firmware/syscfg.txt
-	
-* Type # to enable disabled wifi on syscfg.txt. syscfg.txtにはdtoverlay=disable-wifiと書かれているので、#を付けてコメントアウトします。
-
-	# dtoverlay=disable-wifi
-
-* Reboot Ubuntu to enable wifi. ここで一度再起動して、設定を反映しましょう。
-
-* When you start up again, open settings and set up your wifi settings. Choose your wifi access point SSID and enter your password. 再び起動したら、settingsを開いてWifiの設定をします。自分のWifiアクセスポイントのSSIDを選び、パスワードを入れましょう。
-
-* Type ip a. See and make a note of IP address. This will be necessary when you connect to your PC via ssh. The configuration within Ubuntu is now complete. ターミナルで ip a とタイプし、ラズパイに割り振られたIPアドレスを確認します。PCからsshで接続するときに必要になるのでメモしておきましょう。Ubuntu内の設定はこれで完了です。
-
-Step 6.8 Open ports for ssh / ssh接続のためのポート開放
-^^^^^^^^^^^^^^^^^^^^^
-
-* Attempt to make an ssh connection from your PC to Ubuntu. PCからUbuntuにssh接続を試みます。
-
-	ssh ubuntu@192.168.x.x -p 22
-
-* If you are unable to make an ssh connection from your PC, you will need to configure the following, maybe. PCからssh接続できない場合、下記の設定が必要です。
-
-	sudo ufw allow 22
-	sudo ufw reload
-	
-* If firewall is not running, do the following. もしファイアーウォールが起動してないと言われたら以下を実行します。
-
-	sudo ufw enable
-
-Step 6.9 Leg servos calibration キャリブレーション
-^^^^^^^^^^^^^^^^^^^^^
-
-* The first step is to make the Mini Pupper stand up, so that legs touch the floor. まずMini Pupperのすべての脚が床に触れるように立たせます。
-* Double-click on the Calibration Tool icon on your desktop to launch it. Note that the legs will move when you run above python script. デスクトップのCalibration Toolアイコンをダブルクリックして起動します。アプリを起動したら、脚が動くので注意です。
-
-.. image:: ../_static/103.png
-    :align: center 
-    
-* Next, for each leg, move the Thigh and Calf bars so that they are at a 45 degree angle. The angle of the legs will change in conjunction with the position of the slide bar on the screen. However, if it does not move, then the steps you have followed are incorrect. 次に、それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は ＞ ＞ の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。
-
-.. image:: ../_static/104.jpg
-    :align: center    
-    
-.. image:: ../_static/105.png
-    :align: center  
-    
-.. image:: ../_static/126.png
-    :align: center   
-    
-* You can use the iPhone's tilt sensor app, a ruler or a protractor to measure the angle. I also used a ruler and a protractor. iPhoneの傾斜センサーアプリ、定規、分度器を使用して角度を測定できます。
-
-.. image:: ../_static/106.jpg
-    :align: center    
-    
-* It is not enough to measure the inclination of the legs, so it is important to place the legs on a grid, like a piece of graph paper, to check that they are in the same position from front to back and from side to side, and to make any final adjustments. 傾きの測定だけでは脚の位置が揃わないので、方眼紙のようなマス目に脚を置いて、前後左右の位置が一致しているか、確認し最終調整しましょう。
-
-.. image:: ../_static/107.jpg
-    :align: center    
-    
-* When all legs are at 45° inclination as shown, press Update to save the settings. Press × to close the calibration application. すべての脚を図のように45度の傾きになったら、Update を押して設定を保存します。×ボタンを押してキャリブレーションアプリを閉じます。
-* As a tip, the calibration requires GUI and could not be done via ssh. 補足ですが、キャリブレーションはGUIが必要なのでsshでは実行出来ませんでした。
-
-※ For the latest image file of the Ubuntu21.10, the target angles of legs are shown as below. Ubuntu 21.10の最新のイメージファイルの場合、脚の目標角度は次のようになります。
-
-.. image:: ../_static/108.jpg
-    :align: center   
-    
-.. image:: ../_static/109.jpg
-    :align: center   
-    
-.. image:: ../_static/110.jpg
-    :align: center   
-
-Step 6.10 Connect PS4 controller Playstation4コントローラの接続
-^^^^^^^^^^^^^^^^^^^^^
-
-* Please check the next chapter. 次の章を参照ください。
-
-* If you can control it with a ps4 controller, it's OK. ps4コントローラで操作できればOKです。
-
-
-Step 6.11 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウン
-^^^^^^^^^^^^^^^^^^^^^
-
-* You will need to shut down on Ubuntu. If you have a screen + keyboard connected, type the following command directly, or if not, type the following command from your PC via ssh connection. 下面にあるボタン長押しで突然電源供給を止めると、SDカードが破壊されるリスクがあります。Ubuntu上でシャットダウンする必要があります。画面＋キーボードを接続しているなら直接、繋いでいないならPCからssh接続で下記のコマンドを打ちます。
-
-	sudo shutdown -h now
-	
-* Note that a broken SD card will not be restored... It's a bit of a pain, but you can end it with a command. After about 30 seconds, it will shut down and you can press and hold the button on the bottom to turn it off. 壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。
-
-* You can shutdown Ubuntu by pressing and holding the triangle button. △ボタンを長押しでUbuntuをシャットダウンできます。
-
-    
 7. Cover Assembly 外装の組み立て方
 -------------
 
