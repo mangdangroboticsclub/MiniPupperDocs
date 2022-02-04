@@ -25,7 +25,7 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
     :caption: Build Guide
 
     guide/Assembly
-    guide/Sotfware
+    guide/Software
     guide/Operation
     guide/Applications
     guide/SLAM
