@@ -22,7 +22,6 @@ In addition to the tools included in the kit, the following items are required f
 Step 1.1 Startup raspberry pi ラズパイの起動
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Remove the SD card from the PC and insert it into the Raspberry pi. PCからSDカードを抜いて、ラズパイに挿す
 * Connect the Raspberry pi to the display with a microHDMI cable. ラズパイとディスプレイの間をmicroHDMIケーブルで繋ぐ
 * Connect a USB keyboard and mouse to the Raspberry pi. USBのキーボードとマウスをラズパイに繋ぐ
 * Press and hold the button on the bottom of the Mini Pupper to start Raspberry pi for three seconds. Mini Pupperの底にあるボタンを3秒長押しして、起動します。
