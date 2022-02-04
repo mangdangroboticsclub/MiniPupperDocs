@@ -801,7 +801,7 @@ Step 7.4 Top cover トップカバー
 Step 7.5 Shoes 靴
 ^^^^^^^^^^^^^^^^^^^^^  
 
-* Put on 4 shoes. 靴を4足履く
+* Put on 4 shoes. 靴を4つ履く
 
 .. image:: ../_static/122.jpg
     :align: center   
