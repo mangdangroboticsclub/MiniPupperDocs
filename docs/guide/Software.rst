@@ -1,7 +1,9 @@
-Software Setup ソフトウェアセットアップ
+Software ソフトウェア
 ========
 
 .. contents 目次:: :depth: 2
+
+Software setup for the basic functions 
 
 1. Software Setup ソフトウェアセットアップ
 -------------
