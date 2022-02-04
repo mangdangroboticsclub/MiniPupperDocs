@@ -3,7 +3,7 @@ Software ソフトウェア
 
 .. contents 目次:: :depth: 2
 
-Software setup for the basic functions 
+Software setup for the basic functions. 基本機能のソフトウェアセットアップ。
 
 1. Software Setup ソフトウェアセットアップ
 -------------
