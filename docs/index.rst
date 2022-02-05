@@ -27,7 +27,7 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
     guide/Assembly
     guide/Software
     guide/Operation
-    guide/Applications
+    guide/Expansions
     guide/SLAM
 
 .. toctree::
