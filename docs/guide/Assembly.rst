@@ -10,12 +10,12 @@ Tools 工具
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
-* USB keyboardUSB キーボード 
+* USB keyboard USB キーボード 
 * USB mouse USB マウス 
 * PC
 * microSD card interface microSDカードリーダ  
-* HDMI DisplayHDMI ディスプレイ 
-* HDMI microHDMI convertorHDMI⇔microHDMI変換 
+* HDMI Display HDMI ディスプレイ 
+* HDMI micro HDMI convertor HDMI⇔microHDMI変換 
 * microUSB cable microUSB ケーブル 
 * USB charger
 
