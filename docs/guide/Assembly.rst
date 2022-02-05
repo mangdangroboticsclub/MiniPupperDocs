@@ -35,28 +35,25 @@ Step 1.2 Download the image イメージのダウンロード
 
 	`MiniPupperDocs <https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_ 
 	
-* For the V1 Custom circuit board, the image file is shown as below. V1カスタム回路基板の場合、イメージファイルは以下のようになります。
-
+	
+* For the V1 Custom circuit board, the image file is shown as below. V1カスタム回路基板の場合、イメージファイルは20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zipになります。
 .. image:: ../_static/146.jpg
     :align: center
     
-    `20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1bkQNjKn2gHwSllTT2VaI62u_6uVW4Dzw/view?usp=sharing/view?usp=sharing>`_ 
+`20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1bkQNjKn2gHwSllTT2VaI62u_6uVW4Dzw/view?usp=sharing/view?usp=sharing>`_ 
 
-* For the V2 Custom circuit board, the image file is shown as below. V2カスタム回路基板の場合、イメージファイルは以下のようになります。
 
+* For the V2 Custom circuit board, the image file is shown as below. V2カスタム回路基板の場合、イメージファイルは20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zipになります。
 .. image:: ../_static/147.jpg
     :align: center
     
-    `20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip <https://drive.google.com/file/d/1ZYJCfCb-1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_ 
+`20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip <https://drive.google.com/file/d/1ZYJCfCb-1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_ 
 	
 "XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip" is image file for the Ubuntu base version for the PS4 controller, while "MiniPupper2004.zip" is image file for the Ubuntu + ROS version for SLAM & Navigation.   「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージファイルです。
 	
 * Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
    
 	
-
-
-
 Step 1.3 Write the image into microSD microSDにイメージを書く
 ^^^^^^^^^^^^^^^^^^^^^
 
