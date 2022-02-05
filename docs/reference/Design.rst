@@ -1,4 +1,4 @@
-Mechanical Design　機械設計
+Mechanical Design 機械設計
 =================
 
 Fusion 360 CAD model: 
