@@ -1,4 +1,4 @@
-Software setup ソフトウェアセットアップ
+SLAM & Navigation  SLAM＆ナビゲーション
 ========
 
 .. contents 目次:: :depth: 2
