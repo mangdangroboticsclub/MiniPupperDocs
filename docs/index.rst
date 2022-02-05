@@ -35,6 +35,7 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
     :caption: References
 
     reference/Design
+    reference/PCB
     reference/Help
 
 The documents come from several volunteers, many thanks for all the guys who helped Mini Pupper project!!!
