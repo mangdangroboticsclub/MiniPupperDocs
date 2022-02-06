@@ -22,4 +22,62 @@ In addition to the tools included in the kit, the following items are required f
 
 2. Setup on the PC side PC側の環境セットアップ
 -------------
+Step 2.1 Download the image  イメージのダウンロード
+^^^^^^^^^^^^^^^^^^^^^
+
+  * "MiniPupper2004.zip" is zip file of the image for the Ubuntu + ROS version for SLAM & Navigation. Download and unzip the zip file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。
+
+  `MiniPupper2004.zip <https://drive.google.com/file/d/11zeivhN-fyTMdf6iuhcVD-Ib6aKj7s_5/view?usp=sharing>`_ 
+  
+Step 2.2 Write the image into microSD microSDにイメージを書く
+^^^^^^^^^^^^^^^^^^^^^
+
+Here we introduce the method of writing the image into microSD through Raspberry Pi's Imager. ここでは、RaspberryPiのImagerを使用してイメージをmicroSDに書き込む方法を紹介します。
+
+* Install the Imager tool of the Raspberry Pi. RaspberryPiのImagerツールをインストール
+
+    snap install rpi-imager
+    
+* Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。
+.. image:: ../_static/148.gif
+    :align: center
+
+Step 2.3 Install ROS noetic ROS noeticをインストールする
+^^^^^^^^^^^^^^^^^^^^^
+
+You can skip this step if you have already installed ROS noetic. Basically you can follow the instructions on http://wiki.ros.org/noetic/Installation/Ubuntu. ROS noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu の指示に従うことができます。
+
+Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ
+^^^^^^^^^^^^^^^^^^^^^
+		cd ~
+    
+		sudo apt-get update
+    
+		sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
+    
+		mkdir carto_ws
+    
+		cd carto_ws
+    
+		wstool init src
+    
+		wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
+    
+		wstool update -t src
+    
+		sudo rosdep init
+    
+		rosdep update
+    
+		rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
+    
+		src/cartographer/scripts/install_abseil.sh
+    
+		sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
+    
+		catkin_make_isolated --install --use-ninja
+    
+		source install_isolated/setup.bash
+    
+
 
