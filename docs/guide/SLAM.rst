@@ -25,7 +25,7 @@ In addition to the tools included in the kit, the following items are required f
 Step 2.1 Download the image  イメージのダウンロード
 ^^^^^^^^^^^^^^^^^^^^^
 
-  * "MiniPupper2004.zip" is zip file of the image for the Ubuntu + ROS version for SLAM & Navigation. Download and unzip the zip file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。
+* "MiniPupper2004.zip" is zip file of the image for the Ubuntu + ROS version for SLAM & Navigation. Download and unzip the zip file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。
 
   `MiniPupper2004.zip <https://drive.google.com/file/d/11zeivhN-fyTMdf6iuhcVD-Ib6aKj7s_5/view?usp=sharing>`_ 
   
@@ -45,10 +45,11 @@ Here we introduce the method of writing the image into microSD through Raspberry
 Step 2.3 Install ROS noetic ROS noeticをインストールする
 ^^^^^^^^^^^^^^^^^^^^^
 
-You can skip this step if you have already installed ROS noetic. Basically you can follow the instructions on http://wiki.ros.org/noetic/Installation/Ubuntu. ROS noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu の指示に従うことができます。
+* You can skip this step if you have already installed ROS noetic. Basically you can follow the instructions on http://wiki.ros.org/noetic/Installation/Ubuntu. ROS noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu の指示に従うことができます。
 
 Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ
 ^^^^^^^^^^^^^^^^^^^^^
+
 		cd ~
     
 		sudo apt-get update
@@ -79,5 +80,54 @@ Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セット�
     
 		source install_isolated/setup.bash
     
+Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケージをコンパイル
+^^^^^^^^^^^^^^^^^^^^
 
+* Download the required package `mnpp_ws.zip <https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_  and unzip it to home. 必要なパッケージ `mnpp_ws.zip <https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_ をダウンロードして、homeに解凍します。
 
+.. image:: ../_static/149.gif
+    :align: center
+    
+* Compile the package. パッケージをコンパイルします。
+
+		cd ~/mnpp_ws/
+		
+		sudo apt-get install libudev-dev
+		
+		rosdep install --from-paths src --ignore-src -r -y
+		
+		catkin_make
+		
+		source ~/mnpp_ws /devel/setup.bash
+		
+
+.. image:: ../_static/150.gif
+    :align: center
+    
+Step 2.6 Network setup ネットワークのセットアップ
+^^^^^^^^^^^^^^^^^^^^^
+
+* Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
+
+		ifconfig
+	
+* Open the bashrc file. bashrcファイルを開きます。
+		
+		sudo gedit ~/.bashrc
+
+* Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
+
+		export ROS_MASTER_URI=http://192.168.1.7:11311
+		
+		export ROS_HOSTNAME=192.168.1.7
+		
+		source ~/carto_ws/install_isolated/setup.bash
+		
+		source ~/mnpp_ws/devel/setup.bash
+
+* Source the .bashrc file. 
+
+		source ~/.bashrc
+		
+.. image:: ../_static/151.gif
+    :align: center
