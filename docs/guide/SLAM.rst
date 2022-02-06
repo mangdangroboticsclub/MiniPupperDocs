@@ -144,6 +144,8 @@ Step 3.1 Replace the new SD card 新しいSDカードを入れ替わる
 Step 3.2 Attach Lidar Lidarの取り付け
 ^^^^^^^^^^^^^^^^^^^^^
 
+※ You can use a shorter USB cable to connect the Lidar and MiniPupper. もっと短いUSBケーブルを使用して、LidarとMiniPupperを接続できます。
+
 * Place Lidar on the Stand and tighten with tapping screws (2 pieces).  Lidarを台の上に載せて、タッピングビス（2個）で締めます。
 
 .. image:: ../_static/153.jpg
@@ -213,11 +215,15 @@ Step 3.6 Calibrate the servomotor サーボモーターのキャリブレーシ�
 Here we introduce how to calibrate the servomotors of MiniPupper through SSH after MiniPupper and PC connected to the same WiFi. ここでは、MiniPupperとPCを同じWiFiに接続した後、SSHを介してMiniPupperのサーボモーターを調整する方法を紹介します。
 
 * Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+
+	# First Terminal
 	
 	roscore
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
+	# Second Terminal
+	
 	ssh ubuntu@192.168.1.4
 	
 	password: mangdang
@@ -227,7 +233,7 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
-* The target posture of calibration is shown as follows. カリブレーションの目標姿勢は以下のようになります。
+* The target posture of calibration is shown as follows. To save power, you can disconnect the Lidar USB cable. カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar USBケーブルを外すことができます。
 
 .. image:: ../_static/156.jpg
     :align: center
@@ -243,4 +249,73 @@ The video is shown as below. ビデオは以下のように表示されます。
          <iframe width="560" height="315" src="https://www.youtube.com/embed/TY39yKRGzKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+4. Run MiniPupper ミニぷぱを動かす
+-------------
+MiniPupper can be controlled with Keyboard or PS4 controller. ミニぷぱはキーボードまたはPS4コントローラーで制御できます。
+
+Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御
+^^^^^^^^^^^^^^^^^^^^^
+
+* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+
+	# First Terminal
+	
+	roscore
+
+* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+
+	# Second Terminal
+	
+	ssh ubuntu@192.168.1.4
+	
+	password: mangdang
+	 
+	roslanuch mini_pupper bringup.launch
+	
+* Enter the keyboard control node command on the PC side. PC側でキーボード制御ノードコマンドを入力します。
+
+	# Third Terminal
+	
+	roslanuch champ_teleop teleop.launch
+
+The operation video is shown as below. 操作動画は以下のとおりです。
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/RypJM2pazXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
+^^^^^^^^^^^^^^^^^^^^^
+
+* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+
+	# First Terminal
+	
+	roscore
+
+* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+
+	# Second Terminal
+	
+	ssh ubuntu@192.168.1.4
+	
+	password: mangdang
+	 
+	roslanuch mini_pupper bringup.launch
+	
+* Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
+
+	# Third Terminal
+	
+	roslaunch ps4_interface ps4_interface.launch	
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/Nnf1NREHnrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
  Will continue to update soon!
+
