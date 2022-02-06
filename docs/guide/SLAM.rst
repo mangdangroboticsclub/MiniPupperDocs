@@ -36,7 +36,7 @@ Here we introduce the method of writing the image into microSD through Raspberry
 
 * Install the Imager tool of the Raspberry Pi. RaspberryPiのImagerツールをインストール
 
-    snap install rpi-imager
+	snap install rpi-imager
     
 * Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。
 .. image:: ../_static/148.gif
@@ -50,35 +50,35 @@ Step 2.3 Install ROS noetic ROS noeticをインストールする
 Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ
 ^^^^^^^^^^^^^^^^^^^^^
 
-		cd ~
+	cd ~
+
+	sudo apt-get update
+
+	sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
     
-		sudo apt-get update
-    
-		sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
-    
-		mkdir carto_ws
-    
-		cd carto_ws
-    
-		wstool init src
-    
-		wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
-    
-		wstool update -t src
-    
-		sudo rosdep init
-    
-		rosdep update
-    
-		rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
-    
-		src/cartographer/scripts/install_abseil.sh
-    
-		sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
-    
-		catkin_make_isolated --install --use-ninja
-    
-		source install_isolated/setup.bash
+	mkdir carto_ws
+
+	cd carto_ws
+
+	wstool init src
+
+	wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
+
+	wstool update -t src
+
+	sudo rosdep init
+
+	rosdep update
+
+	rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
+
+	src/cartographer/scripts/install_abseil.sh
+
+	sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
+
+	catkin_make_isolated --install --use-ninja
+
+	source install_isolated/setup.bash
     
 Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケージをコンパイル
 ^^^^^^^^^^^^^^^^^^^^
@@ -90,16 +90,16 @@ Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケ�
     
 * Compile the package. パッケージをコンパイルします。
 
-		cd ~/mnpp_ws/
-		
-		sudo apt-get install libudev-dev
-		
-		rosdep install --from-paths src --ignore-src -r -y
-		
-		catkin_make
-		
-		source ~/mnpp_ws /devel/setup.bash
-		
+	cd ~/mnpp_ws/
+
+	sudo apt-get install libudev-dev
+
+	rosdep install --from-paths src --ignore-src -r -y
+
+	catkin_make
+
+	source ~/mnpp_ws /devel/setup.bash
+
 
 .. image:: ../_static/150.gif
     :align: center
@@ -109,25 +109,25 @@ Step 2.6 Network setup ネットワークのセットアップ
 
 * Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
 
-		ifconfig
+	ifconfig
 	
 * Open the bashrc file. bashrcファイルを開きます。
 		
-		sudo gedit ~/.bashrc
+	sudo gedit ~/.bashrc
 
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
 
-		export ROS_MASTER_URI=http://192.168.1.7:11311
-		
-		export ROS_HOSTNAME=192.168.1.7
-		
-		source ~/carto_ws/install_isolated/setup.bash
-		
-		source ~/mnpp_ws/devel/setup.bash
+	export ROS_MASTER_URI=http://192.168.1.7:11311
+
+	export ROS_HOSTNAME=192.168.1.7
+
+	source ~/carto_ws/install_isolated/setup.bash
+
+	source ~/mnpp_ws/devel/setup.bash
 
 * Source the .bashrc file. 
 
-		source ~/.bashrc
+	source ~/.bashrc
 		
 .. image:: ../_static/151.gif
     :align: center
@@ -135,4 +135,50 @@ Step 2.6 Network setup ネットワークのセットアップ
 3. Setup on the MiniPupper side MiniPupper側の環境セットアップ
 -------------
 
-Will continue to update
+Step 3.1 Replace the new SD card 新しいSDカードを入れ替わる
+^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../_static/152.gif
+    :align: center
+
+Step 3.2 Attach Lidar Lidarの取り付け
+^^^^^^^^^^^^^^^^^^^^^
+
+* Place Lidar on the Stand and tighten with tapping screws (2 pieces).  Lidarを台の上に載せて、タッピングビス（2個）で締めます。
+
+.. image:: ../_static/153.jpg
+    :align: center
+
+* Attach Lidar to Mini Pupper LidarをMiniPupperに取り付ける
+
+.. image:: ../_static/154.gif
+    :align: center
+
+Step 3.3 Network setup ネットワークのセットアップ
+^^^^^^^^^^^^^^^^^^^^^
+
+* Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
+
+	ifconfig
+	
+* Open the bashrc file. bashrcファイルを開きます。
+		
+	sudo gedit ~/.bashrc
+
+* Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
+
+	export ROS_MASTER_URI=http://192.168.1.7:11311
+	
+	export ROS_HOSTNAME=192.168.1.4
+
+* Source the .bashrc file. 
+
+	source ~/.bashrc
+		
+.. image:: ../_static/155.gif
+    :align: center
+
+Step 3.4 Automatic time update settings 時間の自動更新の設定
+^^^^^^^^^^^^^^^^^^^^^
+
+ Will continue to update soon!
