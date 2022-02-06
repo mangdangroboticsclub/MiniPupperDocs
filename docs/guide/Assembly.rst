@@ -113,7 +113,7 @@ Bolt to use 使用するボルト
 * M2x5mm	2x4=8	①+②, ⑤+⑥
 * M2x8mm	3x4=12	②+③, ④+⑦, ③+④
 * M2x12mm	1x4=4	⑤+⑦
-* M2x15mm	1x4=4	③+⑤ (Changed to M2x14mm in the latest kit 最新のキットではM2x14mmに変更)
+* M2x14mm	1x4=4	③+⑤
 
 Step 3.1 Single leg 片脚
 ^^^^^^^^^^^^^^^^^^^^^
@@ -244,7 +244,7 @@ Assemble ③ and ④ / ③と④の組み立て
 
 Assemble ③ and ⑤ / ③と⑤の組み立て
 
-* Use M2x15mm screws and two sets of ball bearings. Thread the screws through the bearings, ③, bearings, ⑤, in that order. The screws are not fixed, but you will tighten them when you mount the servo in the next step. M2x15mmのボルトとボールベアリング2組を使用します。ボルトをベアリング、③、ベアリング、⑤の順で通します。ボルトは固定されていませんが、次工程でサーボに取り付ける際にボルトを締めます。
+* Use M2x14mm screws and two sets of ball bearings. Thread the screws through the bearings, ③, bearings, ⑤, in that order. The screws are not fixed, but you will tighten them when you mount the servo in the next step. M2x14mmのボルトとボールベアリング2組を使用します。ボルトをベアリング、③、ベアリング、⑤の順で通します。ボルトは固定されていませんが、次工程でサーボに取り付ける際にボルトを締めます。
 
 .. image:: ../_static/27.png
     :align: center
