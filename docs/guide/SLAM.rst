@@ -309,6 +309,10 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 
 	# Third Terminal
 	
+	ssh ubuntu@192.168.1.4
+	
+	password: mangdang
+	
 	roslaunch ps4_interface ps4_interface.launch	
 
 .. raw:: html
