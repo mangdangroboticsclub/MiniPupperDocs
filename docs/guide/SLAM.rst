@@ -185,6 +185,8 @@ Step 3.4 Automatic time update settings 時間の自動更新の設定
 
 * Set the correct time zone to your country. お住まいの国に正しいタイムゾーンを設定してください。
 
+The video is shown as below. ビデオは以下のように表示されます。
+
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -195,6 +197,8 @@ Step 3.5 Modify the IO settings IO設定の変更
 ^^^^^^^^^^^^^^^^^^^^^
 
 * You need to change the IO settings if you use the V2 custom circut board. If you use the V1 verson, you can skip. V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。
+
+The video is shown as below. ビデオは以下のように表示されます。
 
 .. raw:: html
 
@@ -230,7 +234,8 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 
 .. image:: ../_static/160.jpg
     :align: center
-
+    
+The video is shown as below. ビデオは以下のように表示されます。
 
 .. raw:: html
 
