@@ -157,6 +157,8 @@ Step 3.2 Attach Lidar Lidarの取り付け
 Step 3.3 Network setup ネットワークのセットアップ
 ^^^^^^^^^^^^^^^^^^^^^
 
+* Connect the MiniPupper to the HDMI display, then power on. MiniPupperをHDMIディスプレイに接続し、電源を入れます。
+
 * Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
 
 	ifconfig
@@ -180,5 +182,14 @@ Step 3.3 Network setup ネットワークのセットアップ
 
 Step 3.4 Automatic time update settings 時間の自動更新の設定
 ^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://youtu.be/ZZD2K0wOsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
 
  Will continue to update soon!
