@@ -312,7 +312,7 @@ Bolt to use 使用するボルト
 ^^^^^^^^^^^^^^^^^^^^^
 
 * M2x6mm(Self tapping)	1x4=4	
-* M2x5mm	1x4+4x4=20  (Changed to M2x6mm in the latest kit 最新のキットではM2x6mmに変更)
+* M2x6mm	1x4+4x4=20  
 
 Step 4.1 Hip 臀部
 ^^^^^^^^^^^^^^^^^^^^^
@@ -328,7 +328,7 @@ Servo horn サーボホーン
 
 Assemble servo horn and hip parts サーボホーンと臀部部品の組み立て
 
-* Use an M2x6mm Tapping screw and an M2x5mm screw. You will need a long cross-head screwdriver and a 2 mm hexagonal wrench. M2x6mm(タッピング)とM2x5mmを使用します。長い十字ドライバーと2mmの六角レンチが必要です。
+* Use an M2x6mm Tapping screw and an M2x6mm screw. You will need a long cross-head screwdriver and a 2 mm hexagonal wrench. M2x6mm(タッピング)とM2x6mmを使用します。長い十字ドライバーと2mmの六角レンチが必要です。
 
 .. image:: ../_static/39.jpg
     :align: center
@@ -344,7 +344,7 @@ Put two servos into hip parts サーボ2つを臀部部品に入れる。
 ※ You may need to clean the residue around the holes in the 3D printed part at first. Make sure the servo mounting surface is flat. 最初に、3Dプリントされたパーツの穴の周りの残留物をきれいにする必要があるかもしれません。サーボ取付面が平らであることを確認してください。
 
 
-* Insert two servo into the box and fix them with M2x5mm screws. 2つのサーボを箱にはめて、M2x5mmのボルト4本で固定します。
+* Insert two servo into the box and fix them with M2x6mm screws. 2つのサーボを箱にはめて、M2x6mmのボルト4本で固定します。
 
 .. image:: ../_static/42.jpg
     :align: center  
