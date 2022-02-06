@@ -183,12 +183,59 @@ Step 3.3 Network setup ネットワークのセットアップ
 Step 3.4 Automatic time update settings 時間の自動更新の設定
 ^^^^^^^^^^^^^^^^^^^^^
 
+* Set the correct time zone to your country. お住まいの国に正しいタイムゾーンを設定してください。
+
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/FRBh3URTuuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZD2K0wOsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Step 3.5 Modify the IO settings IO設定の変更
+^^^^^^^^^^^^^^^^^^^^^
+
+* You need to change the IO settings if you use the V2 custom circut board. If you use the V1 verson, you can skip. V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/QKX6Qylk74A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
+Step 3.6 Calibrate the servomotor サーボモーターのキャリブレーション
+^^^^^^^^^^^^^^^^^^^^^
+
+Here we introduce how to calibrate the servomotors of MiniPupper through SSH after MiniPupper and PC connected to the same WiFi. ここでは、MiniPupperとPCを同じWiFiに接続した後、SSHを介してMiniPupperのサーボモーターを調整する方法を紹介します。
+
+* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+	
+	roscore
+
+* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+
+	ssh ubuntu@192.168.1.4
+	
+	password: mangdang
+	 
+	roslanuch servo_interface calibrate.launch
+
+
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
+* The target posture of calibration is shown as follows. カリブレーションの目標姿勢は以下のようになります。
+
+.. image:: ../_static/156.jpg
+    :align: center
+
+.. image:: ../_static/160.jpg
+    :align: center
+
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/TY39yKRGzKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
  Will continue to update soon!
