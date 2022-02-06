@@ -503,7 +503,8 @@ In addition to the tools included in the kit, the following items are required f
 Bolt to use 使用するボルト
 ^^^^^^^^^^^^^^^^^^^^^
 
-* M2x5mm	2	
+* M2x5mm	2
+* M2x8mm	2
 * M1.4x3mm(皿)  4
 
 Step 6.1 Display 画面
@@ -604,7 +605,22 @@ Step 6.4 Custom circuit board カスタム回路基板
 .. image:: ../_static/134.png
     :align: center
 
-Step 6.5 Raspberry Pi 4
+
+Step 6.5 Fan 
+^^^^^^^^^^^^^^^^^^^^^
+
+* Use two M2x8mm screws. To install the fan. M2x8mmのボルト2本を使用します。ファンを取り付けます。
+
+.. image:: ../_static/157.jpg
+    :align: center 
+    
+.. image:: ../_static/159.jpg
+    :align: center 
+    
+.. image:: ../_static/158.jpg
+    :align: center 
+
+Step 6.6 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
