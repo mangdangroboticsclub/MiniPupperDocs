@@ -131,3 +131,8 @@ Step 2.6 Network setup ネットワークのセットアップ
 		
 .. image:: ../_static/151.gif
     :align: center
+
+3. Setup on the MiniPupper side MiniPupper側の環境セットアップ
+-------------
+
+Will continue to update
