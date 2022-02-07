@@ -56,9 +56,13 @@ Step 1.4  Enable wifi Wifiの有効化
 
 * Press the menu button at the bottom left and type terminal to start the terminal. In the terminal, open the configuration file. 左下のメニューボタンを押し、 terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。
 
+::
+
 	sudo gedit /boot/firmware/syscfg.txt
 	
 * Type # to enable disabled wifi on syscfg.txt. syscfg.txtにはdtoverlay=disable-wifiと書かれているので、#を付けてコメントアウトします。
+
+::
 
 	# dtoverlay=disable-wifi
 
@@ -73,14 +77,20 @@ Step 1.5 Open ports for ssh / ssh接続のためのポート開放
 
 * Attempt to make an ssh connection from your PC to Ubuntu. PCからUbuntuにssh接続を試みます。
 
+::
+
 	ssh ubuntu@192.168.x.x -p 22
 
 * If you are unable to make an ssh connection from your PC, you will need to configure the following, maybe. PCからssh接続できない場合、下記の設定が必要です。
+
+::
 
 	sudo ufw allow 22
 	sudo ufw reload
 	
 * If firewall is not running, do the following. もしファイアーウォールが起動してないと言われたら以下を実行します。
+
+::
 
 	sudo ufw enable
 
@@ -143,6 +153,8 @@ Step 2.3 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウ
 ^^^^^^^^^^^^^^^^^^^^^
 
 * You will need to shut down on Ubuntu. If you have a screen + keyboard connected, type the following command directly, or if not, type the following command from your PC via ssh connection. 下面にあるボタン長押しで突然電源供給を止めると、SDカードが破壊されるリスクがあります。Ubuntu上でシャットダウンする必要があります。画面＋キーボードを接続しているなら直接、繋いでいないならPCからssh接続で下記のコマンドを打ちます。
+
+::
 
 	sudo shutdown -h now
 	
