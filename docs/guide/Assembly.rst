@@ -317,6 +317,14 @@ Bolt to use 使用するボルト
 Step 4.1 Hip 臀部
 ^^^^^^^^^^^^^^^^^^^^^
 
+※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
+
+* The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
+
+.. image:: ../_static/52.png
+    :align: center 
+
+
 * There are four hips to assemble, all with different shapes. Here shows how to assemble the rear right hip. 臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。
 
 Servo horn サーボホーン
