@@ -174,6 +174,7 @@ Step 3.3 Network setup ネットワークのセットアップ
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
 
 ※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
+
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
 	export ROS_MASTER_URI=http://192.168.1.7:11311
@@ -338,5 +339,83 @@ The operation video is shown as below. 操作動画は以下のとおりです�
          <iframe width="560" height="315" src="https://www.youtube.com/embed/Nnf1NREHnrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
+5. Create a 2D map 2D地図作成
+-------------
+ 
+Step 5.1 Start cartographer on the PC side PC側でcartographerを起動する
+^^^^^^^^^^^^^^^^^^^^^
+ 
+ 	# First Terminal
+	
+ 	cd ~
+	
+	source ~/carto_ws/install_isolated/setup.bash
+	
+	roslaunch mini_pupper slam.launch
+	
+Step 5.2 MiniPupper setup ミニぷぱセットアップ
+^^^^^^^^^^^^^^^^^^^^^
+ 
+※ Lidar USB plugged state.  LidarUSBが接続された状態。
+
+* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
+	# Second Terminal
+	
+	ssh ubuntu@192.168.1.4
+	
+	password: mangdang
+	 
+	roslanuch mini_pupper bringup.launch
+
+Step 5.3 Create map 地図作成
+^^^^^^^^^^^^^^^^^^^^^
+
+*Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
+
+	# Third Terminal
+	
+	roslanuch champ_teleop teleop.launch
+ 
+ Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存
+ ^^^^^^^^^^^^^^^^^^^^^
+ 
+ 	# fourth Terminal
+ 
+	source ~/carto_ws/install_isolated/setup.bash
+	
+	rosservice call /finish_trajectory 0
+	
+	rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"
+	
+	rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/map -pbstream_filename=${HOME}/map.pbstream -resolution=0.05 
+	
+ 
+The operation video is shown as below. 操作動画は以下のとおりです。
+
+Video of PC operation PC操作の動画
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/g4b2ASLeuHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Actual machine video 実機動画
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wH8Fh6cgv-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+ 
+ 6. Navigation ナビゲーション
+ -------------
+    
+ 
+ 7. Others その他
  Will continue to update soon!
 
