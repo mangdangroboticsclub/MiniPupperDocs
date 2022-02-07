@@ -36,6 +36,8 @@ Here we introduce the method of writing the image into microSD through Raspberry
 
 * Install the Imager tool of the Raspberry Pi. RaspberryPiのImagerツールをインストール
 
+::
+
 	snap install rpi-imager
     
 * Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。
@@ -50,36 +52,24 @@ Step 2.3 Install ROS noetic ROS noeticをインストールする
 Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ
 ^^^^^^^^^^^^^^^^^^^^^
 
+::
+
 	cd ~
-
-	sudo apt-get update
-
+	sudo apt-get update 
 	sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
-    
 	mkdir carto_ws
-
 	cd carto_ws
-
 	wstool init src
-
 	wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
-
 	wstool update -t src
-
 	sudo rosdep init
-
 	rosdep update
-
 	rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
-
 	src/cartographer/scripts/install_abseil.sh
-
 	sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
-
 	catkin_make_isolated --install --use-ninja
-
 	source install_isolated/setup.bash
-    
+
 Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケージをコンパイル
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -90,14 +80,12 @@ Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケ�
     
 * Compile the package. パッケージをコンパイルします。
 
+::
+
 	cd ~/mnpp_ws/
-
 	sudo apt-get install libudev-dev
-
 	rosdep install --from-paths src --ignore-src -r -y
-
 	catkin_make
-
 	source ~/mnpp_ws /devel/setup.bash
 
 
@@ -109,25 +97,30 @@ Step 2.6 Network setup ネットワークのセットアップ
 
 * Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
 
+::
+
 	ifconfig
 	
 * Open the bashrc file. bashrcファイルを開きます。
-		
+
+::
+
 	sudo gedit ~/.bashrc
 
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
 
 ※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
 
+::
+
 	export ROS_MASTER_URI=http://192.168.1.7:11311
-
 	export ROS_HOSTNAME=192.168.1.7
-
 	source ~/carto_ws/install_isolated/setup.bash
-
 	source ~/mnpp_ws/devel/setup.bash
 
 * Source the .bashrc file. 
+
+::
 
 	source ~/.bashrc
 		
@@ -165,10 +158,14 @@ Step 3.3 Network setup ネットワークのセットアップ
 
 * Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
 
+::
+
 	ifconfig
 	
 * Open the bashrc file. bashrcファイルを開きます。
-		
+
+::
+
 	sudo gedit ~/.bashrc
 
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
@@ -177,11 +174,14 @@ Step 3.3 Network setup ネットワークのセットアップ
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
-	export ROS_MASTER_URI=http://192.168.1.7:11311
-	
+::
+
+	export ROS_MASTER_URI=http://192.168.1.7:11311	
 	export ROS_HOSTNAME=192.168.1.4
 
 * Source the .bashrc file. 
+
+::
 
 	source ~/.bashrc
 		
@@ -222,20 +222,20 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 
 * Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
 
-	# First Terminal
-	
+::
+
+	# First Terminal	
 	roscore
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
-	# Second Terminal
-	
-	ssh ubuntu@192.168.1.4
-	
-	password: mangdang
-	 
+::
+
+	# Second Terminal	
+	ssh ubuntu@192.168.1.4	
+	password: mangdang	 
 	roslanuch servo_interface calibrate.launch
 
 
@@ -264,26 +264,27 @@ Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御
 
 * Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
 
-	# First Terminal
-	
+::
+
+	# First Terminal	
 	roscore
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
+::
+
 	# Second Terminal
-	
-	ssh ubuntu@192.168.1.4
-	
-	password: mangdang
-	 
+	ssh ubuntu@192.168.1.4	
+	password: mangdang	 
 	roslanuch mini_pupper bringup.launch
 	
 * Enter the keyboard control node command on the PC side. PC側でキーボード制御ノードコマンドを入力します。
 
-	# Third Terminal
-	
+::
+
+	# Third Terminal	
 	roslanuch champ_teleop teleop.launch
 
 The operation video is shown as below. 操作動画は以下のとおりです。
@@ -299,30 +300,29 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 
 * Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
 
-	# First Terminal
-	
+::
+
+	# First Terminal	
 	roscore
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
+::
+
 	# Second Terminal
-	
-	ssh ubuntu@192.168.1.4
-	
-	password: mangdang
-	 
+	ssh ubuntu@192.168.1.4	
+	password: mangdang	 
 	roslanuch mini_pupper bringup.launch
 	
 * Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
 
+::
+
 	# Third Terminal
-	
-	ssh ubuntu@192.168.1.4
-	
-	password: mangdang
-	
+	ssh ubuntu@192.168.1.4	
+	password: mangdang	
 	roslaunch ps4_interface ps4_interface.launch	
 
 * Next, pair with PS4 (wait for about 5 seconds). The joystick on the left controls driving forward, backward, left and right. The joystick on the right controls rotation
@@ -343,12 +343,11 @@ The operation video is shown as below. 操作動画は以下のとおりです�
 Step 5.1 Start cartographer on the PC side PC側でcartographerを起動する
 ^^^^^^^^^^^^^^^^^^^^^
  
- 	# First Terminal
-	
- 	cd ~
-	
-	source ~/carto_ws/install_isolated/setup.bash
-	
+::
+ 
+	# First Terminal	
+	cd ~	
+	source ~/carto_ws/install_isolated/setup.bash	
 	roslaunch mini_pupper slam.launch
 	
 Step 5.2 MiniPupper setup ミニぷぱセットアップ
@@ -360,12 +359,11 @@ Step 5.2 MiniPupper setup ミニぷぱセットアップ
 
 ※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
+::
+
 	# Second Terminal
-	
-	ssh ubuntu@192.168.1.4
-	
-	password: mangdang
-	 
+	ssh ubuntu@192.168.1.4	
+	password: mangdang	 
 	roslanuch mini_pupper bringup.launch
 
 Step 5.3 Create map 地図作成
@@ -373,21 +371,20 @@ Step 5.3 Create map 地図作成
 
 * Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
 
-	# Third Terminal
-	
+::
+
+	# Third Terminal	
 	roslanuch champ_teleop teleop.launch
  
 Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存
 ^^^^^^^^^^^^^^^^^^^^^
  
+::
+
  	# fourth Terminal
- 
-	source ~/carto_ws/install_isolated/setup.bash
-	
-	rosservice call /finish_trajectory 0
-	
-	rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"
-	
+	source ~/carto_ws/install_isolated/setup.bash	
+	rosservice call /finish_trajectory 0	
+	rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"	
 	rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/map -pbstream_filename=${HOME}/map.pbstream -resolution=0.05 
 	
  
@@ -422,6 +419,8 @@ Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Continued from step 5.1 (after closing roslaunch mini_pupper slam.launch with ctl + c). 手順5.1から続行します（ctl + cを使用してroslaunchmini_pupper slam.launchを閉じた後）。
+
+::
 
 	roslaunch mini_pupper navigate.launch
 
@@ -460,15 +459,17 @@ Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよ
 Step 7.1 PC side　PC側
 ^^^^^^^^^^^^^^^^^^^^^
 
- 	# First Terminal
-	
+::
+
+ 	# First Terminal	
 	roscore
 
 Step 7.2 MiniPupper side ミニぷパ側
 ^^^^^^^^^^^^^^^^^^^^^
 
-	# Second Terminal
-	
+::
+
+	# Second Terminal	
 	roslaunch usb_cam usb_cam-test.launch
 
 Step 7.3 PC side　PC側
@@ -476,8 +477,9 @@ Step 7.3 PC side　PC側
 
 Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
 
-	# Third Terminal
-	
+::
+
+	# Third Terminal	
 	rqt_image_view
  
 
