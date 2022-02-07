@@ -117,6 +117,8 @@ Step 2.6 Network setup ネットワークのセットアップ
 
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
 
+※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
+
 	export ROS_MASTER_URI=http://192.168.1.7:11311
 
 	export ROS_HOSTNAME=192.168.1.7
@@ -171,6 +173,9 @@ Step 3.3 Network setup ネットワークのセットアップ
 
 * Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
 
+※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
 	export ROS_MASTER_URI=http://192.168.1.7:11311
 	
 	export ROS_HOSTNAME=192.168.1.4
@@ -222,6 +227,8 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
 	# Second Terminal
 	
 	ssh ubuntu@192.168.1.4
@@ -230,8 +237,6 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 	 
 	roslanuch servo_interface calibrate.launch
 
-
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
 * The target posture of calibration is shown as follows. To save power, you can disconnect the Lidar USB cable. カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar USBケーブルを外すことができます。
 
@@ -263,6 +268,8 @@ Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御
 	roscore
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
 	# Second Terminal
 	
@@ -297,6 +304,8 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 
 * Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
 
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
 	# Second Terminal
 	
 	ssh ubuntu@192.168.1.4
@@ -307,6 +316,8 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 	
 * Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
 
+※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+
 	# Third Terminal
 	
 	ssh ubuntu@192.168.1.4
@@ -314,6 +325,12 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 	password: mangdang
 	
 	roslaunch ps4_interface ps4_interface.launch	
+
+* Next, pair with PS4 (wait for about 5 seconds). The joystick on the left controls driving forward, backward, left and right. The joystick on the right controls rotation
+The cross key controls the standing height and the angle of the roll axis. If you are pressing R2, use the right joystick to control the pitch angle and yaw axis. Press L2 and the robot will return to its default state. 次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。
+十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。
+
+The operation video is shown as below. 操作動画は以下のとおりです。
 
 .. raw:: html
 
