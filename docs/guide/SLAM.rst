@@ -373,14 +373,14 @@ Step 5.2 MiniPupper setup ミニぷぱセットアップ
 Step 5.3 Create map 地図作成
 ^^^^^^^^^^^^^^^^^^^^^
 
-*Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
+*　Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
 
 	# Third Terminal
 	
 	roslanuch champ_teleop teleop.launch
  
- Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存
- ^^^^^^^^^^^^^^^^^^^^^
+Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存
+^^^^^^^^^^^^^^^^^^^^^
  
  	# fourth Terminal
  
@@ -412,10 +412,12 @@ Actual machine video 実機動画
     </div>
     
  
- 6. Navigation ナビゲーション
- -------------
+6. Navigation ナビゲーション
+-------------
     
  
- 7. Others その他
+7. Others その他
+-------------
+ 
  Will continue to update soon!
 
