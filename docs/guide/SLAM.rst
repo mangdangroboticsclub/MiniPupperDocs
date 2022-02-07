@@ -452,7 +452,7 @@ Actual machine video 実機動画
 7. Others その他
 -------------
  
-Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう
+Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう。
 
 Step 7.1 MiniPupper side ミニぷパ側
 ^^^^^^^^^^^^^^^^^^^^^
