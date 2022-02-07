@@ -416,7 +416,7 @@ Actual machine video 実機動画
 Step 6.1 Move the saved mapto the related folder 保存したマップを関連フォルダに移動
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Move the saved map.pbstream / map.pgm / map.yaml to src/minipupper_ros/mini_pupper/maps on your PC. 保存できた map.pbstream / map.pgm / map.yaml は、 PC の、src/minipupper_ros/mini_pupper/maps に移動します。
+* Move the saved map.pbstream, map.pgm and map.yaml to src/minipupper_ros/mini_pupper/maps on your PC. 保存できた map.pbstream / map.pgm / map.yaml は、 PC の、src/minipupper_ros/mini_pupper/maps に移動します。
 
 Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション起動を実行
 ^^^^^^^^^^^^^^^^^^^^^
