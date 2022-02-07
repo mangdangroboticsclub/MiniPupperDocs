@@ -317,8 +317,6 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 	
 * Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
 
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
-
 	# Third Terminal
 	
 	ssh ubuntu@192.168.1.4
@@ -373,7 +371,7 @@ Step 5.2 MiniPupper setup ミニぷぱセットアップ
 Step 5.3 Create map 地図作成
 ^^^^^^^^^^^^^^^^^^^^^
 
-*　Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
+* Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
 
 	# Third Terminal
 	
@@ -414,10 +412,59 @@ Actual machine video 実機動画
  
 6. Navigation ナビゲーション
 -------------
-    
+
+Step 6.1 Move the saved mapto the related folder 保存したマップを関連フォルダに移動
+^^^^^^^^^^^^^^^^^^^^^
+
+Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション起動を実行
+^^^^^^^^^^^^^^^^^^^^^
+
+* Continued from step 5.1 (after closing roslaunch mini_pupper slam.launch with ctl + c). 手順5.1から続行します（ctl + cを使用してroslaunchmini_pupper slam.launchを閉じた後）。
+
+	roslaunch mini_pupper navigate.launch
+
+Step 6.3 Set the target position 目標位置を設定する
+^^^^^^^^^^^^^^^^^^^^^
+
+* On the PC side, specify the target of the map where rviz is displayed. PC側で、rvizが表示される地図の目標位置を設定します。
+
+Step 6.4  Autonomous driving 自律走行
+^^^^^^^^^^^^^^^^^^^^^
+
+The operation video is shown as below. 操作動画は以下のとおりです。
+
+Video of PC operation PC操作の動画
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/iceGoDllBIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Actual machine video 実機動画
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/nzeWLWBDPRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
  
 7. Others その他
 -------------
  
- Will continue to update soon!
+Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう
+
+Step 7.1 MiniPupper side ミニぷパ側
+^^^^^^^^^^^^^^^^^^^^^
+
+	roslaunch usb_cam usb_cam-test.launch
+
+Step 7.2 PC side　PC側
+^^^^^^^^^^^^^^^^^^^^^
+
+* Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
+
+	rqt_image_view
+ 
+
 
