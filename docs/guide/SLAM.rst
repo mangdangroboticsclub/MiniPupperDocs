@@ -472,7 +472,7 @@ Step 7.2 MiniPupper side ミニぷパ側
 Step 7.3 PC side　PC側
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
+Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
 
 	# Third Terminal
 	
