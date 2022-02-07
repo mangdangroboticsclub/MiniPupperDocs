@@ -454,16 +454,28 @@ Actual machine video 実機動画
  
 Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう。
 
-Step 7.1 MiniPupper side ミニぷパ側
+
+Step 7.1 PC side　PC側
 ^^^^^^^^^^^^^^^^^^^^^
 
+ 	# First Terminal
+	
+	roscore
+
+Step 7.2 MiniPupper side ミニぷパ側
+^^^^^^^^^^^^^^^^^^^^^
+
+	# Second Terminal
+	
 	roslaunch usb_cam usb_cam-test.launch
 
-Step 7.2 PC side　PC側
+Step 7.3 PC side　PC側
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
 
+	# Third Terminal
+	
 	rqt_image_view
  
 
