@@ -325,8 +325,7 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 	password: mangdang	
 	roslaunch ps4_interface ps4_interface.launch	
 
-* Next, pair with PS4 (wait for about 5 seconds). The joystick on the left controls driving forward, backward, left and right. The joystick on the right controls rotation. The cross key controls the standing height and the angle of the roll axis. If you are pressing R2, use the right joystick to control the pitch angle and yaw axis. Press L2 and the robot will return to its default state. 次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。
-十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。
+* Next, pair with PS4 (wait for about 5 seconds). The joystick on the left controls driving forward, backward, left and right. The joystick on the right controls rotation. The cross key controls the standing height and the angle of the roll axis. If you are pressing R2, use the right joystick to control the pitch angle and yaw axis. Press L2 and the robot will return to its default state. 次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。
 
 The operation video is shown as below. 操作動画は以下のとおりです。
 
