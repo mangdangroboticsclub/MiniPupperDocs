@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-12 03:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../reference/Design.rst:2
+msgid "Mechanical Design 機械設計"
+msgstr ""
+
+#: ../reference/Design.rst:4
+msgid "Fusion 360 CAD model: https://a360.co/3CL8zoQ"
+msgstr ""
+
+#: ../reference/Design.rst:13
+msgid "BOM　部品表"
+msgstr ""
+
+#: ../reference/Design.rst:14
+msgid ""
+"Link: `Bill of Materials "
+"<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
+msgstr ""
+
+#: ../reference/Design.rst:22
+msgid "STL"
+msgstr ""
+
+#: ../reference/Design.rst:23
+msgid ""
+"Link: `STL for 3D print "
+"<https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_"
+msgstr ""
+
+#: ../reference/Help.rst:3
+msgid "Help　ヘルプ"
+msgstr ""
+
+#: ../reference/Help.rst:5
+msgid ""
+"You can post any questions you might have to our Facebook Group: "
+"https://www.facebook.com/groups/441672400727712 "
+"我々のFacebookグループに対して，質問を投稿することができます． You can also email at "
+"afreez@mangdang.net. また，メールすることもできます．"
+msgstr ""
+
+#: ../reference/PCB.rst:2
+msgid "Custom circuit board カスタム回路基板"
+msgstr ""
+
+#: ../reference/PCB.rst:3
+msgid "Will update soon!"
+msgstr ""
+

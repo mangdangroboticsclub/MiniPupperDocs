@@ -1,12 +1,12 @@
-Assembly 組み立て方
+Assembly
 ========
 
 .. contents 目次:: :depth: 2
 
-1. Write the image into microSD microSDにイメージを書く
--------------
+1. Write the image into microSD
+-------------------------------
 
-Tools 工具
+Tools
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
@@ -20,16 +20,16 @@ In addition to the tools included in the kit, the following items are required f
 * USB charger
 
 
-Step 1.1 Charging the battery 充電
-^^^^^^^^^^^^^^^^^^^^^
+Step 1.1 Charging the battery
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
 
 .. image:: ../_static/100.jpg
     :align: center 
 
-Step 1.2 Download the image イメージのダウンロード
-^^^^^^^^^^^^^^^^^^^^^
+Step 1.2 Download the image
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * You can check other documents or latest image file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
 
@@ -54,8 +54,8 @@ Step 1.2 Download the image イメージのダウンロード
 * Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
    
 	
-Step 1.3 Write the image into microSD microSDにイメージを書く
-^^^^^^^^^^^^^^^^^^^^^
+Step 1.3 Write the image into microSD
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Insert the microSD card into your PC's SD card reader and pwrite the image. We recommend the image creation tool balenaEtcher as it is easy and reliable. Please refer to the official manual and below link. It may take a while to complete. PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。
 
@@ -69,8 +69,8 @@ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <h
     :align: center 
 
 
-2. Position of the screws ネジの配置
--------------
+2. Position of the screws
+-------------------------
 
 * The pictures show the position of the screws briefly. 写真はネジの位置を簡単に示しています。
     
@@ -98,29 +98,29 @@ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <h
 .. image:: ../_static/142.jpg
     :align: center  
     
-3. Legs Assembly 脚の組み立て方
--------------
+3. Legs Assembly
+----------------
 
-Tools 工具
+Tools
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
-* Loctite ロックタイト
+* Loctite
 Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. However, some of them have to be dismantled in order to be tightened later, so fix them as much as possible. ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。
 
-Bolt to use 使用するボルト
+Bolt to use
 ^^^^^^^^^^^^^^^^^^^^^
 * M2x5mm	2x4=8	①+②, ⑤+⑥
 * M2x8mm	3x4=12	②+③, ④+⑦, ③+④
 * M2x12mm	1x4=4	⑤+⑦
 * M2x14mm	1x4=4	③+⑤
 
-Step 3.1 Single leg 片脚
+Step 3.1 Single leg
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Assemble the four legs. The front and back of the right side are the same, and so are the front and back of the left side. Show you how to assemble the right side. / 脚を4つ組み立てます。右の前と後ろは共通で、同様に左の前と後ろも共通です。では、右側の組み立て方を解説します。
 
-* Video Instructions 組み立て動画　
+* Video Instructions
 
 .. raw:: html
 
@@ -281,13 +281,13 @@ opposite side / 裏
 .. image:: ../_static/35.jpg
     :align: center
     
-Step 3.2 Four legs 4脚分
+Step 3.2 Four legs
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/36.jpg
     :align: center
 
-Step 3.3 Locktite ロックタイト
+Step 3.3 Locktite
 ^^^^^^^^^^^^^^^^^^^^^
 
 * As the nut is on a moving joint, it will loosen quickly if tightened too tightly. They should be secured with Loctite. It is possible to dismantle the nut later, as it can be loosened by a strong force. ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。
@@ -296,10 +296,10 @@ Step 3.3 Locktite ロックタイト
     :align: center
 
 
-4. Hips Assembly 臀部の組み立て方
--------------
+4. Hips Assembly
+----------------
 
-Tools 工具
+Tools
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
@@ -308,13 +308,13 @@ In addition to the tools included in the kit, the following items are required f
 * Loctite / ロックタイト
 * Thin things like a toothpick / 爪楊枝のような細いもの
 
-Bolt to use 使用するボルト
+Bolt to use
 ^^^^^^^^^^^^^^^^^^^^^
 
 * M2x6mm(Self tapping)	1x4=4	
 * M2x6mm	1x4+4x4=20  
 
-Step 4.1 Hip 臀部
+Step 4.1 Hip
 ^^^^^^^^^^^^^^^^^^^^^
 
 ※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
@@ -376,17 +376,17 @@ Assemble leg and hip 脚部を臀部に取り付ける
     :align: center 
     
 
-Step 4.2 Four Hips / 4臀部分
+Step 4.2 Four Hips
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/47.jpg
     :align: center 
     
     
-5. Body Frame Assembly ボディフレームの組み立て方 
--------------
+5. Body Frame Assembly 
+-----------------------
 
-Tools 工具
+Tools
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
@@ -396,13 +396,13 @@ In addition to the tools included in the kit, the following items are required f
 
 ※ These are not essential. Use in case of trouble or when more strength is required. 必須ではありません。トラブル時やより強度を求める場合に使用します。
 
-Bolt to use 使用するボルト
+Bolt to use
 ^^^^^^^^^^^^^^^^^^^^^
 * M2x8mm	4+4=8	 
 * M3x8mm	2+2=4	
 * M2x5mm	8+8+4=20
 
-Step 5.1 Center parts 中央パーツ
+Step 5.1 Center parts
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
@@ -426,7 +426,7 @@ Step 5.1 Center parts 中央パーツ
 .. image:: ../_static/51.jpg
     :align: center 
 
-Step 5.2 Front parts 前面パーツ
+Step 5.2 Front parts
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Tighten the two M3x8mm screws with a screwdriver. The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。
@@ -438,7 +438,7 @@ Step 5.2 Front parts 前面パーツ
     :align: center 
 
 
-Step 5.3 Rear side 後部
+Step 5.3 Rear side
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The same procedure as for the front part. 前部と同じ要領です。
@@ -462,7 +462,7 @@ Step 5.3 Rear side 後部
     :align: center 
 
 
-Step 5.4 Bottom plate 底のプレート
+Step 5.4 Bottom plate
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the hole is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に穴が来る必要があります。
@@ -473,8 +473,8 @@ Step 5.4 Bottom plate 底のプレート
 .. image:: ../_static/62.jpg
     :align: center 
     
-Step 5.5 Top plate and supports/ トッププレートと支柱
-^^^^^^^^^^^^^^^^^^^^^
+Step 5.5 Top plate and supports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x5mm screws and four short supports. M2x5mmのボルト4本と短い支柱4本を使用します。
     
@@ -485,7 +485,7 @@ Step 5.5 Top plate and supports/ トッププレートと支柱
     :align: center 
 
     
-Step 5.6 Top plate トッププレート
+Step 5.6 Top plate
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に大きな開口部が来る必要があります。
@@ -499,16 +499,16 @@ Step 5.6 Top plate トッププレート
 .. image:: ../_static/67.jpg
     :align: center 
 
-6. Assemble the function component 機能コンポーネントの組み立て
--------------
+6. Assemble the function component
+----------------------------------
 
-Tools 工具
+Tools
 ^^^^^^^^^^^^^^^^^^^^^
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
 * Screwdriver プラスドライバー
 
-Bolt to use 使用するボルト
+Bolt to use
 ^^^^^^^^^^^^^^^^^^^^^
 
 * M2x5mm	2
@@ -542,8 +542,8 @@ Step 6.1 Display 画面
 .. image:: ../_static/78.jpg
     :align: center 
     
-Step 6.2 Frame of face 顔の枠 
-^^^^^^^^^^^^^^^^^^^^^
+Step 6.2 Frame of face 
+^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M1.4x3mm countersunk screws. Be careful with the yellow parts as it has a front and back. M1.4x3mmの皿ネジを4本使用します。黄色いパーツには表裏の区別があるので気をつけましょう。
 
@@ -556,7 +556,7 @@ Step 6.2 Frame of face 顔の枠
 .. image:: ../_static/81.jpg
     :align: center 
 
-Step 6.3 Battery バッテリー 
+Step 6.3 Battery 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。
@@ -579,8 +579,8 @@ Step 6.3 Battery バッテリー
 .. image:: ../_static/87.jpg
     :align: center 
     
-Step 6.4 Custom circuit board カスタム回路基板 
-^^^^^^^^^^^^^^^^^^^^^
+Step 6.4 Custom circuit board 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use four long supports. First, plug the display cable into the custom circuit board. Then, plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board as temporary solution. Next, you need to insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. After inserting the 12 cables, pull the custom circuit board closer to the body. The board may float, but you can use four long posts to hold it in place. 長い支柱4本を使用します。最初にディスプレイのケーブルをカスタム回路基板に挿します。次にバッテリーのケーブルを挿します。このコネクタが臀部パーツに干渉する恐れがあるので、（暫定対策として）このコネクタを基板の真ん中の穴に通して逃しておきます。次にサーボのケーブルを12本挿します。写真で説明すると、J1,J2,J3...J12順番の通りに挿していきます。茶色がGNDなので全て手前になるように挿しましょう。12本のケーブルを挿したらカスタム回路基板をぐっと力を入れてボティに近づけます。ケーブルの反発で基板が浮いてきますが、長い支柱を4本挿して固定しましょう。
     
@@ -629,7 +629,7 @@ Step 6.5 Fan
     :align: center 
 
 Step 6.6 Raspberry Pi 4
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
     :align: center 
@@ -644,8 +644,8 @@ Step 6.6 Raspberry Pi 4
     :align: center 
 
    
-7. Cover Assembly 外装の組み立て方
--------------
+7. Cover Assembly
+-----------------
 
 Tools 工具
 ^^^^^^^^^^^^^^^^^^^^^
@@ -659,7 +659,7 @@ Bolt to use 使用するボルト
 * M2x4mm	2x4=8	
 * M2x10mm	4+4=8
 
-Step 7.1 Side panels 脇のパネル
+Step 7.1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M1.4x3mm countersunk screws. M1.4x3mmの皿ネジを8本使用します。
@@ -670,7 +670,7 @@ Step 7.1 Side panels 脇のパネル
 .. image:: ../_static/112.jpg
     :align: center   
 
-Step 7.2 Shin guards すね
+Step 7.2 Shin guards
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x10mm countersunk screws. M2x10mmのボルトを4本使用します。
@@ -698,7 +698,7 @@ Step 7.3 Shoulders 肩
 .. image:: ../_static/118.jpg
     :align: center   
     
-Step 7.4 Top cover トップカバー
+Step 7.4 Top cover
 ^^^^^^^^^^^^^^^^^^^^^   
 
 * Use four M2x10mm screws; if the holes are too small to fit the screws, as the part is made with a 3D printer, you can enlarge the holes by turning them with the supplied 2mm hexagonal screwdriver. M2x10mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。
@@ -712,7 +712,7 @@ Step 7.4 Top cover トップカバー
 .. image:: ../_static/121.jpg
     :align: center   
     
-Step 7.5 Shoes 靴
+Step 7.5 Shoes
 ^^^^^^^^^^^^^^^^^^^^^  
 
 * Put on 4 shoes. 靴を4つ履く
@@ -724,7 +724,7 @@ Step 7.5 Shoes 靴
     :align: center   
     
     
-Step 7.6 Completion!  完成！   
+Step 7.6 Completion!   
 ^^^^^^^^^^^^^^^^^^^^^  
 
 .. image:: ../_static/124.jpg
