@@ -1,7 +1,8 @@
 Assembly
 ========
 
-.. contents 目次:: :depth: 2
+.. contents::
+  :depth: 2
 
 1. Write the image into microSD
 -------------------------------

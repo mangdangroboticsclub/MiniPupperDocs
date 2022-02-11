@@ -1,6 +1,9 @@
 =================
-Robot operation 「ミニぷぱ」 操作
+Robot operation
 =================
+
+.. contents::
+  :depth: 2
 
 Running the robot ミニぷぱ（以下、本体）を起動
 -----------------

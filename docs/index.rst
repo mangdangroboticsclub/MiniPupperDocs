@@ -27,6 +27,7 @@ The offical instruction document about the Mini Pupper
     guide/Operation
     guide/Expansions
     guide/SLAM
+    guide/Simulation
 
 .. toctree::
     :maxdepth: 1

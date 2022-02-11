@@ -1,7 +1,8 @@
-SLAM & Navigation  SLAM＆ナビゲーション
+SLAM & Navigation
 ========
 
-.. contents 目次:: :depth: 2
+.. contents::
+  :depth: 2
 
 Software setup for the SLAM & Navigation functions. SLAM & Navigation機能のソフトウェアセットアップ。
 
