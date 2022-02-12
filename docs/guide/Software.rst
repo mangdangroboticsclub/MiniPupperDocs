@@ -1,7 +1,8 @@
-Software ソフトウェア
+Software
 ========
 
-.. contents 目次:: :depth: 2
+.. contents::
+  :depth: 2
 
 Software setup for the basic functions. 基本機能のソフトウェアセットアップ。
 

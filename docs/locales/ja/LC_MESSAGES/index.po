@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-12 03:55+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:21
+msgid "Build Guide"
+msgstr "基本製作"
+
+#: ../../index.rst:31
+msgid "References"
+msgstr "資料集"
+
+#: ../../index.rst:2
+msgid "Welcome to Mini Pupper's documentation!"
+msgstr "ようこそ！"
+
+#: ../../index.rst:5
+msgid "About Mini Pupper"
+msgstr "はじめに"
+
+#: ../../index.rst:7
+msgid ""
+"Mini Pupper will make robotics easier for schools, homeschool families, "
+"enthusiasts and beyond."
+msgstr ""
+"「Mini Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by "
+"MangDang"
+
+#: ../../index.rst:15
+msgid "The offical instruction document about the Mini Pupper"
+msgstr "公式資料へのリンク"
+
+#: ../../index.rst:17
+msgid ""
+"`Kickstarter <https://www.kickstarter.com/projects/336477435/mini-pupper-"
+"open-sourceros-robot-dog-kit>`_ `Makuake "
+"<https://www.makuake.com/project/mini_pupper/>`_"
+msgstr ""
+
+#: ../../index.rst:39
+msgid ""
+"The documents come from several volunteers, many thanks for all the guys "
+"who helped Mini Pupper project!!!"
+msgstr "MiniPupper のドキュメントは、ボランティアたちによる多大な貢献のおかげです。全ての協力者にとても感謝しております!!!"
+
+#: ../../index.rst:41
+msgid ""
+"`Mini Pupperを動かそう / How to get Mini Pupper walking "
+"<https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5>`_  @nisshan_"
+msgstr ""
+
+#: ../../index.rst:43
+#, python-format
+msgid ""
+"`Mini Pupper」がやってきた！（1: make 編） "
+"<http://deve.sakura.ne.jp/make_robots/2021/12/24/%e3%80%8cmini-"
+"pupper%e3%80%8d%e3%81%8c%e3%82%84%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%ef%bc%881-make-%e7%b7%a8%ef%bc%89/>`_"
+"  @devemin"
+msgstr ""
+
+#: ../../index.rst:45
+msgid ""
+"`Mini Pupperを動かすまで <https://zenn.dev/tiryoh/scraps/4da80714b84fa9>`_  "
+"@Tiryoh"
+msgstr ""
+
+#: ../../index.rst:47
+msgid "`Mini Pupper（ミニぷぱ）で遊ぶ <https://min.togetter.com/EnagHLB>`_  @saitotetsuya"
+msgstr ""
+
+#~ msgid ""
+#~ "「Mini "
+#~ "Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by"
+#~ " MangDang"
+#~ msgstr ""
+
+#~ msgid "ドキュメントは何人かのボランティアからのもので、MiniPupperプロジェクトを手伝ってくれたすべての人に感謝します!!!"
+#~ msgstr ""
+

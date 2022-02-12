@@ -1,12 +1,10 @@
 Welcome to Mini Pupper's documentation!
-##################################
+#######################################
 
 About Mini Pupper
-*************
+*****************
 
 Mini Pupper will make robotics easier for schools, homeschool families, enthusiasts and beyond.
-
-「Mini Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by MangDang
 
 .. raw:: html
 
@@ -14,7 +12,7 @@ Mini Pupper will make robotics easier for schools, homeschool families, enthusia
          <iframe width="560" height="315" src="https://www.youtube.com/embed/FRBh3URTuuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-The offical instruction document about the Mini Pupper (公式資料へのリンク)
+The offical instruction document about the Mini Pupper
 
 `Kickstarter <https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit>`_ 
 `Makuake <https://www.makuake.com/project/mini_pupper/>`_
@@ -29,6 +27,7 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
     guide/Operation
     guide/Expansions
     guide/SLAM
+    guide/Simulation
 
 .. toctree::
     :maxdepth: 1
@@ -39,8 +38,6 @@ The offical instruction document about the Mini Pupper (公式資料へのリン
     reference/Help
 
 The documents come from several volunteers, many thanks for all the guys who helped Mini Pupper project!!!
-
-ドキュメントは何人かのボランティアからのもので、MiniPupperプロジェクトを手伝ってくれたすべての人に感謝します!!!
 
 `Mini Pupperを動かそう / How to get Mini Pupper walking <https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5>`_  @nisshan_
 
