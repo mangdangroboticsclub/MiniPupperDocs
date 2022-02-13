@@ -25,7 +25,8 @@ pip3 install -r requirements.txt
 Then the following commands can build a result of HTML documents to view in browsers directly:
 ```bash
 cd ./docs
-make html
+make rtd
+# make rtd-ja
 ```
 
 Now the build result files can be opened from `docs/_build/html`.
