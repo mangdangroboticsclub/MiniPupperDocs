@@ -107,7 +107,7 @@ Tools
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
 * Loctite
-(! We don’t suggest you use Loctite at first before you have enough experience. !)
+(!!! We don’t suggest you use Loctite at first before you have enough experience. !!!)
 Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. However, some of them have to be dismantled in order to be tightened later, so fix them as much as possible. ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。
 
 Bolt to use
@@ -560,6 +560,9 @@ Step 6.2 Frame of face
 
 Step 6.3 Battery 
 ^^^^^^^^^^^^^^^^^^^^^
+
+* If you DIY the battery, please ensure our battery spec at first, especially the Voltage should be less than 7.4V, you can also refer to other backers work https://www.facebook.com/groups/716473723088464/posts/777616293640873/ 
+
 
 * Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。
 
