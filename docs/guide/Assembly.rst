@@ -107,6 +107,7 @@ Tools
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
 * Loctite
+(! We don’t suggest you use Loctite at first before you have enough experience. !)
 Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. However, some of them have to be dismantled in order to be tightened later, so fix them as much as possible. ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。
 
 Bolt to use
