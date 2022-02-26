@@ -5,14 +5,21 @@ Robot operation
 .. contents::
   :depth: 2
 
-Running the robot ミニぷぱ（以下、本体）を起動
+Running the robot
 -----------------
-1. Power On Mini Pupper 電源オン
+1. Power On Mini Pupper
     
-    * Push on the power button for at least 3 seconds on the battery to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off. 本体の電源をオンにするために3秒以上電源ボタンを押してください．電源を入れた後，また3秒以上電源ボタンを押すと，電源がオフになります．
+    * Push on the power button for at least 3 seconds on the battery to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off.
 
-.. image:: ../_static/127.gif
-    :align: center
+.. |youtu.be-pre-assembled-user-guide| raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FRBh3URTuuI?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.. |youtu.be-pre-assembled-user-guide-ja| raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kZtt_XulZ7E?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|youtu.be-pre-assembled-user-guide|
         
 2. Connect the PS4 controller to the Pi by putting it pairing mode. コントローラーをペアリングモードにしてRaspberry Piに接続します。
     
@@ -27,7 +34,7 @@ Running the robot ミニぷぱ（以下、本体）を起動
 4. Press L1 on the controller to "activate" the robot. The controller should turn bright green (or again, whatever you chose in HardwareConfig). コントローラーのL1を押して、本体を「アクティブ化」します。 ここでコントローラーライトは明るい緑色に変わります。
 5. You're good to go! Check out the controls section below for operating instructions. 上記で準備が完了です。操作手順については、以下の制御セクションを確認してください。
 
-Robot controls 本体の制御
+Robot controls
 ---------------
 
 * L1: Press to toggle active mode and deactivate mode. L1を押し、アクティブモードと非アクティブモードに切り替えます。
@@ -76,7 +83,7 @@ Robot controls 本体の制御
 .. image:: ../_static/133.gif
     :align: center
 
-Important Notes 注意事項
+Important Notes
 ---------------
 
 * PS4 controller pairing instructions (repeat of instructions above) コントローラーのペアリング手順（上記の手順の繰り返し）

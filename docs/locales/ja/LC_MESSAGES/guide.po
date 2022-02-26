@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 00:21+0900\n"
+"POT-Creation-Date: 2022-02-27 01:00+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,8 +240,7 @@ msgid ""
 "Assemble the four legs. The front and back of the right side are the "
 "same, and so are the front and back of the left side. Show you how to "
 "assemble the right side."
-msgstr "脚を組み立てるとき、左側は前後セットで同じ形の足２つ、右側も同様で、"
-"併せて足を４コ組み立てます。下記は右側の前後セットを例に詳しく説明します。"
+msgstr "脚を組み立てるとき、左側は前後セットで同じ形の足２つ、右側も同様で、併せて足を４コ組み立てます。下記は右側の前後セットを例に詳しく説明します。"
 
 #: ../../guide/Assembly.rst:125
 msgid "Video Instructions"
@@ -827,28 +826,33 @@ msgid "Robot operation"
 msgstr "「ミニぷぱ」 操作"
 
 #: ../../guide/Operation.rst:9
-msgid "Running the robot ミニぷぱ（以下、本体）を起動"
-msgstr ""
+msgid "Running the robot"
+msgstr "ミニぷぱ（以下、本体）を動かします"
 
 #: ../../guide/Operation.rst:10
-msgid "Power On Mini Pupper 電源オン"
-msgstr ""
+msgid "Power On Mini Pupper"
+msgstr "電源を入れます"
 
 #: ../../guide/Operation.rst:12
 msgid ""
 "Push on the power button for at least 3 seconds on the battery to power "
 "on Mini Pupper. After power on, if you push on the power button for at "
-"least 3 seconds again, it will power off. "
-"本体の電源をオンにするために3秒以上電源ボタンを押してください．電源を入れた後，また3秒以上電源ボタンを押すと，電源がオフになります．"
+"least 3 seconds again, it will power off."
 msgstr ""
+"本体下にある電源ボタンを 3 "
+"秒長押しして立ち上げ、ランプが点灯します。本体の電源を切る際も、同じボタンを3秒長押ししますと、電源切りになり、ランプも消えます。"
 
-#: ../../guide/Operation.rst:17
+#: ../../guide/Operation.rst:22
+msgid "|youtu.be-pre-assembled-user-guide|"
+msgstr "|youtu.be-pre-assembled-user-guide-ja|"
+
+#: ../../guide/Operation.rst:24
 msgid ""
 "Connect the PS4 controller to the Pi by putting it pairing mode. "
 "コントローラーをペアリングモードにしてRaspberry Piに接続します。"
 msgstr ""
 
-#: ../../guide/Operation.rst:19
+#: ../../guide/Operation.rst:26
 msgid ""
 "To put it into pairing mode, hold the share button and circular "
 "Playstation button at the same time until it starts making quick double "
@@ -856,14 +860,14 @@ msgid ""
 "ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に3秒以上長押しします。その後、ライトが2回点滅し始めます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:20 ../../guide/Operation.rst:85
+#: ../../guide/Operation.rst:27 ../../guide/Operation.rst:92
 msgid ""
 "If it starts making slow single flashes, hold the Playstation button down"
 " until it stops blinking and try again. "
 "もし、ゆっくりと1回点滅し始めた場合、点滅が止まるまでPSボタンを押し続けて、もう一度やり直してください。"
 msgstr ""
 
-#: ../../guide/Operation.rst:26
+#: ../../guide/Operation.rst:33
 msgid ""
 "Wait until the controller binds to the robot, at which point the "
 "controller should turn a dim green (or whatever color you chose in "
@@ -871,7 +875,7 @@ msgid ""
 "コントローラーが本体に接続されるまで待ちます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:27
+#: ../../guide/Operation.rst:34
 msgid ""
 "Press L1 on the controller to \"activate\" the robot. The controller "
 "should turn bright green (or again, whatever you chose in "
@@ -879,88 +883,88 @@ msgid ""
 "ここでコントローラーライトは明るい緑色に変わります。"
 msgstr ""
 
-#: ../../guide/Operation.rst:28
+#: ../../guide/Operation.rst:35
 msgid ""
 "You're good to go! Check out the controls section below for operating "
 "instructions. 上記で準備が完了です。操作手順については、以下の制御セクションを確認してください。"
 msgstr ""
 
-#: ../../guide/Operation.rst:31
-msgid "Robot controls 本体の制御"
-msgstr ""
+#: ../../guide/Operation.rst:38
+msgid "Robot controls"
+msgstr "コントローラの操作"
 
-#: ../../guide/Operation.rst:33
+#: ../../guide/Operation.rst:40
 msgid ""
 "L1: Press to toggle active mode and deactivate mode. "
 "L1を押し、アクティブモードと非アクティブモードに切り替えます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:35
+#: ../../guide/Operation.rst:42
 msgid ""
 "Note: the PS4 controller's front light will change colors to indicate if "
 "the robot is deactivated or activated. "
 "コントローラーのライトは、本体がアクティブ化されているか、されていないかを示すために色が変わります。"
 msgstr ""
 
-#: ../../guide/Operation.rst:37
+#: ../../guide/Operation.rst:44
 msgid ""
 "R1: Press to transition between Rest mode and Trot mode. "
 "R1を押して、レストモードとトロットモードに切り替えます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:44
+#: ../../guide/Operation.rst:51
 msgid "Left joystick　左スティック"
 msgstr ""
 
-#: ../../guide/Operation.rst:46
+#: ../../guide/Operation.rst:53
 msgid ""
 "Forward/back　前進/後退: moves the robot forward/backwards when in Trot mode. "
 "トロットモード時、本体を前進/後退させます"
 msgstr ""
 
-#: ../../guide/Operation.rst:47
+#: ../../guide/Operation.rst:54
 msgid ""
 "Left/right 左/右: moves the robot left/right when in Trot mode. "
 "トロットモード時、本体を左/右に動かします。"
 msgstr ""
 
-#: ../../guide/Operation.rst:53
+#: ../../guide/Operation.rst:60
 msgid "Right joystick 右スティック"
 msgstr ""
 
-#: ../../guide/Operation.rst:55
+#: ../../guide/Operation.rst:62
 msgid ""
 "Forward/back 前方/後方: pitches the robot forward and backward. "
 "本体を前方および後方にピッチングします。"
 msgstr ""
 
-#: ../../guide/Operation.rst:56
+#: ../../guide/Operation.rst:63
 msgid "Left/right 左/右: turns the robot left and right. 本体を左右に回転させます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:63
+#: ../../guide/Operation.rst:70
 msgid "D-Pad 十字キー"
 msgstr ""
 
-#: ../../guide/Operation.rst:62
+#: ../../guide/Operation.rst:69
 msgid "Forward/back 前後: raises and lowers the body. 体を上げ下げします。"
 msgstr ""
 
-#: ../../guide/Operation.rst:63
+#: ../../guide/Operation.rst:70
 msgid "Left/rights 左/右: rolls the body left/right. 体を左/右に回転させます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:68
+#: ../../guide/Operation.rst:75
 msgid ""
 "\"X\" button 「X」ボタン: Press it three times to complete a full hop. "
 "3回押すと、ジャンプします。"
 msgstr ""
 
-#: ../../guide/Operation.rst:70
+#: ../../guide/Operation.rst:77
 msgid "Power off  電源オフ"
 msgstr ""
 
-#: ../../guide/Operation.rst:72
+#: ../../guide/Operation.rst:79
 msgid ""
 "※ Note that a broken SD card will not be restored... It's a bit of a "
 "pain, but you can end it with a command. After about 30 seconds, it will "
@@ -969,48 +973,48 @@ msgid ""
 "壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:74
+#: ../../guide/Operation.rst:81
 msgid ""
 "※ You can shutdown Ubuntu by pressing and holding the triangle button. "
 "△ボタンを長押しでUbuntuをシャットダウンできます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:80
-msgid "Important Notes 注意事項"
-msgstr ""
+#: ../../guide/Operation.rst:87
+msgid "Important Notes"
+msgstr "注意事項"
 
-#: ../../guide/Operation.rst:82
+#: ../../guide/Operation.rst:89
 msgid ""
 "PS4 controller pairing instructions (repeat of instructions above) "
 "コントローラーのペアリング手順（上記の手順の繰り返し）"
 msgstr ""
 
-#: ../../guide/Operation.rst:84
+#: ../../guide/Operation.rst:91
 msgid ""
 "To put it into pairing mode, hold the share button and circular "
 "Playstation button at the same time until it starts making quick double "
 "flashes. ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に押し続けます。その後、ライトが2回点滅し始めます。"
 msgstr ""
 
-#: ../../guide/Operation.rst:87
+#: ../../guide/Operation.rst:94
 msgid "Battery voltage バッテリー電圧"
 msgstr ""
 
-#: ../../guide/Operation.rst:89
+#: ../../guide/Operation.rst:96
 msgid ""
 "If you power the robot with anything higher than 8.4V (aka >2S) you'll "
 "almost certainly fry all your expensive servos! 8.4V（別名> "
 "2S）を超えるものでロボットに電力を供給すると、すべての高価なサーボが壊れてしまう可能性が高くなります。"
 msgstr ""
 
-#: ../../guide/Operation.rst:90
+#: ../../guide/Operation.rst:97
 msgid ""
 "Please note that a lipo battery alarm is attached to the battery to "
 "indicate that the battery is exhausted when starting the robot. "
 "本体を起動する際、バッテリーが消耗したことを提示するため、バッテリーにリポバッテリーアラームを取り付けているので、ご注意ください。"
 msgstr ""
 
-#: ../../guide/Operation.rst:91
+#: ../../guide/Operation.rst:98
 msgid ""
 "Also note that you should attach a lipo battery alarm to your battery "
 "when running the robot so that you are know when the battery is depleted."
@@ -1021,7 +1025,7 @@ msgid ""
 "完全に放電した後、再度充電する際など、バッテリーの放電が多すぎると、火災が発生する危険性があります。バッテリーがいつ放電されるかを知るための経験則は、個々のセル電圧が3.6V未満であるかどうかをチェックすることです。"
 msgstr ""
 
-#: ../../guide/Operation.rst:92
+#: ../../guide/Operation.rst:99
 msgid ""
 "The robot will walk much more poorly when the battery is mostly "
 "discharged since a lower voltage is going to the motors. "
@@ -1684,18 +1688,3 @@ msgid ""
 "You can shutdown Ubuntu by pressing and holding the triangle button. "
 "△ボタンを長押しでUbuntuをシャットダウンできます。"
 msgstr ""
-
-#~ msgid ""
-#~ "Loctite prevents the nut from loosening,"
-#~ " but it is not essential, as it"
-#~ " can be tightened only when looseness"
-#~ " is noticed. However, some of them"
-#~ " have to be dismantled in order "
-#~ "to be tightened later, so fix them"
-#~ " as much as possible. "
-#~ "ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。"
-#~ msgstr ""
-
-#~ msgid "Refer to https://github.com/0nhc/aws-robomaker-mini-pupper-application."
-#~ msgstr ""
-
