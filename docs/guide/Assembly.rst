@@ -120,17 +120,21 @@ Bolt to use
 Step 3.1 Single leg
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Assemble the four legs. The front and back of the right side are the same, and so are the front and back of the left side. Show you how to assemble the right side. / 脚を4つ組み立てます。右の前と後ろは共通で、同様に左の前と後ろも共通です。では、右側の組み立て方を解説します。
+* Assemble the four legs. The front and back of the right side are the same, and so are the front and back of the left side. Show you how to assemble the right side.
 
 * Video Instructions
 
-.. raw:: html
+.. |youtu.be-assembly-leg-1| raw:: html
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://drive.google.com/file/d/1hYXbCZ3dvywWdTMmXXNHIcql7EdI0kPW/preview" width="640" height="480" allow="autoplay"></iframe>
-    </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/H1ESo4Olz3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* The parts are numbered as follows to explain. 説明の便宜上、以下のようにパーツに番号を振りました。
+.. |youtu.be-assembly-leg-1-ja| raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WZFuACfvTAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|youtu.be-assembly-leg-1|
+
+* The parts are numbered as follows to explain.
 
 .. image:: ../_static/1.png
     :align: center

@@ -18,6 +18,10 @@ rtd:
 rtd-ja:
 	python3 -m sphinx -T -E -b html -d "$(BUILDDIR)/doctrees" -D language=ja "$(SOURCEDIR)" "$(BUILDDIR)/html" $(SPHINXOPTS) $(O)
 
+intl-ja:
+	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext" $(O)
+	sphinx-intl update -p "$(BUILDDIR)/gettext" -l ja $(O)
+
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new

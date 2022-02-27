@@ -1,3 +1,15 @@
-Custom circuit board カスタム回路基板
+Custom circuit board
 =================
-Will update soon!
+
+Following is the Adapter Board Interface.
+
+
+Top View:
+
+.. image:: ../_static/166.jpeg
+  :align: center
+
+Bottom View:
+
+.. image:: ../_static/167.jpeg
+  :align: center

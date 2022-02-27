@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-12 03:24+0900\n"
+"POT-Creation-Date: 2022-02-27 01:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../reference/Design.rst:2
-msgid "Mechanical Design 機械設計"
-msgstr ""
+#: ../../reference/Design.rst:2
+msgid "Mechanical Design"
+msgstr "機械設計"
 
-#: ../reference/Design.rst:4
+#: ../../reference/Design.rst:4
 msgid "Fusion 360 CAD model: https://a360.co/3CL8zoQ"
 msgstr ""
 
-#: ../reference/Design.rst:13
+#: ../../reference/Design.rst:13
 msgid "BOM　部品表"
 msgstr ""
 
-#: ../reference/Design.rst:14
+#: ../../reference/Design.rst:14
 msgid ""
 "Link: `Bill of Materials "
 "<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
 msgstr ""
 
-#: ../reference/Design.rst:22
+#: ../../reference/Design.rst:22
 msgid "STL"
 msgstr ""
 
-#: ../reference/Design.rst:23
+#: ../../reference/Design.rst:23
 msgid ""
 "Link: `STL for 3D print "
 "<https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_"
 msgstr ""
 
-#: ../reference/Help.rst:3
-msgid "Help　ヘルプ"
-msgstr ""
+#: ../../reference/Help.rst:3
+msgid "Help"
+msgstr "ヘルプ"
 
-#: ../reference/Help.rst:5
+#: ../../reference/Help.rst:5
 msgid ""
 "You can post any questions you might have to our Facebook Group: "
 "https://www.facebook.com/groups/441672400727712 "
@@ -58,11 +58,19 @@ msgid ""
 "afreez@mangdang.net. また，メールすることもできます．"
 msgstr ""
 
-#: ../reference/PCB.rst:2
-msgid "Custom circuit board カスタム回路基板"
+#: ../../reference/PCB.rst:2
+msgid "Custom circuit board"
+msgstr "カスタム回路基板"
+
+#: ../../reference/PCB.rst:4
+msgid "Following is the Adapter Board Interface."
 msgstr ""
 
-#: ../reference/PCB.rst:3
-msgid "Will update soon!"
+#: ../../reference/PCB.rst:7
+msgid "Top View:"
+msgstr ""
+
+#: ../../reference/PCB.rst:12
+msgid "Bottom View:"
 msgstr ""
 
