@@ -52,28 +52,8 @@ Step 1.3  Set keyboard キーボードの設定
 
 * Select Region & Language and press + for Input Sources. On the screen that comes up, select the three dots for other and type Japanese to select it. Type Japanese to select it. Region & Language を選択し、Input Sourcesの＋を押します。出てきた画面で点3つを選ぶとotherが出るので、 Japanese とタイプして選択します。English(US)はゴミ箱マークを押して消してしまってもOKです。
 
-Step 1.4  Enable wifi Wifiの有効化
-^^^^^^^^^^^^^^^^^^^^^
 
-* Press the menu button at the bottom left and type terminal to start the terminal. In the terminal, open the configuration file. 左下のメニューボタンを押し、 terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。
-
-::
-
-	sudo gedit /boot/firmware/syscfg.txt
-	
-* Type # to enable disabled wifi on syscfg.txt. syscfg.txtにはdtoverlay=disable-wifiと書かれているので、#を付けてコメントアウトします。
-
-::
-
-	# dtoverlay=disable-wifi
-
-* Reboot Ubuntu to enable wifi. ここで一度再起動して、設定を反映しましょう。
-
-* When you start up again, open settings and set up your wifi settings. Choose your wifi access point SSID and enter your password. 再び起動したら、settingsを開いてWifiの設定をします。自分のWifiアクセスポイントのSSIDを選び、パスワードを入れましょう。
-
-* Type ip a. See and make a note of IP address. This will be necessary when you connect to your PC via ssh. The configuration within Ubuntu is now complete. ターミナルで ip a とタイプし、ラズパイに割り振られたIPアドレスを確認します。PCからsshで接続するときに必要になるのでメモしておきましょう。Ubuntu内の設定はこれで完了です。
-
-Step 1.5 Open ports for ssh / ssh接続のためのポート開放
+Step 1.4 Open ports for ssh / ssh接続のためのポート開放
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Attempt to make an ssh connection from your PC to Ubuntu. PCからUbuntuにssh接続を試みます。
@@ -109,7 +89,7 @@ Step 2.1 Leg servos
     
 * Next, for each leg, move the Thigh and Calf bars so that they are at a 45 degree angle. The angle of the legs will change in conjunction with the position of the slide bar on the screen. However, if it does not move, then the steps you have followed are incorrect. 次に、それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は ＞ ＞ の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。
 
-.. image:: ../_static/104.jpg
+.. image:: ../_static/108.jpg
     :align: center    
     
 .. image:: ../_static/105.png
@@ -131,16 +111,6 @@ Step 2.1 Leg servos
 * When all legs are at 45° inclination as shown, press Update to save the settings. Press × to close the calibration application. すべての脚を図のように45度の傾きになったら、Update を押して設定を保存します。×ボタンを押してキャリブレーションアプリを閉じます。
 * As a tip, the calibration requires GUI and could not be done via ssh. 補足ですが、キャリブレーションはGUIが必要なのでsshでは実行出来ませんでした。
 
-※ For the latest image file of the Ubuntu21.10, the target angles of legs are shown as below. Ubuntu 21.10の最新のイメージファイルの場合、脚の目標角度は次のようになります。
-
-.. image:: ../_static/108.jpg
-    :align: center   
-    
-.. image:: ../_static/109.jpg
-    :align: center   
-    
-.. image:: ../_static/110.jpg
-    :align: center   
 
 Step 2.2 Connect PS4 controller Playstation4コントローラの接続
 ^^^^^^^^^^^^^^^^^^^^^

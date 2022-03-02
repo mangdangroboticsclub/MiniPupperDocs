@@ -34,23 +34,25 @@ Step 1.2 Download the image
 
 * You can check other documents or latest image file via the below folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます.
 
-	`MiniPupperDocs <https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_ 
+	`MiniPupperRelease.from.MangDang <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_ 
 	
 	
-* For the V1 Custom circuit board, the image file 20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip is shown as below. V1カスタム回路基板の場合、イメージファイルは20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zipになります。
+* For the V1 Custom circuit board, the image file xxx_MiniPupper_PS4_Ubuntu_xxx.img.zip is shown as below. 
+V1カスタム回路基板の場合、イメージファイルは xxx_MiniPupper_PS4_Ubuntu_xxx.img.zipになります。
+
 .. image:: ../_static/146.jpg
     :align: center
     
-`20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip <https://drive.google.com/file/d/1bkQNjKn2gHwSllTT2VaI62u_6uVW4Dzw/view?usp=sharing/view?usp=sharing>`_ 
 
 
-* For the V2 Custom circuit board, the image file 20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip is shown as below. V2カスタム回路基板の場合、イメージファイルは20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zipになります。
+* For the V2 Custom circuit board, the image file xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip is shown as below. 
+V2カスタム回路基板の場合、イメージファイルは xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip になります。
 .. image:: ../_static/147.jpg
     :align: center
     
-`20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip <https://drive.google.com/file/d/1ZYJCfCb-1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_ 
 	
-"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip" is image file for the Ubuntu base version for the PS4 controller, while "MiniPupper2004.zip" is image file for the Ubuntu + ROS version for SLAM & Navigation.   「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージファイルです。
+"xxx.MiniPupper_V2_ROS&OpenCV_Ubuntu20.04.03.img.zip" is image file for the Ubuntu + ROS + OpenCV version for SLAM & Navigation & AI.   
+「xxx.MiniPupper_V2_ROS&OpenCV_Ubuntu20.04.03.img.zip」はSLAM＆Navigation&AI のUbuntu + ROS + OpenCV バージョンのイメージファイルです。
 	
 * Download the image for Raspi 4 from MangDang on your PC.  PCでMangDangからラズパイ4用イメージをダウンロードします。
    
