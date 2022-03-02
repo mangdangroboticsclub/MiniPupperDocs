@@ -47,6 +47,7 @@ V1カスタム回路基板の場合、イメージファイルは xxx_MiniPupper
 
 * For the V2 Custom circuit board, the image file xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip is shown as below. 
 V2カスタム回路基板の場合、イメージファイルは xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip になります。
+
 .. image:: ../_static/147.jpg
     :align: center
     
@@ -325,7 +326,9 @@ Bolt to use
 Step 4.1 Hip
 ^^^^^^^^^^^^^^^^^^^^^
 
-※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
+※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
+
+最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
 
 * The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。
 
@@ -619,7 +622,9 @@ Step 6.4 Custom circuit board
 .. image:: ../_static/95.jpg
     :align: center 
 
-※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. No.1サーボのケーブルに圧倒されないように注意する必要があります。
+
+※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. 
+※ No.1サーボのケーブルに圧倒されないように注意する必要があります。
 
 .. image:: ../_static/134.png
     :align: center

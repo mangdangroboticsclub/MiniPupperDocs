@@ -6,10 +6,14 @@ SLAM & Navigation
 
 Software setup for the SLAM & Navigation functions. SLAM & Navigation機能のソフトウェアセットアップ。
 
+
+
 For the new version, please refer to `ROS Page <https://github.com/mangdangroboticsclub/minipupper_ros>`_ 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 (The below information is the old version before Jan. 2022)
+
+
 
 1. Things to prepare 準備するもの
 -------------
