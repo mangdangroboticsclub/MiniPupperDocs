@@ -87,7 +87,7 @@ Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケ�
 	sudo apt-get install libudev-dev
 	rosdep install --from-paths src --ignore-src -r -y
 	catkin_make
-	source ~/mnpp_ws /devel/setup.bash
+	source ~/mnpp_ws/devel/setup.bash
 
 
 .. image:: ../_static/150.gif
@@ -205,9 +205,9 @@ The video is shown as below. ビデオは以下のように表示されます。
 Step 3.5 Modify the IO settings IO設定の変更
 ^^^^^^^^^^^^^^^^^^^^^
 
-* You need to change the IO settings if you use the V2 custom circut board. If you use the V1 verson, you can skip. V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。
+* You need to change the IO settings if you use the V2 custom circuit board. If you use the V1 verson, you can skip. V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。
 
-The video is shown as below. ビデオは以下のように表示されます。
+The procedure is shown in the video below. ビデオは以下のように表示されます。
 
 .. raw:: html
 
