@@ -78,26 +78,47 @@ Step 1.4 Open ports for ssh / ssh接続のためのポート開放
 2. calibration キャリブレーション
 -------------
 
-Step 2.1 Leg servos 
-^^^^^^^^^^^^^^^^^^^^^
+Step 2.1 Leg servos for MiniPupper_V2_PS4_Ubuntu_21 image (not for ROS image) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* The first step is to make the Mini Pupper stand up, so that legs touch the floor. まずMini Pupperのすべての脚が床に触れるように立たせます。
-* Double-click on the Calibration Tool icon on your desktop to launch it. Note that the legs will move when you run above python script. デスクトップのCalibration Toolアイコンをダブルクリックして起動します。アプリを起動したら、脚が動くので注意です。
+* During Mini Pupper calibration, if the servo horn assembly position is not right, it is not easy to calibrate, even break the servo.
+  校正する際に、もしサーボホーンの位置が間違ったら、校正できない・サーボが利用できない場合がある。
+  Please follow the below easy guide for MiniPupper_V2_PS4_Ubuntu_21 image (not for ROS image).
+  次のガイドに沿って、校正してください。
+
+* Make sure Mini Pupper is pre-assembled except the 4 legs. 
+  足の部分をかけずに、他の部分を立て組んでください。
+
+.. image:: ../_static/135.png
+    :align: center 
+  
+* Power on, double-click on the Calibration Tool icon on your desktop to launch it. Note that the legs will move when you run above python script. 電源を入れて、デスクトップのCalibration Toolアイコンをダブルクリックして起動します。アプリを起動したら、脚が動くので注意です。
 
 .. image:: ../_static/103.png
     :align: center 
-    
-* Next, for each leg, move the Thigh and Calf bars so that they are at a 45 degree angle. The angle of the legs will change in conjunction with the position of the slide bar on the screen. However, if it does not move, then the steps you have followed are incorrect. 次に、それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は ＞ ＞ の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。
 
 .. image:: ../_static/108.jpg
     :align: center    
-    
+
+* Use the calibration GUI tool to calibrate #1 #4 #7 #10 servos to the horizontal position.
+  GUIツールを利用し、#1 #4 #7 #10のサーボを水平位置まで校正してください。
+
+.. image:: ../_static/52.png
+    :align: center 
+
+.. image:: ../_static/136.png
+    :align: center 
+
+
+* Then assemble the 4 legs by hand at the right position as the below picture shows.
+　下記の写真の通り、正しい場所に足の部分をかけてください
+
 .. image:: ../_static/105.png
     :align: center  
     
-.. image:: ../_static/126.png
-    :align: center   
-    
+* Use the calibration GUI tool to optimize the legs position. For each leg, move the Thigh and Calf bars so that they are at a 45 degree angle. The angle of the legs will change in conjunction with the position of the slide bar on the screen. However, if it does not move, then the steps you have followed are incorrect. 
+  GUIツールを利用して、より好ましい角度に調整してください。それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は ＞ ＞ の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。
+
 * You can use the iPhone's tilt sensor app, a ruler or a protractor to measure the angle. I also used a ruler and a protractor. iPhoneの傾斜センサーアプリ、定規、分度器を使用して角度を測定できます。
 
 .. image:: ../_static/106.jpg
