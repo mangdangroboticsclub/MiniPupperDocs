@@ -181,7 +181,7 @@ Assemble ② and ③ / ②と③の組み立て:
 
 Adjustment of the length of ④ / ④の長さの調整  
 
-* The length of ④ must match the length of ⑤. When adjusting the length, it is easier to use two long screws, e.g. M2x15mm, to make sure that the lengths match. Once the lengths have been adjusted, take apart all. ④の長さが⑤と一致している必要があります。長さを調整するとき、M2x15mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。
+* The length of ④ must match the length of ⑤. When adjusting the length, it is easier to use two long screws, e.g. M2x14mm, to make sure that the lengths match. Once the lengths have been adjusted, take apart all. ④の長さが⑤と一致している必要があります。長さを調整するとき、M2x14mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。
 
 .. image:: ../_static/10.png
     :align: center
