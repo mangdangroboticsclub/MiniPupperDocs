@@ -4,6 +4,15 @@ Assembly
 .. contents::
   :depth: 2
 
+0. Update change points after April 15 2022
+-------------------------------
+
+* Updated the body and hip parts from 3D printed to mold.
+* Re-designed and unified the original four hip parts into one for mold, for the detailed info, please refer to the mechanical design section.
+* If you get your Mini Pupper kit after April 15 2022, it will be easier to assemble.
+* If you have 3D printer and still hope to use the previous 3D printed design, that's OK.
+
+
 1. Write the image into microSD
 -------------------------------
 
@@ -89,12 +98,24 @@ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <h
     
 .. image:: ../_static/139.jpg
     :align: center
+
+(The up one is before April 15 2022, the below one is after April 15 2022)
+
+.. image:: ../_static/139.png
+    :align: center
+
     
 .. image:: ../_static/140.jpg
     :align: center  
     
 .. image:: ../_static/144.jpg
     :align: center
+
+(The up one is before April 15 2022, the below one is after April 15 2022)
+
+.. image:: ../_static/144.png
+    :align: center
+
     
 .. image:: ../_static/141.jpg
     :align: center  
@@ -110,7 +131,9 @@ Tools
 In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
 
 * Loctite
-(!!! We don’t suggest you use Loctite at first before you have enough experience. !!!)
+
+※ After April 15 2022, we already supply the screws with glue, don't need Loctite any more.
+
 Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. However, some of them have to be dismantled in order to be tightened later, so fix them as much as possible. ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。
 
 Bolt to use
@@ -127,6 +150,8 @@ Step 3.1 Single leg
 
 * Video Instructions
 
+For the new version, please refer to the link https://youtu.be/Ut7UnS3CTZs
+
 .. |youtu.be-assembly-leg-1| raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/H1ESo4Olz3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -136,6 +161,8 @@ Step 3.1 Single leg
   <iframe width="560" height="315" src="https://www.youtube.com/embed/WZFuACfvTAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |youtu.be-assembly-leg-1|
+
+
 
 * The parts are numbered as follows to explain.
 
@@ -212,9 +239,7 @@ Assemble ⑤ and ⑦ / ⑤と⑦の組み立て
 
 .. image:: ../_static/16.jpg
     :align: center
-    
-.. image:: ../_static/17.jpg
-    :align: center
+
     
 .. image:: ../_static/18.jpg
     :align: center
@@ -256,10 +281,7 @@ Assemble ③ and ⑤ / ③と⑤の組み立て
 * Use M2x14mm screws and two sets of ball bearings. Thread the screws through the bearings, ③, bearings, ⑤, in that order. The screws are not fixed, but you will tighten them when you mount the servo in the next step. M2x14mmのボルトとボールベアリング2組を使用します。ボルトをベアリング、③、ベアリング、⑤の順で通します。ボルトは固定されていませんが、次工程でサーボに取り付ける際にボルトを締めます。
 
 .. image:: ../_static/27.png
-    :align: center
-    
-.. image:: ../_static/28.jpg
-    :align: center
+    :align: center    
 
 .. image:: ../_static/29.jpg
     :align: center
@@ -304,6 +326,11 @@ Step 3.3 Locktite
 .. image:: ../_static/37.jpg
     :align: center
 
+* If you receive your kit after April 15 2022, some screws are already secured with glue as the below picture shows.
+
+.. image:: ../_static/37_2.jpg
+    :align: center
+	
 
 4. Hips Assembly
 ----------------
@@ -326,7 +353,12 @@ Bolt to use
 Step 4.1 Hip
 ^^^^^^^^^^^^^^^^^^^^^
 
-※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
+※ This step becomes much easier when you get the kit after April 15 2022, please refer to the video at first.
+
+https://youtu.be/n1rLuf3AmUc
+
+ 
+※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
 
 最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。
 
@@ -338,7 +370,7 @@ Step 4.1 Hip
 
 * There are four hips to assemble, all with different shapes. Here shows how to assemble the rear right hip. 臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。
 
-Servo horn サーボホーン
+Servo horn(Before April 15 2022) サーボホーン
 
 * Insert a servo horn to a servo. サーボホーンを挿す。
 
@@ -357,6 +389,14 @@ Assemble servo horn and hip parts サーボホーンと臀部部品の組み立�
 
 .. image:: ../_static/41.jpg
     :align: center  
+
+If you get your kit before April 15 2022, just connect the servo and hip part is OK.
+
+.. image:: ../_static/40_1.jpg
+    :align: center  
+		
+.. image:: ../_static/40_2.jpg
+    :align: center  
     
 Put two servos into hip parts サーボ2つを臀部部品に入れる。
 
@@ -367,6 +407,12 @@ Put two servos into hip parts サーボ2つを臀部部品に入れる。
 
 .. image:: ../_static/42.jpg
     :align: center  
+	
+(The up one is before April 15 2022, the below one is after April 15 2022)	
+	
+.. image:: ../_static/42_1.jpg
+    :align: center  
+	
     
 Assemble leg and hip 脚部を臀部に取り付ける
 
@@ -374,7 +420,13 @@ Assemble leg and hip 脚部を臀部に取り付ける
 
 .. image:: ../_static/43.jpg
     :align: center  
+
+(The up one is before April 15 2022, the below one is after April 15 2022)	
+
+.. image:: ../_static/43_1.jpg
+    :align: center 
     
+	
 .. image:: ../_static/44.jpg
     :align: center  
       
@@ -382,8 +434,19 @@ Assemble leg and hip 脚部を臀部に取り付ける
 
 .. image:: ../_static/45.jpg
     :align: center  
+
+(The up one is before April 15 2022, the below one is after April 15 2022, we already supply the screws with glue, don't need Loctite any more.)
+
+.. image:: ../_static/45_1.jpg
+    :align: center  
+
    
 .. image:: ../_static/46.jpg
+    :align: center 
+
+(The up one is before April 15 2022, the below one is after April 15 2022)
+
+.. image:: ../_static/46_1.jpg
     :align: center 
     
 
@@ -392,8 +455,17 @@ Step 4.2 Four Hips
 
 .. image:: ../_static/47.jpg
     :align: center 
+
+(The up one is before April 15 2022, the below one is after April 15 2022)
+※ Please pay attention to the positions of the servo gear output shaft
+
+.. image:: ../_static/47_left.png
+    :align: center 
+
+.. image:: ../_static/47_right.png
+    :align: center    
     
-    
+	
 5. Body Frame Assembly 
 -----------------------
 
@@ -425,6 +497,22 @@ Step 5.1 Center parts
 
 * Use four M2x8mm screws. It is useful to put masking tape on the cables and write the number of servomotors during this process to make it easier later. M2x8mmのボルト4本を使って取り付けます。この工程でケーブルにマスキングテープを貼り番号を書くと、後で楽です。
 
+
+.. image:: ../_static/48_1.jpg
+    :align: center 
+    
+.. image:: ../_static/49_1.jpg
+    :align: center 
+
+.. image:: ../_static/50_1.jpg
+    :align: center 
+    
+.. image:: ../_static/51_1.jpg
+    :align: center 
+
+(The up pictures are after April 15 2022, the below pictures are before April 15 2022) 
+
+
 .. image:: ../_static/48.jpg
     :align: center 
     
@@ -442,6 +530,14 @@ Step 5.2 Front parts
 
 * Tighten the two M3x8mm screws with a screwdriver. The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。
 
+.. image:: ../_static/53_1.jpg
+    :align: center 
+    
+.. image:: ../_static/54_1.jpg
+    :align: center 
+
+(The up pictures are after April 15 2022, the below pictures are before April 15 2022) 
+
 .. image:: ../_static/53.jpg
     :align: center 
     
@@ -453,6 +549,20 @@ Step 5.3 Rear side
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The same procedure as for the front part. 前部と同じ要領です。
+
+.. image:: ../_static/56_1.jpg
+    :align: center 
+
+.. image:: ../_static/57_1.jpg
+    :align: center 
+    
+.. image:: ../_static/58_1.jpg
+    :align: center 
+    
+.. image:: ../_static/59_1.jpg
+    :align: center 
+
+(The up pictures are after April 15 2022, the below pictures are before April 15 2022) 
 
 .. image:: ../_static/55.jpg
     :align: center 
@@ -483,6 +593,12 @@ Step 5.4 Bottom plate
     
 .. image:: ../_static/62.jpg
     :align: center 
+
+(The up pictures are before April 15 2022, the below picture is after April 15 2022) 
+	
+.. image:: ../_static/62_1.jpg
+    :align: center 
+	
     
 Step 5.5 Top plate and supports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -508,6 +624,11 @@ Step 5.6 Top plate
     :align: center 
     
 .. image:: ../_static/67.jpg
+    :align: center 
+
+(The up pictures are before April 15 2022, the below picture is after April 15 2022) 
+
+.. image:: ../_static/67_1.jpg
     :align: center 
 
 6. Assemble the function component

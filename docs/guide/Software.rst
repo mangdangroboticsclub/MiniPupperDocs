@@ -97,8 +97,14 @@ Step 2.1 Leg servos for MiniPupper_V2_PS4_Ubuntu_21 image (not for ROS image)
 .. image:: ../_static/103.png
     :align: center 
 
-.. image:: ../_static/108.jpg
+.. image:: ../_static/108.png
     :align: center    
+
+※ The calibration process is: calibrate each servo --> Press "Update" button to save the settings --> Press × to close and save the calibration.
+
+※ Calibrate each servo by moving the Thigh and Calf bars or click the space postion near the bars.
+※ Reset button: when you hope to re-start from the last time.
+※ Restore button: Restore factory settings and Press × to close. 
 
 * Use the calibration GUI tool to calibrate #1 #4 #7 #10 servos to the horizontal position.
   GUIツールを利用し、#1 #4 #7 #10のサーボを水平位置まで校正してください。
