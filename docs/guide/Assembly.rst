@@ -415,6 +415,8 @@ Put two servos into hip parts サーボ2つを臀部部品に入れる。
 	
     
 Assemble leg and hip 脚部を臀部に取り付ける
+( If you have no technology background, it's easier to attach the leg to the hip during the calibration step. 初心者の場合は、キャリブレーションしてから、足の固定という手順で進んでください. )
+
 
 * Attach the leg to the hip using the M2x12mm screws. Leg is tilted at approximately 45°, as shown in the manual. M2x12mmのボルトを使って、脚を臀部に取り付けます。マニュアルの通り、脚がだいたい45度傾くように取り付けます。
 
