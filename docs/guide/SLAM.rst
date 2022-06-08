@@ -125,8 +125,8 @@ Step 2.6 Network setup ネットワークのセットアップ
 
 	export ROS_MASTER_URI=http://192.168.1.7:11311
 	export ROS_HOSTNAME=192.168.1.7
-	source ~/carto_ws/install_isolated/setup.bash
-	source ~/mnpp_ws/devel/setup.bash
+	source ~/carto_ws/install_isolated/setup.bash -extend
+	source ~/mnpp_ws/devel/setup.bash -extend
 
 * Source the .bashrc file. 
 
@@ -246,7 +246,7 @@ Here we introduce how to calibrate the servomotors of MiniPupper through SSH aft
 	# Second Terminal	
 	ssh ubuntu@192.168.1.4	
 	password: mangdang	 
-	roslanuch servo_interface calibrate.launch
+	roslaunch servo_interface calibrate.launch
 
 
 * The target posture of calibration is shown as follows. To save power, you can disconnect the Lidar USB cable. カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar USBケーブルを外すことができます。
@@ -288,14 +288,14 @@ Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御
 	# Second Terminal
 	ssh ubuntu@192.168.1.4	
 	password: mangdang	 
-	roslanuch mini_pupper bringup.launch
+	roslaunch mini_pupper bringup.launch
 	
 * Enter the keyboard control node command on the PC side. PC側でキーボード制御ノードコマンドを入力します。
 
 ::
 
 	# Third Terminal	
-	roslanuch champ_teleop teleop.launch
+	roslaunch champ_teleop teleop.launch
 
 The operation video is shown as below. 操作動画は以下のとおりです。
 
@@ -324,7 +324,7 @@ Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
 	# Second Terminal
 	ssh ubuntu@192.168.1.4	
 	password: mangdang	 
-	roslanuch mini_pupper bringup.launch
+	roslaunch mini_pupper bringup.launch
 	
 * Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
 
