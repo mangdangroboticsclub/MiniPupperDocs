@@ -33,8 +33,23 @@ In addition to the tools included in the kit, the following items are required f
 Step 1.1 Charging the battery
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
+* The battery is charged via USB, see picture for USB socket, and can be charged while still attached to the Mini Pupper body. 
 
+LED light: Green means there is enough power, and Red means you need to charge it.
+
+We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A.
+
+It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green. 
+
+準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。
+
+LEDライト：緑は十分な力があることを表し、赤は充電必要を表しています。
+
+5V/1Aアダプタの使用がお勧めです。5V/2Aのアダプタを使用している場合、,バッテリーチャージャーICは自動的に電流を1Aに変更します。
+
+バッテリーを80％まで充電するには約1時間かかり、フル充電にはまた約1時間かかりますが、LEDライトが緑に変わりますと、ご利用いただけます。
+
+ 
 .. image:: ../_static/100.jpg
     :align: center 
 
