@@ -1,48 +1,59 @@
-Welcome to Mini Pupper's documentation!
-#######################################
+Mini Pupper User Manual
+########################
 
-About Mini Pupper
-*****************
+Genuine,Robot Operating System,Open-source,Education Robot Kit
+***************************************************************
+
+.. image:: ../_static/000.jpg
+    :align: center 
 
 Mini Pupper will make robotics easier for schools, homeschool families, enthusiasts and beyond.
 
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/FRBh3URTuuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/watch?v=uLqRMl9Xppg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-The offical instruction document about the Mini Pupper
 
-`Kickstarter <https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit>`_ 
-`Makuake <https://www.makuake.com/project/mini_pupper/>`_
+What is Mini Pupper?
+^^^^^^^^^^^^^^^^^^^^^
+
+Mini Pupper is a low-cost, personal quadruped kit with open-source software. Mini Pupper was created by MANGDANG in Septemper 2021. With Mini Pupper, you’ll be able to build a robot dog that can drive around, and have enough horsepower to create exciting applications.
+
+For more information, please refer to `Kickstarter Campaign <https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit>`_, `Makuake Campaign <https://www.makuake.com/project/mini_pupper/>`_, `Amazon AWS Robotics Blog <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_, `Amazon 2022 re:MARS Workshop <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_. Mini Pupper will have a full-day workshop on `ROSCon 2022 event <https://roscon.ros.org/2022/>`_.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+         <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bUaszjfQXk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+.. image:: ../_static/001.jpg
+    :align: center 
 
 
 .. toctree::
     :maxdepth: 1
-    :caption: Build Guide
+    :caption: Guide
 
-    guide/Assembly
+    guide/Features
+	guide/HowToOrder
+	guide/Assembly
     guide/Software
-    guide/Operation
-    guide/Expansions
-    guide/SLAM
+    guide/QuickStartGuide
+	guide/SLAM
+    guide/Navigation
     guide/Simulation
+	guide/MachineLearning
+	guide/Examples
 
 .. toctree::
     :maxdepth: 1
     :caption: References
 
-    reference/Design
+    reference/MechanicalDesign
     reference/PCB
-    reference/Help
+    reference/FAQ
 
-The documents come from several volunteers, many thanks for all the guys who helped Mini Pupper project!!!
-
-`Mini Pupperを動かそう / How to get Mini Pupper walking <https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5>`_  @nisshan_
-
-`Mini Pupper」がやってきた！（1: make 編） <http://deve.sakura.ne.jp/make_robots/2021/12/24/%e3%80%8cmini-pupper%e3%80%8d%e3%81%8c%e3%82%84%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%ef%bc%881-make-%e7%b7%a8%ef%bc%89/>`_  @devemin
-
-`Mini Pupperを動かすまで <https://zenn.dev/tiryoh/scraps/4da80714b84fa9>`_  @Tiryoh
-
-`Mini Pupper（ミニぷぱ）で遊ぶ <https://min.togetter.com/EnagHLB>`_  @saitotetsuya
+Many guys are contributing to Mini Pupper project, some parts referred to other contributors' documents, many thanks for all the guys who helped Mini Pupper project!
