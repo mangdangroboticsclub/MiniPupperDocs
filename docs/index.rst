@@ -4,7 +4,10 @@ Mini Pupper User Manual
 Genuine,Robot Operating System,Open-source,Education Robot Kit
 ***************************************************************
 
-.. image:: ../_static/000.jpg
+.. image:: _static/000.jpg
+    :align: center 
+    
+.. image:: _static/000.png
     :align: center 
 
 Mini Pupper will make robotics easier for schools, homeschool families, enthusiasts and beyond.
@@ -29,7 +32,7 @@ For more information, please refer to `Kickstarter Campaign <https://www.kicksta
          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bUaszjfQXk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-.. image:: ../_static/001.jpg
+.. image:: _static/001.jpg
     :align: center 
 
 
