@@ -3,6 +3,7 @@ Mini Pupper User Manual
 
 Genuine,ROS,Open-source,Education Robot Kit
 ------------
+Connect us by `Discord <https://discord.gg/xJdt3dHBVw>`_ or `Twitter <https://twitter.com/LeggedRobot>`_ or `FaceBook <https://www.facebook.com/afreez.gan/>`_ or `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_
 
 .. raw:: html
 
@@ -14,8 +15,6 @@ Genuine,ROS,Open-source,Education Robot Kit
 .. image:: _static/000.jpg
     :align: center 
     
-.. image:: _static/000.png
-    :align: center 
 
 Mini Pupper will make robotics easier for schools, homeschool families, enthusiasts and beyond.
 
@@ -34,6 +33,7 @@ Mini Pupper is a low-cost, personal quadruped kit with open-source software. Min
 
 For more information, please refer to `Kickstarter Campaign <https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit>`_, `Makuake Campaign <https://www.makuake.com/project/mini_pupper/>`_, `Amazon AWS Robotics Blog <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_, `Amazon 2022 re:MARS Workshop <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_. Mini Pupper will have a full-day workshop on `ROSCon 2022 event <https://roscon.ros.org/2022/>`_.
 
+Many makers are contributing to Mini Pupper project, some parts referred to other contributors' documents, many thanks for all the guys who helped Mini Pupper project!
 
 .. image:: _static/001.jpg
     :align: center 
@@ -58,8 +58,6 @@ For more information, please refer to `Kickstarter Campaign <https://www.kicksta
     :maxdepth: 1
     :caption: References
 
-    guide/MechanicalDesign
-    guide/PCB
-    guide/FAQ
-
-Many guys are contributing to Mini Pupper project, some parts referred to other contributors' documents, many thanks for all the guys who helped Mini Pupper project!
+    reference/MechanicalDesign
+    reference/PCB
+    reference/FAQ

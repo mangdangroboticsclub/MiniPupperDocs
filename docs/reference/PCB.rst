@@ -1,15 +1,7 @@
-Custom circuit board
-=================
+How To Order
+==============================
 
-Following is the Adapter Board Interface.
+.. contents::
+  :depth: 2
 
-
-Top View:
-
-.. image:: ../_static/166.jpeg
-  :align: center
-
-Bottom View:
-
-.. image:: ../_static/167.jpeg
-  :align: center
+Will update soon 
