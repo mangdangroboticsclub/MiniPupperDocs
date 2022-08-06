@@ -58,6 +58,6 @@ Many makers are contributing to Mini Pupper project, some parts referred to othe
     :maxdepth: 1
     :caption: References
 
-    reference/MechanicalDesign
+    reference/Design
     reference/PCB
     reference/FAQ

@@ -1,7 +1,10 @@
 Mechanical Design
 =================
+.. contents::
+  :depth: 2
 
-Fusion 360 CAD model: 
+Fusion 360 CAD model
+-----------------
 
 Mini Pupper: https://a360.co/3CL8zoQ 
 
@@ -32,7 +35,7 @@ Mini Pupper + OAK-D 3D camera module: https://a360.co/3KQ6HQx
     <iframe src="https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c53976ab825c6a82c8dd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-BOM　部品表
+BOM
 -------------------
 Link: `Bill of Materials <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_
 
