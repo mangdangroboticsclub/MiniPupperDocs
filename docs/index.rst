@@ -2,7 +2,7 @@ Mini Pupper User Manual
 ########################
 
 Genuine,Robot Operating System,Open-source,Education Robot Kit
-***************************************************************
+------------
 
 .. image:: _static/000.jpg
     :align: center 
@@ -48,15 +48,15 @@ For more information, please refer to `Kickstarter Campaign <https://www.kicksta
     :caption: Guide
 
     guide/Features
-	guide/HowToOrder
-	guide/QuickStartGuide
-	guide/Assembly
+    guide/HowToOrder
+    guide/QuickStartGuide
+    guide/Assembly
     guide/Software
-	guide/SLAM
+    guide/SLAM
     guide/Navigation
     guide/Simulation
-	guide/MachineLearning
-	guide/Examples
+    guide/MachineLearning
+    guide/Examples
 
 .. toctree::
     :maxdepth: 1
