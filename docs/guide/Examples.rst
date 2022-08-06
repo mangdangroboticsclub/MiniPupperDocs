@@ -1,5 +1,6 @@
-Expansion functions
-===================
+==============================
+Examples
+==============================
 
 .. contents::
   :depth: 2
@@ -8,66 +9,50 @@ Expansion functions
 -------------
 
 Prerequisites
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
-* HDMI ポート付きのディスプレイ
-.. image:: ../_static/161.jpg
-  :align: center
+* HDMI Display
+* micro HDMI cable
+* Keyboard and mouse
+* a new picture
 
-* ディスプレイ用のダプター
-.. image:: ../_static/162.jpg
-  :align: center
-
-* HDMI ケーブル
-.. image:: ../_static/164.jpg
-  :align: center
-
-* マウスとキーボード
-.. image:: ../_static/163.jpg
-  :align: center
-
-* 顔用の写真および写真ファイルが入っている USB メモリ
 .. image:: ../_static/165.jpg
   :align: center
 
-実践
-^^^^^^^^^^^^^^^^^^^^^
+Run
+^^^^^
 
-①	MiniPupper を HDMI モニタに接続する
+* 1.1 Connect MiniPupper to the display by mirco HDMI cable
 
 .. image:: ../_static/168.jpg
   :align: center
 
-上記の画像の中の A と B について、
+* A: wireless adapter for the keyboard and mouse
+* B: mirco HDMI cable
 
-* A: 無線マウスとキーボードの USB 受信機
-* B: HDMI コードを MiniPupper に入っているラズパイ上の mini HDMI ポートに接続
-
-.. image:: ../_static/169.jpg
-  :align: center
-
-.. image:: ../_static/170.jpg
-  :align: center
-
-もちろん、モニタ側にも HDMI 端子を入れます。
-
-②	電源を入れて立ち上げる
-
-.. image:: ../_static/171.jpg
-  :align: center
-
-本体下にある電源ボタンを３秒長押しします。
-
-③ Ubuntu システムにログイン
+* 1.2 Ubuntu login
 
 .. image:: ../_static/172.jpg
   :align: center
 
-初期パースワードは `mangdang` となります。
+The default password is mangdang
 
-ログインした後、Ubuntu 20.04 のデスクトップ GUI に入れます。
+2. Keyboard controller
+-------------
 
-2. Gait Performance
+Will update soon!
+
+3. Web controller
+-------------
+
+Will update soon!
+
+4. Mobile controller
+-------------
+
+Will update soon!
+
+5. Scratch program
 -------------
 
 Will update soon!

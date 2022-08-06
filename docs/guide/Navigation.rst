@@ -32,7 +32,7 @@ Before running navigation, you should first change the launch file with the map 
 
 Then change arg of the map_file and pbstream_file.
 
-.. image:: _static/Navigation01.png
+.. image:: ../_static/Navigation01.png
     :align: center 
 
 

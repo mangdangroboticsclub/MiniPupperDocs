@@ -5,13 +5,21 @@ How To Order
 .. contents::
   :depth: 2
 
-Pupper Robot Order Channels
+Summary
 -----------------
 
 Mini Pupper was released by `MangDang <https://www.mangdang.net/>`_ on 2021, many makers all over the world are contributing Pupper robot project, as it is open source based software, hardware, and content. We are encouraging more partners and research collaborators to participate in this project to enrich the robotics field. Looking forward to more partners who can provide technology, educational service or distribution in each country.
 
 If you are interested in a partnership with us to realize open source robotics, please send an email to us( sales@mangdang.net ), thanks!
 
+Order parts individually
+----------------
+You can order all the parts one by one, Please find the BOM list to order `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ .
+
+However, you can purchase a kit to build the robot from MangDang channel for cheaper and one-stop shopping. 
+
+One-stop channel
+----------------
 World wide
 ^^^^^^
 * `MANGDANG (HK) LIMITED <https://www.mangdang.net/>`_ 
