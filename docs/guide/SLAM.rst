@@ -1,494 +1,240 @@
-SLAM & Navigation
+SLAM
 ========
 
 .. contents::
   :depth: 2
 
-Software setup for the SLAM & Navigation functions. SLAM & Navigation機能のソフトウェアセットアップ。
-
-
-
-For the new version, please refer to `ROS Page <https://github.com/mangdangroboticsclub/minipupper_ros>`_  and use this `ROS image <https://drive.google.com/file/d/1Mk_bSmIvnN8EIzB8IilS9M4pofTUH9r2/view?usp=sharing>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-(The below information is the old version before Jan. 2022)
-
-
-
-1. Things to prepare 準備するもの
--------------
-
-Tools 工具
-^^^^^^^^^^^^^^^^^^^^^
-In addition to the tools included in the kit, the following items are required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。
-
-* PC（OS：Ubuntu20.04）
-* microSD card interface microSDカードリーダ  
-* HDMI Display HDMI ディスプレイ 
-* HDMI micro HDMI convertor HDMI⇔microHDMI変換 
-* microUSB cable microUSB ケーブル 
-* New SD card 新しいSDカード
-* Wi-Fi(PC and MiniPupper must be on the same network) Wi-Fiの環境（PCとMiniPupperを同じネットワークにする必要ある）
-
-2. Setup on the PC side PC側の環境セットアップ
--------------
-Step 2.1 Download the image  イメージのダウンロード
-^^^^^^^^^^^^^^^^^^^^^
-
-* "MiniPupper2004.zip" is zip file of the image for the Ubuntu + ROS version for SLAM & Navigation. Download and unzip the zip file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。
-
-  `MiniPupper2004.zip <https://drive.google.com/file/d/11zeivhN-fyTMdf6iuhcVD-Ib6aKj7s_5/view?usp=sharing>`_ 
-  
-Step 2.2 Write the image into microSD microSDにイメージを書く
-^^^^^^^^^^^^^^^^^^^^^
-
-Here we introduce the method of writing the image into microSD through Raspberry Pi's Imager. ここでは、RaspberryPiのImagerを使用してイメージをmicroSDに書き込む方法を紹介します。
-
-* Install the Imager tool of the Raspberry Pi. RaspberryPiのImagerツールをインストール
-
-::
-
-	snap install rpi-imager
-    
-* Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。
-.. image:: ../_static/148.gif
-    :align: center
-
-Step 2.3 Install ROS noetic ROS noeticをインストールする
-^^^^^^^^^^^^^^^^^^^^^
-
-* You can skip this step if you have already installed ROS noetic. Basically you can follow the instructions on http://wiki.ros.org/noetic/Installation/Ubuntu. ROS noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu の指示に従うことができます。
-
-Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ
-^^^^^^^^^^^^^^^^^^^^^
-
-::
-
-	cd ~
-	sudo apt-get update 
-	sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
-	mkdir carto_ws
-	cd carto_ws
-	wstool init src
-	wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
-	wstool update -t src
-	sudo rosdep init
-	rosdep update
-	rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
-	src/cartographer/scripts/install_abseil.sh
-	sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
-	catkin_make_isolated --install --use-ninja
-	source install_isolated/setup.bash
-
-Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper ROS用のパッケージをコンパイル
-^^^^^^^^^^^^^^^^^^^^
-
-* Download the required package `mnpp_ws.zip <https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_  and unzip it to home. 必要なパッケージ `mnpp_ws.zip <https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_ をダウンロードして、homeに解凍します。
-
-.. image:: ../_static/149.gif
-    :align: center
-    
-* Compile the package. パッケージをコンパイルします。
-
-::
-
-	cd ~/mnpp_ws/
-	sudo apt-get install libudev-dev
-	rosdep install --from-paths src --ignore-src -r -y
-	catkin_make
-	source ~/mnpp_ws/devel/setup.bash
-
-
-.. image:: ../_static/150.gif
-    :align: center
-    
-Step 2.6 Network setup ネットワークのセットアップ
-^^^^^^^^^^^^^^^^^^^^^
-
-* Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
-
-::
-
-	ifconfig
-	
-* Open the bashrc file. bashrcファイルを開きます。
-
-::
-
-	sudo gedit ~/.bashrc
-
-* Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
-
-※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
-
-::
-
-	export ROS_MASTER_URI=http://192.168.1.7:11311
-	export ROS_HOSTNAME=192.168.1.7
-	source ~/carto_ws/install_isolated/setup.bash -extend
-	source ~/mnpp_ws/devel/setup.bash -extend
-
-* Source the .bashrc file. 
-
-::
-
-	source ~/.bashrc
-		
-.. image:: ../_static/151.gif
-    :align: center
-
-3. Setup on the MiniPupper side MiniPupper側の環境セットアップ
--------------
-
-Step 3.1 Replace the new SD card 新しいSDカードを入れ替わる
-^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: ../_static/152.gif
-    :align: center
-
-Step 3.2 Attach Lidar Lidarの取り付け
-^^^^^^^^^^^^^^^^^^^^^
-
-※ You can use a shorter USB cable to connect the Lidar and MiniPupper. もっと短いUSBケーブルを使用して、LidarとMiniPupperを接続できます。
-
-* Place Lidar on the Stand and tighten with tapping screws (2 pieces).  Lidarを台の上に載せて、タッピングビス（2個）で締めます。
-
-.. image:: ../_static/153.jpg
-    :align: center
-
-* Attach Lidar to Mini Pupper LidarをMiniPupperに取り付ける
-
-.. image:: ../_static/154.gif
-    :align: center
-
-Step 3.3 Network setup ネットワークのセットアップ
-^^^^^^^^^^^^^^^^^^^^^
-
-* Connect the MiniPupper to the HDMI display, then power on. MiniPupperをHDMIディスプレイに接続し、電源を入れます。
-
-* Connect your PC and MiniPupper to the same WiFi and find the IP address assigned by the command ifconfig. PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。
-
-::
-
-	ifconfig
-	
-* Open the bashrc file. bashrcファイルを開きます。
-
-::
-
-	sudo gedit ~/.bashrc
-
-* Update the ROS IP settings with the following command to add the master and hostname configuration in the bashrc file. 以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。
-
-※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. 192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。
-
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
-
-::
-
-	export ROS_MASTER_URI=http://192.168.1.7:11311	
-	export ROS_HOSTNAME=192.168.1.4
-
-* Source the .bashrc file. 
-
-::
-
-	source ~/.bashrc
-		
-.. image:: ../_static/155.gif
-    :align: center
-
-Step 3.4 Automatic time update settings 時間の自動更新の設定
-^^^^^^^^^^^^^^^^^^^^^
-
-* Set the correct time zone to your country. お住まいの国に正しいタイムゾーンを設定してください。
-
-The video is shown as below. ビデオは以下のように表示されます。
 
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZD2K0wOsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-Step 3.5 Modify the IO settings IO設定の変更
-^^^^^^^^^^^^^^^^^^^^^
-
-* You need to change the IO settings if you use the V2 custom circuit board. If you use the V1 verson, you can skip. V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。
-
-The procedure is shown in the video below. ビデオは以下のように表示されます。
-
-.. raw:: html
-
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/QKX6Qylk74A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://youtu.be/4gblGfd12IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
-Step 3.6 Calibrate the servomotor サーボモーターのキャリブレーション
-^^^^^^^^^^^^^^^^^^^^^
+The controller of Mini Pupper's ROS packages is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
 
-Here we introduce how to calibrate the servomotors of MiniPupper through SSH after MiniPupper and PC connected to the same WiFi. ここでは、MiniPupperとPCを同じWiFiに接続した後、SSHを介してMiniPupperのサーボモーターを調整する方法を紹介します。
+Tested on
 
-* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+* Ubuntu 20.04 (ROS Noetic)
+* Ubuntu 18.04 (ROS Melodic).
 
-::
 
-	# First Terminal	
-	roscore
+1.Installation
+------------
 
-* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+We recommend you explore Mini Pupper with ROS network, make sure your PC and Mini Pupper have connected to the same WiFi.
 
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+1.1 PC Setup
+^^^^^^
+PC Setup corresponds to PC (your desktop or laptop PC) for controlling Mini Pupper remotely. Do not apply these commands to your Mini Pupper.
 
-::
+1.1.1 Cartographer ROS packages installation
 
-	# Second Terminal	
-	ssh ubuntu@192.168.1.4	
-	password: mangdang	 
-	roslaunch servo_interface calibrate.launch
+Our SLAM and Navigation functions are based on `cartographer_ros <https://google-cartographer-ros.readthedocs.io/en/latest/compilation.html>`_ . 
 
+* cd ~
+* sudo apt-get update
+* sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
+* mkdir carto_ws
+* cd carto_ws
+* wstool init src
+* wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
+* wstool update -t src
+* sudo rosdep init
+* rosdep update
+* rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
+* src/cartographer/scripts/install_abseil.sh
+* sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
+* catkin_make_isolated --install --use-ninja
+* source install_isolated/setup.bash
 
-* The target posture of calibration is shown as follows. To save power, you can disconnect the Lidar USB cable. カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar USBケーブルを外すことができます。
+If you have some problems, please refer to the  `cartographer ros offical website <https://google-cartographer-ros.readthedocs.io/en/latest/compilation.html>`_ . 
 
-.. image:: ../_static/156.jpg
-    :align: center
 
-.. image:: ../_static/160.jpg
-    :align: center
-    
-The video is shown as below. ビデオは以下のように表示されます。
+1.1.2 Mini Pupper ROS packages installation
 
-.. raw:: html
+* cd <your_ws>/src
+* git clone --recursive https://github.com/mangdangroboticsclub/minipupper_ros
+* cd ..
+* rosdep install --from-paths src --ignore-src -r -y
+* catkin_make
+* source <your_ws>/devel/setup.bash
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/TY39yKRGzKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
-4. Run MiniPupper ミニぷぱを動かす
--------------
-MiniPupper can be controlled with Keyboard or PS4 controller. ミニぷぱはキーボードまたはPS4コントローラーで制御できます。
+1.1.3 Network Setup
 
-Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御
-^^^^^^^^^^^^^^^^^^^^^
+Connect your PC and Mini Pupper to the same WiFi and find the assigned IP address with the command below.
 
-* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+* ifconfig
 
-::
+Open the file and update ROS IP settings with commands below.
 
-	# First Terminal	
-	roscore
+* sudo gedit ~/.bashrc
 
-* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+Then add your Master and hostname config, for an example
 
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+* export ROS_MASTER_URI=http://192.168.1.106:11311
+* export ROS_HOSTNAME=192.168.1.106
 
-::
 
-	# Second Terminal
-	ssh ubuntu@192.168.1.4	
-	password: mangdang	 
-	roslaunch mini_pupper bringup.launch
-	
-* Enter the keyboard control node command on the PC side. PC側でキーボード制御ノードコマンドを入力します。
 
-::
+1.2 Mini Pupper Setup
+^^^^^^
+**Mini Pupper Setup corresponds to the Raspberry Pi on your Mini Pupper.**
 
-	# Third Terminal	
-	roslaunch champ_teleop teleop.launch
+1.2.1 Hardware Dependencies
 
-The operation video is shown as below. 操作動画は以下のとおりです。
+You should first install dependencies of servos, battery moniter and display screen. </br>
+See `minipupper_ros_bsp <https://github.com/mangdangroboticsclub/minipupper_ros_bsp>`_ .
 
-.. raw:: html
+1.2.2 PS4 Joystick interface installation
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/RypJM2pazXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+PS4 Joystick interface in ROS is based on `ps4-ros <https://github.com/solbach/ps4-ros`_  project. 
 
-Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御
-^^^^^^^^^^^^^^^^^^^^^
+* pip install ds4drv
+* sudo apt install ros-noetic-joy
+* sudo wget https://raw.githubusercontent.com/chrippa/ds4drv/master/udev/50-ds4drv.rules -O /etc/udev/rules.d/50-ds4drv.rules
+* sudo udevadm control --reload-rules
+* sudo udevadm trigger
+* sudo reboot
 
-* Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。
+Then go into pairing mode with PS4: Playstation button + share button for ~5 sec.
+Run $ds4drv from command line until PS4 Joystick is connected.
 
-::
+* ds4drv
 
-	# First Terminal	
-	roscore
+This will output something like "Created devices /dev/input/jsX".
+Then give the permissions to the device
 
-* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+* sudo chmod a+rw /dev/input/jsX
 
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
 
-::
+1.2.3 Mini Pupper ROS packages installation
 
-	# Second Terminal
-	ssh ubuntu@192.168.1.4	
-	password: mangdang	 
-	roslaunch mini_pupper bringup.launch
-	
-* Enter the PS4 control node command on the MiniPupper side. ミニぷぱ側でPS4制御ノードコマンドを入力します
-
-::
+**Then you can install the ROS packages for Mini Pupper. This should be installed both on Mini Pupper and your PC.**
 
-	# Third Terminal
-	ssh ubuntu@192.168.1.4	
-	password: mangdang	
-	roslaunch ps4_interface ps4_interface.launch	
+You can also download the `pre-built ROS image <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ for Mini Pupper side, named "xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img".
 
-* Next, pair with PS4 (wait for about 5 seconds). The joystick on the left controls driving forward, backward, left and right. The joystick on the right controls rotation. The cross key controls the standing height and the angle of the roll axis. If you are pressing R2, use the right joystick to control the pitch angle and yaw axis. Press L2 and the robot will return to its default state. 次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。
 
-The operation video is shown as below. 操作動画は以下のとおりです。
+* cd <your_ws>/src
+* git clone --recursive https://github.com/mangdangroboticsclub/minipupper_ros
+* cd minipupper_ros/champ
+# it's not recommend to compile gazebo on raspberry pi
+* sudo rm -rf champ_gazebo
+* cd ../../..
+* rosdep install --from-paths src --ignore-src -r -y
+* catkin_make
+* source <your_ws>/devel/setup.bash
 
-.. raw:: html
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/Nnf1NREHnrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    
-5. Create a 2D map 2D地図作成
--------------
- 
-Step 5.1 Start cartographer on the PC side PC側でcartographerを起動する
-^^^^^^^^^^^^^^^^^^^^^
- 
-::
- 
-	# First Terminal	
-	cd ~	
-	source ~/carto_ws/install_isolated/setup.bash	
-	roslaunch mini_pupper slam.launch
-	
-Step 5.2 MiniPupper setup ミニぷぱセットアップ
-^^^^^^^^^^^^^^^^^^^^^
- 
-※ Lidar USB plugged state.  LidarUSBが接続された状態。
+1.2.4 Network Setup
 
-* Access MiniPupper with ssh on the PC side. Enter the command on the PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。
+Connect your PC and Mini Pupper to the same WiFi and find the assigned IP address with commands below.
 
-※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。
+* ifconfig
 
-::
+Open the file and update the ROS IP settings with the command below.
 
-	# Second Terminal
-	ssh ubuntu@192.168.1.4	
-	password: mangdang	 
-	roslanuch mini_pupper bringup.launch
+* sudo gedit ~/.bashrc
 
-Step 5.3 Create map 地図作成
-^^^^^^^^^^^^^^^^^^^^^
+Then add your Master and hostname config,for an example
 
-* Run MiniPupper on the PC side to create a 2D map (using the operation from the Keyboard as an example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。
+* export ROS_MASTER_URI=http://192.168.1.106:11311
+* export ROS_HOSTNAME=192.168.1.107
 
-::
 
-	# Third Terminal	
-	roslanuch champ_teleop teleop.launch
- 
-Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存
-^^^^^^^^^^^^^^^^^^^^^
- 
-::
+2.Quick Start
+------------
 
- 	# Fourth Terminal
-	source ~/carto_ws/install_isolated/setup.bash	
-	rosservice call /finish_trajectory 0	
-	rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"	
-	rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/map -pbstream_filename=${HOME}/map.pbstream -resolution=0.05 
-	
- 
-The operation video is shown as below. 操作動画は以下のとおりです。
+2.1 Calibration
+^^^^^^
 
-Video of PC operation PC操作の動画
+Through this script, you can calibrate the angle of every servo in one turn. Just input the angles.</br>
+The hip and shank should be horizontal, and the ham should be vertical.
 
-.. raw:: html
+* roslaunch servo_interface calibrate.launch
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/g4b2ASLeuHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+Make sure Mini Pupper looks like this after calibrating.
 
-Actual machine video 実機動画
+.. image:: ../_static/109.jpg
+    :align: center   
 
-.. raw:: html
+2.2 Walking
+^^^^^^
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/wH8Fh6cgv-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    
- 
-6. Navigation ナビゲーション
--------------
+2.2.1 Run the base driver
 
-Step 6.1 Move the saved mapto the related folder 保存したマップを関連フォルダに移動
-^^^^^^^^^^^^^^^^^^^^^
+**You should run this command on Mini Pupper**
 
-* Move the saved map.pbstream, map.pgm and map.yaml to src/minipupper_ros/mini_pupper/maps on your PC. 保存できた map.pbstream / map.pgm / map.yaml は、 PC の、src/minipupper_ros/mini_pupper/maps に移動します。
+* roslaunch mini_pupper bringup.launch
 
-Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション起動を実行
-^^^^^^^^^^^^^^^^^^^^^
+If Mini Pupper didn't stand as what you expect, you can edit calibration.yaml in servo_interface/config/calibration to fix the angles.
 
-* Continued from step 5.1 (after closing roslaunch mini_pupper slam.launch with ctl + c). 手順5.1から続行します（ctl + cを使用してroslaunchmini_pupper slam.launchを閉じた後）。
+2.2.2 Control Mini Pupper
 
-::
+There are two options to control Mini Pupper:
 
-	roslaunch mini_pupper navigate.launch
+1.using keyboard
 
-Step 6.3 Set the target position 目標位置を設定する
-^^^^^^^^^^^^^^^^^^^^^
+**It's recommended to run this command on PC.**
 
-* On the PC side, specify the target of the map where rviz is displayed. PC側で、rvizが表示される地図の目標位置を設定します。
+* roslaunch champ_teleop teleop.launch
 
-Step 6.4  Autonomous driving 自律走行
-^^^^^^^^^^^^^^^^^^^^^
 
-The operation video is shown as below. 操作動画は以下のとおりです。
+2.using PS4 joystick
 
-Video of PC operation PC操作の動画
+**It's recommended to run this command on Mini Pupper.**
 
-.. raw:: html
+**Don't run this command while using move_base because even if you are doing nothing with the joystick, it would still send cmd_vel with all the values as zero.**
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/iceGoDllBIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+* roslaunch ps4_interface ps4_interface.launch
 
-Actual machine video 実機動画
+Then you can go into pairing mode with PS4: Playstation button + share button for ~5 sec.
+* The left lever controls the linear velocity of x and y axis.
+* The right lever controls the angular velocity of z axis.
+* The arrow key controls the standing height and the angle of roll axis.
+* If you are pressing R2, then the right lever will control the angle of pitch and yaw axis.
+* If you are pressing L2, then the robot will turn to default state. 
 
-.. raw:: html
+2.2.2 LCD Screen
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/nzeWLWBDPRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
- 
-7. Others その他
--------------
- 
-Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう。
+* python3 ~/minipupper_ros_bsp/mangdang/LCD/demo.py
 
+We also made s simple ROS interface of the LCD screen, which subscribes sensor_msgs/Image.
 
-Step 7.1 PC side　PC側
-^^^^^^^^^^^^^^^^^^^^^
+* rosrun display_interface display_interface.py
 
-::
 
- 	# First Terminal	
-	roscore
+3 SLAM
+------------
 
-Step 7.2 MiniPupper side ミニぷパ側
-^^^^^^^^^^^^^^^^^^^^^
+3.1 Run the base driver
+^^^^^^
 
-::
+**You should run this command on Mini Pupper**
 
-	# Second Terminal	
-	roslaunch usb_cam usb_cam-test.launch
+* roslaunch mini_pupper bringup.launch
 
-Step 7.3 PC side　PC側
-^^^^^^^^^^^^^^^^^^^^^
 
-Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。
+3.2 Run Cartographer
+^^^^^^
 
-::
+**You should run this command on PC**
+**If you are using gazebo, set the param /use_sim_time to true in the launch file.**
 
-	# Third Terminal	
-	rqt_image_view
- 
+* roslaunch mini_pupper slam.launch
 
+Then you can use keyboard or joystick to control your Mini Pupper walking around and creating a map. To save the map, run these commands below.
 
+* rosservice call /finish_trajectory 0
+* rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"
+* rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/map -pbstream_filename=${HOME}/map.pbstream -resolution=0.05
+
+Remember to edit map.yaml</br>
+The first line should be
+
+* image: map.pgm
+
+Then, copy map.pbstream, map.pgm and map.yaml files you just saved to 
+<your_ws>/src/minipupper_ros/mini_pupper/maps
