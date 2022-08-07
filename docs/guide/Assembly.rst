@@ -4,6 +4,15 @@ Assembly
 .. contents::
   :depth: 2
 
+This is the video clip for the pre-assembled leg kit, please refer to the below sections for more detailed steps.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R-KgMSxkVVw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
 0. Update change points after April 15 2022
 -------------------------------
 
@@ -122,6 +131,14 @@ Step 1.3 Write the image into microSD card
     
 3. Legs Assembly
 ----------------
+Please refer to the below video clip.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ut7UnS3CTZs?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 Tools
 ^^^^^^
@@ -321,9 +338,16 @@ Step 3.3 Locktite
 Step 4.1 Hip
 ^^^^^^^^^^^^
 
-* For the video clip, please refer to https://youtu.be/n1rLuf3AmUc
+Please refer to the below video clip.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n1rLuf3AmUc?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+	
  
-※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
+There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
 
 * For the position of each servos, please refer to the below picture. 
 
@@ -623,6 +647,14 @@ Step 6.6 Raspberry Pi 4
    
 7. Cover Assembly
 -----------------
+Please refer to the below video clip.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7s-ceq3U8jM?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 Step 7.1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^

@@ -75,6 +75,14 @@ Step 1.4 Open ports for ssh (Optional)
 
 Step 2.1 Leg calibration (not for ROS image) 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Please refer to the below calibration video clip.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lbnJb5Eb3gw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 * During Mini Pupper calibration, if the servo horn assembly position is not right, it is not easy to calibrate, even break the servo.
   Please follow the below easy guide(not for ROS image).
