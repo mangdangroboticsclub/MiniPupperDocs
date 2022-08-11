@@ -107,7 +107,7 @@ Step 1.3 Write the image into microSD card
 
 (The up pictures are before April 15 2022 version, the below pictures are after April 15 2022 version)
 
-.. image:: ../_static/139.png
+.. image:: ../_static/139.jpg
     :align: center
 
     
@@ -119,7 +119,7 @@ Step 1.3 Write the image into microSD card
 
 (The up pictures are before April 15 2022 version, the below pictures are after April 15 2022 version)
 
-.. image:: ../_static/144.png
+.. image:: ../_static/144.jpg
     :align: center
 
     
@@ -167,7 +167,7 @@ Step 3.1 Single leg
 
 * The parts are numbered as follows to explain.
 
-.. image:: ../_static/1.png
+.. image:: ../_static/1.jpg
     :align: center
 
 
@@ -177,7 +177,7 @@ Assemble ① and ②
 
 * The two ballbearings in ② should be inserted all the way in and the end should be slightly visible as shown in the picture below. Tap the ball bearing and press it in without gaps. 
 
-.. image:: ../_static/2.png
+.. image:: ../_static/2.jpg
     :align: center
 
 .. image:: ../_static/3.jpg
@@ -186,7 +186,7 @@ Assemble ① and ②
 .. image:: ../_static/4.jpg
     :align: center
     
-.. image:: ../_static/5.png
+.. image:: ../_static/5.jpg
     :align: center    
     
 .. image:: ../_static/6.jpg
@@ -197,10 +197,10 @@ Assemble ② and ③
 
 * Use an M2x8mm screw and an M2 locknut. Insert the screw from the bottom to the top of ③, pass through ② and tighten with the nut. It is important to pay attention to the orientation of ③. Look carefully at the position of the hole in the middle. 
 
-.. image:: ../_static/7.png
+.. image:: ../_static/7.jpg
     :align: center
 
-.. image:: ../_static/8.png
+.. image:: ../_static/8.jpg
     :align: center
     
 .. image:: ../_static/9.jpg
@@ -211,7 +211,7 @@ Adjustment of the length of ④
 
 * The length of ④ must match the length of ⑤. When adjusting the length, it is easier to use two long screws to make sure that the lengths match. Once the lengths have been adjusted, take apart all. 
 
-.. image:: ../_static/10.png
+.. image:: ../_static/10.jpg
     :align: center
     
 .. image:: ../_static/11.jpg
@@ -222,7 +222,7 @@ Assemble ⑤ and ⑥
 
 * Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into the holes of ⑥, and tighten them. The large hole in ⑥ should be facing the surface. 
 
-.. image:: ../_static/12.png
+.. image:: ../_static/12.jpg
     :align: center
 
 .. image:: ../_static/13.jpg
@@ -235,7 +235,7 @@ Assemble ⑤ and ⑦
 
 * Use an M2x12mm screw, an M2 locknut and two sets of ball bearings. Each ball bearing is made up of three parts, the top and bottom parts with the grooved side facing inwards. Insert a screw into a set of ball bearing. Then insert the screw into the hole ⑦. Taking care to look at the warped side of ⑦ to make sure it is facing the right way. Now screw in the another set of ball bearing. Finally, insert screw into ⑤ and tighten it with the nut. 
 
-.. image:: ../_static/15.png
+.. image:: ../_static/15.jpg
     :align: center
 
 .. image:: ../_static/16.jpg
@@ -257,8 +257,10 @@ Assemble ⑤ and ⑦
 Assemble ④ and ⑦ 
 
 * Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ through, then tighten it with the nut. The direction of the front and back of ④ can be either. 
-    
-.. image:: ../_static/22.png
+
+Left and right leg   
+ 
+.. image:: ../_static/22.jpg
     :align: center
     
 .. image:: ../_static/23.jpg
@@ -271,7 +273,9 @@ Assemble ③ and ④
 
 * Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ through, then tighten it with the nut. 
 
-.. image:: ../_static/25.png
+Left and right leg  
+
+.. image:: ../_static/25.jpg
     :align: center
     
 .. image:: ../_static/26.jpg
@@ -281,7 +285,7 @@ Assemble ③ and ⑤
 
 * Use M2x14mm screws and two sets of ball bearings. Thread the screws through the bearings, ③, bearings, ⑤, in that order. The screws are not fixed, but you will tighten them when you mount the servo in the next step. 
 
-.. image:: ../_static/27.png
+.. image:: ../_static/27.jpg
     :align: center    
 
 .. image:: ../_static/29.jpg
@@ -354,10 +358,13 @@ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cab
 .. image:: ../_static/52.jpg
     :align: center 
 
-
 * Here shows how to assemble the rear right hip. 
 
-Servo horn
+Confirm whether the servo shaft is at the right position.
+The middle position marker is added on the output shaft, the output shaft is at its middle position by fault as the left picture shows. The shaft position may be changed during assembly as the middle picture shows, if you find it, you can use the servo horn to move the output shaft to the right position, and then finally make the servo horn at the place as the right picture shows.
+
+.. image:: ../_static/39.jpg
+    :align: center  
 
 Connect the servo and hip part.
 
@@ -373,6 +380,11 @@ Put two servos into hip parts
 	
 .. image:: ../_static/42_1.jpg
     :align: center  
+
+Four hip parts, please refer to the servo positions. 
+
+.. image:: ../_static/42_1.jpg
+    :align: center 
 	
     
 Assemble leg and hip 
@@ -387,11 +399,7 @@ Assemble leg and hip
     :align: center 
     
 * Tighten the screws with Loctite. Use a toothpick to apply Loctite to the servo's screw holes. 
-	
-.. image:: ../_static/44.jpg
-    :align: center        
-
-
+   
 .. image:: ../_static/45.jpg
     :align: center  
 
@@ -412,10 +420,10 @@ Step 4.2 Four Hips
 
 ※ Please pay attention to the positions of the servo gear output shaft
 
-.. image:: ../_static/47_left.png
+.. image:: ../_static/47_left.jpg
     :align: center 
 
-.. image:: ../_static/47_right.png
+.. image:: ../_static/47_right.jpg
     :align: center    
     
 	
@@ -439,9 +447,6 @@ Step 5.1 Center parts
     :align: center 
     
 .. image:: ../_static/49_1.jpg
-    :align: center 
-
-.. image:: ../_static/50_1.jpg
     :align: center 
     
 .. image:: ../_static/51_1.jpg
@@ -477,21 +482,35 @@ Step 5.3 Rear side
 .. image:: ../_static/59_1.jpg
     :align: center 
 
+Step 5.4 Battery 
+^^^^^^^^^^^^^^^^^
 
-Step 5.4 Bottom plate
+* If you DIY the battery, please ensure our battery spec at first, especially the Voltage should be less than 7.4V, you can also refer to other backers work https://www.facebook.com/groups/716473723088464/posts/777616293640873/ 
+
+
+* Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. 
+
+    
+.. image:: ../_static/83.jpg
+    :align: center 
+    
+.. image:: ../_static/84.jpg
+    :align: center 
+    
+.. image:: ../_static/85.jpg
+    :align: center 
+
+
+Step 5.5 Bottom plate
 ^^^^^^^^^^^^^^^^^^^^^
 
 * The orientation of the plate must be such that the hole is at the front. 
 
-.. image:: ../_static/61.png
-    :align: center 
-    
-	
-.. image:: ../_static/62_1.jpg
-    :align: center 
+.. image:: ../_static/61.jpg
+    :align: center    
 	
     
-Step 5.5 Top plate and supports
+Step 5.6 Top plate and supports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x5mm screws and four short supports. 
@@ -503,7 +522,7 @@ Step 5.5 Top plate and supports
     :align: center 
 
     
-Step 5.6 Top plate
+Step 5.7 Top plate
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
@@ -555,30 +574,9 @@ Step 6.2 Frame of face
     
 .. image:: ../_static/81.jpg
     :align: center 
-
-Step 6.3 Battery 
-^^^^^^^^^^^^^^^^^
-
-* If you DIY the battery, please ensure our battery spec at first, especially the Voltage should be less than 7.4V, you can also refer to other backers work https://www.facebook.com/groups/716473723088464/posts/777616293640873/ 
-
-
-* Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. 
-
+ 
     
-.. image:: ../_static/83.jpg
-    :align: center 
-    
-.. image:: ../_static/84.jpg
-    :align: center 
-    
-.. image:: ../_static/85.jpg
-    :align: center 
-    
-.. image:: ../_static/86.jpg
-    :align: center 
-    
-    
-Step 6.4 Custom circuit board 
+Step 6.3 Custom circuit board 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Plug the display cable into the custom circuit board.   
@@ -616,11 +614,11 @@ Step 6.4 Custom circuit board
 
 ※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. 
 
-.. image:: ../_static/134.png
+.. image:: ../_static/134.jpg
     :align: center
 
 
-Step 6.5 Fan 
+Step 6.4 Fan 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * To install the fan.
@@ -628,13 +626,11 @@ Step 6.5 Fan
 .. image:: ../_static/157.jpg
     :align: center 
     
-.. image:: ../_static/159.jpg
-    :align: center 
-    
 .. image:: ../_static/158.jpg
     :align: center 
+    
 
-Step 6.6 Raspberry Pi 4
+Step 6.5 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
