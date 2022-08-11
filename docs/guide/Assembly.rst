@@ -383,7 +383,7 @@ Put two servos into hip parts
 
 Four hip parts, please refer to the servo positions. 
 
-.. image:: ../_static/42_1.jpg
+.. image:: ../_static/42.jpg
     :align: center 
 	
     
@@ -488,15 +488,18 @@ Step 5.4 Battery
 * If you DIY the battery, please ensure our battery spec at first, especially the Voltage should be less than 7.4V, you can also refer to other backers work https://www.facebook.com/groups/716473723088464/posts/777616293640873/ 
 
 
-* Install the battery pack. Be careful of the front and rear orientation. Fit the battery from the bottom to the top, then slide it backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. 
+* Install the battery pack. 
 
-    
 .. image:: ../_static/83.jpg
     :align: center 
-    
+
+* Be careful of the carbon fiber front and rear orientation. 
+
 .. image:: ../_static/84.jpg
     :align: center 
-    
+
+* Slide the battery backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. 
+
 .. image:: ../_static/85.jpg
     :align: center 
 
@@ -587,16 +590,18 @@ Step 6.3 Custom circuit board
 .. image:: ../_static/89.jpg
     :align: center 
     
-* plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board as temporary solution.
-	
+* Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. 
+
 .. image:: ../_static/90.jpg
     :align: center 
 
-* Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. 
+* put on the carbon fiber board
     
 .. image:: ../_static/91.jpg
     :align: center 
-    
+
+* plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board.
+
 .. image:: ../_static/92.jpg
     :align: center 
 
@@ -614,7 +619,7 @@ Step 6.3 Custom circuit board
 
 ※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. 
 
-.. image:: ../_static/134.jpg
+.. image:: ../_static/134.png
     :align: center
 
 
