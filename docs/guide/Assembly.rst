@@ -107,7 +107,7 @@ Step 1.3 Write the image into microSD card
 
 (The up pictures are before April 15 2022 version, the below pictures are after April 15 2022 version)
 
-.. image:: ../_static/139.jpg
+.. image:: ../_static/139.png
     :align: center
 
     
@@ -119,7 +119,7 @@ Step 1.3 Write the image into microSD card
 
 (The up pictures are before April 15 2022 version, the below pictures are after April 15 2022 version)
 
-.. image:: ../_static/144.jpg
+.. image:: ../_static/144.png
     :align: center
 
     
@@ -184,10 +184,7 @@ Assemble ① and ②
     :align: center
     
 .. image:: ../_static/4.jpg
-    :align: center
-    
-.. image:: ../_static/5.jpg
-    :align: center    
+    :align: center  
     
 .. image:: ../_static/6.jpg
     :align: center    
@@ -237,22 +234,20 @@ Assemble ⑤ and ⑦
 
 .. image:: ../_static/15.jpg
     :align: center
-
-.. image:: ../_static/16.jpg
-    :align: center
-
     
 .. image:: ../_static/18.jpg
     :align: center
 
 .. image:: ../_static/19.jpg
     :align: center
+
+.. image:: ../_static/21.jpg
+    :align: center
     
 .. image:: ../_static/20.jpg
     :align: center
     
-.. image:: ../_static/21.jpg
-    :align: center
+
     
 Assemble ④ and ⑦ 
 
@@ -456,7 +451,7 @@ Step 5.1 Center parts
 Step 5.2 Front parts
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Tighten the two M3x8mm screws with a screwdriver. The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. 
+*The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. 
 
 .. image:: ../_static/53_1.jpg
     :align: center 
@@ -513,37 +508,8 @@ Step 5.5 Bottom plate
     :align: center    
 	
     
-Step 5.6 Top plate and supports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Use four M2x5mm screws and four short supports. 
-    
-.. image:: ../_static/63.jpg
-    :align: center 
-    
-.. image:: ../_static/64.jpg
-    :align: center 
-
-    
-Step 5.7 Top plate
-^^^^^^^^^^^^^^^^^^^^^
-
-* Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
-
-.. image:: ../_static/67_1.jpg
-    :align: center 
-    
-.. image:: ../_static/66.jpg
-    :align: center 
-    
-.. image:: ../_static/67.jpg
-    :align: center 
-
-
-6. Assemble the function component
-----------------------------------
-
-Step 6.1 Display 
+Step 5.6 Display and Frame of face
 ^^^^^^^^^^^^^^^^^
 
 * Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible. 
@@ -564,8 +530,7 @@ Step 6.1 Display
 .. image:: ../_static/78.jpg
     :align: center 
     
-Step 6.2 Frame of face 
-^^^^^^^^^^^^^^^^^^^^^^^
+
 
 * Be careful with the yellow parts as it has a front and back. 
 
@@ -579,7 +544,7 @@ Step 6.2 Frame of face
     :align: center 
  
     
-Step 6.3 Custom circuit board 
+Step 5.7 Custom circuit board 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Plug the display cable into the custom circuit board.   
@@ -623,7 +588,27 @@ Step 6.3 Custom circuit board
     :align: center
 
 
-Step 6.4 Fan 
+Step 5.8 Top plate and supports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Use four M2x5mm screws and four short supports. 
+    
+.. image:: ../_static/63.jpg
+    :align: center 
+    
+.. image:: ../_static/64.jpg
+    :align: center 
+
+    
+
+* Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
+    
+.. image:: ../_static/66.jpg
+    :align: center 
+  
+
+
+Step 5.9 Fan 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * To install the fan.
@@ -635,7 +620,7 @@ Step 6.4 Fan
     :align: center 
     
 
-Step 6.5 Raspberry Pi 4
+Step 5.10 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
@@ -646,7 +631,7 @@ Step 6.5 Raspberry Pi 4
     
 
    
-7. Cover Assembly
+6. Cover Assembly
 -----------------
 Please refer to the below video clip.
 
@@ -657,7 +642,7 @@ Please refer to the below video clip.
     </div>
 
 
-Step 7.1 Side panels
+Step 6.1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/111.jpg
@@ -666,7 +651,7 @@ Step 7.1 Side panels
 .. image:: ../_static/112.jpg
     :align: center   
 
-Step 7.2 Shin guards
+Step 6.2 Shin guards
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x10mm countersunk screws.
@@ -677,7 +662,7 @@ Step 7.2 Shin guards
 .. image:: ../_static/114.jpg
     :align: center 
 
-Step 7.3 Shoulders 
+Step 6.3 Shoulders 
 ^^^^^^^^^^^^^^^^^^^^^ 
 
 * Insert only the screws first and then insert the shoulder parts into the gap. Insert the 2 mm hex driver into the hole in the shoulder part and tighten the screws. 
@@ -694,7 +679,7 @@ Step 7.3 Shoulders
 .. image:: ../_static/118.jpg
     :align: center   
     
-Step 7.4 Top cover
+Step 6.4 Top cover
 ^^^^^^^^^^^^^^^^^^^^^   
 
 * Use four M2x10mm screws, if the holes are too small to fit the screws, as the part is made with a 3D printer, you can enlarge the holes by turning them with the supplied 2mm hexagonal screwdriver. 
@@ -708,7 +693,7 @@ Step 7.4 Top cover
 .. image:: ../_static/121.jpg
     :align: center   
     
-Step 7.5 Shoes
+Step 6.5 Shoes
 ^^^^^^^^^^^^^^
 
 * Put on 4 shoes.
@@ -720,7 +705,7 @@ Step 7.5 Shoes
     :align: center   
     
     
-Step 7.6 Completion!   
+Step 6.6 Completion!   
 ^^^^^^^^^^^^^^^^^^^^^  
 
 .. image:: ../_static/124.jpg
