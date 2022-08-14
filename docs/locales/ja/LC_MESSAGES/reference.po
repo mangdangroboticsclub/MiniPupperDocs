@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 01:31+0900\n"
+"POT-Creation-Date: 2022-08-14 13:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,55 +22,220 @@ msgstr ""
 msgid "Mechanical Design"
 msgstr "機械設計"
 
-#: ../../reference/Design.rst:4
-msgid "Fusion 360 CAD model: https://a360.co/3CL8zoQ"
+#: ../../reference/Design.rst:4 ../../reference/FAQ.rst:6
+#: ../../reference/PCB.rst:6
+msgid "Contents"
 msgstr ""
 
-#: ../../reference/Design.rst:13
-msgid "BOM　部品表"
+#: ../../reference/Design.rst:7
+msgid "Fusion 360 CAD model"
 msgstr ""
 
-#: ../../reference/Design.rst:14
+#: ../../reference/Design.rst:9
+msgid "Mini Pupper: https://a360.co/3CL8zoQ"
+msgstr ""
+
+#: ../../reference/Design.rst:16
+msgid ""
+"(The up one is before April 15 2022, the below parts are after April 15 "
+"2022)"
+msgstr ""
+
+#: ../../reference/Design.rst:18
+msgid "Mini Pupper: https://a360.co/3M6kGBS"
+msgstr ""
+
+#: ../../reference/Design.rst:25
+msgid "Mini Pupper + Lidar: https://a360.co/3xujiF1"
+msgstr ""
+
+#: ../../reference/Design.rst:31
+msgid "Mini Pupper + OAK-D 3D camera module: https://a360.co/3KQ6HQx"
+msgstr ""
+
+#: ../../reference/Design.rst:39
+msgid "BOM"
+msgstr ""
+
+#: ../../reference/Design.rst:40
 msgid ""
 "Link: `Bill of Materials "
 "<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
 msgstr ""
 
-#: ../../reference/Design.rst:22
+#: ../../reference/Design.rst:48
 msgid "STL"
 msgstr ""
 
-#: ../../reference/Design.rst:23
+#: ../../reference/Design.rst:49
 msgid ""
 "Link: `STL for 3D print "
-"<https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_"
+"<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
 msgstr ""
 
-#: ../../reference/Help.rst:3
-msgid "Help"
-msgstr "ヘルプ"
+#: ../../reference/FAQ.rst:3
+msgid "FAQ(Frequently Asked Questions)"
+msgstr ""
 
-#: ../../reference/Help.rst:5
+#: ../../reference/FAQ.rst:9
+msgid "FAQ"
+msgstr ""
+
+#: ../../reference/FAQ.rst:12
+msgid "Q1. How to use Pupper long time for development?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:13
 msgid ""
-"You can post any questions you might have to our Facebook Group: "
-"https://www.facebook.com/groups/441672400727712 "
-"我々のFacebookグループに対して，質問を投稿することができます． You can also email at "
-"afreez@mangdang.net. また，メールすることもできます．"
+"The battery power can only run Pupper dozens of minutes, it is not "
+"convenient for long time development."
 msgstr ""
 
-#: ../../reference/PCB.rst:2
-msgid "Custom circuit board"
-msgstr "カスタム回路基板"
-
-#: ../../reference/PCB.rst:4
-msgid "Following is the Adapter Board Interface."
+#: ../../reference/FAQ.rst:15
+msgid "A1: Please confirm the below solutions for makers."
 msgstr ""
 
-#: ../../reference/PCB.rst:7
-msgid "Top View:"
+#: ../../reference/FAQ.rst:17
+msgid ""
+"Use Raspberry Pi default adapter to long time coding and debug, and use "
+"the battery to test the movement."
 msgstr ""
 
-#: ../../reference/PCB.rst:12
-msgid "Bottom View:"
+#: ../../reference/FAQ.rst:18
+msgid "Use DC power supply to long time coding, debug and test."
 msgstr ""
+
+#: ../../reference/FAQ.rst:21
+msgid "Q2. How about the leading time if I order?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:22
+msgid ""
+"A2: After get your payment, your package can be shipped from "
+"Shenzhen/China factory, the shipping time is about 1~3 weeks by air to "
+"most of places in the world."
+msgstr ""
+
+#: ../../reference/FAQ.rst:25
+msgid "Q3. Will the shipping be free?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:26
+msgid ""
+"A3: No, but we will also give you a special shipping fee, within $30USD "
+"to most places of NA, JP, EU and UK."
+msgstr ""
+
+#: ../../reference/FAQ.rst:29
+msgid "Q4. Can I get the DDP(Delivered Duty Paid ) service?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:30
+msgid ""
+"A4: Sure, the shipping fee already includes the DDP service, you don't "
+"care about the duty fee, just like you place an order locally."
+msgstr ""
+
+#: ../../reference/FAQ.rst:33
+msgid "Q5. What's the restrictions of the shipping address?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:34
+msgid ""
+"A5: Our 2 express vendors can ship to 135+ countries/regions, but not "
+"including India, Montenegro, Armenia, Nigeria, Colombia, South Africa, "
+"North Korea, Sudan, Syria, Hawaii, Palmañola, and County Antrim."
+msgstr ""
+
+#: ../../reference/FAQ.rst:37
+msgid "Q6. Shipping Info Requirement"
+msgstr ""
+
+#: ../../reference/FAQ.rst:38
+msgid ""
+"A6: When you pay, please also let us know your below shipping info, "
+"thanks! ::"
+msgstr ""
+
+#: ../../reference/FAQ.rst:48
+msgid "If you live in Japan, please use the Japanese information."
+msgstr ""
+
+#: ../../reference/FAQ.rst:49
+msgid "If you live in South Korea, also need your ID number."
+msgstr ""
+
+#: ../../reference/FAQ.rst:50
+msgid "If you live in Taiwan, also need your ID number and Chinese information."
+msgstr ""
+
+#: ../../reference/FAQ.rst:51
+msgid ""
+"If you live in Brazil, also need your tax number (CPF), or corporate tax "
+"number (CNPJ)."
+msgstr ""
+
+#: ../../reference/FAQ.rst:54
+msgid ""
+"If you have any requirements or questions, please feel free to mail to "
+"sales@mangdang.net, thanks!"
+msgstr ""
+
+#: ../../reference/PCB.rst:3
+msgid "PCB"
+msgstr ""
+
+#: ../../reference/PCB.rst:9
+msgid "PCB Design"
+msgstr ""
+
+#: ../../reference/PCB.rst:11
+msgid ""
+"For Mini Pupper custom board design, please refer to the below pictures. "
+"You can also find the detailed `Schematic and Datasheet "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ ."
+msgstr ""
+
+#: ../../reference/PCB.rst:15
+msgid "Top side"
+msgstr ""
+
+#: ../../reference/PCB.rst:21
+msgid "Bottom side"
+msgstr ""
+
+#~ msgid "Fusion 360 CAD model: https://a360.co/3CL8zoQ"
+#~ msgstr ""
+
+#~ msgid "BOM　部品表"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Link: `STL for 3D print "
+#~ "<https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid ""
+#~ "You can post any questions you "
+#~ "might have to our Facebook Group: "
+#~ "https://www.facebook.com/groups/441672400727712 "
+#~ "我々のFacebookグループに対して，質問を投稿することができます． You can also "
+#~ "email at afreez@mangdang.net. また，メールすることもできます．"
+#~ msgstr ""
+
+#~ msgid "Custom circuit board"
+#~ msgstr "カスタム回路基板"
+
+#~ msgid "Following is the Adapter Board Interface."
+#~ msgstr ""
+
+#~ msgid "Top View:"
+#~ msgstr ""
+
+#~ msgid "Bottom View:"
+#~ msgstr ""
 

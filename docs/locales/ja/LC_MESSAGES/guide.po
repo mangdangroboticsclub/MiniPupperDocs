@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 01:00+0900\n"
+"POT-Creation-Date: 2022-08-14 13:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,300 +22,312 @@ msgstr ""
 msgid "Assembly"
 msgstr "組み立て"
 
-#: ../../guide/Assembly.rst:5 ../../guide/Expansions.rst:5
-#: ../../guide/Operation.rst:6 ../../guide/SLAM.rst:5
-#: ../../guide/Simulation.rst:5 ../../guide/Software.rst:5
+#: ../../guide/Assembly.rst:5 ../../guide/Examples.rst:7
+#: ../../guide/Features.rst:5 ../../guide/HowToOrder.rst:6
+#: ../../guide/MachineLearning.rst:6 ../../guide/Navigation.rst:6
+#: ../../guide/QuickStartGuide.rst:6 ../../guide/SLAM.rst:6
+#: ../../guide/Simulation.rst:5 ../../guide/Software.rst:7
 msgid "Contents"
 msgstr ""
 
-#: ../../guide/Assembly.rst:8
-msgid "1. Write the image into microSD"
+#: ../../guide/Assembly.rst:7
+msgid ""
+"This is the video clip for the pre-assembled leg kit, please refer to the"
+" below sections for more detailed steps."
+msgstr "下記の動画では事前に組み込み済みの足を用いたキットをロボットの本体出来上がりまでの簡単な説明となります。"
+
+#: ../../guide/Assembly.rst:17
+msgid "0. Update change points after April 15 2022"
+msgstr ""
+
+#: ../../guide/Assembly.rst:19
+msgid "Updated the body and hip parts from 3D printed to mold."
+msgstr ""
+
+#: ../../guide/Assembly.rst:20
+msgid ""
+"Re-designed and unified the original four hip parts into one for mold, "
+"for the detailed info, please refer to the mechanical design section."
+msgstr ""
+
+#: ../../guide/Assembly.rst:21
+msgid ""
+"If you get your Mini Pupper kit after April 15 2022, it will be easier to"
+" assemble."
+msgstr ""
+
+#: ../../guide/Assembly.rst:22
+msgid ""
+"If you have 3D printer and still hope to use the previous 3D printed "
+"design, that's OK."
+msgstr ""
+
+#: ../../guide/Assembly.rst:26
+#, fuzzy
+msgid "1. Write the pre-built image into microSD"
 msgstr "イメージを焼きこむ"
 
-#: ../../guide/Assembly.rst:11 ../../guide/Assembly.rst:106
-#: ../../guide/Assembly.rst:309 ../../guide/Assembly.rst:396
-#: ../../guide/Assembly.rst:512
+#: ../../guide/Assembly.rst:29 ../../guide/Assembly.rst:144
+#: ../../guide/Software.rst:13
 msgid "Tools"
 msgstr "ツール"
 
-#: ../../guide/Assembly.rst:12 ../../guide/Assembly.rst:107
-#: ../../guide/Assembly.rst:310 ../../guide/Assembly.rst:397
-#: ../../guide/Assembly.rst:513 ../../guide/Assembly.rst:661
-#: ../../guide/SLAM.rst:14 ../../guide/Software.rst:14
+#: ../../guide/Assembly.rst:30 ../../guide/Assembly.rst:145
 msgid ""
 "In addition to the tools included in the kit, the following items are "
-"required for assembly. キットに同梱されている工具の他に、組み立てには以下の物が必要です。"
+"required for assembly."
 msgstr ""
 
-#: ../../guide/Assembly.rst:14
-msgid "USB keyboard USB キーボード"
+#: ../../guide/Assembly.rst:32 ../../guide/Software.rst:16
+msgid "USB keyboard"
 msgstr ""
 
-#: ../../guide/Assembly.rst:15 ../../guide/Software.rst:17
-msgid "USB mouse USB マウス"
+#: ../../guide/Assembly.rst:33 ../../guide/Software.rst:17
+msgid "USB mouse"
 msgstr ""
 
-#: ../../guide/Assembly.rst:16 ../../guide/Software.rst:18
+#: ../../guide/Assembly.rst:34
 msgid "PC"
 msgstr ""
 
-#: ../../guide/Assembly.rst:17 ../../guide/SLAM.rst:17
-#: ../../guide/Software.rst:19
-msgid "microSD card interface microSDカードリーダ"
+#: ../../guide/Assembly.rst:35
+msgid "microSD card reader"
 msgstr ""
 
-#: ../../guide/Assembly.rst:18 ../../guide/SLAM.rst:18
-msgid "HDMI Display HDMI ディスプレイ"
+#: ../../guide/Assembly.rst:36 ../../guide/Examples.rst:27
+msgid "HDMI Display"
 msgstr ""
 
-#: ../../guide/Assembly.rst:19 ../../guide/SLAM.rst:19
-msgid "HDMI micro HDMI convertor HDMI⇔microHDMI変換"
+#: ../../guide/Assembly.rst:37 ../../guide/Examples.rst:28
+msgid "micro HDMI cable"
 msgstr ""
 
-#: ../../guide/Assembly.rst:20 ../../guide/SLAM.rst:20
-#: ../../guide/Software.rst:22
-msgid "microUSB cable microUSB ケーブル"
-msgstr ""
-
-#: ../../guide/Assembly.rst:21 ../../guide/Software.rst:23
+#: ../../guide/Assembly.rst:38
 msgid "USB charger"
 msgstr ""
 
-#: ../../guide/Assembly.rst:25
+#: ../../guide/Assembly.rst:42
 msgid "Step 1.1 Charging the battery"
 msgstr "充電"
 
-#: ../../guide/Assembly.rst:27
+#: ../../guide/Assembly.rst:44
 msgid ""
-"The battery is charged via USB, see picture for USB socket, and can be "
-"charged while still attached to the Mini Pupper body. "
-"準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini Pupperに取り付けたままでも充電できます。"
+"The battery is charged via USB, see picture for USB socket, and can also "
+"be charged while attached to the Mini Pupper body."
 msgstr ""
 
-#: ../../guide/Assembly.rst:33
+#: ../../guide/Assembly.rst:46
+msgid ""
+"※ LED light: Green means there is enough power, and Red means you need to"
+" charge it."
+msgstr ""
+
+#: ../../guide/Assembly.rst:48
+msgid ""
+"※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC "
+"will change it to 1A. It needs about 1 hour to charge 80% and the light "
+"will become green, and an additional 1 hour to 100%, anyway, you can use "
+"it when the light becomes green."
+msgstr ""
+
+#: ../../guide/Assembly.rst:54
 msgid "Step 1.2 Download the image"
 msgstr "イメージファイルのダウンロード"
 
-#: ../../guide/Assembly.rst:35
-msgid ""
-"You can check other documents or latest image file via the below folder. "
-"以下のフォルダから他のドキュメントや最新のイメージを確認できます."
+#: ../../guide/Assembly.rst:56
+msgid "You can download latest image file via the below folder."
 msgstr ""
 
-#: ../../guide/Assembly.rst:37
+#: ../../guide/Assembly.rst:58
 msgid ""
-"`MiniPupperDocs <https://drive.google.com/drive/folders"
-"/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_"
+"`MiniPupperRelease.from.MangDang <https://drive.google.com/drive/folders"
+"/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_"
 msgstr ""
-
-#: ../../guide/Assembly.rst:40
-msgid ""
-"For the V1 Custom circuit board, the image file "
-"20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip is shown "
-"as below. "
-"V1カスタム回路基板の場合、イメージファイルは20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zipになります。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:44
-msgid ""
-"`20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip "
-"<https://drive.google.com/file/d/1bkQNjKn2gHwSllTT2VaI62u_6uVW4Dzw/view?usp=sharing/view?usp=sharing>`_"
-msgstr ""
-
-#: ../../guide/Assembly.rst:47
-msgid ""
-"For the V2 Custom circuit board, the image file "
-"20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip is "
-"shown as below. "
-"V2カスタム回路基板の場合、イメージファイルは20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zipになります。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:51
-msgid ""
-"`20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip "
-"<https://drive.google.com/file/d/1ZYJCfCb-"
-"1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_"
-msgstr ""
-
-#: ../../guide/Assembly.rst:53
-msgid ""
-"\"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip\" is image file for the Ubuntu "
-"base version for the PS4 controller, while \"MiniPupper2004.zip\" is "
-"image file for the Ubuntu + ROS version for SLAM & Navigation.   "
-"「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu"
-" + ROSバージョンのイメージファイルです。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:55
-msgid ""
-"Download the image for Raspi 4 from MangDang on your PC.  "
-"PCでMangDangからラズパイ4用イメージをダウンロードします。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:59
-msgid "Step 1.3 Write the image into microSD"
-msgstr "フラッシュに焼きこむ"
 
 #: ../../guide/Assembly.rst:61
 msgid ""
-"Insert the microSD card into your PC's SD card reader and pwrite the "
-"image. We recommend the image creation tool balenaEtcher as it is easy "
-"and reliable. Please refer to the official manual and below link. It may "
-"take a while to complete. "
-"PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール "
-"balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:63
-msgid ""
-"Reference Link: `Download Etcher – Flash OS images to USB drives & SD "
-"cards <https://etcherpc.com/?usp=sharing>`_"
-msgstr ""
-
-#: ../../guide/Assembly.rst:65
-msgid ""
-"参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 "
-"<https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_"
+"For the V1 verison Custom circuit board, the image file looks like "
+"xxx_MiniPupper_PS4_Ubuntu_xxx.img.zip."
 msgstr ""
 
 #: ../../guide/Assembly.rst:67
 msgid ""
-"Remove the SD card from the PC and insert it into the Raspberry pi. "
-"PCからSDカードを抜いて、ラズパイに挿す。"
+"For the V2 version Custom circuit board, the image file looks like "
+"xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip."
+msgstr ""
+
+#: ../../guide/Assembly.rst:72
+msgid ""
+"※ “xxx_MiniPupper_V1&V2_Controller_Ubuntu_22.04.img” means the image "
+"compatable to V1 and V2 custom board. If you want to develop your own "
+"features based on our new image file, we recommand you to use our lastest"
+" custom board."
 msgstr ""
 
 #: ../../guide/Assembly.rst:74
+msgid ""
+"※ \"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\" is the image file for "
+"the Ubuntu + ROS + OpenCV version for SLAM & Navigation & AI."
+msgstr ""
+
+#: ../../guide/Assembly.rst:78
+#, fuzzy
+msgid "Step 1.3 Write the image into microSD card"
+msgstr "フラッシュに焼きこむ"
+
+#: ../../guide/Assembly.rst:80
+msgid ""
+"Insert the microSD card into your PC's SD card reader and write the "
+"image. We recommend the image creation tool balenaEtcher or "
+"Win32DiskImager as it is easy and reliable. Please refer to the official "
+"manual and below link. It may take a while to complete."
+msgstr ""
+
+#: ../../guide/Assembly.rst:82
+msgid ""
+"※ Reference Link: `Download Etcher – Flash OS images to USB drives & SD "
+"cards <https://etcherpc.com/?usp=sharing>`_"
+msgstr ""
+
+#: ../../guide/Assembly.rst:85
+msgid "Remove the SD card from the PC and insert it into the Raspberry pi."
+msgstr ""
+
+#: ../../guide/Assembly.rst:92
 msgid "2. Position of the screws"
 msgstr "ネジの配置"
 
-#: ../../guide/Assembly.rst:76
-msgid "The pictures show the position of the screws briefly. 写真はネジの位置を簡単に示しています。"
+#: ../../guide/Assembly.rst:94
+msgid "The pictures show the position of the screws briefly."
 msgstr ""
 
-#: ../../guide/Assembly.rst:103
+#: ../../guide/Assembly.rst:108 ../../guide/Assembly.rst:120
+msgid ""
+"(The up pictures are before April 15 2022 version, the below pictures are"
+" after April 15 2022 version)"
+msgstr ""
+
+#: ../../guide/Assembly.rst:133
 msgid "3. Legs Assembly"
 msgstr "脚の組み立て"
 
-#: ../../guide/Assembly.rst:109
+#: ../../guide/Assembly.rst:134 ../../guide/Assembly.rst:340
+#: ../../guide/Assembly.rst:636
+msgid "Please refer to the below video clip."
+msgstr ""
+
+#: ../../guide/Assembly.rst:147
 msgid "Loctite"
 msgstr "ロックタイト"
 
-#: ../../guide/Assembly.rst:110
+#: ../../guide/Assembly.rst:149
 msgid ""
-"(!!! We don’t suggest you use Loctite at first before you have enough "
-"experience. !!!) Loctite prevents the nut from loosening, but it is not "
-"essential, as it can be tightened only when looseness is noticed. "
-"However, some of them have to be dismantled in order to be tightened "
-"later, so fix them as much as possible. "
-"ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。"
+"※ We don't recommand new users to use the Loctite at first, you can use "
+"it after you have much background."
 msgstr ""
 
-#: ../../guide/Assembly.rst:114 ../../guide/Assembly.rst:318
-#: ../../guide/Assembly.rst:406 ../../guide/Assembly.rst:518
+#: ../../guide/Assembly.rst:151
+msgid ""
+"※ Loctite prevents the nut from loosening, but it is not essential, as it"
+" can be tightened only when looseness is noticed."
+msgstr ""
+
+#: ../../guide/Assembly.rst:154
 msgid "Bolt to use"
 msgstr "使用するボルト"
 
-#: ../../guide/Assembly.rst:115
+#: ../../guide/Assembly.rst:155
 msgid "M2x5mm        2x4=8   ①+②, ⑤+⑥"
 msgstr ""
 
-#: ../../guide/Assembly.rst:116
+#: ../../guide/Assembly.rst:156
 msgid "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
 msgstr ""
 
-#: ../../guide/Assembly.rst:117
+#: ../../guide/Assembly.rst:157
 msgid "M2x12mm       1x4=4   ⑤+⑦"
 msgstr ""
 
-#: ../../guide/Assembly.rst:118
+#: ../../guide/Assembly.rst:158
 msgid "M2x14mm       1x4=4   ③+⑤"
 msgstr ""
 
-#: ../../guide/Assembly.rst:121
+#: ../../guide/Assembly.rst:161
 msgid "Step 3.1 Single leg"
 msgstr "片脚"
 
-#: ../../guide/Assembly.rst:123
+#: ../../guide/Assembly.rst:163
 msgid ""
 "Assemble the four legs. The front and back of the right side are the "
 "same, and so are the front and back of the left side. Show you how to "
 "assemble the right side."
 msgstr "脚を組み立てるとき、左側は前後セットで同じ形の足２つ、右側も同様で、併せて足を４コ組み立てます。下記は右側の前後セットを例に詳しく説明します。"
 
-#: ../../guide/Assembly.rst:125
-msgid "Video Instructions"
-msgstr "製作動画"
+#: ../../guide/Assembly.rst:165
+msgid "Video Instructions, please refer to the link https://youtu.be/Ut7UnS3CTZs"
+msgstr ""
 
-#: ../../guide/Assembly.rst:135
-msgid "|youtu.be-assembly-leg-1|"
-msgstr "|youtu.be-assembly-leg-1-ja|"
-
-#: ../../guide/Assembly.rst:137
+#: ../../guide/Assembly.rst:168
 msgid "The parts are numbered as follows to explain."
 msgstr "説明の便宜上、以下のようにパーツに番号を振りました。"
 
-#: ../../guide/Assembly.rst:143
-msgid "Assemble ① and ② / ①と②の組み立て:"
+#: ../../guide/Assembly.rst:174
+msgid "Assemble ① and ②"
 msgstr ""
 
-#: ../../guide/Assembly.rst:145
+#: ../../guide/Assembly.rst:176
 msgid ""
 "Use one M2x5mm screw.The screw is inserted from the bottom of ② upwards "
 "and tightened by inserting them into the screw holes in ①. Be careful "
-"about the sides of ②. M2x5mm "
-"のボルトを1つ使用します。ボルトは②の下から上に挿し、①の穴に挿し込んで締めます。②の表裏の向きに気をつけましょう。"
+"about the sides of ②."
 msgstr ""
 
-#: ../../guide/Assembly.rst:147
+#: ../../guide/Assembly.rst:178
 msgid ""
 "The two ballbearings in ② should be inserted all the way in and the end "
 "should be slightly visible as shown in the picture below. Tap the ball "
-"bearing and press it in without gaps. "
-"②のボールベアリング2個は奥まで挿し込み、下記の写真のように先が少し見える状態になっている必要があります。叩くなどして隙間をなくせば大丈夫です。"
+"bearing and press it in without gaps."
 msgstr ""
 
-#: ../../guide/Assembly.rst:165
-msgid "Assemble ② and ③ / ②と③の組み立て:"
+#: ../../guide/Assembly.rst:193
+msgid "Assemble ② and ③"
 msgstr ""
 
-#: ../../guide/Assembly.rst:167
+#: ../../guide/Assembly.rst:195
 msgid ""
 "Use an M2x8mm screw and an M2 locknut. Insert the screw from the bottom "
 "to the top of ③, pass through ② and tighten with the nut. It is important"
 " to pay attention to the orientation of ③. Look carefully at the position"
-" of the hole in the middle. M2x8mm のボルトを1つと M2 "
-"Locknutを使用します。ボルトを③の下から上に挿し、②を通し、ナットで締めます。③の部品の向きには気をつける必要があります。真ん中の穴の位置を良く見ましょう。"
+" of the hole in the middle."
 msgstr ""
 
-#: ../../guide/Assembly.rst:179
-msgid "Adjustment of the length of ④ / ④の長さの調整"
+#: ../../guide/Assembly.rst:207
+msgid "Adjustment of the length of ④"
 msgstr ""
 
-#: ../../guide/Assembly.rst:181
+#: ../../guide/Assembly.rst:209
 msgid ""
 "The length of ④ must match the length of ⑤. When adjusting the length, it"
-" is easier to use two long screws, e.g. M2x15mm, to make sure that the "
-"lengths match. Once the lengths have been adjusted, take apart all. "
-"④の長さが⑤と一致している必要があります。長さを調整するとき、M2x15mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。"
+" is easier to use two long screws to make sure that the lengths match. "
+"Once the lengths have been adjusted, take apart all."
 msgstr ""
 
-#: ../../guide/Assembly.rst:190
-msgid "Assemble ⑤ and ⑥ / ⑤と⑥の組み立て"
+#: ../../guide/Assembly.rst:218
+msgid "Assemble ⑤ and ⑥"
 msgstr ""
 
-#: ../../guide/Assembly.rst:192
+#: ../../guide/Assembly.rst:220
 msgid ""
-"Use two M2x5mm screws. Insert the screws into ⑤ first, insert them into "
+"Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
 "the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
-"the surface. "
-"M2x5mmのボルトを1本使用します。⑤にボルトを挿し、⑥の穴に挿れて締めます。⑥は大きな穴がある方が表面側に来るように向けましょう。"
+"the surface."
 msgstr ""
 
-#: ../../guide/Assembly.rst:203
-msgid "Assemble ⑤ and ⑦ / ⑤と⑦の組み立て"
+#: ../../guide/Assembly.rst:231
+msgid "Assemble ⑤ and ⑦"
 msgstr ""
 
-#: ../../guide/Assembly.rst:205
+#: ../../guide/Assembly.rst:233
 msgid ""
 "Use an M2x12mm screw, an M2 locknut and two sets of ball bearings. Each "
 "ball bearing is made up of three parts, the top and bottom parts with the"
@@ -323,333 +335,213 @@ msgid ""
 "Then insert the screw into the hole ⑦. Taking care to look at the warped "
 "side of ⑦ to make sure it is facing the right way. Now screw in the "
 "another set of ball bearing. Finally, insert screw into ⑤ and tighten it "
-"with the nut. M2x12mmのボルトとM2 "
-"locknutとボールベアリング2組を使用します。ボールベアリングは3つの部品から成り立っており、上下の部品は溝がある方を内側に向けて、真ん中の部品をはさみます。まずボールベアリングにボルトを通します。次に⑦の穴にボルトを挿します。このとき⑦の反っている方向を見て、向きを間違えないように気をつけます。次にもう一つのボールベアリングをボルトに通します。最後に⑤をボルトに通してナットで締めます。"
+"with the nut."
 msgstr ""
 
-#: ../../guide/Assembly.rst:228
-msgid "Assemble ④ and ⑦ / ④と⑦の組み立て"
+#: ../../guide/Assembly.rst:252
+msgid "Assemble ④ and ⑦"
 msgstr ""
 
-#: ../../guide/Assembly.rst:230
+#: ../../guide/Assembly.rst:254
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ "
 "through, then tighten it with the nut. The direction of the front and "
-"back of ④ can be either. "
-"M2x8mmのボルトとM2ナットを使用します。⑦にボルトを挿し、④を通したら、ナットで締めます。④の表裏の向きはどちらでも大丈夫です。"
+"back of ④ can be either."
 msgstr ""
 
-#: ../../guide/Assembly.rst:241
-msgid "Assemble ③ and ④ / ③と④の組み立て"
+#: ../../guide/Assembly.rst:256 ../../guide/Assembly.rst:271
+msgid "Left and right leg"
 msgstr ""
 
-#: ../../guide/Assembly.rst:243
+#: ../../guide/Assembly.rst:267
+msgid "Assemble ③ and ④"
+msgstr ""
+
+#: ../../guide/Assembly.rst:269
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ "
-"through, then tighten it with the nut. "
-"M2x8mmのボルトとM2ナットを使用します。③にボルトを挿し、④を通したら、ナットで締めます。"
+"through, then tighten it with the nut."
 msgstr ""
 
-#: ../../guide/Assembly.rst:251
-msgid "Assemble ③ and ⑤ / ③と⑤の組み立て"
+#: ../../guide/Assembly.rst:279
+msgid "Assemble ③ and ⑤"
 msgstr ""
 
-#: ../../guide/Assembly.rst:253
+#: ../../guide/Assembly.rst:281
 msgid ""
 "Use M2x14mm screws and two sets of ball bearings. Thread the screws "
 "through the bearings, ③, bearings, ⑤, in that order. The screws are not "
 "fixed, but you will tighten them when you mount the servo in the next "
-"step. "
-"M2x14mmのボルトとボールベアリング2組を使用します。ボルトをベアリング、③、ベアリング、⑤の順で通します。ボルトは固定されていませんが、次工程でサーボに取り付ける際にボルトを締めます。"
+"step."
 msgstr ""
 
-#: ../../guide/Assembly.rst:267
-msgid "Completion of a right leg / 脚部の仕上げ"
+#: ../../guide/Assembly.rst:292
+msgid "Completion of a right leg"
 msgstr ""
 
-#: ../../guide/Assembly.rst:269
-msgid "Front side / 表"
-msgstr ""
-
-#: ../../guide/Assembly.rst:271
+#: ../../guide/Assembly.rst:295
 msgid ""
 "Now we have one leg on the right side. Here are some pictures so you can "
 "see it from different angles. The left leg should be symmetrical with the"
-" right one. これで右側の脚が一本完成しました。色んな角度から見れるように写真を貼っておきます。左側は右側と線対称になるように組みます。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:282
-msgid "opposite side / 裏"
-msgstr ""
-
-#: ../../guide/Assembly.rst:291
-msgid "Step 3.2 Four legs"
-msgstr "前足と後ろ足"
-
-#: ../../guide/Assembly.rst:297
-msgid "Step 3.3 Locktite"
-msgstr "ロックタイト"
-
-#: ../../guide/Assembly.rst:299
-msgid ""
-"As the nut is on a moving joint, it will loosen quickly if tightened too "
-"tightly. They should be secured with Loctite. It is possible to dismantle"
-" the nut later, as it can be loosened by a strong force. "
-"ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。"
+" right one."
 msgstr ""
 
 #: ../../guide/Assembly.rst:306
-msgid "4. Hips Assembly"
-msgstr "足の取り付け"
-
-#: ../../guide/Assembly.rst:312
-msgid "Elongated screwdriver/ 細長いプラスドライバー"
-msgstr ""
-
-#: ../../guide/Assembly.rst:313
-msgid "Elongated hex wrench (2mm) / 細長い2mm経の六角レンチ"
-msgstr ""
-
-#: ../../guide/Assembly.rst:314
-msgid "Loctite / ロックタイト"
+msgid "opposite side"
 msgstr ""
 
 #: ../../guide/Assembly.rst:315
-msgid "Thin things like a toothpick / 爪楊枝のような細いもの"
-msgstr ""
-
-#: ../../guide/Assembly.rst:320
-msgid "M2x6mm(Self tapping)  1x4=4"
-msgstr ""
+msgid "Step 3.2 Four legs"
+msgstr "前足と後ろ足"
 
 #: ../../guide/Assembly.rst:321
-msgid "M2x6mm        1x4+4x4=20"
+msgid "Step 3.3 Locktite"
+msgstr "ロックタイト"
+
+#: ../../guide/Assembly.rst:323
+msgid ""
+"As the nut is on a moving joint, it will loosen quickly if tightened too "
+"tightly. They should be secured with Loctite. It is possible to dismantle"
+" the nut later, as it can be loosened by a strong force."
 msgstr ""
 
-#: ../../guide/Assembly.rst:324
+#: ../../guide/Assembly.rst:328
+msgid "Some screws are also secured with glue as the below picture shows."
+msgstr ""
+
+#: ../../guide/Assembly.rst:335
+msgid "4. Hips Assembly"
+msgstr "足の取り付け"
+
+#: ../../guide/Assembly.rst:338
 msgid "Step 4.1 Hip"
 msgstr "モータの設置"
 
-#: ../../guide/Assembly.rst:326 ../../guide/Assembly.rst:419
+#: ../../guide/Assembly.rst:349
 msgid ""
-"※ For the latest kit, there are two kinds of servo cables, No.1,4,7,10 "
-"cables length is 9cm, other cables length is 15cm. "
-"最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。"
+"There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
+"other cables length is 15cm."
 msgstr ""
 
-#: ../../guide/Assembly.rst:328 ../../guide/Assembly.rst:414
-msgid "The position of each servomotors are shown as below. 各サーボモータの位置は以下のとおりです。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:334
-msgid ""
-"There are four hips to assemble, all with different shapes. Here shows "
-"how to assemble the rear right hip. "
-"臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:336
-msgid "Servo horn サーボホーン"
-msgstr ""
-
-#: ../../guide/Assembly.rst:338
-msgid "Insert a servo horn to a servo. サーボホーンを挿す。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:343
-msgid "Assemble servo horn and hip parts サーボホーンと臀部部品の組み立て"
-msgstr ""
-
-#: ../../guide/Assembly.rst:345
-msgid ""
-"Use an M2x6mm Tapping screw and an M2x6mm screw. You will need a long "
-"cross-head screwdriver and a 2 mm hexagonal wrench. "
-"M2x6mm(タッピング)とM2x6mmを使用します。長い十字ドライバーと2mmの六角レンチが必要です。"
+#: ../../guide/Assembly.rst:351
+msgid "For the position of each servos, please refer to the below picture."
 msgstr ""
 
 #: ../../guide/Assembly.rst:356
-msgid "Put two servos into hip parts サーボ2つを臀部部品に入れる。"
+msgid "Here shows how to assemble the rear right hip."
 msgstr ""
 
 #: ../../guide/Assembly.rst:358
 msgid ""
-"※ You may need to clean the residue around the holes in the 3D printed "
-"part at first. Make sure the servo mounting surface is flat. "
-"最初に、3Dプリントされたパーツの穴の周りの残留物をきれいにする必要があるかもしれません。サーボ取付面が平らであることを確認してください。"
+"Confirm whether the servo shaft is at the right position. The middle "
+"position marker is added on the output shaft, the output shaft is at its "
+"middle position by fault as the left picture shows. The shaft position "
+"may be changed during assembly as the middle picture shows, if you find "
+"it, you can use the servo horn to move the output shaft to the right "
+"position, and then finally make the servo horn at the place as the right "
+"picture shows."
 msgstr ""
 
-#: ../../guide/Assembly.rst:361
+#: ../../guide/Assembly.rst:364
+msgid "Connect the servo and hip part."
+msgstr ""
+
+#: ../../guide/Assembly.rst:372
+msgid "Put two servos into hip parts"
+msgstr ""
+
+#: ../../guide/Assembly.rst:374
+msgid "Insert two servos into the box and fix them with M2x6mm screws."
+msgstr ""
+
+#: ../../guide/Assembly.rst:379
+msgid "Four hip parts, please refer to the servo positions."
+msgstr ""
+
+#: ../../guide/Assembly.rst:385
+msgid "Assemble leg and hip"
+msgstr ""
+
+#: ../../guide/Assembly.rst:387
 msgid ""
-"Insert two servo into the box and fix them with M2x6mm screws. "
-"2つのサーボを箱にはめて、M2x6mmのボルト4本で固定します。"
+"※ If you have no technology background, it's easier to attach the leg to "
+"the hip during the calibration step."
 msgstr ""
 
-#: ../../guide/Assembly.rst:366
-msgid "Assemble leg and hip 脚部を臀部に取り付ける"
+#: ../../guide/Assembly.rst:389
+msgid ""
+"※ If you are the first time to assemble quadruped robot, we don't "
+"recommand you use the Loctite."
 msgstr ""
 
-#: ../../guide/Assembly.rst:368
+#: ../../guide/Assembly.rst:391
 msgid ""
 "Attach the leg to the hip using the M2x12mm screws. Leg is tilted at "
-"approximately 45°, as shown in the manual. "
-"M2x12mmのボルトを使って、脚を臀部に取り付けます。マニュアルの通り、脚がだいたい45度傾くように取り付けます。"
+"approximately 45°, as shown in the manual."
 msgstr ""
 
-#: ../../guide/Assembly.rst:376
+#: ../../guide/Assembly.rst:396
 msgid ""
 "Tighten the screws with Loctite. Use a toothpick to apply Loctite to the "
-"servo's screw holes. ロックタイトでボルトをしっかりと固定しましょう。爪楊枝を使ってサーボの穴にロックタイトを塗っておきます。"
+"servo's screw holes."
 msgstr ""
 
-#: ../../guide/Assembly.rst:386
+#: ../../guide/Assembly.rst:411
 msgid "Step 4.2 Four Hips"
 msgstr "前後各２セット"
 
-#: ../../guide/Assembly.rst:393
+#: ../../guide/Assembly.rst:416
+msgid "※ Please pay attention to the positions of the servo gear output shaft"
+msgstr ""
+
+#: ../../guide/Assembly.rst:426
 msgid "5. Body Frame Assembly"
 msgstr "本体の組み立て"
 
-#: ../../guide/Assembly.rst:399 ../../guide/Assembly.rst:663
-msgid "Screwdriver / プラスドライバー"
-msgstr ""
-
-#: ../../guide/Assembly.rst:400
-msgid "Superglue / 瞬間接着剤※"
-msgstr ""
-
-#: ../../guide/Assembly.rst:401
-msgid "Masking tape / マスキングテープ※"
-msgstr ""
-
-#: ../../guide/Assembly.rst:403
-msgid ""
-"※ These are not essential. Use in case of trouble or when more strength "
-"is required. 必須ではありません。トラブル時やより強度を求める場合に使用します。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:407
-msgid "M2x8mm        4+4=8"
-msgstr ""
-
-#: ../../guide/Assembly.rst:408
-msgid "M3x8mm        2+2=4"
-msgstr ""
-
-#: ../../guide/Assembly.rst:409
-msgid "M2x5mm        8+8+4=20"
-msgstr ""
-
-#: ../../guide/Assembly.rst:412
+#: ../../guide/Assembly.rst:429
 msgid "Step 5.1 Center parts"
 msgstr "モータの取り付け"
 
-#: ../../guide/Assembly.rst:421
-msgid ""
-"Use four M2x8mm screws. It is useful to put masking tape on the cables "
-"and write the number of servomotors during this process to make it easier"
-" later. M2x8mmのボルト4本を使って取り付けます。この工程でケーブルにマスキングテープを貼り番号を書くと、後で楽です。"
+#: ../../guide/Assembly.rst:431
+msgid "The position of each servos are shown as below."
 msgstr ""
 
 #: ../../guide/Assembly.rst:436
-msgid "Step 5.2 Front parts"
-msgstr "前部"
+msgid ""
+"※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
+"other cables length is 15cm."
+msgstr ""
 
 #: ../../guide/Assembly.rst:438
 msgid ""
-"Tighten the two M3x8mm screws with a screwdriver. The front part is "
-"designed to hold the LCD screen. Make sure you don't mistake it for the "
-"rear part. "
-"M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。"
+"It is useful to put masking tape on the cables and write the number of "
+"servos during this process to make it easier later."
 msgstr ""
 
-#: ../../guide/Assembly.rst:448
+#: ../../guide/Assembly.rst:452
+msgid "Step 5.2 Front parts"
+msgstr "前部"
+
+#: ../../guide/Assembly.rst:454
+msgid ""
+"*The front part is designed to hold the LCD screen. Make sure you don't "
+"mistake it for the rear part."
+msgstr ""
+
+#: ../../guide/Assembly.rst:464
 msgid "Step 5.3 Rear side"
 msgstr "後部"
 
-#: ../../guide/Assembly.rst:450
-msgid "The same procedure as for the front part. 前部と同じ要領です。"
+#: ../../guide/Assembly.rst:466
+msgid "The same procedure as for the front part."
 msgstr ""
 
-#: ../../guide/Assembly.rst:472
-msgid "Step 5.4 Bottom plate"
-msgstr "下部"
-
-#: ../../guide/Assembly.rst:474
-msgid ""
-"Use eight M2x5mm screws. The orientation of the plate must be such that "
-"the hole is at the front. "
-"M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に穴が来る必要があります。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:483
-msgid "Step 5.5 Top plate and supports"
-msgstr "頭部固定準備"
-
-#: ../../guide/Assembly.rst:485
-msgid "Use four M2x5mm screws and four short supports. M2x5mmのボルト4本と短い支柱4本を使用します。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:495
-msgid "Step 5.6 Top plate"
-msgstr "上部"
-
-#: ../../guide/Assembly.rst:497
-msgid ""
-"Use eight M2x5mm screws. The orientation of the plate must be such that "
-"the large opening is at the front. "
-"M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に大きな開口部が来る必要があります。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:509
-msgid "6. Assemble the function component"
-msgstr "他のモジュール"
-
-#: ../../guide/Assembly.rst:515
-msgid "Screwdriver プラスドライバー"
-msgstr ""
-
-#: ../../guide/Assembly.rst:520
-msgid "M2x5mm        2"
-msgstr ""
-
-#: ../../guide/Assembly.rst:521
-msgid "M2x8mm        2"
-msgstr ""
-
-#: ../../guide/Assembly.rst:522
-msgid "M1.4x3mm(皿)  4"
-msgstr ""
-
-#: ../../guide/Assembly.rst:525
-msgid "Step 6.1 Display 画面"
-msgstr ""
-
-#: ../../guide/Assembly.rst:527
-msgid ""
-"Use two M2x5mm screws. Remove the protective sheet for the display. Fold "
-"the thin flexible cable at the edge of the display. Attach the board and "
-"the display to the main unit. When attaching the display, you can use a "
-"stick to gently push the flexible cable, so that it goes as far back as "
-"possible. "
-"M2x5mmのボルト2本を使用します。ディスプレイの保護シールはここで取りましょう。ディスプレイと専用基板の間に通る薄いフレキシブルケーブル(通称フレキ)をディスプレイの端で折ります。基板、ディスプレイの順に本体に取り付けます。ディスプレイを取り付ける際に、フレキがなるべく奥にいくように棒状の物で軽く押すと良いです。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:552
-msgid "Step 6.2 Frame of face"
-msgstr "顔の組み立て"
-
-#: ../../guide/Assembly.rst:554
-msgid ""
-"Use four M1.4x3mm countersunk screws. Be careful with the yellow parts as"
-" it has a front and back. "
-"M1.4x3mmの皿ネジを4本使用します。黄色いパーツには表裏の区別があるので気をつけましょう。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:566
-msgid "Step 6.3 Battery"
+#: ../../guide/Assembly.rst:481
+#, fuzzy
+msgid "Step 5.4 Battery"
 msgstr "バッテリー"
 
-#: ../../guide/Assembly.rst:568
+#: ../../guide/Assembly.rst:483
 msgid ""
 "If you DIY the battery, please ensure our battery spec at first, "
 "especially the Voltage should be less than 7.4V, you can also refer to "
@@ -657,762 +549,1009 @@ msgid ""
 "https://www.facebook.com/groups/716473723088464/posts/777616293640873/"
 msgstr ""
 
-#: ../../guide/Assembly.rst:571
+#: ../../guide/Assembly.rst:486
+msgid "Install the battery pack."
+msgstr ""
+
+#: ../../guide/Assembly.rst:491
+msgid "Be careful of the carbon fiber front and rear orientation."
+msgstr ""
+
+#: ../../guide/Assembly.rst:496
 msgid ""
-"Install the battery pack. Be careful of the front and rear orientation. "
-"Fit the battery from the bottom to the top, then slide it backwards and "
-"secure it. Pass the cable through the hole in the bottom plate and bring "
-"it up to the top. "
-"バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。"
+"Slide the battery backwards and secure it. Pass the cable through the "
+"hole in the bottom plate and bring it up to the top."
+msgstr ""
+
+#: ../../guide/Assembly.rst:503
+#, fuzzy
+msgid "Step 5.5 Bottom plate"
+msgstr "下部"
+
+#: ../../guide/Assembly.rst:505
+msgid "The orientation of the plate must be such that the hole is at the front."
+msgstr ""
+
+#: ../../guide/Assembly.rst:513
+#, fuzzy
+msgid "Step 5.6 Display and Frame of face"
+msgstr "顔の組み立て"
+
+#: ../../guide/Assembly.rst:515
+msgid ""
+"Remove the protective sheet for the display. Fold the thin flexible cable"
+" at the edge of the display. Attach the board and the display to the main"
+" unit. When attaching the display, you can use a stick to gently push the"
+" flexible cable, so that it goes as far back as possible."
+msgstr ""
+
+#: ../../guide/Assembly.rst:535
+msgid "Be careful with the yellow parts as it has a front and back."
+msgstr ""
+
+#: ../../guide/Assembly.rst:548
+#, fuzzy
+msgid "Step 5.7 Custom circuit board"
+msgstr "カスタム PCB"
+
+#: ../../guide/Assembly.rst:550
+msgid "Plug the display cable into the custom circuit board."
+msgstr ""
+
+#: ../../guide/Assembly.rst:558
+msgid ""
+"Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . "
+"J12."
+msgstr ""
+
+#: ../../guide/Assembly.rst:563
+msgid "put on the carbon fiber board"
+msgstr ""
+
+#: ../../guide/Assembly.rst:568
+msgid ""
+"plug in the battery cable. This connector may interfere with the hips "
+"parts, so you have to slide it through a hole in the middle of the board."
+msgstr ""
+
+#: ../../guide/Assembly.rst:573
+msgid ""
+"Pull the custom circuit board closer to the body. The board may float, "
+"but you can use four long posts to hold it in place."
+msgstr ""
+
+#: ../../guide/Assembly.rst:585
+msgid ""
+"※ Need to pay attention to the cable of the No. 1 servo to prevent it "
+"from being overwhelmed."
 msgstr ""
 
 #: ../../guide/Assembly.rst:592
-msgid "Step 6.4 Custom circuit board"
-msgstr "カスタム PCB"
+#, fuzzy
+msgid "Step 5.8 Top plate and supports"
+msgstr "頭部固定準備"
 
 #: ../../guide/Assembly.rst:594
+msgid "Use four M2x5mm screws and four short supports."
+msgstr ""
+
+#: ../../guide/Assembly.rst:604
 msgid ""
-"Use four long supports. First, plug the display cable into the custom "
-"circuit board. Then, plug in the battery cable. This connector may "
-"interfere with the hips parts, so you have to slide it through a hole in "
-"the middle of the board as temporary solution. Next, you need to insert "
-"the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. "
-"After inserting the 12 cables, pull the custom circuit board closer to "
-"the body. The board may float, but you can use four long posts to hold it"
-" in place. "
-"長い支柱4本を使用します。最初にディスプレイのケーブルをカスタム回路基板に挿します。次にバッテリーのケーブルを挿します。このコネクタが臀部パーツに干渉する恐れがあるので、（暫定対策として）このコネクタを基板の真ん中の穴に通して逃しておきます。次にサーボのケーブルを12本挿します。写真で説明すると、J1,J2,J3...J12順番の通りに挿していきます。茶色がGNDなので全て手前になるように挿しましょう。12本のケーブルを挿したらカスタム回路基板をぐっと力を入れてボティに近づけます。ケーブルの反発で基板が浮いてきますが、長い支柱を4本挿して固定しましょう。"
+"Use eight M2x5mm screws. The orientation of the plate must be such that "
+"the large opening is at the front."
 msgstr ""
 
-#: ../../guide/Assembly.rst:620
-msgid ""
-"※ Need to pay attention to the cable of the No. 1 servo to prevent it "
-"from being overwhelmed. No.1サーボのケーブルに圧倒されないように注意する必要があります。"
+#: ../../guide/Assembly.rst:612
+msgid "Step 5.9 Fan"
 msgstr ""
 
-#: ../../guide/Assembly.rst:627
-msgid "Step 6.5 Fan"
+#: ../../guide/Assembly.rst:614
+msgid "To install the fan."
 msgstr ""
 
-#: ../../guide/Assembly.rst:629
-msgid "Use two M2x8mm screws. To install the fan. M2x8mmのボルト2本を使用します。ファンを取り付けます。"
+#: ../../guide/Assembly.rst:624
+msgid "Step 5.10 Raspberry Pi 4"
 msgstr ""
 
-#: ../../guide/Assembly.rst:641
-msgid "Step 6.6 Raspberry Pi 4"
-msgstr ""
-
-#: ../../guide/Assembly.rst:657
-msgid "7. Cover Assembly"
+#: ../../guide/Assembly.rst:635
+#, fuzzy
+msgid "6. Cover Assembly"
 msgstr "カバー部の組み立て"
 
-#: ../../guide/Assembly.rst:660 ../../guide/SLAM.rst:13
-#: ../../guide/Software.rst:13
+#: ../../guide/Assembly.rst:646
 #, fuzzy
-msgid "Tools 工具"
-msgstr "ツール"
+msgid "Step 6.1 Side panels"
+msgstr "本体のサイドパネル"
+
+#: ../../guide/Assembly.rst:655
+#, fuzzy
+msgid "Step 6.2 Shin guards"
+msgstr "もものカバー"
+
+#: ../../guide/Assembly.rst:657
+msgid "Use four M2x10mm countersunk screws."
+msgstr ""
 
 #: ../../guide/Assembly.rst:666
 #, fuzzy
-msgid "Bolt to use 使用するボルト"
-msgstr "使用するボルト"
-
-#: ../../guide/Assembly.rst:667
-msgid "M1.4x3mm      4x2=8"
-msgstr ""
+msgid "Step 6.3 Shoulders"
+msgstr "\"足のカバ"
 
 #: ../../guide/Assembly.rst:668
-msgid "M2x4mm        2x4=8"
-msgstr ""
-
-#: ../../guide/Assembly.rst:669
-msgid "M2x10mm       4+4=8"
-msgstr ""
-
-#: ../../guide/Assembly.rst:672
-msgid "Step 7.1 Side panels"
-msgstr "本体のサイドパネル"
-
-#: ../../guide/Assembly.rst:674
-msgid "Use eight M1.4x3mm countersunk screws. M1.4x3mmの皿ネジを8本使用します。"
+msgid ""
+"Insert only the screws first and then insert the shoulder parts into the "
+"gap. Insert the 2 mm hex driver into the hole in the shoulder part and "
+"tighten the screws."
 msgstr ""
 
 #: ../../guide/Assembly.rst:683
-msgid "Step 7.2 Shin guards"
-msgstr "もものカバー"
-
-#: ../../guide/Assembly.rst:685
-msgid "Use four M2x10mm countersunk screws. M2x10mmのボルトを4本使用します。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:694
 #, fuzzy
-msgid "Step 7.3 Shoulders 肩"
-msgstr "\"足のカバ"
-
-#: ../../guide/Assembly.rst:696
-msgid ""
-"Use 8 x M2x4mm screws. Insert only the screws first and then insert the "
-"shoulder parts into the gap. Insert the 2 mm hex driver into the hole in "
-"the shoulder part and tighten the screws. "
-"M2x4mmボルトを8本使用します。先にボルトだけ挿し、その隙間に肩パーツを差し込みます。肩パーツの穴に2mm六角レンチを入れてボルトを締めます。"
-msgstr ""
-
-#: ../../guide/Assembly.rst:711
-msgid "Step 7.4 Top cover"
+msgid "Step 6.4 Top cover"
 msgstr "頭部カバー"
 
-#: ../../guide/Assembly.rst:713
+#: ../../guide/Assembly.rst:685
 msgid ""
-"Use four M2x10mm screws; if the holes are too small to fit the screws, as"
+"Use four M2x10mm screws, if the holes are too small to fit the screws, as"
 " the part is made with a 3D printer, you can enlarge the holes by turning"
-" them with the supplied 2mm hexagonal screwdriver. "
-"M2x10mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。"
+" them with the supplied 2mm hexagonal screwdriver."
 msgstr ""
 
-#: ../../guide/Assembly.rst:725
-msgid "Step 7.5 Shoes"
+#: ../../guide/Assembly.rst:697
+#, fuzzy
+msgid "Step 6.5 Shoes"
 msgstr "足元"
 
-#: ../../guide/Assembly.rst:727
-msgid "Put on 4 shoes. 靴を4つ履く"
+#: ../../guide/Assembly.rst:699
+msgid "Put on 4 shoes."
 msgstr ""
 
-#: ../../guide/Assembly.rst:737
-msgid "Step 7.6 Completion!"
+#: ../../guide/Assembly.rst:709
+#, fuzzy
+msgid "Step 6.6 Completion!"
 msgstr "完成！"
 
-#: ../../guide/Expansions.rst:2
-msgid "Expansion functions"
-msgstr "拡張機能"
+#: ../../guide/Examples.rst:3
+msgid "Examples"
+msgstr ""
 
-#: ../../guide/Expansions.rst:8
-msgid "1. Facial Animation"
+#: ../../guide/Examples.rst:17
+msgid "1. Custom shell parts"
+msgstr ""
+
+#: ../../guide/Examples.rst:18
+msgid ""
+"Pupper is open source project, that means, you can custom what you want. "
+"You can find all the `3D printed shell files "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi?usp=sharing>`_  and custom them."
+msgstr ""
+
+#: ../../guide/Examples.rst:22
+#, fuzzy
+msgid "2. Custom Facial Animation"
 msgstr "顔写真のカスタマイズ"
 
-#: ../../guide/Expansions.rst:11
-msgid "Prerequisites"
+#: ../../guide/Examples.rst:25
+msgid "2.1 Prerequisites"
 msgstr ""
 
-#: ../../guide/Expansions.rst:13
-msgid "HDMI ポート付きのディスプレイ"
+#: ../../guide/Examples.rst:29
+msgid "Keyboard and mouse"
 msgstr ""
 
-#: ../../guide/Expansions.rst:17
-msgid "ディスプレイ用のダプター"
+#: ../../guide/Examples.rst:30
+msgid "a new picture"
 msgstr ""
 
-#: ../../guide/Expansions.rst:21
-msgid "HDMI ケーブル"
+#: ../../guide/Examples.rst:36
+msgid "2.2 Run"
 msgstr ""
 
-#: ../../guide/Expansions.rst:25
-msgid "マウスとキーボード"
+#: ../../guide/Examples.rst:38
+msgid "Connect MiniPupper to the display by mirco HDMI cable"
 msgstr ""
 
-#: ../../guide/Expansions.rst:29
-msgid "顔用の写真および写真ファイルが入っている USB メモリ"
+#: ../../guide/Examples.rst:43
+msgid "A: wireless adapter for the keyboard and mouse"
 msgstr ""
 
-#: ../../guide/Expansions.rst:34
-msgid "2. Gait Performance"
+#: ../../guide/Examples.rst:44
+msgid "B: mirco HDMI cable"
 msgstr ""
 
-#: ../../guide/Expansions.rst:36
+#: ../../guide/Examples.rst:46
+msgid "Ubuntu login"
+msgstr ""
+
+#: ../../guide/Examples.rst:51
+msgid "The default password is mangdang"
+msgstr ""
+
+#: ../../guide/Examples.rst:54
+msgid "3. Keyboard controller"
+msgstr ""
+
+#: ../../guide/Examples.rst:57
+msgid "3.1 Keyboard controller based on nonROS version"
+msgstr ""
+
+#: ../../guide/Examples.rst:58
+msgid ""
+"The feature is based on `PupperKeyboardController project "
+"<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_, "
+"it's Pygame-based keyboard controller for Stanford Pupper."
+msgstr ""
+
+#: ../../guide/Examples.rst:60
+msgid "Install PyGame"
+msgstr ""
+
+#: ../../guide/Examples.rst:66
+#, fuzzy
+msgid "Controls"
+msgstr "コントローラの操作"
+
+#: ../../guide/Examples.rst:80
+msgid "3.2 Keyboard controller based on ROS version"
+msgstr ""
+
+#: ../../guide/Examples.rst:82
+msgid "Please refer to the SLAM section."
+msgstr ""
+
+#: ../../guide/Examples.rst:85
+msgid "4. Web controller"
+msgstr ""
+
+#: ../../guide/Examples.rst:87 ../../guide/Examples.rst:92
+#: ../../guide/Examples.rst:108
 msgid "Will update soon!"
 msgstr ""
 
-#: ../../guide/Operation.rst:3
-msgid "Robot operation"
+#: ../../guide/Examples.rst:90
+msgid "5. Mobile controller"
+msgstr ""
+
+#: ../../guide/Examples.rst:95
+msgid "6. Docker"
+msgstr ""
+
+#: ../../guide/Examples.rst:98
+msgid "6.1 Docker for Pupper"
+msgstr ""
+
+#: ../../guide/Examples.rst:99
+msgid ""
+"Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
+"ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:102
+msgid "6.2 Docker for Host"
+msgstr ""
+
+#: ../../guide/Examples.rst:103
+msgid ""
+"Host computer setup for interfacing with a Mini Pupper over a network, "
+"comes from `mp_host_setup project "
+"<https://github.com/zmk5/mp_host_setup.git>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:106
+msgid "7. Scratch program"
+msgstr ""
+
+#: ../../guide/Features.rst:2
+msgid "Features"
+msgstr ""
+
+#: ../../guide/Features.rst:11
+msgid "Hardware Specifications"
+msgstr ""
+
+#: ../../guide/Features.rst:13
+msgid "Dimensions: 210x110x165mm"
+msgstr ""
+
+#: ../../guide/Features.rst:14
+msgid "Weight: 509g"
+msgstr ""
+
+#: ../../guide/Features.rst:15
+msgid "Battery: 1000mAh / micro-usb charge"
+msgstr ""
+
+#: ../../guide/Features.rst:16
+msgid "Processor: Raspberry Pi 4B"
+msgstr ""
+
+#: ../../guide/Features.rst:17
+msgid "Screen: 240x320 ISP LCD"
+msgstr ""
+
+#: ../../guide/Features.rst:18
+msgid "Input charger: 5V 1A"
+msgstr ""
+
+#: ../../guide/Features.rst:19
+msgid "OS: Ubuntu/ROS"
+msgstr ""
+
+#: ../../guide/Features.rst:22
+msgid "Dimension"
+msgstr ""
+
+#: ../../guide/Features.rst:27
+msgid "Open Source Hardware"
+msgstr ""
+
+#: ../../guide/Features.rst:29
+msgid "Lidar module"
+msgstr ""
+
+#: ../../guide/Features.rst:31
+msgid ""
+"If you want to explore ROS SLAM, Navigation functions based on Lidar, you"
+" also need a Lidar module. We can ONLY ensure the Lidar module can work "
+"well based on our source code, and NOT ensure that you get from other "
+"channels. We already tested some Lidar modules, such as, PRLidar A1, "
+"YDLidar X2L, and LD06. For Mini Pupper, we refer to LD06 as it is "
+"smaller."
+msgstr ""
+
+#: ../../guide/Features.rst:33
+msgid "OpenCV Camera module"
+msgstr ""
+
+#: ../../guide/Features.rst:35
+msgid ""
+"For potential security issues, the camera module is not included in our "
+"default package. If you want to explore camera AI functions, you can "
+"choose a normal USB camera module, of course, a 3D camera module is "
+"better for study. If try the 3D camera module, we recommend you OpenCV's "
+"latest 3D camera module, named OAK-D LITE, comes from OpenCV&Luxonis. We "
+"have good relationship with Luxonis, their RobotHub will release more "
+"interesting demos soon."
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:3
+msgid "How To Order"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:9 ../../guide/MachineLearning.rst:9
+#: ../../guide/Navigation.rst:9
+msgid "Summary"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:11
+msgid ""
+"Mini Pupper was released by `MangDang <https://www.mangdang.net/>`_ on "
+"2021, many makers all over the world are contributing Pupper robot "
+"project, as it is open source based software, hardware, and content. We "
+"are encouraging more partners and research collaborators to participate "
+"in this project to enrich the robotics field. Looking forward to more "
+"partners who can provide technology, educational service or distribution "
+"in each country."
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:13
+msgid ""
+"If you are interested in a partnership with us to realize open source "
+"robotics, please send an email to us( sales@mangdang.net ), thanks!"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:16
+msgid "Order parts individually"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:17
+msgid ""
+"You can order all the parts one by one, Please find the BOM list to order"
+" `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ ."
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:19
+msgid ""
+"However, you can purchase a kit to build the robot from MangDang channel "
+"for cheaper and one-stop shopping."
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:22
+msgid "One-stop channel"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:24
+msgid "World wide"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:25
+msgid "`MANGDANG (HK) LIMITED <https://www.mangdang.net/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:26
+msgid "`Shopify <https://mangdang.store/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:27
+msgid ""
+"`Aliexpress "
+"<https://www.aliexpress.com/store/911381222?spm=a2g0o.detail.1000007.1.2ed464e6sdYBwy>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:30
+msgid "North America"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:31
+msgid ""
+"`Amazon "
+"<https://www.amazon.com/s?me=A3V5171RNQ5C18&marketplaceID=ATVPDKIKX0DER>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:32
+msgid "`RobotShop <https://www.robotshop.com/en/vendor/mangdang.html>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:35
+msgid "Japan"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:36
+msgid ""
+"`Amazon "
+"<https://www.amazon.co.jp/s?me=A14LOTMOI42BRX&marketplaceID=A1VC38T7YXB528>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:37
+msgid "`Makuake <https://www.makuake.com/project/mini_pupper/shopping/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:40
+msgid "China"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:41
+msgid ""
+"`Taobao "
+"<https://shop170300127.taobao.com/search.htm?spm=a1z10.1-c-s.w5002-22838104363.1.6d5d661eivPk3l&search=y>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:42
+msgid ""
+"`WHEELTEC "
+"<https://item.taobao.com/item.htm?spm=a230r.1.14.6.22fa6a73ftZSHR&id=672561778737&ns=1&abbucket=13#detail>`_"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:3
+msgid "Machine Learning"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:18
+msgid ""
+"For potential security issues, the camera module is not included in our "
+"default package. If you want to explore camera AI functions, you can "
+"choose a normal USB camera module, of course, a 3D camera module is "
+"better for study. If try the 3D camera module, we recommend you OpenCV's "
+"latest 3D camera module, named OAK-D LITE, comes from OpenCV&Luxonis."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:21
+msgid "1. Single camera module"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:23
+msgid "1.1 Collision Avoidance"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:24 ../../guide/MachineLearning.rst:28
+#: ../../guide/MachineLearning.rst:32 ../../guide/MachineLearning.rst:36
+#: ../../guide/MachineLearning.rst:40 ../../guide/MachineLearning.rst:62
+msgid "Will update late."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:27
+#, fuzzy
+msgid "1.2 Teleoperation"
 msgstr "「ミニぷぱ」 操作"
 
-#: ../../guide/Operation.rst:9
-msgid "Running the robot"
+#: ../../guide/MachineLearning.rst:31
+msgid "1.3 Road Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:35
+msgid "1.4 Object Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:39
+msgid "1.5 Face Detect"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:43
+msgid "2. 3D(OAK-D-Lite) camera module"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:46
+msgid "2.1 Object Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:47
+msgid ""
+"You can download the `pre-built ROS image "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ , named \"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\" to "
+"test the object following feature using OAK-D-LITE 3D camera module."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:61
+msgid "2.2 Live streaming"
+msgstr ""
+
+#: ../../guide/Navigation.rst:3
+#, fuzzy
+msgid "Navigation"
+msgstr "SLAM・ナビゲーション"
+
+#: ../../guide/Navigation.rst:17
+msgid ""
+"Mini Pupper's ROS version is based on `Champ "
+"<https://github.com/chvmp/champ>`_  open source project, and we made some"
+" changes to Navigation functions."
+msgstr ""
+
+#: ../../guide/Navigation.rst:21
+msgid "1. ROS1(Noetic) Navigation based on Lidar"
+msgstr ""
+
+#: ../../guide/Navigation.rst:22
+msgid ""
+"Before run the below steps, please confirm you already prepared all the "
+"environment in SLAM section."
+msgstr ""
+
+#: ../../guide/Navigation.rst:25
+msgid "1.1 Change the map file"
+msgstr ""
+
+#: ../../guide/Navigation.rst:26
+msgid ""
+"Before running navigation, you should first change the launch file with "
+"the map you created. ::"
+msgstr ""
+
+#: ../../guide/Navigation.rst:33
+msgid "Then change arg of the map_file and pbstream_file."
+msgstr ""
+
+#: ../../guide/Navigation.rst:40
+msgid "1.2 Run the base driver"
+msgstr ""
+
+#: ../../guide/Navigation.rst:41
+msgid "**You should run this command on Mini Pupper** ::"
+msgstr ""
+
+#: ../../guide/Navigation.rst:47
+msgid "1.3 Run Cartographer(for localization) and Move_Base"
+msgstr ""
+
+#: ../../guide/Navigation.rst:48
+msgid ""
+"**You should run this command on PC** **If you are using gazebo, set the "
+"param /use_sim_time to true in the launch file.** ::"
+msgstr ""
+
+#: ../../guide/QuickStartGuide.rst:3
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../../guide/QuickStartGuide.rst:9
+#, fuzzy
+msgid "Run Pupper Robot"
 msgstr "ミニぷぱ（以下、本体）を動かします"
 
-#: ../../guide/Operation.rst:10
+#: ../../guide/QuickStartGuide.rst:19
+msgid "|youtu.be-pre-assembled-user-guide|"
+msgstr "|youtu.be-pre-assembled-user-guide-ja|"
+
+#: ../../guide/QuickStartGuide.rst:21
 msgid "Power On Mini Pupper"
 msgstr "電源を入れます"
 
-#: ../../guide/Operation.rst:12
+#: ../../guide/QuickStartGuide.rst:23
+#, fuzzy
 msgid ""
-"Push on the power button for at least 3 seconds on the battery to power "
-"on Mini Pupper. After power on, if you push on the power button for at "
-"least 3 seconds again, it will power off."
+"Push on the battery power button for at least 3 seconds to power on Mini "
+"Pupper. After power on, if you push on the power button for at least 3 "
+"seconds again, it will power off."
 msgstr ""
 "本体下にある電源ボタンを 3 "
 "秒長押しして立ち上げ、ランプが点灯します。本体の電源を切る際も、同じボタンを3秒長押ししますと、電源切りになり、ランプも消えます。"
 
-#: ../../guide/Operation.rst:22
-msgid "|youtu.be-pre-assembled-user-guide|"
-msgstr "|youtu.be-pre-assembled-user-guide-ja|"
-
-#: ../../guide/Operation.rst:24
-msgid ""
-"Connect the PS4 controller to the Pi by putting it pairing mode. "
-"コントローラーをペアリングモードにしてRaspberry Piに接続します。"
+#: ../../guide/QuickStartGuide.rst:25
+msgid "Connect the controller to the Pi by putting it pairing mode."
 msgstr ""
 
-#: ../../guide/Operation.rst:26
+#: ../../guide/QuickStartGuide.rst:27 ../../guide/QuickStartGuide.rst:74
 msgid ""
-"To put it into pairing mode, hold the share button and circular "
-"Playstation button at the same time until it starts making quick double "
-"flashes. "
-"ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に3秒以上長押しします。その後、ライトが2回点滅し始めます。"
+"To put it into pairing mode, hold the share button and home button at the"
+" same time until it starts making quick double flashes."
 msgstr ""
 
-#: ../../guide/Operation.rst:27 ../../guide/Operation.rst:92
+#: ../../guide/QuickStartGuide.rst:28
 msgid ""
-"If it starts making slow single flashes, hold the Playstation button down"
-" until it stops blinking and try again. "
-"もし、ゆっくりと1回点滅し始めた場合、点滅が止まるまでPSボタンを押し続けて、もう一度やり直してください。"
+"If it starts making slow single flashes, hold the home button down until "
+"it stops blinking(about 15s) and try again."
 msgstr ""
 
-#: ../../guide/Operation.rst:33
+#: ../../guide/QuickStartGuide.rst:33
 msgid ""
 "Wait until the controller binds to the robot, at which point the "
 "controller should turn a dim green (or whatever color you chose in "
-"pupper/HardwareConfig.py for the deactivated color). "
-"コントローラーが本体に接続されるまで待ちます。"
+"pupper/HardwareConfig.py for the deactivated color)."
 msgstr ""
 
-#: ../../guide/Operation.rst:34
+#: ../../guide/QuickStartGuide.rst:34
 msgid ""
 "Press L1 on the controller to \"activate\" the robot. The controller "
 "should turn bright green (or again, whatever you chose in "
-"HardwareConfig). コントローラーのL1を押して、本体を「アクティブ化」します。 "
-"ここでコントローラーライトは明るい緑色に変わります。"
+"HardwareConfig)."
 msgstr ""
 
-#: ../../guide/Operation.rst:35
+#: ../../guide/QuickStartGuide.rst:35
 msgid ""
 "You're good to go! Check out the controls section below for operating "
-"instructions. 上記で準備が完了です。操作手順については、以下の制御セクションを確認してください。"
+"instructions."
 msgstr ""
 
-#: ../../guide/Operation.rst:38
-msgid "Robot controls"
+#: ../../guide/QuickStartGuide.rst:38
+#, fuzzy
+msgid "Pupper Robot controls"
 msgstr "コントローラの操作"
 
-#: ../../guide/Operation.rst:40
+#: ../../guide/QuickStartGuide.rst:40
+msgid "L1: Press to toggle active mode and deactivate mode."
+msgstr ""
+
+#: ../../guide/QuickStartGuide.rst:42
 msgid ""
-"L1: Press to toggle active mode and deactivate mode. "
-"L1を押し、アクティブモードと非アクティブモードに切り替えます。"
+"Note: the controller's front light will change colors to indicate if the "
+"robot is deactivated or activated."
 msgstr ""
 
-#: ../../guide/Operation.rst:42
-msgid ""
-"Note: the PS4 controller's front light will change colors to indicate if "
-"the robot is deactivated or activated. "
-"コントローラーのライトは、本体がアクティブ化されているか、されていないかを示すために色が変わります。"
+#: ../../guide/QuickStartGuide.rst:44
+msgid "R1: Press to transition between Rest mode and Trot mode."
 msgstr ""
 
-#: ../../guide/Operation.rst:44
-msgid ""
-"R1: Press to transition between Rest mode and Trot mode. "
-"R1を押して、レストモードとトロットモードに切り替えます。"
+#: ../../guide/QuickStartGuide.rst:46
+msgid "Left joystick"
 msgstr ""
 
-#: ../../guide/Operation.rst:51
-msgid "Left joystick　左スティック"
+#: ../../guide/QuickStartGuide.rst:48
+msgid "Forward/back: moves the robot forward/backward when in Trot mode."
 msgstr ""
 
-#: ../../guide/Operation.rst:53
-msgid ""
-"Forward/back　前進/後退: moves the robot forward/backwards when in Trot mode. "
-"トロットモード時、本体を前進/後退させます"
+#: ../../guide/QuickStartGuide.rst:49
+msgid "Left/right: moves the robot left/right when in Trot mode."
 msgstr ""
 
-#: ../../guide/Operation.rst:54
-msgid ""
-"Left/right 左/右: moves the robot left/right when in Trot mode. "
-"トロットモード時、本体を左/右に動かします。"
+#: ../../guide/QuickStartGuide.rst:51
+msgid "Right joystick"
 msgstr ""
 
-#: ../../guide/Operation.rst:60
-msgid "Right joystick 右スティック"
+#: ../../guide/QuickStartGuide.rst:53
+msgid "Forward/back: pitches the robot forward/backward."
 msgstr ""
 
-#: ../../guide/Operation.rst:62
-msgid ""
-"Forward/back 前方/後方: pitches the robot forward and backward. "
-"本体を前方および後方にピッチングします。"
+#: ../../guide/QuickStartGuide.rst:54
+msgid "Left/right: turns the robot left/right."
 msgstr ""
 
-#: ../../guide/Operation.rst:63
-msgid "Left/right 左/右: turns the robot left and right. 本体を左右に回転させます。"
+#: ../../guide/QuickStartGuide.rst:58
+msgid "D-Pad"
 msgstr ""
 
-#: ../../guide/Operation.rst:70
-msgid "D-Pad 十字キー"
+#: ../../guide/QuickStartGuide.rst:57
+msgid "Forward/back: raises and lowers the body."
 msgstr ""
 
-#: ../../guide/Operation.rst:69
-msgid "Forward/back 前後: raises and lowers the body. 体を上げ下げします。"
+#: ../../guide/QuickStartGuide.rst:58
+msgid "Left/rights: rolls the body left/right."
 msgstr ""
 
-#: ../../guide/Operation.rst:70
-msgid "Left/rights 左/右: rolls the body left/right. 体を左/右に回転させます。"
+#: ../../guide/QuickStartGuide.rst:60
+msgid "\"X\" button: Press it three times to complete a full hop."
 msgstr ""
 
-#: ../../guide/Operation.rst:75
-msgid ""
-"\"X\" button 「X」ボタン: Press it three times to complete a full hop. "
-"3回押すと、ジャンプします。"
+#: ../../guide/QuickStartGuide.rst:62
+msgid "Shut down the system to press controller circle botton for 3 seconds."
 msgstr ""
 
-#: ../../guide/Operation.rst:77
-msgid "Power off  電源オフ"
+#: ../../guide/QuickStartGuide.rst:67
+msgid "Power off the battery"
 msgstr ""
 
-#: ../../guide/Operation.rst:79
-msgid ""
-"※ Note that a broken SD card will not be restored... It's a bit of a "
-"pain, but you can end it with a command. After about 30 seconds, it will "
-"shut down and you can press and ※ hold the button on the bottom to turn "
-"it off. "
-"壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。"
-msgstr ""
-
-#: ../../guide/Operation.rst:81
-msgid ""
-"※ You can shutdown Ubuntu by pressing and holding the triangle button. "
-"△ボタンを長押しでUbuntuをシャットダウンできます。"
-msgstr ""
-
-#: ../../guide/Operation.rst:87
+#: ../../guide/QuickStartGuide.rst:70
 msgid "Important Notes"
 msgstr "注意事項"
 
-#: ../../guide/Operation.rst:89
+#: ../../guide/QuickStartGuide.rst:72
+msgid "Controller pairing instructions (repeat of instructions above)"
+msgstr ""
+
+#: ../../guide/QuickStartGuide.rst:75
 msgid ""
-"PS4 controller pairing instructions (repeat of instructions above) "
-"コントローラーのペアリング手順（上記の手順の繰り返し）"
+"If it starts making slow single flashes, hold the home button down until "
+"it stops blinking and try again."
 msgstr ""
 
-#: ../../guide/Operation.rst:91
+#: ../../guide/QuickStartGuide.rst:77
+msgid "Battery voltage"
+msgstr ""
+
+#: ../../guide/QuickStartGuide.rst:79
 msgid ""
-"To put it into pairing mode, hold the share button and circular "
-"Playstation button at the same time until it starts making quick double "
-"flashes. ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に押し続けます。その後、ライトが2回点滅し始めます。"
+"If you use external power supply to power the robot with anything higher "
+"than 8.4V (aka >2S) you'll almost certainly fry all your servos!"
 msgstr ""
 
-#: ../../guide/Operation.rst:94
-msgid "Battery voltage バッテリー電圧"
+#: ../../guide/SLAM.rst:3
+msgid "SLAM"
 msgstr ""
 
-#: ../../guide/Operation.rst:96
+#: ../../guide/SLAM.rst:9
+msgid "SLAM(Simultaneous Localization and Mapping)"
+msgstr ""
+
+#: ../../guide/SLAM.rst:17
 msgid ""
-"If you power the robot with anything higher than 8.4V (aka >2S) you'll "
-"almost certainly fry all your expensive servos! 8.4V（別名> "
-"2S）を超えるものでロボットに電力を供給すると、すべての高価なサーボが壊れてしまう可能性が高くなります。"
-msgstr ""
-
-#: ../../guide/Operation.rst:97
-msgid ""
-"Please note that a lipo battery alarm is attached to the battery to "
-"indicate that the battery is exhausted when starting the robot. "
-"本体を起動する際、バッテリーが消耗したことを提示するため、バッテリーにリポバッテリーアラームを取り付けているので、ご注意ください。"
-msgstr ""
-
-#: ../../guide/Operation.rst:98
-msgid ""
-"Also note that you should attach a lipo battery alarm to your battery "
-"when running the robot so that you are know when the battery is depleted."
-" Discharging your battery too much runs the risk of starting a fire, "
-"especially if you try to charge it again after it's been completely "
-"discharged. A good rule-of-thumb for know when a lipo is discharged is "
-"checking whether the individual cell voltages are below 3.6V. "
-"完全に放電した後、再度充電する際など、バッテリーの放電が多すぎると、火災が発生する危険性があります。バッテリーがいつ放電されるかを知るための経験則は、個々のセル電圧が3.6V未満であるかどうかをチェックすることです。"
-msgstr ""
-
-#: ../../guide/Operation.rst:99
-msgid ""
-"The robot will walk much more poorly when the battery is mostly "
-"discharged since a lower voltage is going to the motors. "
-"また、モーターへの電圧が低くなるため、バッテリーが大概放電していると、ロボットの歩行が鈍くなります。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:2
-msgid "SLAM & Navigation"
-msgstr "SLAM・ナビゲーション"
-
-#: ../../guide/SLAM.rst:7
-msgid ""
-"Software setup for the SLAM & Navigation functions. SLAM & "
-"Navigation機能のソフトウェアセットアップ。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:10
-msgid "1. Things to prepare 準備するもの"
-msgstr ""
-
-#: ../../guide/SLAM.rst:16
-msgid "PC（OS：Ubuntu20.04）"
+"Mini Pupper's ROS version is based on `Champ "
+"<https://github.com/chvmp/champ>`_  open source project, and we made some"
+" changes to SLAM and Navigation functions."
 msgstr ""
 
 #: ../../guide/SLAM.rst:21
-msgid "New SD card 新しいSDカード"
-msgstr ""
+#, fuzzy
+msgid "1.Installation"
+msgstr "顔写真のカスタマイズ"
 
-#: ../../guide/SLAM.rst:22
+#: ../../guide/SLAM.rst:23
 msgid ""
-"Wi-Fi(PC and MiniPupper must be on the same network) Wi-"
-"Fiの環境（PCとMiniPupperを同じネットワークにする必要ある）"
+"We recommend you explore Mini Pupper with ROS network, make sure your PC "
+"and Mini Pupper have connected to the same WiFi."
 msgstr ""
 
-#: ../../guide/SLAM.rst:25
-msgid "2. Setup on the PC side PC側の環境セットアップ"
+#: ../../guide/SLAM.rst:26
+msgid "1.1 PC Setup"
 msgstr ""
 
 #: ../../guide/SLAM.rst:27
-msgid "Step 2.1 Download the image  イメージのダウンロード"
+msgid ""
+"PC Setup corresponds to PC (your desktop or laptop PC) for controlling "
+"Mini Pupper remotely. Do not apply these commands to your Mini Pupper."
 msgstr ""
 
 #: ../../guide/SLAM.rst:29
-msgid ""
-"\"MiniPupper2004.zip\" is zip file of the image for the Ubuntu + ROS "
-"version for SLAM & Navigation. Download and unzip the zip "
-"file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + "
-"ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。"
+msgid "1.1.1 Cartographer ROS packages installation"
 msgstr ""
 
 #: ../../guide/SLAM.rst:31
 msgid ""
-"`MiniPupper2004.zip <https://drive.google.com/file/d/11zeivhN-"
-"fyTMdf6iuhcVD-Ib6aKj7s_5/view?usp=sharing>`_"
-msgstr ""
-
-#: ../../guide/SLAM.rst:34
-msgid "Step 2.2 Write the image into microSD microSDにイメージを書く"
-msgstr ""
-
-#: ../../guide/SLAM.rst:36
-msgid ""
-"Here we introduce the method of writing the image into microSD through "
-"Raspberry Pi's Imager. "
-"ここでは、RaspberryPiのImagerを使用してイメージをmicroSDに書き込む方法を紹介します。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:38
-msgid "Install the Imager tool of the Raspberry Pi. RaspberryPiのImagerツールをインストール"
-msgstr ""
-
-#: ../../guide/SLAM.rst:44
-msgid "Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:49
-msgid "Step 2.3 Install ROS noetic ROS noeticをインストールする"
+"Our SLAM and Navigation functions are based on `cartographer_ros <https"
+"://google-cartographer-ros.readthedocs.io/en/latest/compilation.html>`_ ."
 msgstr ""
 
 #: ../../guide/SLAM.rst:51
-msgid ""
-"You can skip this step if you have already installed ROS noetic. "
-"Basically you can follow the instructions on "
-"http://wiki.ros.org/noetic/Installation/Ubuntu. ROS "
-"noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu"
-" の指示に従うことができます。"
+msgid "1.1.2 Mini Pupper ROS packages installation"
 msgstr ""
 
-#: ../../guide/SLAM.rst:54
-msgid "Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ"
+#: ../../guide/SLAM.rst:63
+msgid "1.1.3 Network Setup"
 msgstr ""
 
-#: ../../guide/SLAM.rst:75
+#: ../../guide/SLAM.rst:65
 msgid ""
-"Step 2.5 Compile the package for Mini Pupper ROS Mini Pupper "
-"ROS用のパッケージをコンパイル"
+"Connect your PC and Mini Pupper to the same WiFi and find the assigned IP"
+" address with the command below."
+msgstr ""
+
+#: ../../guide/SLAM.rst:71
+msgid "Open the file and update ROS IP settings with commands below."
 msgstr ""
 
 #: ../../guide/SLAM.rst:77
+msgid "Then add your Master and hostname config, for an example"
+msgstr ""
+
+#: ../../guide/SLAM.rst:87
+msgid "1.2 Mini Pupper Setup"
+msgstr ""
+
+#: ../../guide/SLAM.rst:89
 msgid ""
-"Download the required package `mnpp_ws.zip "
-"<https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_"
-"  and unzip it to home. 必要なパッケージ `mnpp_ws.zip "
-"<https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_"
-" をダウンロードして、homeに解凍します。"
+"You can also download the `pre-built ROS image "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ for Mini Pupper side, named "
+"\"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\"."
 msgstr ""
 
-#: ../../guide/SLAM.rst:82
-msgid "Compile the package. パッケージをコンパイルします。"
+#: ../../guide/SLAM.rst:91
+msgid "1.2.1 Hardware Dependencies"
 msgstr ""
 
-#: ../../guide/SLAM.rst:97
-msgid "Step 2.6 Network setup ネットワークのセットアップ"
-msgstr ""
-
-#: ../../guide/SLAM.rst:99 ../../guide/SLAM.rst:160
+#: ../../guide/SLAM.rst:93
 msgid ""
-"Connect your PC and MiniPupper to the same WiFi and find the IP address "
-"assigned by the command ifconfig. "
-"PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。"
+"You should first install dependencies of servos, battery moniter and "
+"display screen. Please refer to `minipupper_ros_bsp "
+"<https://github.com/mangdangroboticsclub/minipupper_ros_bsp>`_ ."
 msgstr ""
 
-#: ../../guide/SLAM.rst:105 ../../guide/SLAM.rst:166
-msgid "Open the bashrc file. bashrcファイルを開きます。"
+#: ../../guide/SLAM.rst:96
+msgid "1.2.2 Controller Joystick interface installation"
 msgstr ""
 
-#: ../../guide/SLAM.rst:111 ../../guide/SLAM.rst:172
+#: ../../guide/SLAM.rst:98
 msgid ""
-"Update the ROS IP settings with the following command to add the master "
-"and hostname configuration in the bashrc file. "
-"以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。"
+"The Joystick interface in ROS is based on `ps4-ros "
+"<https://github.com/solbach/ps4-ros>`_  project."
 msgstr ""
 
-#: ../../guide/SLAM.rst:113 ../../guide/SLAM.rst:174
+#: ../../guide/SLAM.rst:109
 msgid ""
-"※ 192.168.1.7 is the IP of the PC. you need to enter the IP of your PC. "
-"192.168.1.7はPCのIPです。 PCのIPを入力する必要があります。"
+"Then go into pairing mode with the controller: Home button + share button"
+" for ~3 sec. Run $ds4drv from command line until the controller is "
+"connected."
 msgstr ""
 
-#: ../../guide/SLAM.rst:122 ../../guide/SLAM.rst:183
-msgid "Source the .bashrc file."
+#: ../../guide/SLAM.rst:116
+msgid ""
+"This will output something like \"Created devices /dev/input/jsX\". Then "
+"give the permissions to the device"
 msgstr ""
 
-#: ../../guide/SLAM.rst:132
-msgid "3. Setup on the MiniPupper side MiniPupper側の環境セットアップ"
+#: ../../guide/SLAM.rst:124
+msgid "1.2.3 Mini Pupper ROS packages installation"
 msgstr ""
 
-#: ../../guide/SLAM.rst:135
-msgid "Step 3.1 Replace the new SD card 新しいSDカードを入れ替わる"
+#: ../../guide/SLAM.rst:126
+msgid ""
+"**Then you can install the ROS packages for Mini Pupper. This should be "
+"installed both on Mini Pupper and your PC.**"
 msgstr ""
 
 #: ../../guide/SLAM.rst:141
-msgid "Step 3.2 Attach Lidar Lidarの取り付け"
+msgid "1.2.4 Network Setup"
 msgstr ""
 
 #: ../../guide/SLAM.rst:143
 msgid ""
-"※ You can use a shorter USB cable to connect the Lidar and MiniPupper. "
-"もっと短いUSBケーブルを使用して、LidarとMiniPupperを接続できます。"
+"Connect your PC and Mini Pupper to the same WiFi and find the assigned IP"
+" address with commands below."
 msgstr ""
 
-#: ../../guide/SLAM.rst:145
+#: ../../guide/SLAM.rst:149
+msgid "Open the file and update the ROS IP settings with the command below."
+msgstr ""
+
+#: ../../guide/SLAM.rst:155
+msgid "Then add your Master and hostname config,for an example"
+msgstr ""
+
+#: ../../guide/SLAM.rst:164
+msgid "2.Quick Start"
+msgstr ""
+
+#: ../../guide/SLAM.rst:167
+#, fuzzy
+msgid "2.1 Calibration"
+msgstr "顔写真のカスタマイズ"
+
+#: ../../guide/SLAM.rst:169
 msgid ""
-"Place Lidar on the Stand and tighten with tapping screws (2 pieces).  "
-"Lidarを台の上に載せて、タッピングビス（2個）で締めます。"
+"Through this script, you can calibrate the angle of every servo in one "
+"turn. Just input the angles.</br> The hip and shank should be horizontal,"
+" and the ham should be vertical."
 msgstr ""
 
-#: ../../guide/SLAM.rst:150
-msgid "Attach Lidar to Mini Pupper LidarをMiniPupperに取り付ける"
+#: ../../guide/SLAM.rst:176
+msgid "Make sure Mini Pupper looks like this after calibrating."
 msgstr ""
 
-#: ../../guide/SLAM.rst:156
-msgid "Step 3.3 Network setup ネットワークのセットアップ"
+#: ../../guide/SLAM.rst:182
+msgid "2.2 Walking"
 msgstr ""
 
-#: ../../guide/SLAM.rst:158
+#: ../../guide/SLAM.rst:184
+msgid "2.2.1 Run the base driver"
+msgstr ""
+
+#: ../../guide/SLAM.rst:186 ../../guide/SLAM.rst:238
+msgid "**You should run this command on Mini Pupper**"
+msgstr ""
+
+#: ../../guide/SLAM.rst:192
 msgid ""
-"Connect the MiniPupper to the HDMI display, then power on. "
-"MiniPupperをHDMIディスプレイに接続し、電源を入れます。"
+"If Mini Pupper didn't stand as what you expect, you can edit "
+"calibration.yaml in servo_interface/config/calibration to fix the angles."
 msgstr ""
 
-#: ../../guide/SLAM.rst:176 ../../guide/SLAM.rst:233 ../../guide/SLAM.rst:275
-#: ../../guide/SLAM.rst:311 ../../guide/SLAM.rst:359
+#: ../../guide/SLAM.rst:194
+msgid "2.2.2 Control Mini Pupper"
+msgstr ""
+
+#: ../../guide/SLAM.rst:196
+msgid "There are two options to control Mini Pupper:"
+msgstr ""
+
+#: ../../guide/SLAM.rst:198
+msgid "1.Use keyboard"
+msgstr ""
+
+#: ../../guide/SLAM.rst:200
+msgid "**It's recommended to run this command on PC.**"
+msgstr ""
+
+#: ../../guide/SLAM.rst:207
+msgid "2.Use the controller"
+msgstr ""
+
+#: ../../guide/SLAM.rst:209
+msgid "**It's recommended to run this command on Mini Pupper.**"
+msgstr ""
+
+#: ../../guide/SLAM.rst:211
 msgid ""
-"※ 192.168.1.4 is the IP of the raspberry Pi. you need to enter the IP of "
-"your raspberry Pi. 192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。"
+"**Don't run this command while using move_base because even if you are "
+"doing nothing with the joystick, it would still send cmd_vel with all the"
+" values as zero.**"
 msgstr ""
 
-#: ../../guide/SLAM.rst:193
-msgid "Step 3.4 Automatic time update settings 時間の自動更新の設定"
+#: ../../guide/SLAM.rst:217
+msgid "For the controller usage, please refer to Quick Start Guide."
 msgstr ""
 
-#: ../../guide/SLAM.rst:195
-msgid "Set the correct time zone to your country. お住まいの国に正しいタイムゾーンを設定してください。"
+#: ../../guide/SLAM.rst:219
+msgid "2.2.2 LCD Screen"
 msgstr ""
 
-#: ../../guide/SLAM.rst:197 ../../guide/SLAM.rst:210 ../../guide/SLAM.rst:251
-msgid "The video is shown as below. ビデオは以下のように表示されます。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:206
-msgid "Step 3.5 Modify the IO settings IO設定の変更"
-msgstr ""
-
-#: ../../guide/SLAM.rst:208
+#: ../../guide/SLAM.rst:225
 msgid ""
-"You need to change the IO settings if you use the V2 custom circut board."
-" If you use the V1 verson, you can skip. "
-"V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。"
+"We also made a simple ROS interface of the LCD screen, which subscribes "
+"sensor_msgs/Image."
 msgstr ""
 
-#: ../../guide/SLAM.rst:220
-msgid "Step 3.6 Calibrate the servomotor サーボモーターのキャリブレーション"
+#: ../../guide/SLAM.rst:233
+msgid "3. SLAM"
 msgstr ""
 
-#: ../../guide/SLAM.rst:222
+#: ../../guide/SLAM.rst:236
+msgid "3.1 Run the base driver"
+msgstr ""
+
+#: ../../guide/SLAM.rst:246
+msgid "3.2 Run Cartographer"
+msgstr ""
+
+#: ../../guide/SLAM.rst:248
 msgid ""
-"Here we introduce how to calibrate the servomotors of MiniPupper through "
-"SSH after MiniPupper and PC connected to the same WiFi. "
-"ここでは、MiniPupperとPCを同じWiFiに接続した後、SSHを介してMiniPupperのサーボモーターを調整する方法を紹介します。"
+"**You should run this command on PC** **If you are using gazebo, set the "
+"param /use_sim_time to true in the launch file.**"
 msgstr ""
 
-#: ../../guide/SLAM.rst:224 ../../guide/SLAM.rst:266 ../../guide/SLAM.rst:302
-msgid "Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:231 ../../guide/SLAM.rst:273 ../../guide/SLAM.rst:309
-#: ../../guide/SLAM.rst:357
+#: ../../guide/SLAM.rst:255
 msgid ""
-"Access MiniPupper with ssh on the PC side. Enter the command on the PC "
-"side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。"
+"Then you can use keyboard or joystick to control your Mini Pupper walking"
+" around and creating a map. To save the map, run these commands below."
 msgstr ""
 
-#: ../../guide/SLAM.rst:243
+#: ../../guide/SLAM.rst:263
+msgid "Remember to edit map.yaml</br> The first line should be"
+msgstr ""
+
+#: ../../guide/SLAM.rst:270
 msgid ""
-"The target posture of calibration is shown as follows. To save power, you"
-" can disconnect the Lidar USB cable. "
-"カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar USBケーブルを外すことができます。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:260
-msgid "4. Run MiniPupper ミニぷぱを動かす"
-msgstr ""
-
-#: ../../guide/SLAM.rst:261
-msgid ""
-"MiniPupper can be controlled with Keyboard or PS4 controller. "
-"ミニぷぱはキーボードまたはPS4コントローラーで制御できます。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:264
-msgid "Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御"
-msgstr ""
-
-#: ../../guide/SLAM.rst:284
-msgid ""
-"Enter the keyboard control node command on the PC side. "
-"PC側でキーボード制御ノードコマンドを入力します。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:291 ../../guide/SLAM.rst:331 ../../guide/SLAM.rst:390
-#: ../../guide/SLAM.rst:434
-msgid "The operation video is shown as below. 操作動画は以下のとおりです。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:300
-msgid "Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御"
-msgstr ""
-
-#: ../../guide/SLAM.rst:320
-msgid ""
-"Enter the PS4 control node command on the MiniPupper side. "
-"ミニぷぱ側でPS4制御ノードコマンドを入力します"
-msgstr ""
-
-#: ../../guide/SLAM.rst:329
-msgid ""
-"Next, pair with PS4 (wait for about 5 seconds). The joystick on the left "
-"controls driving forward, backward, left and right. The joystick on the "
-"right controls rotation. The cross key controls the standing height and "
-"the angle of the roll axis. If you are pressing R2, use the right "
-"joystick to control the pitch angle and yaw axis. Press L2 and the robot "
-"will return to its default state. "
-"次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:340
-msgid "5. Create a 2D map 2D地図作成"
-msgstr ""
-
-#: ../../guide/SLAM.rst:343
-msgid "Step 5.1 Start cartographer on the PC side PC側でcartographerを起動する"
-msgstr ""
-
-#: ../../guide/SLAM.rst:353
-msgid "Step 5.2 MiniPupper setup ミニぷぱセットアップ"
-msgstr ""
-
-#: ../../guide/SLAM.rst:355
-msgid "※ Lidar USB plugged state.  LidarUSBが接続された状態。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:369
-msgid "Step 5.3 Create map 地図作成"
-msgstr ""
-
-#: ../../guide/SLAM.rst:371
-msgid ""
-"Run MiniPupper on the PC side to create a 2D map (using the operation "
-"from the Keyboard as an example). "
-"PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:379
-msgid "Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存"
-msgstr ""
-
-#: ../../guide/SLAM.rst:392 ../../guide/SLAM.rst:436
-msgid "Video of PC operation PC操作の動画"
-msgstr ""
-
-#: ../../guide/SLAM.rst:400 ../../guide/SLAM.rst:444
-msgid "Actual machine video 実機動画"
-msgstr ""
-
-#: ../../guide/SLAM.rst:410
-msgid "6. Navigation ナビゲーション"
-msgstr ""
-
-#: ../../guide/SLAM.rst:413
-msgid "Step 6.1 Move the saved mapto the related folder 保存したマップを関連フォルダに移動"
-msgstr ""
-
-#: ../../guide/SLAM.rst:415
-msgid ""
-"Move the saved map.pbstream, map.pgm and map.yaml to "
-"src/minipupper_ros/mini_pupper/maps on your PC. 保存できた map.pbstream / "
-"map.pgm / map.yaml は、 PC の、src/minipupper_ros/mini_pupper/maps に移動します。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:418
-msgid "Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション起動を実行"
-msgstr ""
-
-#: ../../guide/SLAM.rst:420
-msgid ""
-"Continued from step 5.1 (after closing roslaunch mini_pupper slam.launch "
-"with ctl + c). 手順5.1から続行します（ctl + cを使用してroslaunchmini_pupper "
-"slam.launchを閉じた後）。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:427
-msgid "Step 6.3 Set the target position 目標位置を設定する"
-msgstr ""
-
-#: ../../guide/SLAM.rst:429
-msgid ""
-"On the PC side, specify the target of the map where rviz is displayed. "
-"PC側で、rvizが表示される地図の目標位置を設定します。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:432
-msgid "Step 6.4  Autonomous driving 自律走行"
-msgstr ""
-
-#: ../../guide/SLAM.rst:453
-msgid "7. Others その他"
-msgstr ""
-
-#: ../../guide/SLAM.rst:455
-msgid "Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう。"
-msgstr ""
-
-#: ../../guide/SLAM.rst:459
-msgid "Step 7.1 PC side　PC側"
-msgstr ""
-
-#: ../../guide/SLAM.rst:467
-msgid "Step 7.2 MiniPupper side ミニぷパ側"
-msgstr ""
-
-#: ../../guide/SLAM.rst:475
-msgid "Step 7.3 PC side　PC側"
-msgstr ""
-
-#: ../../guide/SLAM.rst:477
-msgid "Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。"
+"Then, copy map.pbstream, map.pgm and map.yaml files you just saved to "
+"<your_ws>/src/minipupper_ros/mini_pupper/maps"
 msgstr ""
 
 #: ../../guide/Simulation.rst:2
@@ -1420,271 +1559,1657 @@ msgid "Simulation"
 msgstr "シミュレーション"
 
 #: ../../guide/Simulation.rst:7
-msgid "Instructions for Creating an AWS RoboMaker Environment for Mini Pupper"
+msgid ""
+"Instructions for Creating an AWS RoboMaker Environment for Mini Pupper, "
+"please refer to"
 msgstr ""
 
 #: ../../guide/Simulation.rst:9
 msgid ""
-"Refer to https://github.com/mangdangroboticsclub/aws-robomaker-mini-"
-"pupper-application/blob/master/README.md ."
+"https://github.com/mangdangroboticsclub/aws-robomaker-mini-pupper-"
+"application/"
 msgstr ""
 
-#: ../../guide/Software.rst:2
-msgid "Software"
-msgstr "ソフトウェア"
+#: ../../guide/Simulation.rst:12
+msgid "Instructions for Amazon AWS Robotics Blog, please refer to"
+msgstr ""
 
-#: ../../guide/Software.rst:7
-msgid "Software setup for the basic functions. 基本機能のソフトウェアセットアップ。"
+#: ../../guide/Simulation.rst:14
+msgid ""
+"https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-"
+"robot-in-the-cloud-without-managing-any-infrastructure/"
+msgstr ""
+
+#: ../../guide/Simulation.rst:20
+msgid ""
+"Instructions for Amazon 2022 re:MARS RoboMaker&MiniPupper Workshop, "
+"please refer to"
+msgstr ""
+
+#: ../../guide/Simulation.rst:22
+msgid ""
+"https://catalog.us-east-1.prod.workshops.aws/workshops/511d7599-73bd-4142"
+"-bd6b-fa83dbe3d8ce/en-US"
+msgstr ""
+
+#: ../../guide/Software.rst:3
+msgid "Software Calibration"
 msgstr ""
 
 #: ../../guide/Software.rst:10
-msgid "1. Software Setup ソフトウェアセットアップ"
+#, fuzzy
+msgid "1. Calibration Setup"
+msgstr "顔写真のカスタマイズ"
+
+#: ../../guide/Software.rst:14
+msgid ""
+"In addition to the tools included in the kit, the following items are "
+"required."
 msgstr ""
 
-#: ../../guide/Software.rst:16
-msgid "USB keyboardUSB キーボード"
+#: ../../guide/Software.rst:18
+msgid "HDMI display"
 msgstr ""
 
-#: ../../guide/Software.rst:20
-msgid "HDMI DisplayHDMI ディスプレイ"
+#: ../../guide/Software.rst:19
+msgid "micro HDMI cable for connection between display and Raspberry Pi"
 msgstr ""
 
-#: ../../guide/Software.rst:21
-msgid "HDMI microHDMI convertorHDMI⇔microHDMI変換"
+#: ../../guide/Software.rst:22
+msgid "Step 1.1 Startup raspberry pi"
+msgstr ""
+
+#: ../../guide/Software.rst:24
+msgid "Connect the Raspberry pi to the display with a microHDMI cable."
+msgstr ""
+
+#: ../../guide/Software.rst:25
+msgid "Connect a USB keyboard and mouse to the Raspberry pi."
 msgstr ""
 
 #: ../../guide/Software.rst:26
-msgid "Step 1.1 Startup raspberry pi ラズパイの起動"
-msgstr ""
-
-#: ../../guide/Software.rst:28
 msgid ""
-"Connect the Raspberry pi to the display with a microHDMI cable. "
-"ラズパイとディスプレイの間をmicroHDMIケーブルで繋ぐ"
+"Press and hold the battery button of the Mini Pupper for three seconds to"
+" start Raspberry pi."
 msgstr ""
 
-#: ../../guide/Software.rst:29
-msgid ""
-"Connect a USB keyboard and mouse to the Raspberry pi. "
-"USBのキーボードとマウスをラズパイに繋ぐ"
-msgstr ""
-
-#: ../../guide/Software.rst:30
-msgid ""
-"Press and hold the button on the bottom of the Mini Pupper to start "
-"Raspberry pi for three seconds. Mini Pupperの底にあるボタンを3秒長押しして、起動します。"
-msgstr ""
-
-#: ../../guide/Software.rst:31
+#: ../../guide/Software.rst:27
 msgid ""
 "If you can see Ubuntu running on your screen, you have succeeded. You "
-"should also see the face on Mini Pupper display. If you don't see both "
-"screen, then you have followed the instructions incorrectly. "
-"画面にUbuntuの起動している様子が映れば成功です。さらに、Mini "
-"Pupperの画面も表示されます。もし表示されない場合は、これまで行った手順に誤りがあります。"
+"should also see the face on Mini Pupper display."
+msgstr ""
+
+#: ../../guide/Software.rst:34
+#, fuzzy
+msgid "Step 1.2 Log in"
+msgstr "前後各２セット"
+
+#: ../../guide/Software.rst:36
+msgid "Press ubuntu button on the screen to log in."
+msgstr ""
+
+#: ../../guide/Software.rst:37
+msgid "Default username: ubuntu"
 msgstr ""
 
 #: ../../guide/Software.rst:38
-msgid "Step 1.2  Log in ログイン"
-msgstr ""
-
-#: ../../guide/Software.rst:40
-msgid "Press ubuntu on the purple screen to log in. 紫の画面でubuntuを押してログインします。"
+msgid "Default password: mangdang"
 msgstr ""
 
 #: ../../guide/Software.rst:41
-msgid "Default username / 初期ユーザ名:ubuntu"
-msgstr ""
-
-#: ../../guide/Software.rst:42
-msgid "Default password / 初期パスワード：mangdang"
+msgid "Step 1.3 Set keyboard (Optional)"
 msgstr ""
 
 #: ../../guide/Software.rst:43
-msgid "You should change your password. パスワードは各自変更しましょう。"
-msgstr ""
-
-#: ../../guide/Software.rst:46
-msgid "Step 1.3  Set keyboard キーボードの設定"
+msgid ""
+"If you want to change the keyboard type, for an example, Japanese "
+"keyboard, you will need this setting. Press the menu button in the bottom"
+" left corner and type settings to bring up settings."
 msgstr ""
 
 #: ../../guide/Software.rst:48
 msgid ""
-"If you are using a Japanese keyboard, you will need this setting. Press "
-"the menu button in the bottom left corner and type settings to bring up "
-"settings. 日本語キーボードを使ってる場合、この設定が必要です。左下のメニューボタンを押し、 settings "
-"とタイプして設定を起動します。"
-msgstr ""
-
-#: ../../guide/Software.rst:53
-msgid ""
 "Select Region & Language and press + for Input Sources. On the screen "
 "that comes up, select the three dots for other and type Japanese to "
-"select it. Type Japanese to select it. Region & Language を選択し、Input "
-"Sourcesの＋を押します。出てきた画面で点3つを選ぶとotherが出るので、 Japanese "
-"とタイプして選択します。English(US)はゴミ箱マークを押して消してしまってもOKです。"
+"select it. Type Japanese to select it."
 msgstr ""
 
-#: ../../guide/Software.rst:56
-msgid "Step 1.4  Enable wifi Wifiの有効化"
+#: ../../guide/Software.rst:52
+msgid "Step 1.4 Open ports for ssh (Optional)"
 msgstr ""
 
-#: ../../guide/Software.rst:58
+#: ../../guide/Software.rst:54
+msgid "Attempt to make an ssh connection from your PC to Ubuntu."
+msgstr ""
+
+#: ../../guide/Software.rst:60
 msgid ""
-"Press the menu button at the bottom left and type terminal to start the "
-"terminal. In the terminal, open the configuration file. 左下のメニューボタンを押し、 "
-"terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。"
+"If you are unable to make an ssh connection from your PC, you will need "
+"to configure the following, maybe."
 msgstr ""
 
-#: ../../guide/Software.rst:64
-msgid ""
-"Type # to enable disabled wifi on syscfg.txt. syscfg.txtにはdtoverlay"
-"=disable-wifiと書かれているので、#を付けてコメントアウトします。"
-msgstr ""
-
-#: ../../guide/Software.rst:70
-msgid "Reboot Ubuntu to enable wifi. ここで一度再起動して、設定を反映しましょう。"
-msgstr ""
-
-#: ../../guide/Software.rst:72
-msgid ""
-"When you start up again, open settings and set up your wifi settings. "
-"Choose your wifi access point SSID and enter your password. "
-"再び起動したら、settingsを開いてWifiの設定をします。自分のWifiアクセスポイントのSSIDを選び、パスワードを入れましょう。"
+#: ../../guide/Software.rst:67
+msgid "If firewall is not running, do the following."
 msgstr ""
 
 #: ../../guide/Software.rst:74
-msgid ""
-"Type ip a. See and make a note of IP address. This will be necessary when"
-" you connect to your PC via ssh. The configuration within Ubuntu is now "
-"complete. ターミナルで ip a "
-"とタイプし、ラズパイに割り振られたIPアドレスを確認します。PCからsshで接続するときに必要になるのでメモしておきましょう。Ubuntu内の設定はこれで完了です。"
-msgstr ""
+#, fuzzy
+msgid "2. Calibration"
+msgstr "顔写真のカスタマイズ"
 
 #: ../../guide/Software.rst:77
-msgid "Step 1.5 Open ports for ssh / ssh接続のためのポート開放"
+msgid "Step 2.1 Leg calibration (not for ROS image)"
 msgstr ""
 
-#: ../../guide/Software.rst:79
+#: ../../guide/Software.rst:78
+msgid "Please refer to the below calibration video clip."
+msgstr ""
+
+#: ../../guide/Software.rst:87
 msgid ""
-"Attempt to make an ssh connection from your PC to Ubuntu. "
-"PCからUbuntuにssh接続を試みます。"
+"During Mini Pupper calibration, if the servo horn assembly position is "
+"not right, it is not easy to calibrate, even break the servo. Please "
+"follow the below easy guide(not for ROS image)."
 msgstr ""
 
-#: ../../guide/Software.rst:85
+#: ../../guide/Software.rst:90
+msgid "Make sure Mini Pupper is pre-assembled except the 4 legs."
+msgstr ""
+
+#: ../../guide/Software.rst:95
 msgid ""
-"If you are unable to make an ssh connection from your PC, you will need "
-"to configure the following, maybe. PCからssh接続できない場合、下記の設定が必要です。"
-msgstr ""
-
-#: ../../guide/Software.rst:92
-msgid ""
-"If firewall is not running, do the following. "
-"もしファイアーウォールが起動してないと言われたら以下を実行します。"
-msgstr ""
-
-#: ../../guide/Software.rst:99
-msgid "2. calibration キャリブレーション"
-msgstr ""
-
-#: ../../guide/Software.rst:102
-msgid "Step 2.1 Leg servos"
-msgstr ""
-
-#: ../../guide/Software.rst:104
-msgid ""
-"The first step is to make the Mini Pupper stand up, so that legs touch "
-"the floor. まずMini Pupperのすべての脚が床に触れるように立たせます。"
+"Power on, double-click on the Calibration Tool icon on your desktop to "
+"launch it."
 msgstr ""
 
 #: ../../guide/Software.rst:105
 msgid ""
-"Double-click on the Calibration Tool icon on your desktop to launch it. "
-"Note that the legs will move when you run above python script. "
-"デスクトップのCalibration Toolアイコンをダブルクリックして起動します。アプリを起動したら、脚が動くので注意です。"
+"※ The calibration process is: calibrate each servo --> Press \"Update\" "
+"button to save the settings --> Press × to close and save the "
+"calibration."
 msgstr ""
 
-#: ../../guide/Software.rst:110
+#: ../../guide/Software.rst:107
 msgid ""
-"Next, for each leg, move the Thigh and Calf bars so that they are at a 45"
-" degree angle. The angle of the legs will change in conjunction with the "
-"position of the slide bar on the screen. However, if it does not move, "
-"then the steps you have followed are incorrect. "
-"次に、それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は ＞ ＞ "
-"の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。"
+"※ Calibrate each servo by moving the bars or click the space postion near"
+" the bars."
 msgstr ""
 
-#: ../../guide/Software.rst:121
+#: ../../guide/Software.rst:109
+msgid "※ Reset button: when you hope to re-start from the last time."
+msgstr ""
+
+#: ../../guide/Software.rst:111
+msgid "※ Restore button: Restore factory settings and Press × to close."
+msgstr ""
+
+#: ../../guide/Software.rst:113
+msgid ""
+"Use the calibration GUI tool to calibrate #1 #4 #7 #10 hip servos to the "
+"horizontal position."
+msgstr ""
+
+#: ../../guide/Software.rst:123
+msgid ""
+"Then assemble the 4 legs by hand at the right position as the below "
+"picture shows."
+msgstr ""
+
+#: ../../guide/Software.rst:128
+msgid ""
+"Use the calibration GUI tool to optimize the legs position. For each leg,"
+" move the bars so that all the legs are at a 45 degree angle. The angle "
+"of the legs will change in conjunction with the position of the slide bar"
+" on the screen. However, if it does not move, then the steps you have "
+"followed are incorrect."
+msgstr ""
+
+#: ../../guide/Software.rst:130
 msgid ""
 "You can use the iPhone's tilt sensor app, a ruler or a protractor to "
-"measure the angle. I also used a ruler and a protractor. "
-"iPhoneの傾斜センサーアプリ、定規、分度器を使用して角度を測定できます。"
+"measure the angle. I also used a ruler and a protractor."
 msgstr ""
 
-#: ../../guide/Software.rst:126
+#: ../../guide/Software.rst:135
 msgid ""
-"It is not enough to measure the inclination of the legs, so it is "
-"important to place the legs on a grid, like a piece of graph paper, to "
-"check that they are in the same position from front to back and from side"
-" to side, and to make any final adjustments. "
-"傾きの測定だけでは脚の位置が揃わないので、方眼紙のようなマス目に脚を置いて、前後左右の位置が一致しているか、確認し最終調整しましょう。"
+"It is a little bit difficult to measure the accurate inclination of the "
+"legs, so it is better to place the legs on a grid, like a piece of graph "
+"paper, to check that they are in the same position from front to back and"
+" from side to side, and to make any final adjustments."
 msgstr ""
 
-#: ../../guide/Software.rst:131
+#: ../../guide/Software.rst:140
 msgid ""
 "When all legs are at 45° inclination as shown, press Update to save the "
-"settings. Press × to close the calibration application. "
-"すべての脚を図のように45度の傾きになったら、Update を押して設定を保存します。×ボタンを押してキャリブレーションアプリを閉じます。"
+"settings. Press × to close the calibration application."
 msgstr ""
 
-#: ../../guide/Software.rst:132
-msgid ""
-"As a tip, the calibration requires GUI and could not be done via ssh. "
-"補足ですが、キャリブレーションはGUIが必要なのでsshでは実行出来ませんでした。"
-msgstr ""
-
-#: ../../guide/Software.rst:134
-msgid ""
-"※ For the latest image file of the Ubuntu21.10, the target angles of legs"
-" are shown as below. Ubuntu 21.10の最新のイメージファイルの場合、脚の目標角度は次のようになります。"
+#: ../../guide/Software.rst:144
+msgid "Step 2.2 Connect controller"
 msgstr ""
 
 #: ../../guide/Software.rst:146
-msgid "Step 2.2 Connect PS4 controller Playstation4コントローラの接続"
+msgid "Please check the next chapter."
 msgstr ""
 
 #: ../../guide/Software.rst:148
-msgid "Please check the next chapter. 次の章を参照ください。"
+msgid "If you can control it with a controller, it's OK."
 msgstr ""
 
-#: ../../guide/Software.rst:150
-msgid ""
-"If you can control it with a ps4 controller, it's OK. "
-"ps4コントローラで操作できればOKです。"
-msgstr ""
+#~ msgid ""
+#~ "In addition to the tools included "
+#~ "in the kit, the following items "
+#~ "are required for assembly. "
+#~ "キットに同梱されている工具の他に、組み立てには以下の物が必要です。"
+#~ msgstr ""
 
-#: ../../guide/Software.rst:154
-msgid "Step 2.3 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウン"
-msgstr ""
+#~ msgid "USB keyboard USB キーボード"
+#~ msgstr ""
 
-#: ../../guide/Software.rst:156
-msgid ""
-"You will need to shut down on Ubuntu. If you have a screen + keyboard "
-"connected, type the following command directly, or if not, type the "
-"following command from your PC via ssh connection. "
-"下面にあるボタン長押しで突然電源供給を止めると、SDカードが破壊されるリスクがあります。Ubuntu上でシャットダウンする必要があります。画面＋キーボードを接続しているなら直接、繋いでいないならPCからssh接続で下記のコマンドを打ちます。"
-msgstr ""
+#~ msgid "USB mouse USB マウス"
+#~ msgstr ""
 
-#: ../../guide/Software.rst:162
-msgid ""
-"Note that a broken SD card will not be restored... It's a bit of a pain, "
-"but you can end it with a command. After about 30 seconds, it will shut "
-"down and you can press and hold the button on the bottom to turn it off. "
-"壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。"
-msgstr ""
+#~ msgid "microSD card interface microSDカードリーダ"
+#~ msgstr ""
 
-#: ../../guide/Software.rst:164
-msgid ""
-"You can shutdown Ubuntu by pressing and holding the triangle button. "
-"△ボタンを長押しでUbuntuをシャットダウンできます。"
-msgstr ""
+#~ msgid "HDMI Display HDMI ディスプレイ"
+#~ msgstr ""
+
+#~ msgid "HDMI micro HDMI convertor HDMI⇔microHDMI変換"
+#~ msgstr ""
+
+#~ msgid "microUSB cable microUSB ケーブル"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The battery is charged via USB, "
+#~ "see picture for USB socket, and "
+#~ "can be charged while still attached "
+#~ "to the Mini Pupper body. "
+#~ "準備としてバッテリーをUSBで充電しておきます。USBの差込口は写真を参照。Mini "
+#~ "Pupperに取り付けたままでも充電できます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can check other documents or "
+#~ "latest image file via the below "
+#~ "folder. 以下のフォルダから他のドキュメントや最新のイメージを確認できます."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`MiniPupperDocs <https://drive.google.com/drive/folders"
+#~ "/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the V1 Custom circuit board, "
+#~ "the image file "
+#~ "20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip "
+#~ "is shown as below. "
+#~ "V1カスタム回路基板の場合、イメージファイルは20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zipになります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`20211201_v1.6.1_MiniPupper_PS4_Ubuntu_20.04.2_Baseline.img.zip "
+#~ "<https://drive.google.com/file/d/1bkQNjKn2gHwSllTT2VaI62u_6uVW4Dzw/view?usp=sharing/view?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the V2 Custom circuit board, "
+#~ "the image file "
+#~ "20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip "
+#~ "is shown as below. "
+#~ "V2カスタム回路基板の場合、イメージファイルは20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zipになります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`20220109_v1.7.0_MiniPupper_V2_PS4_Ubuntu_21.10.0_Baseline.img.zip "
+#~ "<https://drive.google.com/file/d/1ZYJCfCb-"
+#~ "1U71M0wobJEzo1sL0uNgFjqz/view?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip\" is image "
+#~ "file for the Ubuntu base version "
+#~ "for the PS4 controller, while "
+#~ "\"MiniPupper2004.zip\" is image file for "
+#~ "the Ubuntu + ROS version for SLAM"
+#~ " & Navigation.   "
+#~ "「XXX_MiniPupper_V2_PS4_Ubuntu_XXX.zip」はPS4コントローラーのUbuntuベースバージョンのイメージファイルであり、「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu"
+#~ " + ROSバージョンのイメージファイルです。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the image for Raspi 4 "
+#~ "from MangDang on your PC.  "
+#~ "PCでMangDangからラズパイ4用イメージをダウンロードします。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Insert the microSD card into your "
+#~ "PC's SD card reader and pwrite the"
+#~ " image. We recommend the image "
+#~ "creation tool balenaEtcher as it is "
+#~ "easy and reliable. Please refer to "
+#~ "the official manual and below link. "
+#~ "It may take a while to complete."
+#~ " PCのSDカードリーダにmicroSDカードを入れて、イメージを書き込みます。イメージ作成ツール "
+#~ "balenaEtcherが簡単かつ確実なのでおすすめです。オフィシャルマニュアルやリンク先を参考に書き込みましょう。完了までかなり時間がかかります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Reference Link: `Download Etcher – Flash"
+#~ " OS images to USB drives & SD"
+#~ " cards <https://etcherpc.com/?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "参考：`簡単な 3 ステップで使えるブートUSB 作成ツール！「balenaEtcher」 "
+#~ "<https://www.gigafree.net/system/os/Etcher.html?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Remove the SD card from the PC "
+#~ "and insert it into the Raspberry "
+#~ "pi. PCからSDカードを抜いて、ラズパイに挿す。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The pictures show the position of "
+#~ "the screws briefly. 写真はネジの位置を簡単に示しています。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(!!! We don’t suggest you use "
+#~ "Loctite at first before you have "
+#~ "enough experience. !!!) Loctite prevents "
+#~ "the nut from loosening, but it is"
+#~ " not essential, as it can be "
+#~ "tightened only when looseness is "
+#~ "noticed. However, some of them have "
+#~ "to be dismantled in order to be"
+#~ " tightened later, so fix them as "
+#~ "much as possible. "
+#~ "ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。ただ、後から締めるためには一部解体しなければならないものもありますので、極力固定しましょう。"
+#~ msgstr ""
+
+#~ msgid "Video Instructions"
+#~ msgstr "製作動画"
+
+#~ msgid "|youtu.be-assembly-leg-1|"
+#~ msgstr "|youtu.be-assembly-leg-1-ja|"
+
+#~ msgid "Assemble ① and ② / ①と②の組み立て:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use one M2x5mm screw.The screw is "
+#~ "inserted from the bottom of ② "
+#~ "upwards and tightened by inserting them"
+#~ " into the screw holes in ①. Be"
+#~ " careful about the sides of ②. "
+#~ "M2x5mm "
+#~ "のボルトを1つ使用します。ボルトは②の下から上に挿し、①の穴に挿し込んで締めます。②の表裏の向きに気をつけましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The two ballbearings in ② should "
+#~ "be inserted all the way in and "
+#~ "the end should be slightly visible "
+#~ "as shown in the picture below. Tap"
+#~ " the ball bearing and press it "
+#~ "in without gaps. "
+#~ "②のボールベアリング2個は奥まで挿し込み、下記の写真のように先が少し見える状態になっている必要があります。叩くなどして隙間をなくせば大丈夫です。"
+#~ msgstr ""
+
+#~ msgid "Assemble ② and ③ / ②と③の組み立て:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an M2x8mm screw and an M2 "
+#~ "locknut. Insert the screw from the "
+#~ "bottom to the top of ③, pass "
+#~ "through ② and tighten with the "
+#~ "nut. It is important to pay "
+#~ "attention to the orientation of ③. "
+#~ "Look carefully at the position of "
+#~ "the hole in the middle. M2x8mm "
+#~ "のボルトを1つと M2 "
+#~ "Locknutを使用します。ボルトを③の下から上に挿し、②を通し、ナットで締めます。③の部品の向きには気をつける必要があります。真ん中の穴の位置を良く見ましょう。"
+#~ msgstr ""
+
+#~ msgid "Adjustment of the length of ④ / ④の長さの調整"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The length of ④ must match the "
+#~ "length of ⑤. When adjusting the "
+#~ "length, it is easier to use two"
+#~ " long screws, e.g. M2x15mm, to make"
+#~ " sure that the lengths match. Once"
+#~ " the lengths have been adjusted, take"
+#~ " apart all. "
+#~ "④の長さが⑤と一致している必要があります。長さを調整するとき、M2x15mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。"
+#~ msgstr ""
+
+#~ msgid "Assemble ⑤ and ⑥ / ⑤と⑥の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use two M2x5mm screws. Insert the "
+#~ "screws into ⑤ first, insert them "
+#~ "into the holes of ⑥, and tighten"
+#~ " them. The large hole in ⑥ "
+#~ "should be facing the surface. "
+#~ "M2x5mmのボルトを1本使用します。⑤にボルトを挿し、⑥の穴に挿れて締めます。⑥は大きな穴がある方が表面側に来るように向けましょう。"
+#~ msgstr ""
+
+#~ msgid "Assemble ⑤ and ⑦ / ⑤と⑦の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an M2x12mm screw, an M2 "
+#~ "locknut and two sets of ball "
+#~ "bearings. Each ball bearing is made "
+#~ "up of three parts, the top and "
+#~ "bottom parts with the grooved side "
+#~ "facing inwards. Insert a screw into "
+#~ "a set of ball bearing. Then insert"
+#~ " the screw into the hole ⑦. "
+#~ "Taking care to look at the warped"
+#~ " side of ⑦ to make sure it "
+#~ "is facing the right way. Now screw"
+#~ " in the another set of ball "
+#~ "bearing. Finally, insert screw into ⑤"
+#~ " and tighten it with the nut. "
+#~ "M2x12mmのボルトとM2 "
+#~ "locknutとボールベアリング2組を使用します。ボールベアリングは3つの部品から成り立っており、上下の部品は溝がある方を内側に向けて、真ん中の部品をはさみます。まずボールベアリングにボルトを通します。次に⑦の穴にボルトを挿します。このとき⑦の反っている方向を見て、向きを間違えないように気をつけます。次にもう一つのボールベアリングをボルトに通します。最後に⑤をボルトに通してナットで締めます。"
+#~ msgstr ""
+
+#~ msgid "Assemble ④ and ⑦ / ④と⑦の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an M2x8mm screw and an M2 "
+#~ "nut. Insert the screw into ⑦ and"
+#~ " put ④ through, then tighten it "
+#~ "with the nut. The direction of the"
+#~ " front and back of ④ can be "
+#~ "either. "
+#~ "M2x8mmのボルトとM2ナットを使用します。⑦にボルトを挿し、④を通したら、ナットで締めます。④の表裏の向きはどちらでも大丈夫です。"
+#~ msgstr ""
+
+#~ msgid "Assemble ③ and ④ / ③と④の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an M2x8mm screw and an M2 "
+#~ "nut. Insert the screw into ③ and"
+#~ " put ④ through, then tighten it "
+#~ "with the nut. "
+#~ "M2x8mmのボルトとM2ナットを使用します。③にボルトを挿し、④を通したら、ナットで締めます。"
+#~ msgstr ""
+
+#~ msgid "Assemble ③ and ⑤ / ③と⑤の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use M2x14mm screws and two sets of"
+#~ " ball bearings. Thread the screws "
+#~ "through the bearings, ③, bearings, ⑤,"
+#~ " in that order. The screws are "
+#~ "not fixed, but you will tighten "
+#~ "them when you mount the servo in"
+#~ " the next step. "
+#~ "M2x14mmのボルトとボールベアリング2組を使用します。ボルトをベアリング、③、ベアリング、⑤の順で通します。ボルトは固定されていませんが、次工程でサーボに取り付ける際にボルトを締めます。"
+#~ msgstr ""
+
+#~ msgid "Completion of a right leg / 脚部の仕上げ"
+#~ msgstr ""
+
+#~ msgid "Front side / 表"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now we have one leg on the "
+#~ "right side. Here are some pictures "
+#~ "so you can see it from different"
+#~ " angles. The left leg should be "
+#~ "symmetrical with the right one. "
+#~ "これで右側の脚が一本完成しました。色んな角度から見れるように写真を貼っておきます。左側は右側と線対称になるように組みます。"
+#~ msgstr ""
+
+#~ msgid "opposite side / 裏"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As the nut is on a moving "
+#~ "joint, it will loosen quickly if "
+#~ "tightened too tightly. They should be"
+#~ " secured with Loctite. It is possible"
+#~ " to dismantle the nut later, as "
+#~ "it can be loosened by a strong "
+#~ "force. "
+#~ "ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。"
+#~ msgstr ""
+
+#~ msgid "Elongated screwdriver/ 細長いプラスドライバー"
+#~ msgstr ""
+
+#~ msgid "Elongated hex wrench (2mm) / 細長い2mm経の六角レンチ"
+#~ msgstr ""
+
+#~ msgid "Loctite / ロックタイト"
+#~ msgstr ""
+
+#~ msgid "Thin things like a toothpick / 爪楊枝のような細いもの"
+#~ msgstr ""
+
+#~ msgid "M2x6mm(Self tapping)  1x4=4"
+#~ msgstr ""
+
+#~ msgid "M2x6mm        1x4+4x4=20"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ For the latest kit, there are"
+#~ " two kinds of servo cables, "
+#~ "No.1,4,7,10 cables length is 9cm, other"
+#~ " cables length is 15cm. "
+#~ "最新のキットには、サーボケーブルが2種類あります。No.1、4、7、10のケーブル長は9cm、その他のケーブル長は15cmです。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The position of each servomotors are "
+#~ "shown as below. 各サーボモータの位置は以下のとおりです。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are four hips to assemble, "
+#~ "all with different shapes. Here shows"
+#~ " how to assemble the rear right "
+#~ "hip. 臀部(でんぶ)は4個組み立てますが、全て部品の向きが異なります。右後ろの臀部の組立方法を紹介します。"
+#~ msgstr ""
+
+#~ msgid "Servo horn サーボホーン"
+#~ msgstr ""
+
+#~ msgid "Insert a servo horn to a servo. サーボホーンを挿す。"
+#~ msgstr ""
+
+#~ msgid "Assemble servo horn and hip parts サーボホーンと臀部部品の組み立て"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an M2x6mm Tapping screw and an"
+#~ " M2x6mm screw. You will need a "
+#~ "long cross-head screwdriver and a "
+#~ "2 mm hexagonal wrench. "
+#~ "M2x6mm(タッピング)とM2x6mmを使用します。長い十字ドライバーと2mmの六角レンチが必要です。"
+#~ msgstr ""
+
+#~ msgid "Put two servos into hip parts サーボ2つを臀部部品に入れる。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ You may need to clean the "
+#~ "residue around the holes in the 3D"
+#~ " printed part at first. Make sure "
+#~ "the servo mounting surface is flat. "
+#~ "最初に、3Dプリントされたパーツの穴の周りの残留物をきれいにする必要があるかもしれません。サーボ取付面が平らであることを確認してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Insert two servo into the box and"
+#~ " fix them with M2x6mm screws. "
+#~ "2つのサーボを箱にはめて、M2x6mmのボルト4本で固定します。"
+#~ msgstr ""
+
+#~ msgid "Assemble leg and hip 脚部を臀部に取り付ける"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Attach the leg to the hip using"
+#~ " the M2x12mm screws. Leg is tilted"
+#~ " at approximately 45°, as shown in"
+#~ " the manual. "
+#~ "M2x12mmのボルトを使って、脚を臀部に取り付けます。マニュアルの通り、脚がだいたい45度傾くように取り付けます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tighten the screws with Loctite. Use "
+#~ "a toothpick to apply Loctite to "
+#~ "the servo's screw holes. "
+#~ "ロックタイトでボルトをしっかりと固定しましょう。爪楊枝を使ってサーボの穴にロックタイトを塗っておきます。"
+#~ msgstr ""
+
+#~ msgid "Screwdriver / プラスドライバー"
+#~ msgstr ""
+
+#~ msgid "Superglue / 瞬間接着剤※"
+#~ msgstr ""
+
+#~ msgid "Masking tape / マスキングテープ※"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ These are not essential. Use in"
+#~ " case of trouble or when more "
+#~ "strength is required. "
+#~ "必須ではありません。トラブル時やより強度を求める場合に使用します。"
+#~ msgstr ""
+
+#~ msgid "M2x8mm        4+4=8"
+#~ msgstr ""
+
+#~ msgid "M3x8mm        2+2=4"
+#~ msgstr ""
+
+#~ msgid "M2x5mm        8+8+4=20"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use four M2x8mm screws. It is "
+#~ "useful to put masking tape on the"
+#~ " cables and write the number of "
+#~ "servomotors during this process to make"
+#~ " it easier later. "
+#~ "M2x8mmのボルト4本を使って取り付けます。この工程でケーブルにマスキングテープを貼り番号を書くと、後で楽です。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tighten the two M3x8mm screws with "
+#~ "a screwdriver. The front part is "
+#~ "designed to hold the LCD screen. "
+#~ "Make sure you don't mistake it for"
+#~ " the rear part. "
+#~ "M3x8mmの皿ネジ2本をプラスドライバーで締めます。前面パーツは液晶画面が入る形になっています。後部パーツと間違えないようにしましょう。"
+#~ msgstr ""
+
+#~ msgid "The same procedure as for the front part. 前部と同じ要領です。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use eight M2x5mm screws. The orientation"
+#~ " of the plate must be such that"
+#~ " the hole is at the front. "
+#~ "M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に穴が来る必要があります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use four M2x5mm screws and four "
+#~ "short supports. M2x5mmのボルト4本と短い支柱4本を使用します。"
+#~ msgstr ""
+
+#~ msgid "Step 5.6 Top plate"
+#~ msgstr "上部"
+
+#~ msgid ""
+#~ "Use eight M2x5mm screws. The orientation"
+#~ " of the plate must be such that"
+#~ " the large opening is at the "
+#~ "front. M2x5mmのボルトを8本使用します。プレートの向きは、写真のように、前の方に大きな開口部が来る必要があります。"
+#~ msgstr ""
+
+#~ msgid "6. Assemble the function component"
+#~ msgstr "他のモジュール"
+
+#~ msgid "Screwdriver プラスドライバー"
+#~ msgstr ""
+
+#~ msgid "M2x5mm        2"
+#~ msgstr ""
+
+#~ msgid "M2x8mm        2"
+#~ msgstr ""
+
+#~ msgid "M1.4x3mm(皿)  4"
+#~ msgstr ""
+
+#~ msgid "Step 6.1 Display 画面"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use two M2x5mm screws. Remove the "
+#~ "protective sheet for the display. Fold"
+#~ " the thin flexible cable at the "
+#~ "edge of the display. Attach the "
+#~ "board and the display to the main"
+#~ " unit. When attaching the display, "
+#~ "you can use a stick to gently "
+#~ "push the flexible cable, so that "
+#~ "it goes as far back as possible."
+#~ " "
+#~ "M2x5mmのボルト2本を使用します。ディスプレイの保護シールはここで取りましょう。ディスプレイと専用基板の間に通る薄いフレキシブルケーブル(通称フレキ)をディスプレイの端で折ります。基板、ディスプレイの順に本体に取り付けます。ディスプレイを取り付ける際に、フレキがなるべく奥にいくように棒状の物で軽く押すと良いです。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use four M1.4x3mm countersunk screws. Be"
+#~ " careful with the yellow parts as "
+#~ "it has a front and back. "
+#~ "M1.4x3mmの皿ネジを4本使用します。黄色いパーツには表裏の区別があるので気をつけましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Install the battery pack. Be careful "
+#~ "of the front and rear orientation. "
+#~ "Fit the battery from the bottom to"
+#~ " the top, then slide it backwards "
+#~ "and secure it. Pass the cable "
+#~ "through the hole in the bottom "
+#~ "plate and bring it up to the "
+#~ "top. "
+#~ "バッテリーパックを取り付けます。前後の向きに気をつけましょう。底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use four long supports. First, plug "
+#~ "the display cable into the custom "
+#~ "circuit board. Then, plug in the "
+#~ "battery cable. This connector may "
+#~ "interfere with the hips parts, so "
+#~ "you have to slide it through a "
+#~ "hole in the middle of the board"
+#~ " as temporary solution. Next, you "
+#~ "need to insert the 12 servo "
+#~ "cables. In the picture, you can "
+#~ "see: J1,J2,J3.... . J12. After inserting"
+#~ " the 12 cables, pull the custom "
+#~ "circuit board closer to the body. "
+#~ "The board may float, but you can"
+#~ " use four long posts to hold it"
+#~ " in place. "
+#~ "長い支柱4本を使用します。最初にディスプレイのケーブルをカスタム回路基板に挿します。次にバッテリーのケーブルを挿します。このコネクタが臀部パーツに干渉する恐れがあるので、（暫定対策として）このコネクタを基板の真ん中の穴に通して逃しておきます。次にサーボのケーブルを12本挿します。写真で説明すると、J1,J2,J3...J12順番の通りに挿していきます。茶色がGNDなので全て手前になるように挿しましょう。12本のケーブルを挿したらカスタム回路基板をぐっと力を入れてボティに近づけます。ケーブルの反発で基板が浮いてきますが、長い支柱を4本挿して固定しましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ Need to pay attention to the "
+#~ "cable of the No. 1 servo to "
+#~ "prevent it from being overwhelmed. "
+#~ "No.1サーボのケーブルに圧倒されないように注意する必要があります。"
+#~ msgstr ""
+
+#~ msgid "Step 6.5 Fan"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use two M2x8mm screws. To install "
+#~ "the fan. M2x8mmのボルト2本を使用します。ファンを取り付けます。"
+#~ msgstr ""
+
+#~ msgid "Step 6.6 Raspberry Pi 4"
+#~ msgstr ""
+
+#~ msgid "Tools 工具"
+#~ msgstr "ツール"
+
+#~ msgid "Bolt to use 使用するボルト"
+#~ msgstr "使用するボルト"
+
+#~ msgid "M1.4x3mm      4x2=8"
+#~ msgstr ""
+
+#~ msgid "M2x4mm        2x4=8"
+#~ msgstr ""
+
+#~ msgid "M2x10mm       4+4=8"
+#~ msgstr ""
+
+#~ msgid "Use eight M1.4x3mm countersunk screws. M1.4x3mmの皿ネジを8本使用します。"
+#~ msgstr ""
+
+#~ msgid "Use four M2x10mm countersunk screws. M2x10mmのボルトを4本使用します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use 8 x M2x4mm screws. Insert only"
+#~ " the screws first and then insert "
+#~ "the shoulder parts into the gap. "
+#~ "Insert the 2 mm hex driver into"
+#~ " the hole in the shoulder part "
+#~ "and tighten the screws. "
+#~ "M2x4mmボルトを8本使用します。先にボルトだけ挿し、その隙間に肩パーツを差し込みます。肩パーツの穴に2mm六角レンチを入れてボルトを締めます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use four M2x10mm screws; if the "
+#~ "holes are too small to fit the "
+#~ "screws, as the part is made with"
+#~ " a 3D printer, you can enlarge "
+#~ "the holes by turning them with the"
+#~ " supplied 2mm hexagonal screwdriver. "
+#~ "M2x10mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。"
+#~ msgstr ""
+
+#~ msgid "Put on 4 shoes. 靴を4つ履く"
+#~ msgstr ""
+
+#~ msgid "Expansion functions"
+#~ msgstr "拡張機能"
+
+#~ msgid "Prerequisites"
+#~ msgstr ""
+
+#~ msgid "HDMI ポート付きのディスプレイ"
+#~ msgstr ""
+
+#~ msgid "ディスプレイ用のダプター"
+#~ msgstr ""
+
+#~ msgid "HDMI ケーブル"
+#~ msgstr ""
+
+#~ msgid "マウスとキーボード"
+#~ msgstr ""
+
+#~ msgid "顔用の写真および写真ファイルが入っている USB メモリ"
+#~ msgstr ""
+
+#~ msgid "2. Gait Performance"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect the PS4 controller to the "
+#~ "Pi by putting it pairing mode. "
+#~ "コントローラーをペアリングモードにしてRaspberry Piに接続します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To put it into pairing mode, hold"
+#~ " the share button and circular "
+#~ "Playstation button at the same time "
+#~ "until it starts making quick double "
+#~ "flashes. "
+#~ "ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に3秒以上長押しします。その後、ライトが2回点滅し始めます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If it starts making slow single "
+#~ "flashes, hold the Playstation button "
+#~ "down until it stops blinking and "
+#~ "try again. "
+#~ "もし、ゆっくりと1回点滅し始めた場合、点滅が止まるまでPSボタンを押し続けて、もう一度やり直してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wait until the controller binds to "
+#~ "the robot, at which point the "
+#~ "controller should turn a dim green "
+#~ "(or whatever color you chose in "
+#~ "pupper/HardwareConfig.py for the deactivated "
+#~ "color). コントローラーが本体に接続されるまで待ちます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press L1 on the controller to "
+#~ "\"activate\" the robot. The controller "
+#~ "should turn bright green (or again, "
+#~ "whatever you chose in HardwareConfig). "
+#~ "コントローラーのL1を押して、本体を「アクティブ化」します。 ここでコントローラーライトは明るい緑色に変わります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You're good to go! Check out the"
+#~ " controls section below for operating "
+#~ "instructions. 上記で準備が完了です。操作手順については、以下の制御セクションを確認してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L1: Press to toggle active mode "
+#~ "and deactivate mode. "
+#~ "L1を押し、アクティブモードと非アクティブモードに切り替えます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: the PS4 controller's front light"
+#~ " will change colors to indicate if"
+#~ " the robot is deactivated or "
+#~ "activated. コントローラーのライトは、本体がアクティブ化されているか、されていないかを示すために色が変わります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "R1: Press to transition between Rest "
+#~ "mode and Trot mode. "
+#~ "R1を押して、レストモードとトロットモードに切り替えます。"
+#~ msgstr ""
+
+#~ msgid "Left joystick　左スティック"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Forward/back　前進/後退: moves the robot "
+#~ "forward/backwards when in Trot mode. "
+#~ "トロットモード時、本体を前進/後退させます"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Left/right 左/右: moves the robot "
+#~ "left/right when in Trot mode. "
+#~ "トロットモード時、本体を左/右に動かします。"
+#~ msgstr ""
+
+#~ msgid "Right joystick 右スティック"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Forward/back 前方/後方: pitches the robot "
+#~ "forward and backward. 本体を前方および後方にピッチングします。"
+#~ msgstr ""
+
+#~ msgid "Left/right 左/右: turns the robot left and right. 本体を左右に回転させます。"
+#~ msgstr ""
+
+#~ msgid "D-Pad 十字キー"
+#~ msgstr ""
+
+#~ msgid "Forward/back 前後: raises and lowers the body. 体を上げ下げします。"
+#~ msgstr ""
+
+#~ msgid "Left/rights 左/右: rolls the body left/right. 体を左/右に回転させます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"X\" button 「X」ボタン: Press it three "
+#~ "times to complete a full hop. "
+#~ "3回押すと、ジャンプします。"
+#~ msgstr ""
+
+#~ msgid "Power off  電源オフ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ Note that a broken SD card "
+#~ "will not be restored... It's a bit"
+#~ " of a pain, but you can end "
+#~ "it with a command. After about 30"
+#~ " seconds, it will shut down and "
+#~ "you can press and ※ hold the "
+#~ "button on the bottom to turn it"
+#~ " off. "
+#~ "壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ You can shutdown Ubuntu by "
+#~ "pressing and holding the triangle "
+#~ "button. △ボタンを長押しでUbuntuをシャットダウンできます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PS4 controller pairing instructions (repeat"
+#~ " of instructions above) "
+#~ "コントローラーのペアリング手順（上記の手順の繰り返し）"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To put it into pairing mode, hold"
+#~ " the share button and circular "
+#~ "Playstation button at the same time "
+#~ "until it starts making quick double "
+#~ "flashes. "
+#~ "ペアリングモードにするには、「SHARE」ボタンと中央のPSボタンを同時に押し続けます。その後、ライトが2回点滅し始めます。"
+#~ msgstr ""
+
+#~ msgid "Battery voltage バッテリー電圧"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you power the robot with "
+#~ "anything higher than 8.4V (aka >2S) "
+#~ "you'll almost certainly fry all your "
+#~ "expensive servos! 8.4V（別名> "
+#~ "2S）を超えるものでロボットに電力を供給すると、すべての高価なサーボが壊れてしまう可能性が高くなります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that a lipo battery "
+#~ "alarm is attached to the battery "
+#~ "to indicate that the battery is "
+#~ "exhausted when starting the robot. "
+#~ "本体を起動する際、バッテリーが消耗したことを提示するため、バッテリーにリポバッテリーアラームを取り付けているので、ご注意ください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Also note that you should attach a"
+#~ " lipo battery alarm to your battery"
+#~ " when running the robot so that "
+#~ "you are know when the battery is"
+#~ " depleted. Discharging your battery too "
+#~ "much runs the risk of starting a"
+#~ " fire, especially if you try to "
+#~ "charge it again after it's been "
+#~ "completely discharged. A good rule-"
+#~ "of-thumb for know when a lipo "
+#~ "is discharged is checking whether the"
+#~ " individual cell voltages are below "
+#~ "3.6V. "
+#~ "完全に放電した後、再度充電する際など、バッテリーの放電が多すぎると、火災が発生する危険性があります。バッテリーがいつ放電されるかを知るための経験則は、個々のセル電圧が3.6V未満であるかどうかをチェックすることです。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The robot will walk much more "
+#~ "poorly when the battery is mostly "
+#~ "discharged since a lower voltage is "
+#~ "going to the motors. "
+#~ "また、モーターへの電圧が低くなるため、バッテリーが大概放電していると、ロボットの歩行が鈍くなります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Software setup for the SLAM & "
+#~ "Navigation functions. SLAM & "
+#~ "Navigation機能のソフトウェアセットアップ。"
+#~ msgstr ""
+
+#~ msgid "1. Things to prepare 準備するもの"
+#~ msgstr ""
+
+#~ msgid "PC（OS：Ubuntu20.04）"
+#~ msgstr ""
+
+#~ msgid "New SD card 新しいSDカード"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wi-Fi(PC and MiniPupper must be on"
+#~ " the same network) Wi-"
+#~ "Fiの環境（PCとMiniPupperを同じネットワークにする必要ある）"
+#~ msgstr ""
+
+#~ msgid "2. Setup on the PC side PC側の環境セットアップ"
+#~ msgstr ""
+
+#~ msgid "Step 2.1 Download the image  イメージのダウンロード"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"MiniPupper2004.zip\" is zip file of "
+#~ "the image for the Ubuntu + ROS "
+#~ "version for SLAM & Navigation. Download"
+#~ " and unzip the zip "
+#~ "file.「MiniPupper2004.zip」はSLAM＆NavigationのUbuntu + "
+#~ "ROSバージョンのイメージのzipファイルです。ファイルをダウンロードして、解凍します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`MiniPupper2004.zip <https://drive.google.com/file/d"
+#~ "/11zeivhN-fyTMdf6iuhcVD-Ib6aKj7s_5/view?usp=sharing>`_"
+#~ msgstr ""
+
+#~ msgid "Step 2.2 Write the image into microSD microSDにイメージを書く"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here we introduce the method of "
+#~ "writing the image into microSD through"
+#~ " Raspberry Pi's Imager. "
+#~ "ここでは、RaspberryPiのImagerを使用してイメージをmicroSDに書き込む方法を紹介します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Install the Imager tool of the "
+#~ "Raspberry Pi. RaspberryPiのImagerツールをインストール"
+#~ msgstr ""
+
+#~ msgid "Write the image into the new SD card.  新しいSDカードにイメージを書き込みます。"
+#~ msgstr ""
+
+#~ msgid "Step 2.3 Install ROS noetic ROS noeticをインストールする"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can skip this step if you "
+#~ "have already installed ROS noetic. "
+#~ "Basically you can follow the "
+#~ "instructions on "
+#~ "http://wiki.ros.org/noetic/Installation/Ubuntu. ROS "
+#~ "noeticをすでにインストールしている場合は、この手順をスキップできます。基本的に、http://wiki.ros.org/noetic/Installation/Ubuntu"
+#~ " の指示に従うことができます。"
+#~ msgstr ""
+
+#~ msgid "Step 2.4 Cartographer_ros environment setup Cartographer_rosの環境セットアップ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step 2.5 Compile the package for "
+#~ "Mini Pupper ROS Mini Pupper "
+#~ "ROS用のパッケージをコンパイル"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the required package `mnpp_ws.zip "
+#~ "<https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_"
+#~ "  and unzip it to home. 必要なパッケージ "
+#~ "`mnpp_ws.zip "
+#~ "<https://drive.google.com/file/d/1gbuvy29hNnS3Ep2o_uR8qAYnFKkr7Dj4/view?usp=sharing>`_"
+#~ " をダウンロードして、homeに解凍します。"
+#~ msgstr ""
+
+#~ msgid "Compile the package. パッケージをコンパイルします。"
+#~ msgstr ""
+
+#~ msgid "Step 2.6 Network setup ネットワークのセットアップ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect your PC and MiniPupper to "
+#~ "the same WiFi and find the IP "
+#~ "address assigned by the command "
+#~ "ifconfig. "
+#~ "PCとMiniPupperを同じWiFiに接続して、コマンドifconfigで割り当てられたIPアドレスを見つけます。"
+#~ msgstr ""
+
+#~ msgid "Open the bashrc file. bashrcファイルを開きます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Update the ROS IP settings with "
+#~ "the following command to add the "
+#~ "master and hostname configuration in the"
+#~ " bashrc file. "
+#~ "以下のコマンドでROSのIP設定を更新して、マスターとホスト名の構成をbashrcファイルに追加します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ 192.168.1.7 is the IP of the "
+#~ "PC. you need to enter the IP "
+#~ "of your PC. 192.168.1.7はPCのIPです。 "
+#~ "PCのIPを入力する必要があります。"
+#~ msgstr ""
+
+#~ msgid "Source the .bashrc file."
+#~ msgstr ""
+
+#~ msgid "3. Setup on the MiniPupper side MiniPupper側の環境セットアップ"
+#~ msgstr ""
+
+#~ msgid "Step 3.1 Replace the new SD card 新しいSDカードを入れ替わる"
+#~ msgstr ""
+
+#~ msgid "Step 3.2 Attach Lidar Lidarの取り付け"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ You can use a shorter USB "
+#~ "cable to connect the Lidar and "
+#~ "MiniPupper. もっと短いUSBケーブルを使用して、LidarとMiniPupperを接続できます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Place Lidar on the Stand and "
+#~ "tighten with tapping screws (2 pieces)."
+#~ "  Lidarを台の上に載せて、タッピングビス（2個）で締めます。"
+#~ msgstr ""
+
+#~ msgid "Attach Lidar to Mini Pupper LidarをMiniPupperに取り付ける"
+#~ msgstr ""
+
+#~ msgid "Step 3.3 Network setup ネットワークのセットアップ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect the MiniPupper to the HDMI "
+#~ "display, then power on. "
+#~ "MiniPupperをHDMIディスプレイに接続し、電源を入れます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ 192.168.1.4 is the IP of the "
+#~ "raspberry Pi. you need to enter "
+#~ "the IP of your raspberry Pi. "
+#~ "192.168.1.4はラズベリーパイのIPです。 ラズベリーパイのIPを入力する必要があります。"
+#~ msgstr ""
+
+#~ msgid "Step 3.4 Automatic time update settings 時間の自動更新の設定"
+#~ msgstr ""
+
+#~ msgid "Set the correct time zone to your country. お住まいの国に正しいタイムゾーンを設定してください。"
+#~ msgstr ""
+
+#~ msgid "The video is shown as below. ビデオは以下のように表示されます。"
+#~ msgstr ""
+
+#~ msgid "Step 3.5 Modify the IO settings IO設定の変更"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to change the IO settings"
+#~ " if you use the V2 custom "
+#~ "circut board. If you use the V1"
+#~ " verson, you can skip. "
+#~ "V2カスタム基板を使用する場合はIO設定を変更する必要があります。V1バージョンを使用する場合は、スキップしてください。"
+#~ msgstr ""
+
+#~ msgid "Step 3.6 Calibrate the servomotor サーボモーターのキャリブレーション"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here we introduce how to calibrate "
+#~ "the servomotors of MiniPupper through "
+#~ "SSH after MiniPupper and PC connected"
+#~ " to the same WiFi. "
+#~ "ここでは、MiniPupperとPCを同じWiFiに接続した後、SSHを介してMiniPupperのサーボモーターを調整する方法を紹介します。"
+#~ msgstr ""
+
+#~ msgid "Enter the roscore command on the PC side. PC側でroscoreコマンドを入れます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Access MiniPupper with ssh on the "
+#~ "PC side. Enter the command on the"
+#~ " PC side. PC側sshでMiniPupperをアクセスします。PC側でコマンドを入れます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The target posture of calibration is "
+#~ "shown as follows. To save power, "
+#~ "you can disconnect the Lidar USB "
+#~ "cable. カリブレーションの目標姿勢は以下のようになります。電力を節約するために、Lidar "
+#~ "USBケーブルを外すことができます。"
+#~ msgstr ""
+
+#~ msgid "4. Run MiniPupper ミニぷぱを動かす"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MiniPupper can be controlled with "
+#~ "Keyboard or PS4 controller. "
+#~ "ミニぷぱはキーボードまたはPS4コントローラーで制御できます。"
+#~ msgstr ""
+
+#~ msgid "Step 4.1 Control from the keyboard of PC. PCのキーボードからの制御"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enter the keyboard control node command"
+#~ " on the PC side. PC側でキーボード制御ノードコマンドを入力します。"
+#~ msgstr ""
+
+#~ msgid "The operation video is shown as below. 操作動画は以下のとおりです。"
+#~ msgstr ""
+
+#~ msgid "Step 4.2 Control from the PS4 controller. PS4コントローラーでの制御"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enter the PS4 control node command "
+#~ "on the MiniPupper side. "
+#~ "ミニぷぱ側でPS4制御ノードコマンドを入力します"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, pair with PS4 (wait for "
+#~ "about 5 seconds). The joystick on "
+#~ "the left controls driving forward, "
+#~ "backward, left and right. The joystick"
+#~ " on the right controls rotation. The"
+#~ " cross key controls the standing "
+#~ "height and the angle of the roll"
+#~ " axis. If you are pressing R2, "
+#~ "use the right joystick to control "
+#~ "the pitch angle and yaw axis. "
+#~ "Press L2 and the robot will return"
+#~ " to its default state. "
+#~ "次に、PS4とのペアリングモードします（5秒ぐらい待つ）。左のジョイスティックは前後左右の走行を制御します。右のジョイスティックは回転を制御します。十字キーは、立っている高さとロール軸の角度を制御します。R2を押している場合は、右のジョイスティックでピッチ角とヨー軸を制御します。L2を押すと、ロボットはデフォルトの状態に戻ります。"
+#~ msgstr ""
+
+#~ msgid "5. Create a 2D map 2D地図作成"
+#~ msgstr ""
+
+#~ msgid "Step 5.1 Start cartographer on the PC side PC側でcartographerを起動する"
+#~ msgstr ""
+
+#~ msgid "Step 5.2 MiniPupper setup ミニぷぱセットアップ"
+#~ msgstr ""
+
+#~ msgid "※ Lidar USB plugged state.  LidarUSBが接続された状態。"
+#~ msgstr ""
+
+#~ msgid "Step 5.3 Create map 地図作成"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Run MiniPupper on the PC side to"
+#~ " create a 2D map (using the "
+#~ "operation from the Keyboard as an "
+#~ "example). PC側でMiniPupperを動かして、２D地図を作成します（Keyboardからの操作を例とする）。"
+#~ msgstr ""
+
+#~ msgid "Step 5.4 Save the 2D map on the PC side PC側で２D地図の保存"
+#~ msgstr ""
+
+#~ msgid "Video of PC operation PC操作の動画"
+#~ msgstr ""
+
+#~ msgid "Actual machine video 実機動画"
+#~ msgstr ""
+
+#~ msgid "6. Navigation ナビゲーション"
+#~ msgstr ""
+
+#~ msgid "Step 6.1 Move the saved mapto the related folder 保存したマップを関連フォルダに移動"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the saved map.pbstream, map.pgm and"
+#~ " map.yaml to src/minipupper_ros/mini_pupper/maps "
+#~ "on your PC. 保存できた map.pbstream / "
+#~ "map.pgm / map.yaml は、 PC "
+#~ "の、src/minipupper_ros/mini_pupper/maps に移動します。"
+#~ msgstr ""
+
+#~ msgid "Step 6.2  Execute Navigation Launch on the PC side PC側でナビゲーション起動を実行"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Continued from step 5.1 (after closing"
+#~ " roslaunch mini_pupper slam.launch with ctl"
+#~ " + c). 手順5.1から続行します（ctl + "
+#~ "cを使用してroslaunchmini_pupper slam.launchを閉じた後）。"
+#~ msgstr ""
+
+#~ msgid "Step 6.3 Set the target position 目標位置を設定する"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the PC side, specify the target"
+#~ " of the map where rviz is "
+#~ "displayed. PC側で、rvizが表示される地図の目標位置を設定します。"
+#~ msgstr ""
+
+#~ msgid "Step 6.4  Autonomous driving 自律走行"
+#~ msgstr ""
+
+#~ msgid "7. Others その他"
+#~ msgstr ""
+
+#~ msgid "Let's install an ordinary USB camera. 普通のUSBカメラを搭載してみよう。"
+#~ msgstr ""
+
+#~ msgid "Step 7.1 PC side　PC側"
+#~ msgstr ""
+
+#~ msgid "Step 7.2 MiniPupper side ミニぷパ側"
+#~ msgstr ""
+
+#~ msgid "Step 7.3 PC side　PC側"
+#~ msgstr ""
+
+#~ msgid "Launch rqt_image_view and watch the video. rqt_image_viewを立ち上げて映像をみます。"
+#~ msgstr ""
+
+#~ msgid "Instructions for Creating an AWS RoboMaker Environment for Mini Pupper"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Refer to https://github.com/mangdangroboticsclub/aws-"
+#~ "robomaker-mini-pupper-"
+#~ "application/blob/master/README.md ."
+#~ msgstr ""
+
+#~ msgid "Software"
+#~ msgstr "ソフトウェア"
+
+#~ msgid "Software setup for the basic functions. 基本機能のソフトウェアセットアップ。"
+#~ msgstr ""
+
+#~ msgid "1. Software Setup ソフトウェアセットアップ"
+#~ msgstr ""
+
+#~ msgid "USB keyboardUSB キーボード"
+#~ msgstr ""
+
+#~ msgid "HDMI DisplayHDMI ディスプレイ"
+#~ msgstr ""
+
+#~ msgid "HDMI microHDMI convertorHDMI⇔microHDMI変換"
+#~ msgstr ""
+
+#~ msgid "Step 1.1 Startup raspberry pi ラズパイの起動"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect the Raspberry pi to the "
+#~ "display with a microHDMI cable. "
+#~ "ラズパイとディスプレイの間をmicroHDMIケーブルで繋ぐ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect a USB keyboard and mouse "
+#~ "to the Raspberry pi. USBのキーボードとマウスをラズパイに繋ぐ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press and hold the button on the"
+#~ " bottom of the Mini Pupper to "
+#~ "start Raspberry pi for three seconds."
+#~ " Mini Pupperの底にあるボタンを3秒長押しして、起動します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you can see Ubuntu running on"
+#~ " your screen, you have succeeded. You"
+#~ " should also see the face on "
+#~ "Mini Pupper display. If you don't "
+#~ "see both screen, then you have "
+#~ "followed the instructions incorrectly. "
+#~ "画面にUbuntuの起動している様子が映れば成功です。さらに、Mini "
+#~ "Pupperの画面も表示されます。もし表示されない場合は、これまで行った手順に誤りがあります。"
+#~ msgstr ""
+
+#~ msgid "Step 1.2  Log in ログイン"
+#~ msgstr ""
+
+#~ msgid "Press ubuntu on the purple screen to log in. 紫の画面でubuntuを押してログインします。"
+#~ msgstr ""
+
+#~ msgid "Default username / 初期ユーザ名:ubuntu"
+#~ msgstr ""
+
+#~ msgid "Default password / 初期パスワード：mangdang"
+#~ msgstr ""
+
+#~ msgid "You should change your password. パスワードは各自変更しましょう。"
+#~ msgstr ""
+
+#~ msgid "Step 1.3  Set keyboard キーボードの設定"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using a Japanese "
+#~ "keyboard, you will need this setting."
+#~ " Press the menu button in the "
+#~ "bottom left corner and type settings "
+#~ "to bring up settings. "
+#~ "日本語キーボードを使ってる場合、この設定が必要です。左下のメニューボタンを押し、 settings "
+#~ "とタイプして設定を起動します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select Region & Language and press "
+#~ "+ for Input Sources. On the screen"
+#~ " that comes up, select the three "
+#~ "dots for other and type Japanese "
+#~ "to select it. Type Japanese to "
+#~ "select it. Region & Language を選択し、Input"
+#~ " Sourcesの＋を押します。出てきた画面で点3つを選ぶとotherが出るので、 Japanese "
+#~ "とタイプして選択します。English(US)はゴミ箱マークを押して消してしまってもOKです。"
+#~ msgstr ""
+
+#~ msgid "Step 1.4  Enable wifi Wifiの有効化"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press the menu button at the "
+#~ "bottom left and type terminal to "
+#~ "start the terminal. In the terminal, "
+#~ "open the configuration file. 左下のメニューボタンを押し、"
+#~ " terminal とタイプしてターミナルを起動します。ターミナルで、設定ファイルを開きます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type # to enable disabled wifi on"
+#~ " syscfg.txt. syscfg.txtにはdtoverlay=disable-"
+#~ "wifiと書かれているので、#を付けてコメントアウトします。"
+#~ msgstr ""
+
+#~ msgid "Reboot Ubuntu to enable wifi. ここで一度再起動して、設定を反映しましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you start up again, open "
+#~ "settings and set up your wifi "
+#~ "settings. Choose your wifi access point"
+#~ " SSID and enter your password. "
+#~ "再び起動したら、settingsを開いてWifiの設定をします。自分のWifiアクセスポイントのSSIDを選び、パスワードを入れましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type ip a. See and make a "
+#~ "note of IP address. This will be"
+#~ " necessary when you connect to your"
+#~ " PC via ssh. The configuration within"
+#~ " Ubuntu is now complete. ターミナルで ip"
+#~ " a "
+#~ "とタイプし、ラズパイに割り振られたIPアドレスを確認します。PCからsshで接続するときに必要になるのでメモしておきましょう。Ubuntu内の設定はこれで完了です。"
+#~ msgstr ""
+
+#~ msgid "Step 1.5 Open ports for ssh / ssh接続のためのポート開放"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Attempt to make an ssh connection "
+#~ "from your PC to Ubuntu. "
+#~ "PCからUbuntuにssh接続を試みます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are unable to make an "
+#~ "ssh connection from your PC, you "
+#~ "will need to configure the following,"
+#~ " maybe. PCからssh接続できない場合、下記の設定が必要です。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If firewall is not running, do the"
+#~ " following. もしファイアーウォールが起動してないと言われたら以下を実行します。"
+#~ msgstr ""
+
+#~ msgid "2. calibration キャリブレーション"
+#~ msgstr ""
+
+#~ msgid "Step 2.1 Leg servos"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The first step is to make the "
+#~ "Mini Pupper stand up, so that legs"
+#~ " touch the floor. まずMini "
+#~ "Pupperのすべての脚が床に触れるように立たせます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Double-click on the Calibration Tool "
+#~ "icon on your desktop to launch it."
+#~ " Note that the legs will move "
+#~ "when you run above python script. "
+#~ "デスクトップのCalibration Toolアイコンをダブルクリックして起動します。アプリを起動したら、脚が動くので注意です。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, for each leg, move the Thigh"
+#~ " and Calf bars so that they are"
+#~ " at a 45 degree angle. The "
+#~ "angle of the legs will change in"
+#~ " conjunction with the position of the"
+#~ " slide bar on the screen. However,"
+#~ " if it does not move, then the"
+#~ " steps you have followed are "
+#~ "incorrect. 次に、それぞれの脚について、ThighとCalfのバーを動かし、45度の角度になるように調整します。要は"
+#~ " ＞ ＞ "
+#~ "の形にします。画面のスライドバーの位置に連動して脚の角度が変化します。しかし、動かない場合は、これまで行った手順に誤りがあります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the iPhone's tilt "
+#~ "sensor app, a ruler or a "
+#~ "protractor to measure the angle. I "
+#~ "also used a ruler and a "
+#~ "protractor. iPhoneの傾斜センサーアプリ、定規、分度器を使用して角度を測定できます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is not enough to measure the"
+#~ " inclination of the legs, so it "
+#~ "is important to place the legs on"
+#~ " a grid, like a piece of graph"
+#~ " paper, to check that they are "
+#~ "in the same position from front to"
+#~ " back and from side to side, "
+#~ "and to make any final adjustments. "
+#~ "傾きの測定だけでは脚の位置が揃わないので、方眼紙のようなマス目に脚を置いて、前後左右の位置が一致しているか、確認し最終調整しましょう。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When all legs are at 45° "
+#~ "inclination as shown, press Update to"
+#~ " save the settings. Press × to "
+#~ "close the calibration application. "
+#~ "すべての脚を図のように45度の傾きになったら、Update "
+#~ "を押して設定を保存します。×ボタンを押してキャリブレーションアプリを閉じます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As a tip, the calibration requires "
+#~ "GUI and could not be done via "
+#~ "ssh. 補足ですが、キャリブレーションはGUIが必要なのでsshでは実行出来ませんでした。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "※ For the latest image file of "
+#~ "the Ubuntu21.10, the target angles of"
+#~ " legs are shown as below. Ubuntu "
+#~ "21.10の最新のイメージファイルの場合、脚の目標角度は次のようになります。"
+#~ msgstr ""
+
+#~ msgid "Step 2.2 Connect PS4 controller Playstation4コントローラの接続"
+#~ msgstr ""
+
+#~ msgid "Please check the next chapter. 次の章を参照ください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you can control it with a "
+#~ "ps4 controller, it's OK. ps4コントローラで操作できればOKです。"
+#~ msgstr ""
+
+#~ msgid "Step 2.3 Shutdown Raspberry pi & Ubuntu ラズパイ&Ubuntuのシャットダウン"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will need to shut down on "
+#~ "Ubuntu. If you have a screen + "
+#~ "keyboard connected, type the following "
+#~ "command directly, or if not, type "
+#~ "the following command from your PC "
+#~ "via ssh connection. "
+#~ "下面にあるボタン長押しで突然電源供給を止めると、SDカードが破壊されるリスクがあります。Ubuntu上でシャットダウンする必要があります。画面＋キーボードを接続しているなら直接、繋いでいないならPCからssh接続で下記のコマンドを打ちます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that a broken SD card will"
+#~ " not be restored... It's a bit "
+#~ "of a pain, but you can end "
+#~ "it with a command. After about 30"
+#~ " seconds, it will shut down and "
+#~ "you can press and hold the button"
+#~ " on the bottom to turn it off."
+#~ " "
+#~ "壊れたSDカードは元に戻りません…。面倒ですが、コマンドで終了しましょう。30秒ほどすればシャットダウン完了しますので、底面のボタンを長押しして電源を止めます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can shutdown Ubuntu by pressing "
+#~ "and holding the triangle button. "
+#~ "△ボタンを長押しでUbuntuをシャットダウンできます。"
+#~ msgstr ""
+

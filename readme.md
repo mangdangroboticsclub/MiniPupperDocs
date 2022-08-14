@@ -26,7 +26,18 @@ Then the following commands can build a result of HTML documents to view in brow
 ```bash
 cd ./docs
 make rtd
+# The details of rtd-ja refers to _Sphinx Document Internationalization_ below.
 # make rtd-ja
 ```
 
 Now the build result files can be opened from `docs/_build/html`.
+
+## Sphinx Document Internationalization
+
+```
+# Make Sphinx-generated messages (Japanese version is prebuilt here)
+make intl-ja
+
+# Preview Sphinx-generated messages as HTML
+make rtd-ja
+```
