@@ -213,8 +213,13 @@ Adjustment of the length of ④
     
 .. image:: ../_static/11.jpg
     :align: center
+    
+* If it's hard to twist, you can use two screwdrivers to assist.
 
-
+.. image:: ../_static/11_1.jpg
+    :align: center
+    
+    
 Assemble ⑤ and ⑥ 
 
 * Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into the holes of ⑥, and tighten them. The large hole in ⑥ should be facing the surface. 
@@ -444,8 +449,6 @@ Step 5.1 Center parts
 .. image:: ../_static/49_1.jpg
     :align: center 
     
-.. image:: ../_static/51_1.jpg
-    :align: center 
 
 
 Step 5.2 Front parts
@@ -476,6 +479,12 @@ Step 5.3 Rear side
     
 .. image:: ../_static/59_1.jpg
     :align: center 
+    
+
+    
+.. image:: ../_static/51_1.jpg
+    :align: center 
+
 
 Step 5.4 Battery 
 ^^^^^^^^^^^^^^^^^
@@ -506,18 +515,22 @@ Step 5.5 Bottom plate
 
 .. image:: ../_static/61.jpg
     :align: center    
-	
+
+* If the leg is stuck, turn the part ①	
+
+.. image:: ../_static/59_2.jpg
+    :align: center  
     
+.. image:: ../_static/59_3.gif
+    :align: center 
+        
 
 Step 5.6 Display and Frame of face
 ^^^^^^^^^^^^^^^^^
 
 * Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible. 
-
-    
 .. image:: ../_static/74.jpg
-    :align: center 
-    
+    :align: center   
 .. image:: ../_static/75.jpg
     :align: center 
     
@@ -559,6 +572,15 @@ Step 5.7 Custom circuit board
 
 .. image:: ../_static/90.jpg
     :align: center 
+    
+* Use four M2x5mm screws and four short supports. 
+    
+.. image:: ../_static/63.jpg
+    :align: center 
+    
+.. image:: ../_static/64.jpg
+    :align: center 
+    
 
 * put on the carbon fiber board
     
@@ -570,6 +592,11 @@ Step 5.7 Custom circuit board
 .. image:: ../_static/92.jpg
     :align: center 
 
+* Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
+    
+.. image:: ../_static/66.jpg
+    :align: center 
+  
 * Pull the custom circuit board closer to the body. The board may float, but you can use four long posts to hold it in place. 
     
 .. image:: ../_static/93.jpg
@@ -588,27 +615,8 @@ Step 5.7 Custom circuit board
     :align: center
 
 
-Step 5.8 Top plate and supports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Use four M2x5mm screws and four short supports. 
-    
-.. image:: ../_static/63.jpg
-    :align: center 
-    
-.. image:: ../_static/64.jpg
-    :align: center 
-
-    
-
-* Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
-    
-.. image:: ../_static/66.jpg
-    :align: center 
-  
-
-
-Step 5.9 Fan 
+Step 5.8 Fan 
 ^^^^^^^^^^^^^^^^^^^^^
 
 * To install the fan.
@@ -620,7 +628,7 @@ Step 5.9 Fan
     :align: center 
     
 
-Step 5.10 Raspberry Pi 4
+Step 5.9 Raspberry Pi 4
 ^^^^^^^^^^^^^^^^^^^^^^^^
     
 .. image:: ../_static/96.jpg
