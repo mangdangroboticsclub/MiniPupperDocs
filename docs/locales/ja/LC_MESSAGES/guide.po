@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-14 13:47+0900\n"
+"POT-Creation-Date: 2022-08-20 09:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,8 +211,8 @@ msgstr ""
 msgid "3. Legs Assembly"
 msgstr "脚の組み立て"
 
-#: ../../guide/Assembly.rst:134 ../../guide/Assembly.rst:340
-#: ../../guide/Assembly.rst:636
+#: ../../guide/Assembly.rst:134 ../../guide/Assembly.rst:345
+#: ../../guide/Assembly.rst:644
 msgid "Please refer to the below video clip."
 msgstr ""
 
@@ -312,22 +312,28 @@ msgid ""
 "Once the lengths have been adjusted, take apart all."
 msgstr ""
 
-#: ../../guide/Assembly.rst:218
+#: ../../guide/Assembly.rst:217
+msgid "If it's hard to twist, you can use two screwdrivers to assist."
+msgstr "組み立て中回しづらい場合、ドライバーなどの工具を使ってまた試してみてください。"
+
+#: ../../guide/Assembly.rst:223
 msgid "Assemble ⑤ and ⑥"
 msgstr ""
 
-#: ../../guide/Assembly.rst:220
+#: ../../guide/Assembly.rst:225
 msgid ""
 "Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
 "the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
 "the surface."
 msgstr ""
+"下図のように、M2x5mm のネジを１コ図中の部品 ⑤ と部品 ⑥ のところに差し込み、"
+"締め付ける。"
 
-#: ../../guide/Assembly.rst:231
+#: ../../guide/Assembly.rst:236
 msgid "Assemble ⑤ and ⑦"
-msgstr ""
+msgstr "部品 ⑤ と ⑦ を結合"
 
-#: ../../guide/Assembly.rst:233
+#: ../../guide/Assembly.rst:238
 msgid ""
 "Use an M2x12mm screw, an M2 locknut and two sets of ball bearings. Each "
 "ball bearing is made up of three parts, the top and bottom parts with the"
@@ -338,36 +344,36 @@ msgid ""
 "with the nut."
 msgstr ""
 
-#: ../../guide/Assembly.rst:252
+#: ../../guide/Assembly.rst:257
 msgid "Assemble ④ and ⑦"
-msgstr ""
+msgstr "部品 ④ と ⑦ を結合"
 
-#: ../../guide/Assembly.rst:254
+#: ../../guide/Assembly.rst:259
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ "
 "through, then tighten it with the nut. The direction of the front and "
 "back of ④ can be either."
 msgstr ""
 
-#: ../../guide/Assembly.rst:256 ../../guide/Assembly.rst:271
+#: ../../guide/Assembly.rst:261 ../../guide/Assembly.rst:276
 msgid "Left and right leg"
-msgstr ""
+msgstr "左右セットの足"
 
-#: ../../guide/Assembly.rst:267
+#: ../../guide/Assembly.rst:272
 msgid "Assemble ③ and ④"
-msgstr ""
+msgstr "部品 ③ と ④ を結合"
 
-#: ../../guide/Assembly.rst:269
+#: ../../guide/Assembly.rst:274
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ "
 "through, then tighten it with the nut."
 msgstr ""
 
-#: ../../guide/Assembly.rst:279
+#: ../../guide/Assembly.rst:284
 msgid "Assemble ③ and ⑤"
-msgstr ""
+msgstr "部品 ③ と ⑤ を結合"
 
-#: ../../guide/Assembly.rst:281
+#: ../../guide/Assembly.rst:286
 msgid ""
 "Use M2x14mm screws and two sets of ball bearings. Thread the screws "
 "through the bearings, ③, bearings, ⑤, in that order. The screws are not "
@@ -375,63 +381,63 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../guide/Assembly.rst:292
+#: ../../guide/Assembly.rst:297
 msgid "Completion of a right leg"
 msgstr ""
 
-#: ../../guide/Assembly.rst:295
+#: ../../guide/Assembly.rst:300
 msgid ""
 "Now we have one leg on the right side. Here are some pictures so you can "
 "see it from different angles. The left leg should be symmetrical with the"
 " right one."
 msgstr ""
 
-#: ../../guide/Assembly.rst:306
+#: ../../guide/Assembly.rst:311
 msgid "opposite side"
 msgstr ""
 
-#: ../../guide/Assembly.rst:315
+#: ../../guide/Assembly.rst:320
 msgid "Step 3.2 Four legs"
 msgstr "前足と後ろ足"
 
-#: ../../guide/Assembly.rst:321
+#: ../../guide/Assembly.rst:326
 msgid "Step 3.3 Locktite"
 msgstr "ロックタイト"
 
-#: ../../guide/Assembly.rst:323
+#: ../../guide/Assembly.rst:328
 msgid ""
 "As the nut is on a moving joint, it will loosen quickly if tightened too "
 "tightly. They should be secured with Loctite. It is possible to dismantle"
 " the nut later, as it can be loosened by a strong force."
 msgstr ""
 
-#: ../../guide/Assembly.rst:328
+#: ../../guide/Assembly.rst:333
 msgid "Some screws are also secured with glue as the below picture shows."
 msgstr ""
 
-#: ../../guide/Assembly.rst:335
+#: ../../guide/Assembly.rst:340
 msgid "4. Hips Assembly"
 msgstr "足の取り付け"
 
-#: ../../guide/Assembly.rst:338
+#: ../../guide/Assembly.rst:343
 msgid "Step 4.1 Hip"
 msgstr "モータの設置"
 
-#: ../../guide/Assembly.rst:349
+#: ../../guide/Assembly.rst:354
 msgid ""
 "There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
 "other cables length is 15cm."
 msgstr ""
 
-#: ../../guide/Assembly.rst:351
+#: ../../guide/Assembly.rst:356
 msgid "For the position of each servos, please refer to the below picture."
 msgstr ""
 
-#: ../../guide/Assembly.rst:356
+#: ../../guide/Assembly.rst:361
 msgid "Here shows how to assemble the rear right hip."
 msgstr ""
 
-#: ../../guide/Assembly.rst:358
+#: ../../guide/Assembly.rst:363
 msgid ""
 "Confirm whether the servo shaft is at the right position. The middle "
 "position marker is added on the output shaft, the output shaft is at its "
@@ -442,106 +448,106 @@ msgid ""
 "picture shows."
 msgstr ""
 
-#: ../../guide/Assembly.rst:364
+#: ../../guide/Assembly.rst:369
 msgid "Connect the servo and hip part."
-msgstr ""
+msgstr "おしりのところに取り付けるモーター。"
 
-#: ../../guide/Assembly.rst:372
+#: ../../guide/Assembly.rst:377
 msgid "Put two servos into hip parts"
 msgstr ""
 
-#: ../../guide/Assembly.rst:374
+#: ../../guide/Assembly.rst:379
 msgid "Insert two servos into the box and fix them with M2x6mm screws."
 msgstr ""
 
-#: ../../guide/Assembly.rst:379
+#: ../../guide/Assembly.rst:384
 msgid "Four hip parts, please refer to the servo positions."
 msgstr ""
 
-#: ../../guide/Assembly.rst:385
+#: ../../guide/Assembly.rst:390
 msgid "Assemble leg and hip"
 msgstr ""
 
-#: ../../guide/Assembly.rst:387
+#: ../../guide/Assembly.rst:392
 msgid ""
 "※ If you have no technology background, it's easier to attach the leg to "
 "the hip during the calibration step."
 msgstr ""
 
-#: ../../guide/Assembly.rst:389
+#: ../../guide/Assembly.rst:394
 msgid ""
 "※ If you are the first time to assemble quadruped robot, we don't "
 "recommand you use the Loctite."
 msgstr ""
 
-#: ../../guide/Assembly.rst:391
+#: ../../guide/Assembly.rst:396
 msgid ""
 "Attach the leg to the hip using the M2x12mm screws. Leg is tilted at "
 "approximately 45°, as shown in the manual."
 msgstr ""
 
-#: ../../guide/Assembly.rst:396
+#: ../../guide/Assembly.rst:401
 msgid ""
 "Tighten the screws with Loctite. Use a toothpick to apply Loctite to the "
 "servo's screw holes."
 msgstr ""
 
-#: ../../guide/Assembly.rst:411
+#: ../../guide/Assembly.rst:416
 msgid "Step 4.2 Four Hips"
 msgstr "前後各２セット"
 
-#: ../../guide/Assembly.rst:416
+#: ../../guide/Assembly.rst:421
 msgid "※ Please pay attention to the positions of the servo gear output shaft"
 msgstr ""
 
-#: ../../guide/Assembly.rst:426
+#: ../../guide/Assembly.rst:431
 msgid "5. Body Frame Assembly"
 msgstr "本体の組み立て"
 
-#: ../../guide/Assembly.rst:429
+#: ../../guide/Assembly.rst:434
 msgid "Step 5.1 Center parts"
 msgstr "モータの取り付け"
 
-#: ../../guide/Assembly.rst:431
+#: ../../guide/Assembly.rst:436
 msgid "The position of each servos are shown as below."
 msgstr ""
 
-#: ../../guide/Assembly.rst:436
+#: ../../guide/Assembly.rst:441
 msgid ""
 "※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
 "other cables length is 15cm."
 msgstr ""
 
-#: ../../guide/Assembly.rst:438
+#: ../../guide/Assembly.rst:443
 msgid ""
 "It is useful to put masking tape on the cables and write the number of "
 "servos during this process to make it easier later."
 msgstr ""
 
-#: ../../guide/Assembly.rst:452
+#: ../../guide/Assembly.rst:455
 msgid "Step 5.2 Front parts"
 msgstr "前部"
 
-#: ../../guide/Assembly.rst:454
+#: ../../guide/Assembly.rst:457
 msgid ""
 "*The front part is designed to hold the LCD screen. Make sure you don't "
 "mistake it for the rear part."
 msgstr ""
 
-#: ../../guide/Assembly.rst:464
+#: ../../guide/Assembly.rst:467
 msgid "Step 5.3 Rear side"
 msgstr "後部"
 
-#: ../../guide/Assembly.rst:466
+#: ../../guide/Assembly.rst:469
 msgid "The same procedure as for the front part."
 msgstr ""
 
-#: ../../guide/Assembly.rst:481
+#: ../../guide/Assembly.rst:490
 #, fuzzy
 msgid "Step 5.4 Battery"
 msgstr "バッテリー"
 
-#: ../../guide/Assembly.rst:483
+#: ../../guide/Assembly.rst:492
 msgid ""
 "If you DIY the battery, please ensure our battery spec at first, "
 "especially the Voltage should be less than 7.4V, you can also refer to "
@@ -549,163 +555,168 @@ msgid ""
 "https://www.facebook.com/groups/716473723088464/posts/777616293640873/"
 msgstr ""
 
-#: ../../guide/Assembly.rst:486
+#: ../../guide/Assembly.rst:495
 msgid "Install the battery pack."
 msgstr ""
 
-#: ../../guide/Assembly.rst:491
+#: ../../guide/Assembly.rst:500
 msgid "Be careful of the carbon fiber front and rear orientation."
 msgstr ""
 
-#: ../../guide/Assembly.rst:496
+#: ../../guide/Assembly.rst:505
 msgid ""
 "Slide the battery backwards and secure it. Pass the cable through the "
 "hole in the bottom plate and bring it up to the top."
 msgstr ""
 
-#: ../../guide/Assembly.rst:503
+#: ../../guide/Assembly.rst:512
 #, fuzzy
 msgid "Step 5.5 Bottom plate"
 msgstr "下部"
 
-#: ../../guide/Assembly.rst:505
+#: ../../guide/Assembly.rst:514
 msgid "The orientation of the plate must be such that the hole is at the front."
 msgstr ""
 
-#: ../../guide/Assembly.rst:513
+#: ../../guide/Assembly.rst:519
+msgid "If the leg is stuck, turn the part ①"
+msgstr "足は入れづらい場合、部品 ① の箇所を回してみてください。"
+
+#: ../../guide/Assembly.rst:529
 #, fuzzy
 msgid "Step 5.6 Display and Frame of face"
 msgstr "顔の組み立て"
 
-#: ../../guide/Assembly.rst:515
+#: ../../guide/Assembly.rst:531
 msgid ""
 "Remove the protective sheet for the display. Fold the thin flexible cable"
 " at the edge of the display. Attach the board and the display to the main"
 " unit. When attaching the display, you can use a stick to gently push the"
 " flexible cable, so that it goes as far back as possible."
 msgstr ""
-
-#: ../../guide/Assembly.rst:535
-msgid "Be careful with the yellow parts as it has a front and back."
-msgstr ""
+"液晶画面上のシートを外し、付属の基盤ケーブルを回りに収める。"
+"本体の上に液晶画面を取り付けるとき、基盤ケーブルのところも丁寧に入れるよう、気を付けてください。"
 
 #: ../../guide/Assembly.rst:548
+msgid "Be careful with the yellow parts as it has a front and back."
+msgstr "下図の黄色カバーは表裏若干異なるため、気を付けて取り付ける。"
+
+#: ../../guide/Assembly.rst:561
 #, fuzzy
 msgid "Step 5.7 Custom circuit board"
-msgstr "カスタム PCB"
+msgstr "カスタム PCB 基盤"
 
-#: ../../guide/Assembly.rst:550
+#: ../../guide/Assembly.rst:563
 msgid "Plug the display cable into the custom circuit board."
-msgstr ""
+msgstr "液晶画面のケーブルを PCB 基盤に差し込む。"
 
-#: ../../guide/Assembly.rst:558
+#: ../../guide/Assembly.rst:571
 msgid ""
 "Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . "
 "J12."
 msgstr ""
+"下図のように 12 コのモーターを入れる。"
 
-#: ../../guide/Assembly.rst:563
-msgid "put on the carbon fiber board"
+#: ../../guide/Assembly.rst:576
+msgid "Use four M2x5mm screws and four short supports."
 msgstr ""
 
-#: ../../guide/Assembly.rst:568
+#: ../../guide/Assembly.rst:585
+msgid "put on the carbon fiber board"
+msgstr "付属ボードを取り付ける"
+
+#: ../../guide/Assembly.rst:590
 msgid ""
 "plug in the battery cable. This connector may interfere with the hips "
 "parts, so you have to slide it through a hole in the middle of the board."
 msgstr ""
+"電池ケーブルを差し込む。"
 
-#: ../../guide/Assembly.rst:573
-msgid ""
-"Pull the custom circuit board closer to the body. The board may float, "
-"but you can use four long posts to hold it in place."
-msgstr ""
-
-#: ../../guide/Assembly.rst:585
-msgid ""
-"※ Need to pay attention to the cable of the No. 1 servo to prevent it "
-"from being overwhelmed."
-msgstr ""
-
-#: ../../guide/Assembly.rst:592
-#, fuzzy
-msgid "Step 5.8 Top plate and supports"
-msgstr "頭部固定準備"
-
-#: ../../guide/Assembly.rst:594
-msgid "Use four M2x5mm screws and four short supports."
-msgstr ""
-
-#: ../../guide/Assembly.rst:604
+#: ../../guide/Assembly.rst:595
 msgid ""
 "Use eight M2x5mm screws. The orientation of the plate must be such that "
 "the large opening is at the front."
 msgstr ""
 
+#: ../../guide/Assembly.rst:600
+msgid ""
+"Pull the custom circuit board closer to the body. The board may float, "
+"but you can use four long posts to hold it in place."
+msgstr ""
+"カスタム PCB ボードを本体の上に取り付ける。"
+
 #: ../../guide/Assembly.rst:612
-msgid "Step 5.9 Fan"
+msgid ""
+"※ Need to pay attention to the cable of the No. 1 servo to prevent it "
+"from being overwhelmed."
 msgstr ""
 
-#: ../../guide/Assembly.rst:614
+#: ../../guide/Assembly.rst:620
+msgid "Step 5.8 Fan"
+msgstr "ファンの取り付け"
+
+#: ../../guide/Assembly.rst:622
 msgid "To install the fan."
-msgstr ""
+msgstr "ファンを取り付ける"
 
-#: ../../guide/Assembly.rst:624
-msgid "Step 5.10 Raspberry Pi 4"
+#: ../../guide/Assembly.rst:632
+msgid "Step 5.9 Raspberry Pi 4"
 msgstr ""
+"ラズパイ 4 の取り付け"
 
-#: ../../guide/Assembly.rst:635
+#: ../../guide/Assembly.rst:643
 #, fuzzy
 msgid "6. Cover Assembly"
 msgstr "カバー部の組み立て"
 
-#: ../../guide/Assembly.rst:646
+#: ../../guide/Assembly.rst:654
 #, fuzzy
 msgid "Step 6.1 Side panels"
 msgstr "本体のサイドパネル"
 
-#: ../../guide/Assembly.rst:655
+#: ../../guide/Assembly.rst:663
 #, fuzzy
 msgid "Step 6.2 Shin guards"
 msgstr "もものカバー"
 
-#: ../../guide/Assembly.rst:657
+#: ../../guide/Assembly.rst:665
 msgid "Use four M2x10mm countersunk screws."
 msgstr ""
 
-#: ../../guide/Assembly.rst:666
+#: ../../guide/Assembly.rst:674
 #, fuzzy
 msgid "Step 6.3 Shoulders"
 msgstr "\"足のカバ"
 
-#: ../../guide/Assembly.rst:668
+#: ../../guide/Assembly.rst:676
 msgid ""
 "Insert only the screws first and then insert the shoulder parts into the "
 "gap. Insert the 2 mm hex driver into the hole in the shoulder part and "
 "tighten the screws."
 msgstr ""
 
-#: ../../guide/Assembly.rst:683
+#: ../../guide/Assembly.rst:691
 #, fuzzy
 msgid "Step 6.4 Top cover"
 msgstr "頭部カバー"
 
-#: ../../guide/Assembly.rst:685
+#: ../../guide/Assembly.rst:693
 msgid ""
 "Use four M2x10mm screws, if the holes are too small to fit the screws, as"
 " the part is made with a 3D printer, you can enlarge the holes by turning"
 " them with the supplied 2mm hexagonal screwdriver."
 msgstr ""
 
-#: ../../guide/Assembly.rst:697
+#: ../../guide/Assembly.rst:705
 #, fuzzy
 msgid "Step 6.5 Shoes"
 msgstr "足元"
 
-#: ../../guide/Assembly.rst:699
+#: ../../guide/Assembly.rst:707
 msgid "Put on 4 shoes."
-msgstr ""
+msgstr "足元を取り付ける"
 
-#: ../../guide/Assembly.rst:709
+#: ../../guide/Assembly.rst:717
 #, fuzzy
 msgid "Step 6.6 Completion!"
 msgstr "完成！"
@@ -3211,5 +3222,14 @@ msgstr ""
 #~ "You can shutdown Ubuntu by pressing "
 #~ "and holding the triangle button. "
 #~ "△ボタンを長押しでUbuntuをシャットダウンできます。"
+#~ msgstr ""
+
+#~ msgid "Step 5.8 Top plate and supports"
+#~ msgstr "頭部固定準備"
+
+#~ msgid "Step 5.9 Fan"
+#~ msgstr ""
+
+#~ msgid "Step 5.10 Raspberry Pi 4"
 #~ msgstr ""
 
