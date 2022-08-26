@@ -25,169 +25,169 @@ msgstr "機械設計"
 #: ../../reference/Design.rst:4 ../../reference/FAQ.rst:6
 #: ../../reference/PCB.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../reference/Design.rst:7
 msgid "Fusion 360 CAD model"
-msgstr ""
+msgstr "Fusion 360 CADモデル"
 
 #: ../../reference/Design.rst:9
 msgid "Mini Pupper: https://a360.co/3CL8zoQ"
-msgstr ""
+msgstr "ミニぷぱ:https://a360.co/3CL8zoQ"
 
 #: ../../reference/Design.rst:16
 msgid ""
 "(The up one is before April 15 2022, the below parts are after April 15 "
 "2022)"
-msgstr ""
+msgstr "(↑は2022年4月15日以前、↓は2022年4月15日以降の部品)"
 
 #: ../../reference/Design.rst:18
 msgid "Mini Pupper: https://a360.co/3M6kGBS"
-msgstr ""
+msgstr "ミニぷぱ:https://a360.co/3M6kGBS"
 
 #: ../../reference/Design.rst:25
 msgid "Mini Pupper + Lidar: https://a360.co/3xujiF1"
-msgstr ""
+msgstr "ミニぷぱ + Lidar: https://a360.co/3xujiF1"
 
 #: ../../reference/Design.rst:31
 msgid "Mini Pupper + OAK-D 3D camera module: https://a360.co/3KQ6HQx"
-msgstr ""
+msgstr "ミニぷぱ + OAK-D 3D カメラモジュール: https://a360.co/3KQ6HQx"
 
 #: ../../reference/Design.rst:39
 msgid "BOM"
-msgstr ""
+msgstr "BOM"
 
 #: ../../reference/Design.rst:40
 msgid ""
 "Link: `Bill of Materials "
 "<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
-msgstr ""
+msgstr "リンク: 関連資料 <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
 
 #: ../../reference/Design.rst:48
 msgid "STL"
-msgstr ""
+msgstr "STL"
 
 #: ../../reference/Design.rst:49
 msgid ""
 "Link: `STL for 3D print "
 "<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
-msgstr ""
+msgstr "リンク:3Dプリント用STL<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
 
 #: ../../reference/FAQ.rst:3
 msgid "FAQ(Frequently Asked Questions)"
-msgstr ""
+msgstr "FAQ(よくある質問)"
 
 #: ../../reference/FAQ.rst:9
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../reference/FAQ.rst:12
 msgid "Q1. How to use Pupper long time for development?"
-msgstr ""
+msgstr "Q1. ミニぷぱを長く使って開発するにはどうしたらいいのでしょうか？"
 
 #: ../../reference/FAQ.rst:13
 msgid ""
 "The battery power can only run Pupper dozens of minutes, it is not "
 "convenient for long time development."
-msgstr ""
+msgstr "バッテリー駆動では数十分しか動作しないので、長時間の開発には不向きです。"
 
 #: ../../reference/FAQ.rst:15
 msgid "A1: Please confirm the below solutions for makers."
-msgstr ""
+msgstr "A1.メーカー様におかれましては、以下の解決策をご確認ください。"
 
 #: ../../reference/FAQ.rst:17
 msgid ""
 "Use Raspberry Pi default adapter to long time coding and debug, and use "
 "the battery to test the movement."
-msgstr ""
+msgstr "Raspberry Piのデフォルトアダプターを使用して、長時間のコーディングやデバッグを行い、バッテリーを使用して動作テストを行うことができます。"
 
 #: ../../reference/FAQ.rst:18
 msgid "Use DC power supply to long time coding, debug and test."
-msgstr ""
+msgstr "DC電源を使用して、長時間のコーディング、デバッグ、テストが可能です。"
 
 #: ../../reference/FAQ.rst:21
 msgid "Q2. How about the leading time if I order?"
-msgstr ""
+msgstr "Q2. 注文した場合、納期はどうなりますか？"
 
 #: ../../reference/FAQ.rst:22
 msgid ""
 "A2: After get your payment, your package can be shipped from "
 "Shenzhen/China factory, the shipping time is about 1~3 weeks by air to "
 "most of places in the world."
-msgstr ""
+msgstr "A2: お支払い完了後、三日間にシンセン/中国の工場から出荷いたします。航空輸送なので、日本まで約1週間かかります。"
 
 #: ../../reference/FAQ.rst:25
 msgid "Q3. Will the shipping be free?"
-msgstr ""
+msgstr "Q3. 送料は無料になるのでしょうか？"
 
 #: ../../reference/FAQ.rst:26
 msgid ""
 "A3: No, but we will also give you a special shipping fee, within $30USD "
 "to most places of NA, JP, EU and UK."
-msgstr ""
+msgstr "A3: いいえ、しかし適正価格(日本まで2000円以内)で配送させていただいております。"
 
 #: ../../reference/FAQ.rst:29
 msgid "Q4. Can I get the DDP(Delivered Duty Paid ) service?"
-msgstr ""
+msgstr "Q4. DDP（Delivered Duty Paid）サービスはありますか？"
 
 #: ../../reference/FAQ.rst:30
 msgid ""
 "A4: Sure, the shipping fee already includes the DDP service, you don't "
 "care about the duty fee, just like you place an order locally."
-msgstr ""
+msgstr "A4: もちろん、送料にはすでにDDPサービスが含まれていますので、現地で注文するのと同じように、関税を気にする必要はありません。"
 
 #: ../../reference/FAQ.rst:33
 msgid "Q5. What's the restrictions of the shipping address?"
-msgstr ""
+msgstr "Q5. 配送先の制限について教えてください。"
 
 #: ../../reference/FAQ.rst:34
 msgid ""
 "A5: Our 2 express vendors can ship to 135+ countries/regions, but not "
 "including India, Montenegro, Armenia, Nigeria, Colombia, South Africa, "
 "North Korea, Sudan, Syria, Hawaii, Palmañola, and County Antrim."
-msgstr ""
+msgstr "A5: 当社のエクスプレス業者2社は135以上の国や地域に発送可能ですが、インド、モンテネグロ、アルメニア、ナイジェリア、コロンビア、南アフリカ、北朝鮮、スーダン、シリア、ハワイ、パルマニョーラ、アントリム郡は含まれません。"
 
 #: ../../reference/FAQ.rst:37
 msgid "Q6. Shipping Info Requirement"
-msgstr ""
+msgstr "Q6. 必要な配送先情報は?"
 
 #: ../../reference/FAQ.rst:38
 msgid ""
 "A6: When you pay, please also let us know your below shipping info, "
 "thanks! ::"
-msgstr ""
+msgstr "A6: お支払うとき、下記の配送情報を知らせて下さい。 ::"
 
 #: ../../reference/FAQ.rst:48
 msgid "If you live in Japan, please use the Japanese information."
-msgstr ""
+msgstr "日本にお住まいの方は、日本語で配送先情報をご記入ください。"
 
 #: ../../reference/FAQ.rst:49
 msgid "If you live in South Korea, also need your ID number."
-msgstr ""
+msgstr "韓国にお住まいの方は、韓国語で配送先情報と身分証明書番号をご記入ください。"
 
 #: ../../reference/FAQ.rst:50
 msgid "If you live in Taiwan, also need your ID number and Chinese information."
-msgstr ""
+msgstr "台湾にお住まいの方は、中国語で配送先情報と身分証明書番号をご記入ください。"
 
 #: ../../reference/FAQ.rst:51
 msgid ""
 "If you live in Brazil, also need your tax number (CPF), or corporate tax "
 "number (CNPJ)."
-msgstr ""
+msgstr "ブラジルにお住まいの方は、配送先情報の外、納税者番号（CPF）、或いは法人税番号（CNPJ）も必要です。"
 
 #: ../../reference/FAQ.rst:54
 msgid ""
 "If you have any requirements or questions, please feel free to mail to "
 "sales@mangdang.net, thanks!"
-msgstr ""
+msgstr "ご不明な点がありましたら、お気軽にsales@mangdang.netまでお問い合わせください。"
 
 #: ../../reference/PCB.rst:3
 msgid "PCB"
-msgstr ""
+msgstr "PCB"
 
 #: ../../reference/PCB.rst:9
 msgid "PCB Design"
-msgstr ""
+msgstr "PCBデザイン"
 
 #: ../../reference/PCB.rst:11
 msgid ""
@@ -195,15 +195,15 @@ msgid ""
 "You can also find the detailed `Schematic and Datasheet "
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
-msgstr ""
+msgstr "Mini Pupperのカスタムボードデザインについては、以下の写真をご参照ください。また、詳細な回路図とデータシートは下記のリンクよりご確認ください。<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ ."
 
 #: ../../reference/PCB.rst:15
 msgid "Top side"
-msgstr ""
+msgstr "表面"
 
 #: ../../reference/PCB.rst:21
 msgid "Bottom side"
-msgstr ""
+msgstr "裏面"
 
 #~ msgid "Fusion 360 CAD model: https://a360.co/3CL8zoQ"
 #~ msgstr ""
