@@ -63,8 +63,8 @@ msgid ""
 msgstr "3Dプリンターをお持ちの方で、以前の3Dプリントしたパーツを引き続き使ってもOKです。"
 
 #: ../../guide/Assembly.rst:26
-#, fuzzy
-msgid "1. Write the pre-built image into microSD"
+msgid ""
+"1. Write the pre-built image into microSD"
 msgstr "1.イメージを焼きこむ"
 
 #: ../../guide/Assembly.rst:29 ../../guide/Assembly.rst:144
@@ -108,7 +108,7 @@ msgstr "USB充電器"
 
 #: ../../guide/Assembly.rst:42
 msgid "Step 1.1 Charging the battery"
-msgstr "充電"
+msgstr "Step 1.1充電"
 
 #: ../../guide/Assembly.rst:44
 msgid ""
@@ -128,13 +128,13 @@ msgid ""
 "will change it to 1A. It needs about 1 hour to charge 80% and the light "
 "will become green, and an additional 1 hour to 100%, anyway, you can use "
 "it when the light becomes green."
-msgstr "5V/1Aアダプタの使用がお勧めです。5V/2Aのアダプタを使用している場合、,バッテリーチャージャーICは自動的に電流を1Aに変更します。
+msgstr "5V/1Aアダプタの使用がお勧めです。5V/2Aのアダプタを使用している場合、バッテリーチャージャーICは自動的に電流を1Aに変更します。
 
 バッテリーを80％まで充電するには約1時間かかり、フル充電にはまた約1時間かかりますが、LEDライトが緑に変わりますと、ご利用いただけます。"
 
 #: ../../guide/Assembly.rst:54
 msgid "Step 1.2 Download the image"
-msgstr "イメージファイルのダウンロード"
+msgstr "Step 1.2 イメージファイルのダウンロード"
 
 #: ../../guide/Assembly.rst:56
 msgid "You can download latest image file via the below folder."
@@ -172,8 +172,7 @@ msgid ""
 "the Ubuntu + ROS + OpenCV version for SLAM & Navigation & AI."
 msgstr "「xxx.MiniPupper_V2_ROS&OpenCV_Ubuntu20.04.03.img.zip」はSLAM＆Navigation&AI のUbuntu + ROS + OpenCV バージョンのイメージファイルです。"
 
-#: ../../guide/Assembly.rst:78
-#, fuzzy
+#: ../../guide/Assembly.rst:78 
 msgid "Step 1.3 Write the image into microSD card"
 msgstr "Step 1.3 フラッシュに焼きこむ"
 
@@ -282,7 +281,7 @@ msgid ""
 "Use one M2x5mm screw.The screw is inserted from the bottom of ② upwards "
 "and tightened by inserting them into the screw holes in ①. Be careful "
 "about the sides of ②."
-msgstr "*M2x5mm のボルトを1つ使用します。ボルトは②の下から上に挿し、①の穴に挿し込んで締めます。②の表裏の向きに気をつけましょう。"
+msgstr "M2x5mm のボルトを1つ使用します。ボルトは②の下から上に挿し、①の穴に挿し込んで締めます。②の表裏の向きに気をつけましょう。"
 
 #: ../../guide/Assembly.rst:178
 msgid ""
@@ -312,7 +311,7 @@ msgid ""
 "The length of ④ must match the length of ⑤. When adjusting the length, it"
 " is easier to use two long screws to make sure that the lengths match. "
 "Once the lengths have been adjusted, take apart all."
-msgstr "*④の長さが⑤と一致している必要があります。長さを調整するとき、M2x14mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。"
+msgstr "④の長さが⑤と一致している必要があります。長さを調整するとき、M2x14mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。"
 
 #: ../../guide/Assembly.rst:217
 msgid "If it's hard to twist, you can use two screwdrivers to assist."
@@ -392,7 +391,7 @@ msgid ""
 "Now we have one leg on the right side. Here are some pictures so you can "
 "see it from different angles. The left leg should be symmetrical with the"
 " right one."
-msgstr "*これで右側の脚が一本完成しました。色んな角度から見れるように写真を貼っておきます。左側は右側と線対称になるように組みます。"
+msgstr "これで右側の脚が一本完成しました。色んな角度から見れるように写真を貼っておきます。左側は右側と線対称になるように組みます。"
 
 #: ../../guide/Assembly.rst:311
 msgid "opposite side"
@@ -400,18 +399,18 @@ msgstr "裏"
 
 #: ../../guide/Assembly.rst:320
 msgid "Step 3.2 Four legs"
-msgstr "前足と後ろ足"
+msgstr "Step 3.2 前足と後ろ足"
 
 #: ../../guide/Assembly.rst:326
 msgid "Step 3.3 Locktite"
-msgstr "ロックタイト"
+msgstr "Step 3.3ロックタイト"
 
 #: ../../guide/Assembly.rst:328
 msgid ""
 "As the nut is on a moving joint, it will loosen quickly if tightened too "
 "tightly. They should be secured with Loctite. It is possible to dismantle"
 " the nut later, as it can be loosened by a strong force."
-msgstr "*ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。"
+msgstr "ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。なお、ロックタイトで固定されたナットは強い力ならば緩められるので、あとから解体も可能です。"
 
 #: ../../guide/Assembly.rst:333
 msgid "Some screws are also secured with glue as the below picture shows."
@@ -419,11 +418,11 @@ msgstr "また、下の写真のように接着剤をつけたネジもありま
 
 #: ../../guide/Assembly.rst:340
 msgid "4. Hips Assembly"
-msgstr "足の取り付け"
+msgstr "4. 足の取り付け"
 
 #: ../../guide/Assembly.rst:343
 msgid "Step 4.1 Hip"
-msgstr "モータの設置"
+msgstr "Step 4.1 モータの設置"
 
 #: ../../guide/Assembly.rst:354
 msgid ""
@@ -474,13 +473,13 @@ msgstr "脚部を臀部に取り付ける"
 msgid ""
 "※ If you have no technology background, it's easier to attach the leg to "
 "the hip during the calibration step."
-msgstr "(初心者の場合は、キャリブレーションしてから、足の固定という手順で進んでください.)"
+msgstr "※初心者の場合は、キャリブレーションしてから、足の固定という手順で進んでください."
 
 #: ../../guide/Assembly.rst:394
 msgid ""
 "※ If you are the first time to assemble quadruped robot, we don't "
 "recommand you use the Loctite."
-msgstr " 初めて四足ロボットを組み立てるお客様には、ロックタイトを使用することをお勧めしません。"
+msgstr "※初めて四足ロボットを組み立てるお客様には、ロックタイトを使用することをお勧めしません。"
 
 #: ../../guide/Assembly.rst:396
 msgid ""
@@ -496,19 +495,19 @@ msgstr "ロックタイトでボルトをしっかりと固定しましょう。
 
 #: ../../guide/Assembly.rst:416
 msgid "Step 4.2 Four Hips"
-msgstr "前後各２セット"
+msgstr "Step 4.2 前後各２セット"
 
 #: ../../guide/Assembly.rst:421
 msgid "※ Please pay attention to the positions of the servo gear output shaft"
-msgstr "サーボモーターの軸の位置にご注意ください。"
+msgstr "※ サーボモーターの軸の位置にご注意ください。"
 
 #: ../../guide/Assembly.rst:431
 msgid "5. Body Frame Assembly"
-msgstr "本体の組み立て"
+msgstr "5. 本体の組み立て"
 
 #: ../../guide/Assembly.rst:434
 msgid "Step 5.1 Center parts"
-msgstr "モータの取り付け"
+msgstr "Step 5.1 モータの取り付け"
 
 #: ../../guide/Assembly.rst:436
 msgid "The position of each servos are shown as below."
@@ -518,7 +517,7 @@ msgstr "各サーボの位置は以下のとおりです。"
 msgid ""
 "※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
 "other cables length is 15cm."
-msgstr "サーボケーブルについては、1号、4号、7号、10号の長さが 9cm、それ以外が 15cmです。"
+msgstr "※ サーボケーブルについては、1号、4号、7号、10号の長さが 9cm、それ以外が 15cmです。"
 
 #: ../../guide/Assembly.rst:443
 msgid ""
@@ -528,7 +527,7 @@ msgstr "サーボケーブルにマスキングテープを貼って、サーボ
 
 #: ../../guide/Assembly.rst:455
 msgid "Step 5.2 Front parts"
-msgstr "前部"
+msgstr "Step 5.2前部"
 
 #: ../../guide/Assembly.rst:457
 msgid ""
@@ -538,16 +537,15 @@ msgstr "*前面パーツは液晶画面が入る形になっています。後�
 
 #: ../../guide/Assembly.rst:467
 msgid "Step 5.3 Rear side"
-msgstr "後部"
+msgstr "Step 5.3 後部"
 
 #: ../../guide/Assembly.rst:469
 msgid "The same procedure as for the front part."
 msgstr "前部と同じ要領です。"
 
 #: ../../guide/Assembly.rst:490
-#, fuzzy
 msgid "Step 5.4 Battery"
-msgstr "バッテリー"
+msgstr "Step 5.4 バッテリー"
 
 #: ../../guide/Assembly.rst:492
 msgid ""
@@ -572,9 +570,8 @@ msgid ""
 msgstr "底からバッテリーを上にはめて、後ろにぐっとずらし固定します。ケーブルを底のプレートの穴に通し、上まで持ってきます。"
 
 #: ../../guide/Assembly.rst:512
-#, fuzzy
 msgid "Step 5.5 Bottom plate"
-msgstr "下部"
+msgstr "Step 5.5 下部"
 
 #: ../../guide/Assembly.rst:514
 msgid "The orientation of the plate must be such that the hole is at the front."
@@ -585,9 +582,8 @@ msgid "If the leg is stuck, turn the part ①"
 msgstr "足が動かなくなった場合、部品 ① の箇所を回してみてください。"
 
 #: ../../guide/Assembly.rst:529
-#, fuzzy
 msgid "Step 5.6 Display and Frame of face"
-msgstr "顔の組み立て"
+msgstr "Step 5.6 顔の組み立て"
 
 #: ../../guide/Assembly.rst:531
 msgid ""
@@ -604,9 +600,8 @@ msgid "Be careful with the yellow parts as it has a front and back."
 msgstr "下図の黄色カバーは表裏若干異なるため、気を付けて取り付ける。"
 
 #: ../../guide/Assembly.rst:561
-#, fuzzy
 msgid "Step 5.7 Custom circuit board"
-msgstr "カスタム PCB 基盤"
+msgstr "Step 5.7 カスタム PCB 基盤"
 
 #: ../../guide/Assembly.rst:563
 msgid "Plug the display cable into the custom circuit board."
@@ -667,28 +662,24 @@ msgstr ""
 "Step 5.9　ラズパイ 4 "
 
 #: ../../guide/Assembly.rst:643
-#, fuzzy
 msgid "6. Cover Assembly"
-msgstr "Step 6 カバー部の組み立て"
+msgstr "6. カバー部の組み立て"
 
 #: ../../guide/Assembly.rst:654
-#, fuzzy
 msgid "Step 6.1 Side panels"
-msgstr "本体のサイドパネル"
+msgstr "Step 6.1 本体のサイドパネル"
 
 #: ../../guide/Assembly.rst:663
-#, fuzzy
 msgid "Step 6.2 Shin guards"
-msgstr "もものカバー"
+msgstr "Step 6.2 もものカバー"
 
 #: ../../guide/Assembly.rst:665
 msgid "Use four M2x10mm countersunk screws."
 msgstr "M2x10mmのボルトを4本使用します。"
 
 #: ../../guide/Assembly.rst:674
-#, fuzzy
 msgid "Step 6.3 Shoulders"
-msgstr "\"足のカバ"
+msgstr "Step 6.3 足のカバ"
 
 #: ../../guide/Assembly.rst:676
 msgid ""
@@ -698,9 +689,8 @@ msgid ""
 msgstr "先にボルトだけ挿し、その隙間に肩パーツを差し込みます。肩パーツの穴に2mm六角レンチを入れてボルトを締めます。"
 
 #: ../../guide/Assembly.rst:691
-#, fuzzy
 msgid "Step 6.4 Top cover"
-msgstr "頭部カバー"
+msgstr "Step 6.4 頭部カバー"
 
 #: ../../guide/Assembly.rst:693
 msgid ""
@@ -710,7 +700,6 @@ msgid ""
 msgstr "M2x10mmボルトを4本使用します。3Dプリンタで作られたパーツなので、穴が小さくボルトが入らない場合は、付属の2mm六角ドライバでグリグリと回して穴を大きくしましょう。"
 
 #: ../../guide/Assembly.rst:705
-#, fuzzy
 msgid "Step 6.5 Shoes"
 msgstr "Step 6.5 足元"
 
@@ -719,7 +708,6 @@ msgid "Put on 4 shoes."
 msgstr "足元を取り付ける"
 
 #: ../../guide/Assembly.rst:717
-#, fuzzy
 msgid "Step 6.6 Completion!"
 msgstr "Step 6.6 完成！"
 
@@ -741,7 +729,6 @@ msgstr "ミニぷぱはオープンソースプロジェクトなので、自由
 <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_ より 3Dプリントされたシェルファイルを探して、カスタマイズすることができます。"
 
 #: ../../guide/Examples.rst:22
-#, fuzzy
 msgid "2. Custom Facial Animation"
 msgstr "2. 顔写真のカスタマイズ"
 
@@ -794,14 +781,13 @@ msgid ""
 "The feature is based on `PupperKeyboardController project "
 "<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_, "
 "it's Pygame-based keyboard controller for Stanford Pupper."
-msgstr "この機能は `PupperKeyboardController project' をベースにしています。<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_,は Stanford Pupper 用の Pygame ベースのキーボードコントローラです。"
+msgstr "この機能は `PupperKeyboardController project <https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ をベースにしています。Stanford Pupperの Pygameベースのキーボードコントローラです。"
 
 #: ../../guide/Examples.rst:60
 msgid "Install PyGame"
 msgstr "PyGameをインストールする"
 
 #: ../../guide/Examples.rst:66
-#, fuzzy
 msgid "Controls"
 msgstr "コントローラの操作"
 
@@ -838,7 +824,7 @@ msgstr "6.1 Pupper用Docker"
 msgid ""
 "Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
 "ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
-msgstr "Mini Pupper ROS パッケージの Dockerfile は `docker-mini-pupper-ros プロジェクト <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_ で確認できます。"
+msgstr "ミニぷぱ ROS パッケージの Dockerfile は `docker-mini-pupper-ros プロジェクト <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_ で確認できます。"
 
 #: ../../guide/Examples.rst:102
 msgid "6.2 Docker for Host"
@@ -849,7 +835,7 @@ msgid ""
 "Host computer setup for interfacing with a Mini Pupper over a network, "
 "comes from `mp_host_setup project "
 "<https://github.com/zmk5/mp_host_setup.git>`_."
-msgstr "ネットワーク経由でMini Pupperと接続するためのホストコンピュータのセットアップは、 `mp_host_setup project<https://github.com/zmk5/mp_host_setup.git>`_ で確認できます。"
+msgstr "ネットワーク経由でミニぷぱと接続するためのホストコンピュータのセットアップは、 `mp_host_setup project <https://github.com/zmk5/mp_host_setup.git>`_ で確認できます。"
 
 #: ../../guide/Examples.rst:106
 msgid "7. Scratch program"
@@ -951,9 +937,9 @@ msgid ""
 "in this project to enrich the robotics field. Looking forward to more "
 "partners who can provide technology, educational service or distribution "
 "in each country."
-msgstr "ミニぷぱは2021年に `MangDang <https://www.mangdang.net/>`_ によってリリースされました。Pupperロボットプロジェクトは、ソフトウェア、ハードウェア、コンテンツがオープンソースであるため、世界中の多くのメーカーが応援してくれました。
-私たちは、ロボット工学の分野を豊かにするために、より多くのパートナーや研究協力者にこのプロジェクトに参加してもらいたいです。
-今後、各国で技術や教育サービス、流通を提供できるパートナーが増えることを期待しています。"
+msgstr "ミニぷぱは2021年に `MangDang <https://www.mangdang.net/>`_ によってリリースされました。Pupperロボットプロジェクトは、ソフトウェア、ハードウェア、コンテンツがオープンソースであるため、世界中の多くのメーカーが応援してくれました。"
+"私たちは、ロボット工学の分野を豊かにするために、より多くのパートナーや研究協力者にこのプロジェクトに参加してもらいたいです。"
+"今後、各国で技術や教育サービス、流通を提供できるパートナーが増えることを期待しています。"
 
 #: ../../guide/HowToOrder.rst:13
 msgid ""
@@ -970,8 +956,8 @@ msgid ""
 "You can order all the parts one by one, Please find the BOM list to order"
 " `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
-msgstr "すべてのパーツを1つずつ注文することができます。 <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
-"eLVm5zjyi>`_ ."
+msgstr "すべてのパーツを1つずつ注文することができます。 https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi"
 
 #: ../../guide/HowToOrder.rst:19
 msgid ""
@@ -989,7 +975,7 @@ msgstr "ワールドワイド"
 
 #: ../../guide/HowToOrder.rst:25
 msgid "`MANGDANG (HK) LIMITED <https://www.mangdang.net/>`_"
-msgstr "MANGDANG (HK) LIMITED <https://www.mangdang.net/>`_"
+msgstr "`MANGDANG (HK) LIMITED <https://www.mangdang.net/>`_ "
 
 #: ../../guide/HowToOrder.rst:26
 msgid "`Shopify <https://mangdang.store/>`_"
@@ -1073,7 +1059,6 @@ msgid "Will update late."
 msgstr "近日公開予定です"
 
 #: ../../guide/MachineLearning.rst:27
-#, fuzzy
 msgid "1.2 Teleoperation"
 msgstr "1.2 遠隔操作"
 
@@ -1103,23 +1088,22 @@ msgid ""
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ , named \"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\" to "
 "test the object following feature using OAK-D-LITE 3D camera module."
-msgstr "OAK-D-LITE 3Dカメラモジュールを使った物体追跡機能のテストには、ビルド済みのROSイメージ <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ (名前 \.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img )をダウンロードしてください。"
+msgstr "OAK-D-LITE 3Dカメラモジュールを使った物体追跡機能のテストには、`pre-built ROS image <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_  (名前 \.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img )をダウンロードしてください。"
 
 #: ../../guide/MachineLearning.rst:61
 msgid "2.2 Live streaming"
-msgstr "2.2 Live streaming"
+msgstr "2.2 ライブストリーミング "
 
 #: ../../guide/Navigation.rst:3
-#, fuzzy
 msgid "Navigation"
-msgstr "SLAM・ナビゲーション"
+msgstr "ナビゲーション"
 
 #: ../../guide/Navigation.rst:17
 msgid ""
 "Mini Pupper's ROS version is based on `Champ "
 "<https://github.com/chvmp/champ>`_  open source project, and we made some"
 " changes to Navigation functions."
-msgstr "Mini PupperのROSバージョンは、オープンソースプロジェクトの`Champ <https://github.com/chvmp/champ>`_をベースにしており、Navigation機能にいくつかの変更を加えました。"
+msgstr "ミニぷぱのROSバージョンは、オープンソースプロジェクトの `Champ <https://github.com/chvmp/champ>`_  をベースにしており、Navigation機能にいくつかの変更を加えました。"
 
 #: ../../guide/Navigation.rst:21
 msgid "1. ROS1(Noetic) Navigation based on Lidar"
@@ -1161,16 +1145,16 @@ msgstr "1.3 Cartographer（ローカライズ用）とMove_Baseの実行"
 msgid ""
 "**You should run this command on PC** **If you are using gazebo, set the "
 "param /use_sim_time to true in the launch file.** ::"
-msgstr "**このコマンドはPCで実行する必要があります** **gazeboを使用している場合、起動ファイルのパラメータ /use_sim_time をtrueに設定します** ::"
+msgstr "**このコマンドはPCで実行する必要があります。** "
+"**gazeboを使用している場合、起動ファイルのパラメータ /use_sim_time をtrueに設定します** ::"
 
 #: ../../guide/QuickStartGuide.rst:3
 msgid "Quick Start Guide"
 msgstr "クイックスタートガイド"
 
 #: ../../guide/QuickStartGuide.rst:9
-#, fuzzy
 msgid "Run Pupper Robot"
-msgstr "ミニぷぱ（以下、本体）を動かします"
+msgstr "ミニぷぱ（以下、本体）を動かく"
 
 #: ../../guide/QuickStartGuide.rst:19
 msgid "|youtu.be-pre-assembled-user-guide|"
@@ -1181,7 +1165,6 @@ msgid "Power On Mini Pupper"
 msgstr "電源を入れます"
 
 #: ../../guide/QuickStartGuide.rst:23
-#, fuzzy
 msgid ""
 "Push on the battery power button for at least 3 seconds to power on Mini "
 "Pupper. After power on, if you push on the power button for at least 3 "
@@ -1227,7 +1210,6 @@ msgid ""
 msgstr "上記で準備が完了です。操作手順については、以下の制御セクションを確認してください。"
 
 #: ../../guide/QuickStartGuide.rst:38
-#, fuzzy
 msgid "Pupper Robot controls"
 msgstr "コントローラの操作"
 
@@ -1330,12 +1312,11 @@ msgid ""
 "Mini Pupper's ROS version is based on `Champ "
 "<https://github.com/chvmp/champ>`_  open source project, and we made some"
 " changes to SLAM and Navigation functions."
-msgstr "Mini PupperのROSバージョンは、`Champ <https://github.com/chvmp/champ>`_ オープンソースプロジェクトをベースにしており、SLAMとNavigationの機能にいくつかの変更を加えました。"
+msgstr "ミニぷぱのROSバージョンは、`Champ <https://github.com/chvmp/champ>`_ オープンソースプロジェクトをベースにしており、SLAMとNavigationの機能にいくつかの変更を加えました。"
 
 #: ../../guide/SLAM.rst:21
-#, fuzzy
 msgid "1.Installation"
-msgstr "顔写真のカスタマイズ"
+msgstr "1. 顔写真のカスタマイズ"
 
 #: ../../guide/SLAM.rst:23
 msgid ""
@@ -1345,7 +1326,7 @@ msgstr "PCとミニぷぱが同じWiFiに接続されていることを確認し
 
 #: ../../guide/SLAM.rst:26
 msgid "1.1 PC Setup"
-msgstr "1.1 PCセットアップ"
+msgstr "1.1 PC セットアップ"
 
 #: ../../guide/SLAM.rst:27
 msgid ""
@@ -1395,7 +1376,7 @@ msgid ""
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ for Mini Pupper side, named "
 "\"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\"."
-msgstr "ミニぷぱのビルド済みのROSイメージ<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_（ファイル名： \.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img ）をダウンロードすることができます。"
+msgstr "ミニぷぱの `pre-built ROS image <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ （ファイル名： \.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img ）をダウンロードすることができます。"
 
 #: ../../guide/SLAM.rst:91
 msgid "1.2.1 Hardware Dependencies"
@@ -1464,9 +1445,8 @@ msgid "2.Quick Start"
 msgstr "2.クイックスタート"
 
 #: ../../guide/SLAM.rst:167
-#, fuzzy
 msgid "2.1 Calibration"
-msgstr "顔写真のカスタマイズ"
+msgstr "2.1 キャリブレーション"
 
 #: ../../guide/SLAM.rst:169
 msgid ""
@@ -1477,7 +1457,7 @@ msgstr "このスクリプトにより、1ターンですべてのサーボの�
 
 #: ../../guide/SLAM.rst:176
 msgid "Make sure Mini Pupper looks like this after calibrating."
-msgstr "キャリブレーション後、Mini Pupperがこのような状態になることを確認してください。"
+msgstr "キャリブレーション後、ミニぷぱがこのような状態になることを確認してください。"
 
 #: ../../guide/SLAM.rst:182
 msgid "2.2 Walking"
@@ -1489,7 +1469,7 @@ msgstr "2.2.1 ベースドライバーの実行"
 
 #: ../../guide/SLAM.rst:186 ../../guide/SLAM.rst:238
 msgid "**You should run this command on Mini Pupper**"
-msgstr "**Mini Pupperでこのコマンドを実行する必要があります**"
+msgstr "**ミニぷぱでこのコマンドを実行する必要があります**"
 
 #: ../../guide/SLAM.rst:192
 msgid ""
@@ -1519,7 +1499,7 @@ msgstr "2.コントローラーの使用"
 
 #: ../../guide/SLAM.rst:209
 msgid "**It's recommended to run this command on Mini Pupper.**"
-msgstr "**Mini Pupperでこのコマンドを実行することをお勧めします**。"
+msgstr "**ミニぷぱでこのコマンドを実行することをお勧めします**。"
 
 #: ../../guide/SLAM.rst:211
 msgid ""
@@ -1568,7 +1548,8 @@ msgstr "そして、キーボードやジョイスティックでミニぷぱを
 
 #: ../../guide/SLAM.rst:263
 msgid "Remember to edit map.yaml</br> The first line should be"
-msgstr "map.yamlを忘れずに編集してください</br> 最初の行は下記の通りです。"
+msgstr "map.yamlを忘れずに編集してください。"
+"最初の行は下記の通りです。"
 
 #: ../../guide/SLAM.rst:270
 msgid ""
@@ -1594,7 +1575,7 @@ msgstr "https://github.com/mangdangroboticsclub/aws-robomaker-mini-pupper-applic
 
 #: ../../guide/Simulation.rst:12
 msgid "Instructions for Amazon AWS Robotics Blog, please refer to"
-msgstr "Mini Pupper用のAWS RoboMaker環境の作成方法については、以下のブログをご参照ください。"
+msgstr "ミニぷぱ用のAWS RoboMaker環境の作成方法については、以下のブログをご参照ください。"
 
 #: ../../guide/Simulation.rst:14
 msgid ""
@@ -1619,7 +1600,6 @@ msgid "Software Calibration"
 msgstr "ソフトウェアキャリブレーション"
 
 #: ../../guide/Software.rst:10
-#, fuzzy
 msgid "1. Calibration Setup"
 msgstr "1.キャリブレーションセットアップ"
 
@@ -1659,10 +1639,9 @@ msgstr "ミニぷぱの電池ボタンを3秒間長押しして、Raspberry pi�
 msgid ""
 "If you can see Ubuntu running on your screen, you have succeeded. You "
 "should also see the face on Mini Pupper display."
-msgstr "画面上にUbuntuが起動しているのが確認できれば成功です。Mini Pupperのディスプレイにも顔が表示されているはずです。"
+msgstr "画面上にUbuntuが起動しているのが確認できれば成功です。ミニぷぱのディスプレイにも顔が表示されているはずです。"
 
 #: ../../guide/Software.rst:34
-#, fuzzy
 msgid "Step 1.2 Log in"
 msgstr "Step 1.2 ログイン"
 
@@ -1715,7 +1694,6 @@ msgid "If firewall is not running, do the following."
 msgstr "ファイアウォールが正常に動作しない場合は、次のようにしてください。"
 
 #: ../../guide/Software.rst:74
-#, fuzzy
 msgid "2. Calibration"
 msgstr "2. キャリブレーション"
 

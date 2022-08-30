@@ -40,7 +40,7 @@ msgid ""
 "<https://twitter.com/LeggedRobot>`_ or `FaceBook "
 "<https://www.facebook.com/afreez.gan/>`_ or `Github "
 "<https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_"
-msgstr "公式アカウントは以下の通りです。Discord <https://discord.gg/xJdt3dHBVw>`_ 、 `Twitter <https://twitter.com/LeggedRobot>`_ 、 `FaceBook <https://www.facebook.com/afreez.gan/>`_ 、 `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_ "
+msgstr "公式アカウント:`Discord <https://discord.gg/xJdt3dHBVw>`_  、 `Twitter <https://twitter.com/LeggedRobot>`_ 、 `FaceBook <https://www.facebook.com/afreez.gan/>`_ 、 `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_ "
 
 #: ../../index.rst:19
 msgid ""

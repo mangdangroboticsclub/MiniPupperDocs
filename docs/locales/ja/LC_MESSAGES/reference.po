@@ -61,7 +61,7 @@ msgstr "BOM"
 msgid ""
 "Link: `Bill of Materials "
 "<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
-msgstr "リンク: 関連資料 <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
+msgstr "リンク: `関連資料 <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
 
 #: ../../reference/Design.rst:48
 msgid "STL"
@@ -71,7 +71,7 @@ msgstr "STL"
 msgid ""
 "Link: `STL for 3D print "
 "<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
-msgstr "リンク:3Dプリント用STL<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
+msgstr "リンク:`STL(3Dプリント用) <https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
 
 #: ../../reference/FAQ.rst:3
 msgid "FAQ(Frequently Asked Questions)"
@@ -128,13 +128,13 @@ msgstr "A3: いいえ、しかし適正価格(日本まで2000円以内)で配�
 
 #: ../../reference/FAQ.rst:29
 msgid "Q4. Can I get the DDP(Delivered Duty Paid ) service?"
-msgstr "Q4. DDP（Delivered Duty Paid）サービスはありますか？"
+msgstr "Q4. DDP（関税込み持込渡し）サービスはありますか？"
 
 #: ../../reference/FAQ.rst:30
 msgid ""
 "A4: Sure, the shipping fee already includes the DDP service, you don't "
 "care about the duty fee, just like you place an order locally."
-msgstr "A4: もちろん、送料にはすでにDDPサービスが含まれていますので、現地で注文するのと同じように、関税を気にする必要はありません。"
+msgstr "A4: もちろんです。送料にはすでにDDPサービスが含まれていますので、現地で注文するのと同じように、関税を気にする必要はありません。"
 
 #: ../../reference/FAQ.rst:33
 msgid "Q5. What's the restrictions of the shipping address?"
@@ -195,7 +195,7 @@ msgid ""
 "You can also find the detailed `Schematic and Datasheet "
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
-msgstr "Mini Pupperのカスタムボードデザインについては、以下の写真をご参照ください。また、詳細な回路図とデータシートは下記のリンクよりご確認ください。<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ ."
+msgstr "Mini Pupperのカスタムボードデザインについては、以下の写真をご参照ください。また、詳しい情報は   `回路図とデータシート <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ よりご確認ください。"
 
 #: ../../reference/PCB.rst:15
 msgid "Top side"
