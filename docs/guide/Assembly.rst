@@ -13,6 +13,14 @@ This is the video clip for the pre-assembled leg kit, please refer to the below 
     </div>
 
 
+Please also refer to Mini Pupper Fusion 360 CAD model: https://a360.co/3wFLSlT 
+
+
+.. raw:: html
+    
+    <iframe src="https://gmail1515401.autodesk360.com/g/shares/SH35dfcQT936092f0e43940e1e402362e6d4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+	
+
 0. Update change points after April 15 2022
 -------------------------------
 
