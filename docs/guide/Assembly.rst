@@ -729,3 +729,49 @@ Step 6.6 Completion!
 
 .. image:: ../_static/125.jpg
     :align: center
+    
+7.Add-On Assembly
+-----------------
+
+Step 7.1 Lidar  
+^^^^^^^^^^^^^^^^^^^^^  
+
+If you order the Lidar, the Lidar holder will be shipped together.
+
+.. image:: ../_static/126.jpg
+    :align: center 
+    
+.. image:: ../_static/127.jpg
+    :align: center 
+    
+.. image:: ../_static/130.jpg
+    :align: center 
+    
+Step 7.2 Camera
+^^^^^^^^^^^^^^^^^^^^^  
+
+If you order the camera, the camera holder is not included in the kit. 
+But you can 3d-print it from the stl file down below.
+
+https://drive.google.com/drive/folders/1lRADDbAt7mSBJE4j8HCji1WbWcpneUED
+
+.. image:: ../_static/camera-1.jpg
+    :align: center 
+    
+.. image:: ../_static/camera-2.jpg
+    :align: center 
+    
+.. image:: ../_static/camera-3.jpg
+    :align: center 
+    
+Step 7.3 Completion!   
+^^^^^^^^^^^^^^^^^^^^^  
+
+.. image:: ../_static/OAK-Lidar.FrontView.jpg
+    :align: center 
+    
+.. image:: ../_static/OAK-Lidar.SideView.jpg
+    :align: center 
+    
+.. image:: ../_static/OAK-Lidar.TopView.jpg
+    :align: center 
