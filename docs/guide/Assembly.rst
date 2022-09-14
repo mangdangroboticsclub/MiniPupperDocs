@@ -65,19 +65,13 @@ Step 1.2 Download the image
 
 	`MiniPupperRelease.from.MangDang <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_ 
 	
-	
-* For the V1 verison Custom circuit board, the image file looks like xxx_MiniPupper_PS4_Ubuntu_xxx.img.zip. 
 
-.. image:: ../_static/146.jpg
-    :align: center
-    
-
-* For the V2 version Custom circuit board, the image file looks like xxx_MiniPupper_V2_PS4_Ubuntu_xxx.img.zip. 
+* The below picture is the custom carry board. 
 
 .. image:: ../_static/147.jpg
     :align: center
     
-※ “xxx_MiniPupper_V1&V2_Controller_Ubuntu_22.04.img” means the image compatable to V1 and V2 custom board. If you want to develop your own features based on our new image file, we recommand you to use our lastest custom board.
+※ “xxx_MiniPupper_Controller_Ubuntu_22.04.img” means the image is for Ubuntu 22.04 version. 
 	
 ※ "xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img" is the image file for the Ubuntu + ROS + OpenCV version for SLAM & Navigation & AI.   	
    
