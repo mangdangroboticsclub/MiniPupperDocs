@@ -5,6 +5,16 @@ Genuine,ROS,Open-source,Education Robot Kit
 ------------
 Connect us by `Discord <https://discord.gg/xJdt3dHBVw>`_ or `Twitter <https://twitter.com/LeggedRobot>`_ or `FaceBook <https://www.facebook.com/afreez.gan/>`_ or `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_
 
+
+`Mini Pupper 2 <https://www.kickstarter.com/projects/336477435/mini-pupper-2-open-source-ros2-robot-kit-for-dreamers>`_ is already launched on Kickstarter.
+------------
+https://www.kickstarter.com/projects/336477435/mini-pupper-2-open-source-ros2-robot-kit-for-dreamers
+
+
+.. image:: _static/MiniPupper2.jpg
+    :align: center 
+
+
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
