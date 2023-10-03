@@ -104,7 +104,7 @@ Please refer to the below calibration video clip.
 
 ※ The calibration process is: calibrate each servo --> Press "Update" button to save the settings --> Press × to close and save the calibration.
 
-※ Calibrate each servo by moving the bars or click the space postion near the bars.
+※ Calibrate each servo by moving the bars or click the space position near the bars.
 
 ※ Reset button: when you hope to re-start from the last time.
 
