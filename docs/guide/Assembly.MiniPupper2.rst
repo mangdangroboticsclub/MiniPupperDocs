@@ -310,10 +310,10 @@ Step 3.3 Locktite
     :align: center
 	
 
-4. Hips Assembly
+4. Body Frame and Hips Assembly
 ----------------
 
-Step 4.1 Hip
+Step 4.1 Body center parts
 ^^^^^^^^^^^^
 
 Please refer to the below video clip.
@@ -325,292 +325,135 @@ Please refer to the below video clip.
     </div>
 	
  
-There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm. 
-
-* For the position of each servos, please refer to the below picture. 
+* For the position of each servo, please refer to the below picture. 
 
 .. image:: ../_static/52.v2.jpg
     :align: center 
 
-* Here shows how to assemble the rear right hip. 
-
-Confirm whether the servo shaft is at the right position.
-The middle position marker is added on the output shaft, the output shaft is at its middle position by fault as the left picture shows. The shaft position may be changed during assembly as the middle picture shows, if you find it, you can use the servo horn to move the output shaft to the right position, and then finally make the servo horn at the place as the right picture shows.
-
-.. image:: ../_static/39.jpg
-    :align: center  
-
-Connect the servo and hip part.
-
-.. image:: ../_static/40_1.jpg
-    :align: center  
-		
-.. image:: ../_static/40_2.jpg
-    :align: center  
-    
-Put two servos into hip parts
-
-* Insert two servos into the box and fix them with M2x6mm screws. 
-	
-.. image:: ../_static/42_1.jpg
-    :align: center  
-
-Four hip parts, please refer to the servo positions. 
-
-.. image:: ../_static/42.jpg
-    :align: center 
-	
-    
-Assemble leg and hip 
-
-※ If you have no technology background, it's easier to attach the leg to the hip during the calibration step.
-
-※ If you are the first time to assemble quadruped robot, we don't recommand you use the Loctite.
-
-* Attach the leg to the hip using the M2x12mm screws. Leg is tilted at approximately 45°, as shown in the manual. 
-
-.. image:: ../_static/43_1.jpg
-    :align: center 
-    
-* Tighten the screws with Loctite. Use a toothpick to apply Loctite to the servo's screw holes. 
-   
-.. image:: ../_static/45.jpg
-    :align: center  
-
-
-.. image:: ../_static/45_1.jpg
-    :align: center  
-   
-
-.. image:: ../_static/46_1.jpg
-    :align: center 
-    
-
-Step 4.2 Four Hips
-^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: ../_static/47.jpg
-    :align: center 
-
-※ Please pay attention to the positions of the servo gear output shaft
-
-.. image:: ../_static/47_left.jpg
-    :align: center 
-
-.. image:: ../_static/47_right.jpg
-    :align: center    
-    
-	
-5. Body Frame Assembly 
------------------------
-
-Step 5.1 Center parts
-^^^^^^^^^^^^^^^^^^^^^
-
-* The position of each servos are shown as below. 
-
-.. image:: ../_static/52.v2.jpg
-    :align: center 
-
-※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, other cables length is 15cm.
+Connect the No.1, 4, 7, 10 servos to the body center parts.
 
 * It is useful to put masking tape on the cables and write the number of servos during this process to make it easier later.
 
-
-.. image:: ../_static/48_1.jpg
-    :align: center 
-    
-.. image:: ../_static/49_1.jpg
-    :align: center 
-    
-
-
-Step 5.2 Front parts
-^^^^^^^^^^^^^^^^^^^^^
-
-*The front part is designed to hold the LCD screen. Make sure you don't mistake it for the rear part. 
-
-.. image:: ../_static/53_1.jpg
-    :align: center 
-    
-.. image:: ../_static/54_1.jpg
-    :align: center 
-
-
-Step 5.3 Rear side
-^^^^^^^^^^^^^^^^^^^^^
-
-* The same procedure as for the front part. 
-
-.. image:: ../_static/56_1.jpg
-    :align: center 
-
-.. image:: ../_static/57_1.jpg
-    :align: center 
-    
-.. image:: ../_static/58_1.jpg
-    :align: center 
-    
-.. image:: ../_static/59_1.jpg
-    :align: center 
-    
-
-    
-.. image:: ../_static/51_1.jpg
-    :align: center 
-
-
-Step 5.4 Battery 
-^^^^^^^^^^^^^^^^^
-
-* If you DIY the battery, please ensure our battery spec at first, especially the Voltage should be less than 7.4V, you can also refer to other backers work https://www.facebook.com/groups/716473723088464/posts/777616293640873/ 
-
-
-* Install the battery pack. 
-
-.. image:: ../_static/83.jpg
-    :align: center 
-
-* Be careful of the carbon fiber front and rear orientation. 
-
-.. image:: ../_static/84.jpg
-    :align: center 
-
-* Slide the battery backwards and secure it. Pass the cable through the hole in the bottom plate and bring it up to the top. 
-
-.. image:: ../_static/85.jpg
-    :align: center 
-
-
-Step 5.5 Bottom plate
-^^^^^^^^^^^^^^^^^^^^^
-
-* The orientation of the plate must be such that the hole is at the front. 
-
-.. image:: ../_static/61.jpg
-    :align: center    
-
-* If the leg is stuck, turn the part ①	
-
-.. image:: ../_static/59_2.jpg
+.. image:: ../_static/49.v2.1.jpg
+    :align: center  
+		
+.. image:: ../_static/49.v2.2.jpg
     :align: center  
     
-.. image:: ../_static/59_3.gif
-    :align: center 
-        
+.. image:: ../_static/49.v2.3.jpg
+    :align: center  
 
-Step 5.6 Display and Frame of face
-^^^^^^^^^^^^^^^^^
+Connect the center parts to the bottom carbon fiber
 
-* Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible. 
-.. image:: ../_static/74.jpg
-    :align: center   
-.. image:: ../_static/75.jpg
-    :align: center 
-    
-.. image:: ../_static/76.jpg
-    :align: center 
-    
-.. image:: ../_static/77.jpg
-    :align: center 
-    
-.. image:: ../_static/78.jpg
-    :align: center 
-    
+* Be careful of the carbon fiber front and rear orientation.
+	
+.. image:: ../_static/49.v2.4.jpg
+    :align: center  
 
+.. image:: ../_static/49.v2.5.jpg
+    :align: center  
 
-* Be careful with the yellow parts as it has a front and back. 
+Step 4.2 Hip parts
+^^^^^^^^^^^^
+Assemble four hip parts, please refer to the servo positions. 
 
-.. image:: ../_static/79.v2.jpg
-    :align: center 
-    
-.. image:: ../_static/80.v2.jpg
-    :align: center 
-    
-.. image:: ../_static/81.jpg
-    :align: center 
- 
-    
-Step 5.7 Custom circuit board 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-* Plug the display cable into the custom circuit board.   
-    
-.. image:: ../_static/88.jpg
-    :align: center 
-    
-.. image:: ../_static/89.jpg
-    :align: center 
-    
-* Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . J12. 
-
-.. image:: ../_static/90.jpg
-    :align: center 
-    
-* Use four M2x5mm screws and four short supports. 
-    
-.. image:: ../_static/63.jpg
-    :align: center 
-    
-.. image:: ../_static/64.jpg
-    :align: center 
-    
-
-* put on the carbon fiber board
-    
-.. image:: ../_static/91.jpg
+.. image:: ../_static/49.v2.6.jpg
     :align: center 
 
-* plug in the battery cable. This connector may interfere with the hips parts, so you have to slide it through a hole in the middle of the board.
-
-.. image:: ../_static/92.jpg
+.. image:: ../_static/49.v2.7.jpg
     :align: center 
 
-* Use eight M2x5mm screws. The orientation of the plate must be such that the large opening is at the front.
-    
-.. image:: ../_static/66.jpg
-    :align: center 
-  
-* Pull the custom circuit board closer to the body. The board may float, but you can use four long posts to hold it in place. 
-    
-.. image:: ../_static/93.jpg
-    :align: center 
-    
-.. image:: ../_static/94.jpg
-    :align: center 
-    
-.. image:: ../_static/95.jpg
-    :align: center 
+Ensure the No.1, 4, 7, 10 servos at the right position.
 
+.. image:: ../_static/49.v2.8.jpg
+    :align: center
 
-※ Need to pay attention to the cable of the No. 1 servo to prevent it from being overwhelmed. 
+Use the custom cable to connect the battery to the top PCB board, and click the battery button for more than 3 seconds to boot up it.
 
-.. image:: ../_static/134.png
+.. image:: ../_static/49.v2.9.jpg
+    :align: center
+
+Connect the servos to the top PCB board, please pay attention to the servo connector directions.
+
+.. image:: ../_static/49.v2.10.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.11.jpg
+    :align: center
+
+Connect the four hip parts to the body, please pay attention.
+
+* Don't power off the battery now.
+* Ensure all the servo positions are right.
+
+.. image:: ../_static/49.v2.12.jpg
+    :align: center
+
+Step 4.3 Front and back body parts
+^^^^^^^^^^^^
+
+Power off the battery, and connect the front and back body parts.
+
+.. image:: ../_static/49.v2.13.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.14.jpg
+    :align: center
+
+Pay attention to the directions.
+
+.. image:: ../_static/49.v2.16.jpg
+    :align: center
+
+Power on the battery to check the hip parts all at their right positions, connect all the rest servos to the PCB board, and then power off the battery and go ahead.
+
+.. image:: ../_static/49.v2.19.jpg
+    :align: center
+
+Connect the LCD cable to the PCB board, make the servo cables clear.
+
+.. image:: ../_static/49.v2.20.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.21.jpg
+    :align: center
+
+Fix the top and bottom boards.
+
+.. image:: ../_static/49.v2.22.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.23.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.24.jpg
     :align: center
 
 
+Step 4.3 Assemble four legs to the body
+^^^^^^^^^^^^
 
-Step 5.8 Fan 
-^^^^^^^^^^^^^^^^^^^^^
+.. image:: ../_static/49.v2.25.jpg
+    :align: center
 
-* To install the fan.
+Pay attention to the theoretically best angles, it's better to meet the theoretically best angles as much as possible.
+But don't worry, we'll use the software to calibrate the angles later.
 
-.. image:: ../_static/157.jpg
-    :align: center 
-    
-.. image:: ../_static/158.jpg
-    :align: center 
-    
+.. image:: ../_static/49.v2.26.jpg
+    :align: center
 
-Step 5.9 Raspberry Pi 4
-^^^^^^^^^^^^^^^^^^^^^^^^
-    
-.. image:: ../_static/96.jpg
-    :align: center 
-    
-.. image:: ../_static/97.jpg
-    :align: center 
-    
+.. image:: ../_static/49.v2.27.jpg
+    :align: center
+
+
+Step 4.3 Assemble the battery to the body
+^^^^^^^^^^^^
+
+.. image:: ../_static/49.v2.28.jpg
+    :align: center
+
+.. image:: ../_static/49.v2.29.jpg
+    :align: center
 
    
 6. Cover Assembly
