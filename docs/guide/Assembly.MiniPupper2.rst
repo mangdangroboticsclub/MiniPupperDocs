@@ -334,9 +334,12 @@ Connect the No.1, 4, 7, 10 servos to the body center parts.
 
 * It is useful to put masking tape on the cables and write the number of servos during this process to make it easier later.
 
+
 .. image:: ../_static/49.v2.1.jpg
     :align: center  
-		
+
+* Pay attention to the center part direction.
+
 .. image:: ../_static/49.v2.2.jpg
     :align: center  
     
@@ -452,9 +455,16 @@ Step 4.3 Assemble the battery to the body
 .. image:: ../_static/49.v2.28.jpg
     :align: center
 
+Slide the battery backward and secure it.
+
 .. image:: ../_static/49.v2.29.jpg
     :align: center
 
+.. image:: ../_static/85.jpg
+    :align: center
+
+.. image:: ../_static/84.jpg
+    :align: center
    
 6. Cover Assembly
 -----------------
