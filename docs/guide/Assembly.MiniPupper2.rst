@@ -77,33 +77,15 @@ Step 1.3 Write the image into a microSD card
 
 * The pictures show the position of the screws briefly. 
     
-.. image:: ../_static/136.jpg
+.. image:: ../_static/MPv2.screws1.jpg
     :align: center
     
-.. image:: ../_static/137.jpg
+.. image:: ../_static/MPv2.screws2.jpg
     :align: center  
     
-.. image:: ../_static/138.jpg
+.. image:: ../_static/MPv2.screws3.jpg
     :align: center
     
-
-.. image:: ../_static/139.png
-    :align: center
-
-    
-.. image:: ../_static/140.jpg
-    :align: center  
-    
-
-.. image:: ../_static/144.png
-    :align: center
-
-    
-.. image:: ../_static/141.jpg
-    :align: center  
-    
-.. image:: ../_static/142.jpg
-    :align: center  
     
 3. Legs Assembly
 ----------------
