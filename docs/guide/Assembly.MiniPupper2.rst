@@ -294,10 +294,26 @@ Step 3.3 Locktite
 4. Display and Frame of face
 ----------------
 
-Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible.
-
+Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. 
 .. image:: ../_static/74.jpg
     :align: center   
+
+.. image:: ../_static/79.v2.1.jpg
+    :align: center 
+
+.. image:: ../_static/79.v2.2.jpg
+    :align: center 
+
+.. image:: ../_static/79.v2.3.jpg
+    :align: center 
+
+* When attaching the display, you can use a stick to gently push the flexible FPC cable, so that it goes as far back as possible. Don't bend this FPC cable at 180 degrees.
+
+.. image:: ../_static/79.v2.4.jpg
+    :align: center 
+
+.. image:: ../_static/79.v2.5.jpg
+    :align: center 
 
 
 5. Body Frame and Hips Assembly
@@ -455,7 +471,17 @@ Slide the battery backward and secure it.
 
 .. image:: ../_static/84.jpg
     :align: center
-   
+
+Step 5.6 Assemble the speaker
+^^^^^^^^^^^^
+
+.. image:: ../_static/MP2.Speak.1.jpg
+    :align: center
+
+.. image:: ../_static/MP2.Speak.2.jpg
+    :align: center
+
+
 6. Cover Assembly
 -----------------
 Please refer to the below video clip.
@@ -470,10 +496,10 @@ Please refer to the below video clip.
 Step 6.1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^
     
-.. image:: ../_static/111.jpg
+.. image:: ../_static/111.v2.jpg
     :align: center   
     
-.. image:: ../_static/112.jpg
+.. image:: ../_static/112.v2.jpg
     :align: center   
 
 Step 6.2 Shin guards
@@ -481,10 +507,10 @@ Step 6.2 Shin guards
 
 * Use four M2x10mm countersunk screws.
 
-.. image:: ../_static/113.jpg
+.. image:: ../_static/113.v2.jpg
     :align: center   
     
-.. image:: ../_static/114.jpg
+.. image:: ../_static/114.v2.jpg
     :align: center 
 
 Step 6.3 Shoulders 
@@ -492,95 +518,77 @@ Step 6.3 Shoulders
 
 * Insert only the screws first and then insert the shoulder parts into the gap. Insert the 2 mm hex driver into the hole in the shoulder part and tighten the screws. 
 
-.. image:: ../_static/115.jpg
+.. image:: ../_static/114.v2.2.jpg
     :align: center   
     
-.. image:: ../_static/116.jpg
+.. image:: ../_static/117.v2.jpg
     :align: center   
     
-.. image:: ../_static/117.jpg
+.. image:: ../_static/117.v2.2.jpg
     :align: center   
     
-.. image:: ../_static/118.jpg
+.. image:: ../_static/122.v2.jpg
     :align: center   
     
-Step 6.4 Top cover
+Step 6.4 Shoes
 ^^^^^^^^^^^^^^^^^^^^^   
-
-* Use four M2x10mm screws, if the holes are too small to fit the screws, as the part is made with a 3D printer, you can enlarge the holes by turning them with the supplied 2mm hexagonal screwdriver. 
-
-.. image:: ../_static/119.jpg
-    :align: center   
-    
-.. image:: ../_static/120.jpg
-    :align: center   
-    
-.. image:: ../_static/121.jpg
-    :align: center   
-    
-Step 6.5 Shoes
-^^^^^^^^^^^^^^
 
 * Put on 4 shoes.
 
-.. image:: ../_static/122.jpg
+.. image:: ../_static/122.v2.jpg
     :align: center   
     
-.. image:: ../_static/123.jpg
+.. image:: ../_static/123.v2.jpg
     :align: center   
     
     
-Step 6.6 Completion!   
-^^^^^^^^^^^^^^^^^^^^^  
+Complete!   
+^^^^^^^^
 
-.. image:: ../_static/124.jpg
-    :align: center   
 
-.. image:: ../_static/125.jpg
-    :align: center
     
-7.Add-On Assembly
+7. Add-On Assembly
 -----------------
 
 Step 7.1 Lidar  
 ^^^^^^^^^^^^^^^^^^^^^  
 
-If you order the Lidar, the Lidar holder will be shipped together.
+If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the STL files.`Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_ 
 
-.. image:: ../_static/126.jpg
+.. image:: ../_static/MP2.Lidar.1.jpg
     :align: center 
-    
-.. image:: ../_static/127.jpg
+
+Connect the 3 holders to the 3D-printed part.
+
+.. image:: ../_static/MP2.Lidar.2.jpg
     :align: center 
-    
-.. image:: ../_static/130.jpg
+
+Connect the custom cable to the Lidar connector on the PCB board.
+
+.. image:: ../_static/MP2.Lidar.3.jpg
+    :align: center 
+
+Fix the 3D-printed part on the PCB board.
+
+.. image:: ../_static/MP2.Lidar.4.jpg
+    :align: center 
+
+Connect the custom cable to the Lidar module and fix it using the self-tapping screws.
+
+.. image:: ../_static/MP2.Lidar.5.jpg
     :align: center 
     
 Step 7.2 Camera
 ^^^^^^^^^^^^^^^^^^^^^  
 
-If you order the camera, the camera holder is not included in the kit. 
-But you can 3d-print it from the stl file down below.
+Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the STL files.`Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_ 
 
-https://drive.google.com/drive/folders/1lRADDbAt7mSBJE4j8HCji1WbWcpneUED
 
-.. image:: ../_static/camera-1.jpg
+.. image:: ../_static/MP2.LidarCamera.1.jpg
     :align: center 
     
-.. image:: ../_static/camera-2.jpg
+.. image:: ../_static/MP2.LidarCamera.2.jpg
     :align: center 
     
-.. image:: ../_static/camera-3.jpg
-    :align: center 
-    
-Step 7.3 Completion!   
-^^^^^^^^^^^^^^^^^^^^^  
-
-.. image:: ../_static/OAK-Lidar.FrontView.jpg
-    :align: center 
-    
-.. image:: ../_static/OAK-Lidar.SideView.jpg
-    :align: center 
-    
-.. image:: ../_static/OAK-Lidar.TopView.jpg
+.. image:: ../_static/MP2.LidarCamera.3.jpg
     :align: center 
