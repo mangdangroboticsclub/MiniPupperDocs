@@ -291,11 +291,19 @@ Step 3.3 Locktite
 .. image:: ../_static/37_2.jpg
     :align: center
 	
-
-4. Body Frame and Hips Assembly
+4. Display and Frame of face
 ----------------
 
-Step 4.1 Body center parts
+Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. When attaching the display, you can use a stick to gently push the flexible cable, so that it goes as far back as possible.
+
+.. image:: ../_static/74.jpg
+    :align: center   
+
+
+5. Body Frame and Hips Assembly
+----------------
+
+Step 5.1 Body center parts
 ^^^^^^^^^^^^
 
 Please refer to the below video clip.
@@ -338,7 +346,7 @@ Connect the center parts to the bottom carbon fiber
 .. image:: ../_static/49.v2.5.jpg
     :align: center  
 
-Step 4.2 Hip parts
+Step 5.2 Hip parts
 ^^^^^^^^^^^^
 Assemble four hip parts, please refer to the servo positions. 
 
@@ -374,7 +382,7 @@ Connect the four hip parts to the body, please pay attention.
 .. image:: ../_static/49.v2.12.jpg
     :align: center
 
-Step 4.3 Front and back body parts
+Step 5.3 Front and back body parts
 ^^^^^^^^^^^^
 
 Power off the battery, and connect the front and back body parts.
@@ -415,7 +423,7 @@ Fix the top and bottom boards.
     :align: center
 
 
-Step 4.3 Assemble four legs to the body
+Step 5.4 Assemble four legs to the body
 ^^^^^^^^^^^^
 
 .. image:: ../_static/49.v2.25.jpg
@@ -431,7 +439,7 @@ But don't worry, we'll use the software to calibrate the angles later.
     :align: center
 
 
-Step 4.3 Assemble the battery to the body
+Step 5.5 Assemble the battery to the body
 ^^^^^^^^^^^^
 
 .. image:: ../_static/49.v2.28.jpg

@@ -18,7 +18,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'Mini Pupper'
-copyright = '2022, MangDang Technology Co., Limited'
+copyright = '2023, MangDang Technology Co., Limited'
 author = 'MangDang Technology Co., Limited'
 
 # The full version, including alpha/beta/rc tags
