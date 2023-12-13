@@ -52,19 +52,15 @@ Step 1.1 Charging the battery
 Step 1.2 Download the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* You can download the pre-built image file via the below folder. 
+* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/175PWfA3oIgC565D_2thNbvp9qQf6Y6-V>`_ 
 
-	`Mini Pupper pre-built images <https://drive.google.com/drive/folders/175PWfA3oIgC565D_2thNbvp9qQf6Y6-V>`_ 
-	
+※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version. 	
 
 * The picture below is the custom carry board. 
 
 .. image:: ../_static/147.v2.jpg
     :align: center
     
-※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version. 	
-   
-	
 Step 1.3 Write the image into a microSD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -98,17 +94,6 @@ Please refer to the below video clip.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ut7UnS3CTZs?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-
-Tools
-^^^^^^
-In addition to the tools included in the kit, the following items are required for assembly.
-
-* Loctite
-
-※ We don't recommend new users to use the Loctite at first, you can use it after you have much background.
-
-※ Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. 
-
 Bolt to use
 ^^^^^^^^^^^^^^^^^^^^^
 * M2x5mm	2x4=8	①+②, ⑤+⑥
@@ -132,20 +117,19 @@ Step 3.1 Single leg
 
 Assemble ① and ② 
 
-* Use one M2x5mm screw.The screw is inserted from the bottom of ② upwards and tightened by inserting them into the screw holes in ①. Be careful about the sides of ②. 
-
-* The two ballbearings in ② should be inserted all the way in and the end should be slightly visible as shown in the picture below. Tap the ball bearing and press it in without gaps. 
-
 .. image:: ../_static/2.v2.jpg
     :align: center
 
+.. image:: ../_static/6.v2.1.jpg
+    :align: center
+
+* The two sides of bearings inside ② are different.
+
 .. image:: ../_static/3.jpg
     :align: center
-    
-    
+
 .. image:: ../_static/6.v2.jpg
-    :align: center    
-    
+    :align: center
     
 Assemble ② and ③ 
 
@@ -155,9 +139,6 @@ Assemble ② and ③
     :align: center
 
 .. image:: ../_static/8.v2.jpg
-    :align: center
-    
-.. image:: ../_static/9.v2.jpg
     :align: center
 
 
@@ -260,17 +241,11 @@ Completion of a right leg
     :align: center
 
 .. image:: ../_static/32.jpg
-    :align: center
-    
-.. image:: ../_static/33.jpg
-    :align: center
+    :align: center    
 
 opposite side
 
 .. image:: ../_static/34.v2.jpg
-    :align: center
-    
-.. image:: ../_static/35.jpg
     :align: center
     
 Step 3.2 Four legs
@@ -282,9 +257,16 @@ Step 3.2 Four legs
 Step 3.3 Locktite
 ^^^^^^^^^^^^^^^^^^^^^
 
-* As the nut is on a moving joint, it will loosen quickly if tightened too tightly. They should be secured with Loctite. It is possible to dismantle the nut later, as it can be loosened by a strong force. 
+After Mini Pupper run sometime, some screws or nuts will loose, you have to check and tighten them if needed. It's helpful to understand how it works.
+
+※ We don't recommend new users to use the Loctite at first, you can use it after you have much background.
+
+※ Loctite prevents the nut from loosening, but it is not essential, as it can be tightened only when looseness is noticed. 
 
 .. image:: ../_static/37.jpg
+    :align: center
+
+.. image:: ../_static/45.jpg
     :align: center
 
 * Some screws are also secured with glue as the below picture shows.
@@ -296,6 +278,7 @@ Step 3.3 Locktite
 ----------------
 
 Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. 
+
 .. image:: ../_static/74.jpg
     :align: center   
 
@@ -320,22 +303,14 @@ Remove the protective sheet for the display. Fold the thin flexible cable at the
 5. Body Frame and Hips Assembly
 ----------------
 
-Step 5.1 Body center parts
-^^^^^^^^^^^^
-
-Please refer to the below video clip.
-
-.. raw:: html
-
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n1rLuf3AmUc?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-	
- 
+* Refer to the top video for how to set servo ID.
 * For the position of each servo, please refer to the below picture. 
 
 .. image:: ../_static/52.v2.jpg
     :align: center 
+
+Step 5.1 Body center parts
+^^^^^^^^^^^^
 
 Connect the No.1, 4, 7, 10 servos to the body center parts.
 
