@@ -13,7 +13,7 @@ This is the video clip for the complete kit, please refer to the below sections 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfJUBo4a09A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-Please also refer to Mini Pupper Fusion 360 CAD model: https://a360.co/3wFLSlT 
+Please also refer to Mini Pupper 2 Fusion 360 CAD model: https://a360.co/485n8mP
 
 
 .. raw:: html
@@ -465,9 +465,8 @@ Please refer to the below video clip.
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7s-ceq3U8jM?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nw8dl4CGt9A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
 
 Step 6.1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^
