@@ -404,9 +404,6 @@ Connect the center parts to the bottom carbon fiber.
     :align: center
 
 * Be careful of the carbon fiber front and rear orientation.
-	
-.. image:: ../_static/49.v2.4.jpg
-    :align: center 
 
 
 Step 5.4 Assemble four legs to the body
