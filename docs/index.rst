@@ -85,6 +85,7 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
     guide/QuickStartGuide
     guide/Assembly
     guide/AssembleMiniPupper2
+    guide/AssembleMiniPupper2Pro
     guide/Software
     guide/SLAM
     guide/Navigation
