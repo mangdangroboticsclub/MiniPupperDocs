@@ -5,15 +5,10 @@ Assemble Mini Pupper 2 Pro
 .. contents::
   :depth: 2
 
-This is the video clip for the complete kit, please refer to the below sections for detailed steps.
 
-.. raw:: html
+※ Attention: The MCU(ESP32 and AT32) software are both pre-installed, you don't need to care about them first.
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfJUBo4a09A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-Please also refer to Mini Pupper 2 Fusion 360 CAD model: https://a360.co/485n8mP
+Please refer to Mini Pupper 2 Fusion 360 CAD model for your reference: https://a360.co/485n8mP
 
 
 .. raw:: html
@@ -54,7 +49,7 @@ Step 1.2 Download the image
 
 * You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/175PWfA3oIgC565D_2thNbvp9qQf6Y6-V>`_ 
 
-※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version. 	
+※ “v2Pro_stanford**.img” means the image is for Ubuntu 22.04 version. 	
 
 * The picture below is the custom carry board. 
 
@@ -65,8 +60,6 @@ Step 1.3 Write the image into a microSD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. Please take a look at the official manual. It may take a while to complete. 
-
-※ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <https://etcherpc.com/?usp=sharing>`_ 
 
 
 2. Position of the screws
