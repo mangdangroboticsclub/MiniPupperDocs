@@ -6,7 +6,11 @@ Assemble Mini Pupper 2 Pro
   :depth: 2
 
 
-※ Attention: The MCU(ESP32 and AT32) software are both pre-installed, you don't need to care about them first.
+※ Attention: 
+
+* The MCU(ESP32 and AT32) software are both pre-installed, you don't need to flash any MCU image.
+* You don't need to set each servo number as Mini Pupper 2 because the servo number is fixed by the hardware design, please follow the guide to put the servo to the right positions.
+
 
 Please refer to Mini Pupper 2 Fusion 360 CAD model for your reference: https://a360.co/485n8mP
 
