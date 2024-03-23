@@ -6,6 +6,10 @@ Assemble Mini Pupper 2 Pro
   :depth: 2
 
 
+※ General DIY process: 
+
+* Assemble --> Calibration --> Run 
+
 ※ Attention: 
 
 * The MCU(ESP32 and AT32) software are both pre-installed, you don't need to flash any MCU image.
@@ -276,7 +280,7 @@ After Mini Pupper run sometime, some screws or nuts will loose, you have to chec
 
 Remove the protective sheet for the display. Fold the thin flexible cable at the edge of the display. Attach the board and the display to the main unit. 
 
-.. image:: ../_static/74.jpg
+.. image:: ../_static/74.2pro.jpg
     :align: center   
 
 .. image:: ../_static/79.v2.1.jpg
