@@ -11,26 +11,28 @@ Software Calibration for Mini Pupper 2 and 2Pro
 
 Tools 
 ^^^^^^
-In addition to the tools included in the kit, the following items are required.
+For beginners, in addition to the tools included in the kit, the following items are required.
 
 * USB keyboard
 * HDMI display
-* micro HDMI cable for connection between display and Raspberry Pi
+* micro HDMI cable for connection between display and carry board
 
-Step 1.1 Startup raspberry pi
-^^^^^^^^^^^^^^^^^^^^^
+.. image:: ../_static/101.v2.jpg
+    :align: center 
+
+For beyond, you can use your PC to ssh to Mini Pupper to do everything, please refer to step 1.4
+
+Step 1.1 Startup
+^^^^^^^^^^^^^^^^
 
 * Connect the carry board to the display with a microHDMI cable.
 * Connect a USB keyboard to the carry board.
 * Press and hold the battery button of the Mini Pupper for three seconds to boot up. 
 * If you can see Ubuntu running on your screen, you have succeeded. You should also see the IP address or "IP: no IPv4 address" on Mini Pupper display. 
 
-.. image:: ../_static/101.jpg
-    :align: center 
-
 
 Step 1.2 Log in
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 * Press ubuntu button on the screen to log in. 
 * Default username: ubuntu
@@ -39,22 +41,37 @@ Step 1.2 Log in
 Step 1.3 Set your own WiFi
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Set your WiFi following this guide, thanks!
-
-https://github.com/mangdangroboticsclub/mini_pupper_web_controller
-
-.. image:: ../_static/102.jpg
-    :align: center 
-
-
-Step 1.4 Open ports for ssh (Optional)
-^^^^^^^^^^^^^^^^^^^^^
-
-* Attempt to make an ssh connection from your PC to Ubuntu.
+* Edit the WiFi configure file(50-cloud-init.yaml), and set your WiFi to your own.
 
 ::
 
-	ssh ubuntu@192.168.x.x -p 22
+	sudo vi /etc/netplan/50-cloud-init.yaml
+
+
+.. image:: ../_static/101.v2.png
+    :align: center
+
+
+* You can also refer to `mini_pupper_web_controller <https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_
+
+
+Step 1.4 Open ports for ssh without HDMI display
+^^^^^^^^^^^^^^^^^^^^^
+
+* Use your phone to set the default WiFi used by Mini Pupper.
+
+    WiFi name: Mangdang
+    Password:   mangdang
+
+* Power on your robot and check the LCD display
+
+    If the LCD shows “IP: no IPv4 address”, then reboot again.
+	
+* After the LCD shows the IP address, make an ssh connection from your PC to your robot.
+
+::
+
+	ssh ubuntu@192.168.x.x
 
 * If you are unable to make an ssh connection from your PC, you will need to configure the following, maybe. 
 
@@ -68,6 +85,7 @@ Step 1.4 Open ports for ssh (Optional)
 ::
 
 	sudo ufw enable
+
 
 2. Calibration
 -------------
