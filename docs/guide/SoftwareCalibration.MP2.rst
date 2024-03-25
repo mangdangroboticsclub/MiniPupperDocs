@@ -46,6 +46,9 @@ Step 1.3 Set your own WiFi
 ::
 
 	sudo vi /etc/netplan/50-cloud-init.yaml
+	# Edit and save
+	sudo netplan apply
+	sudo reboot
 
 
 .. image:: ../_static/101.v2.png
@@ -61,11 +64,12 @@ Step 1.4 Open ports for ssh without HDMI display
 * Use your phone to set the default WiFi used by Mini Pupper.
 
     WiFi name: Mangdang
+	
     Password:   mangdang
 
 * Power on your robot and check the LCD display
 
-    If the LCD shows “IP: no IPv4 address”, then reboot again.
+    If the LCD shows “IP: no IPv4 address”, then reboot your robot again.
 	
 * After the LCD shows the IP address, make an ssh connection from your PC to your robot.
 
@@ -114,7 +118,16 @@ Please refer to the below calibration video clip.
 * When all legs are at 45° inclination as shown, press "s" to save the settings. Press "q" to quite the calibration application. 
 
 
-Step 2.2 Run 
+Step 2.2 Use a web browser to run
 ^^^^^^^^^^^^^^^^^^^^^
 
-* Please check the web controller repo: https://github.com/mangdangroboticsclub/mini_pupper_web_controller
+- Point a web browser to http://x.x.x.x:8080 where x.x.x.x is the IP address of your mini_pupper, such as, http://192.168.5.196:8080
+- Click the “Activate” button of the "Controller" tab. 
+- Click the “Activate/Deactivate” button of the "Pupper" tab.
+- Click the "≡" icon at the top left corner.
+- Choose the "Walk" option.
+- Click the "Walk/Rest" button.
+- Use the scroll bar to control your Mini Pupper
+
+.. image:: ../_static/webGuide.png
+    :align: center
