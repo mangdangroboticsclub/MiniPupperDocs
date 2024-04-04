@@ -304,10 +304,16 @@ Remove the protective sheet for the display. Fold the thin flexible cable at the
 5. Body Frame and Hips Assembly
 ----------------
 
-* Refer to the top video for how to set servo ID.
+* Before you connect the CM4 module to the carry board, please make sure to remove the protective film on the Thermal Pad.
+
+.. image:: ../_static/53.v2Pro.jpg
+    :align: center 
+
+
+* Don't need to set servo ID for v2 pro version, the servo ID is fixed by hardware design.
 * For the position of each servo, please refer to the below picture. 
 
-.. image:: ../_static/52.v2.jpg
+.. image:: ../_static/52.v2Pro.jpg
     :align: center 
 
 Step 5.1 Body center parts
