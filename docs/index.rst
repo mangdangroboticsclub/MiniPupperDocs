@@ -89,8 +89,7 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
     guide/Software
     guide/SoftwareCalibration.MP2
     guide/ROS2Installation
-    guide/ROS2QuickStartGuide
-    guide/SoftwareCalibration.MP2    
+    guide/ROS2QuickStartGuide  
     guide/SLAM
     guide/Navigation
     guide/Simulation
