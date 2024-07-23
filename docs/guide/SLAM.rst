@@ -71,6 +71,8 @@ After teleoperation, a map with unknown area revealed will be shown as followed:
 .. image:: ../_static/Slam-map.jpg
     :align: center  
 
+|
+
 3. Save the map
 ------------
 

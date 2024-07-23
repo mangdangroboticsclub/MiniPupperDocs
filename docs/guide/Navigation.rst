@@ -8,8 +8,10 @@ Navigation
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=W1JaIuxdvtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|
 
 Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to Navigation functions.
 
@@ -27,6 +29,8 @@ Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_ 
 .. image:: ../_static/IPaddress.jpg
     :align: center  
 
+|
+
 •	Use one of the terminals and run the following command to connect to the Mini Pupper. The default password is mangdang.
 
 ::
@@ -43,6 +47,7 @@ Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_ 
 2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the Navigation node. 
 
 ::
+    
     . ~/ros2_ws/install/setup.bash
     ros2 launch mini_pupper_navigation navigation.launch.py map:=$HOME/map.yaml
 
@@ -57,6 +62,8 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 
 .. image:: ../_static/2D-pose-estimation.jpg
     :align: center  
+
+|
 
 3. Set Navigation Goal
 ------------

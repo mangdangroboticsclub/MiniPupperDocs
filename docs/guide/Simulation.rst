@@ -55,8 +55,10 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=O1OXINLR1KQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|
 
 2. Gazebo Simulation
 ------------
@@ -97,8 +99,10 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=O32Zwc3Fqok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|
 
 3. Test SLAM (Mapping) in Gazebo
 ------------
@@ -149,8 +153,10 @@ Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node.
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YynF3ozGdUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|
 
 3.4 Save the map
 ^^^^^^
@@ -174,7 +180,7 @@ Run the following command to launch Gazebo simulation.
 
 ::
 
-  . ~/ros2_ws/install/setup.bash # setup.zsh if you use zsh instead of bash
+  . ~/ros2_ws/install/setup.bash
   ros2 launch mini_pupper_gazebo gazebo.launch.py
 
 4.2 Launch Navigation Simulation
@@ -212,5 +218,7 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=77gWrRvZ-Zo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|

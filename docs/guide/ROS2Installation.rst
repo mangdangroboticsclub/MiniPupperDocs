@@ -72,7 +72,9 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 2. Scroll to the end of the file.
 
 .. image:: ../_static/bashrc.png
-    :align: center   
+    :align: center  
+
+| 
 
 3. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
 
@@ -99,6 +101,8 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 .. image:: ../_static/Sd-card-reader.jpg
     :align: center   
+
+|
 
 ::
 
@@ -128,7 +132,9 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 8. Scroll to the end of the file.
 
 .. image:: ../_static/bashrc.png
-    :align: center   
+    :align: center 
+
+|  
 
 9. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
 
@@ -167,7 +173,9 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 5. Scroll to the end of the file for both terminals.
 
 .. image:: ../_static/bashrc.png
-    :align: center   
+    :align: center  
+
+| 
 
 6. Add the following line in both terminals to setup the connection. The number inputted can be any number, but it should be the same for both terminals.
 
@@ -192,6 +200,8 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 .. image:: ../_static/node-list.png
     :align: center   
+
+|
 
 If the output in both terminals shows the same list of node which is similar to the picture, your PC and the Mini Pupper is connected
 
