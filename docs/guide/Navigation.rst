@@ -16,7 +16,7 @@ Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_ 
 **NOTE: Please run the Navigation node on Remote PC.**
 **WARNING: Make sure to run the Bringup from the Mini Pupper before navigation. Put the robot on the ground the prevent the robot from falling during movement.**
 
-1 Run Navigation Node
+1. Run Navigation Node
 ------------
 
 1.If Bringup is not launched on Mini Pupper, launch Bringup first.
@@ -48,14 +48,14 @@ Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_ 
 
 The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The white area is collision free area while black area is occupied and inaccessible area, and gray area represents the unknown area.
 
-2 Estimate Initial Pose
+2. Estimate Initial Pose
 ------------
 
 1. Click the 2D Pose Estimate button in the RViz2 menu.
 2. Click on the map on the place where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
 3. Repeat step 1 and 2 until the inaccessible area detected by the robot is overlapping completely with the black area on the map.
 
-3 Set Navigation Goal
+3. Set Navigation Goal
 ------------
 
 1. Click the Nav2 Goal button in the RViz2 menu. Nav2 will plan the path and guide the robot towards reaching the goal.

@@ -1,3 +1,4 @@
+==============================
 Simulation
 ==============================
 
@@ -8,7 +9,7 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 
 **NOTE: Please run the Simulation on Remote PC.**
 
-1 RViz Simulation
+1. RViz Simulation
 ------------
 
 1.1 Launch Simulation World
@@ -51,7 +52,7 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
 
-2 Gazebo Simulation
+2. Gazebo Simulation
 ------------
 
 2.1 Launch Simulation World
@@ -145,7 +146,7 @@ The map file is saved in the directory where the map_saver_cli node is launched 
   . ~/ros2_ws/install/setup.bash
   ros2 run nav2_map_server map_saver_cli -f ~/map 
 
-4 Navigation Simulation
+4. Navigation Simulation
 ------------
 
 4.1 Launch Simulation World

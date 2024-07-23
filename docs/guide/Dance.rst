@@ -5,13 +5,10 @@ Dance
 .. contents::
   :depth: 2
 
-1. Dance
-------------
-
 **NOTE: The nodes for playing music and dance cand be executed on both Mini Pupper and Remote PC**
 
-1.1. Install Music Packages
-^^^^^^
+1. Install Music Packages
+------------
 
 1. Open a terminal with Ctrl+Alt+T  to connect Mini Pupper.
 2. Look at monitor of Mini Pupper to obtain the IP address of it.
@@ -29,8 +26,8 @@ Dance
     sudo apt-get install ffmpeg portaudio19-dev -y
     pip install pydub pyaudio
 
-1.2 Launch Bringup
-^^^^^^
+2. Launch Bringup
+------------
 
 1.If Bringup is not launched on Mini Pupper, launch Bringup first.
 
@@ -51,8 +48,8 @@ Dance
     . ~/ros2_ws/install/setup.bash
     ros2 launch mini_pupper_bringup bringup.launch.py
 
-1.3 Launch Music Node
-^^^^^^
+3. Launch Music Node
+------------
 
 Open a new terminal with Ctrl + Alt + T and launch the Music node.
 
@@ -61,8 +58,8 @@ Open a new terminal with Ctrl + Alt + T and launch the Music node.
     . ~/ros2_ws/install/setup.bash 
     ros2 launch mini_pupper_music music.launch.py
 
-1.4 Launch Dance Node
-^^^^^^
+4. Launch Dance Node
+------------
 
 Open a new terminal with Ctrl + Alt + T and launch the Dance node.
 

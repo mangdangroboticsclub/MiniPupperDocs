@@ -108,7 +108,7 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 4.	When the editor is opened, edit the content as below while replacing Mangdang and mangdang with your actual wifi SSID and password.
 
-.. image:: ../_static/netplan yaml.png
+.. image:: ../_static/netplan-yaml.png
     :align: center   
 
 5.	Save the file with Ctrl+S and exit with Ctrl+X.
@@ -192,14 +192,14 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 10. Compare the output in both terminals:
 
-.. image:: ../_static/node list.png
+.. image:: ../_static/node-list.png
     :align: center   
 
 If the output in both terminals shows the same list of node which is similar to the picture, your PC and the Mini Pupper is connected
 
 **NOTE: the node list depends on the nodes in progress, which may not be exactly the same from the image.**
  
-2.Quick Start
+2. Quick Start
 ------------
 
 2.1 Calibration
@@ -282,7 +282,7 @@ Topic list
 
 	ros2 topic list
 
-.. image:: ../_static/topic list.png
+.. image:: ../_static/topic-list.png
     :align: center   
 
 Service list
@@ -291,7 +291,7 @@ Service list
 
 	ros2 service list
 
-.. image:: ../_static/service list.png
+.. image:: ../_static/service-list.png
     :align: center   
 
 
@@ -312,7 +312,7 @@ Service list
 
 Terminal output: 
 
-.. image:: ../_static/keyboard teleop.png
+.. image:: ../_static/keyboard-teleop.png
     :align: center   
 
 * 2.4.2 Joystick
@@ -327,7 +327,7 @@ Terminal output:
 
 Terminal output:
 
-.. image:: ../_static/joystick teleop node.png
+.. image:: ../_static/joystick-teleop-node.png
     :align: center  
 
 3. SLAM
