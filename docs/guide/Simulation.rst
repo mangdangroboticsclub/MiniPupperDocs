@@ -52,6 +52,12 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
 
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 2. Gazebo Simulation
 ------------
 
@@ -88,7 +94,13 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
 
-3 Test SLAM (Mapping) in Gazebo
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+3. Test SLAM (Mapping) in Gazebo
 ------------
 
 3.1 Launch Simulation World
@@ -133,6 +145,12 @@ Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node.
 
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 3.4 Save the map
 ^^^^^^
@@ -190,3 +208,9 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 
 1. Click the Nav2 Goal button in the RViz2 menu. Nav2 will plan the path and guide the robot towards reaching the goal.
 2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing, while the root of the green arrow is the destination at which the robot will finally reach.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>

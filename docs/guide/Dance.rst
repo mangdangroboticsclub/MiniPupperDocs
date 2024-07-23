@@ -5,6 +5,12 @@ Dance
 .. contents::
   :depth: 2
 
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 **NOTE: The nodes for playing music and dance cand be executed on both Mini Pupper and Remote PC**
 
 1. Install Music Packages

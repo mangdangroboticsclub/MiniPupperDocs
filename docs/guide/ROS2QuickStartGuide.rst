@@ -1,30 +1,18 @@
 =================
-ROS2 Quick Start
+ROS2 Quick Start Guide
 =================
 
 .. contents::
   :depth: 2
 
-1. Calibration
-------------
-
-Through this script, you can calibrate the angle of every servo in one turn. Just input the angles.</br>
-The hip and shank should be horizontal, and the ham should be vertical.
-
-::
-
-	calibrate
-
-Make sure Mini Pupper looks like this after calibrating.
-
-.. image:: ../_static/109.jpg
-    :align: center   
-
-
-2. Joystick Setup
+1. Joystick Setup
 ------------
 
 1. Press the HOME button on the controller.
+
+.. image:: ../_static/Bluetooth-connection-button.jpg
+    :align: center   
+
 2. Search for available bluetooth devices on your PC and connect to it.
 
 .. image:: ../_static/controller-connection.png
@@ -33,6 +21,12 @@ Make sure Mini Pupper looks like this after calibrating.
 
 .. image:: ../_static/controller-address.png
     :align: center   
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 3. Use the following command to check the name of the joystick.
 
@@ -52,7 +46,7 @@ There will be output as followed if joystick is connected.
 .. image:: ../_static/jstest.png
     :align: center   
 
-3. Bringup
+2. Bringup
 ------------
 
 1. Open a terminal with Ctrl+Alt+T  to connect Mini Pupper.
@@ -100,12 +94,12 @@ Service list
     :align: center   
 
 
-4. Teleoporation
+3. Teleoporation
 ------------
 
 **WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Teleoperate the robot, and be careful when testing the robot on the table as the robot might fall.**
 
-4.1 Keyboard
+3.1 Keyboard
 ^^^^^^
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
@@ -121,7 +115,18 @@ Terminal output:
 .. image:: ../_static/keyboard-teleop.png
     :align: center   
 
-4.2 Joystick
+You can drive the pupper using the keyboard following the guide below.
+
+.. image:: ../_static/Keyboard-guide.jpg
+    :align: center
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jb2yxs2YUsI?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>  
+
+3.2 Joystick
 ^^^^^^
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
@@ -136,4 +141,15 @@ Terminal output:
 
 .. image:: ../_static/joystick-teleop-node.png
     :align: center  
+
+You can drive the pupper using the joystick following the guide below.
+
+.. image:: ../_static/Controller-guide.jpg
+    :align: center  
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://youtu.be/WaBfb-NBYYI?si=3KbMowkXbKknp8Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 

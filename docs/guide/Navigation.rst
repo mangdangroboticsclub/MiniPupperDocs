@@ -55,6 +55,9 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 2. Click on the map on the place where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
 3. Repeat step 1 and 2 until the inaccessible area detected by the robot is overlapping completely with the black area on the map.
 
+.. image:: ../_static/2D-pose-estimation.jpg
+    :align: center  
+
 3. Set Navigation Goal
 ------------
 

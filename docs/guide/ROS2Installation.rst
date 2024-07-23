@@ -97,6 +97,9 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 2.	Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the official website, and flash it into your SD card according to the following guide.
 3.	Plug the card into the Mini Pupper card port and setup your own wifi.
 
+.. image:: ../_static/Sd-card-reader.jpg
+    :align: center   
+
 ::
 
 	sudo nano /etc/netplan/50-cloud-init.yaml

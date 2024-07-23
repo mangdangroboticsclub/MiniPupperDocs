@@ -68,7 +68,7 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 
 After teleoperation, a map with unknown area revealed will be shown as followed:
 
-.. image:: ../_static/slam.png
+.. image:: ../_static/Slam-map.jpg
     :align: center  
 
 3. Save the map
