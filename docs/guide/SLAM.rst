@@ -76,7 +76,7 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 
 2. Scroll to the end of the file.
 
-.. image:: ../_static/bashrc.jpg
+.. image:: ../_static/bashrc.png
     :align: center   
 
 3. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
@@ -108,7 +108,7 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 4.	When the editor is opened, edit the content as below while replacing Mangdang and mangdang with your actual wifi SSID and password.
 
-.. image:: ../_static/netplan yaml.jpg
+.. image:: ../_static/netplan yaml.png
     :align: center   
 
 5.	Save the file with Ctrl+S and exit with Ctrl+X.
@@ -129,7 +129,7 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 8. Scroll to the end of the file.
 
-.. image:: ../_static/bashrc.jpg
+.. image:: ../_static/bashrc.png
     :align: center   
 
 9. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
@@ -168,7 +168,7 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 5. Scroll to the end of the file for both terminals.
 
-.. image:: ../_static/bashrc.jpg
+.. image:: ../_static/bashrc.png
     :align: center   
 
 6. Add the following line in both terminals to setup the connection. The number inputted can be any number, but it should be the same for both terminals.
@@ -192,7 +192,7 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 10. Compare the output in both terminals:
 
-.. image:: ../_static/node list.jpg
+.. image:: ../_static/node list.png
     :align: center   
 
 If the output in both terminals shows the same list of node which is similar to the picture, your PC and the Mini Pupper is connected
@@ -223,17 +223,17 @@ Make sure Mini Pupper looks like this after calibrating.
 1. Press the HOME button on the controller.
 2. Search for available bluetooth devices on your PC and connect to it.
 
-.. image:: ../_static/controller connection.jpg
+.. image:: ../_static/controller connection.png
     :align: center   
 
-.. image:: ../_static/controller address.jpg
+.. image:: ../_static/controller address.png
     :align: center   
 
 3. Use the following command to check the name of the joystick.
 
 Terminal output: In this case the name of the joystick is “js0”.
 
-.. image:: ../_static/dev-input.jpg
+.. image:: ../_static/dev-input.png
     :align: center   
 
 4. Use the following command to check if the joystick us connected.
@@ -244,7 +244,7 @@ Terminal output: In this case the name of the joystick is “js0”.
 
 There will be output as followed if joystick is connected.
 
-.. image:: ../_static/jstest.jpg
+.. image:: ../_static/jstest.png
     :align: center   
 
 2.3 Bringup
@@ -267,10 +267,10 @@ There will be output as followed if joystick is connected.
 
 When the robot model is Mini Pupper 2, the terminal output will look like below.
 
-.. image:: ../_static/Bringup1.jpg
+.. image:: ../_static/Bringup1.png
     :align: center   
 
-.. image:: ../_static/Bringup2.jpg
+.. image:: ../_static/Bringup2.png
     :align: center   
 
 
@@ -282,7 +282,7 @@ Topic list
 
 	ros2 topic list
 
-.. image:: ../_static/topic list.jpg
+.. image:: ../_static/topic list.png
     :align: center   
 
 Service list
@@ -291,7 +291,7 @@ Service list
 
 	ros2 service list
 
-.. image:: ../_static/service list.jpg
+.. image:: ../_static/service list.png
     :align: center   
 
 
@@ -312,7 +312,7 @@ Service list
 
 Terminal output: 
 
-.. image:: ../_static/keyboard teleop.jpg
+.. image:: ../_static/keyboard teleop.png
     :align: center   
 
 * 2.4.2 Joystick
@@ -327,7 +327,7 @@ Terminal output:
 
 Terminal output:
 
-.. image:: ../_static/joystick teleop node.jpg
+.. image:: ../_static/joystick teleop node.png
     :align: center  
 
 3. SLAM
@@ -392,7 +392,7 @@ Terminal output:
 
 After teleoperation, a map with unknown area revealed will be shown as followed:
 
-.. image:: ../_static/slam.jpg
+.. image:: ../_static/slam.png
     :align: center  
 
 3.3 Save the map
