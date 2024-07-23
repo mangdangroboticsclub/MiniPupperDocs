@@ -14,73 +14,83 @@ SLAM(Simultaneous Localization and Mapping)
         <iframe width="560" height="315" src="https://www.youtube.com/embed/4gblGfd12IY?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
-
+Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
 
 1.Installation
 ------------
 
-We recommend you explore Mini Pupper with ROS network, make sure your PC and Mini Pupper have connected to the same WiFi.
+We recommend you explore Mini Pupper with ROS2 network, make sure your PC and Mini Pupper have connected to the same WiFi.
 
 1.1 PC Setup
 ^^^^^^
 PC Setup corresponds to PC (your desktop or laptop PC) for controlling Mini Pupper remotely. Do not apply these commands to your Mini Pupper.
 
-* 1.1.1 Cartographer ROS packages installation
+**WARNING: The contents in this chapter corresponds to the Remote PC (your desktop or laptop PC) which will control Mini Pupper. Do not apply these commands to your Raspberry Pi on Mini Pupper or Compute Module 4 on Mini Pupper 2.**
 
-Our SLAM and Navigation functions are based on `cartographer_ros <https://google-cartographer-ros.readthedocs.io/en/latest/compilation.html>`_ . 
+**NOTE: This instruction was tested on Linux with Ubuntu 22.04 and ROS2 Humble.**
+
+* 1.1.1 Install ROS 2 Humble
+
+Open the terminal with Ctrl+Alt+T from Remote PC. 
 
 ::
 
 	cd ~
-	sudo apt-get update
-	sudo apt-get install -y python3-wstool python3-rosdep ninja-build stow
-	mkdir carto_ws
-	cd carto_ws
-	wstool init src
-	wstool merge -t src https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall
-	wstool update -t src
-	sudo rosdep init
-	rosdep update
-	rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y
-	src/cartographer/scripts/install_abseil.sh
-	sudo apt-get remove ros-${ROS_DISTRO}-abseil-cpp
-	catkin_make_isolated --install --use-ninja
-	source install_isolated/setup.bash
+	sudo apt update
+	git clone https://github.com/Tiryoh/ros2_setup_scripts_ubuntu.git
+	~/ros2_setup_scripts_ubuntu/ros2-humble-ros-base-main.sh
+	source /opt/ros/humble/setup.bash
+	After ROS 2 installation, download the Mini Pupper ROS package in the workspace.
 
-* 1.1.2 Mini Pupper ROS packages installation
+* 1.1.2 Install Mini Pupper ROS Repository
+
+Open the terminal with Ctrl+Alt+T from Remote PC.
 
 ::
 
-	cd <your_ws>/src
-	git clone --recursive https://github.com/mangdangroboticsclub/minipupper_ros
-	cd ..
+	mkdir -p ~/ros2_ws/src
+	cd ~/ros2_ws/src
+	git clone https://github.com/mangdangroboticsclub/mini_pupper_ros.git -b ros2-dev mini_pupper_ros
+	vcs import < mini_pupper_ros/.minipupper.repos --recursive
+
+
+* 1.1.3 Install Dependent ROS 2 Packages and Build Package
+
+Open the terminal with Ctrl+Alt+T from Remote PC.
+
+::
+
+	cd ~/ros2_ws
 	rosdep install --from-paths src --ignore-src -r -y
-	catkin_make
-	source <your_ws>/devel/setup.bash
+	sudo apt install ros-humble-teleop-twist-keyboard
+	sudo apt install ros-humble-teleop-twist-joy
+	colcon build --symlink-install
 
 
-* 1.1.3 Network Setup
+* 1.1.4. Export Robot Model
 
-Connect your PC and Mini Pupper to the same WiFi and find the assigned IP address with the command below.
+1. Open ~/.bashrc with text editor in the terminal.
+
+::
+	nano ~/.bashrc
+
+2. Scroll to the end of the file.
+
+.. image:: ../_static/bashrc.jpg
+    :align: center   
+
+3. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
 
 ::
 
-	ifconfig
+ 	export ROBOT_MODEL=mini_pupper_2
 
-Open the file and update ROS IP settings with commands below.
-
-::
-
-	sudo gedit ~/.bashrc
-
-Then add your Master and hostname config, for an example
+4. Save the file with Ctrl+S and exit with Ctrl+X.
+5. Run the following command to apply the change.
 
 ::
 
-	export ROS_MASTER_URI=http://192.168.1.106:11311
-	export ROS_HOSTNAME=192.168.1.106
-
+	source ~/.bashrc
 
 
 1.2 Mini Pupper Setup
@@ -88,78 +98,107 @@ Then add your Master and hostname config, for an example
 
 You can also download the `pre-built ROS image <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ for Mini Pupper side, named "xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img".
 
-* 1.2.1 Hardware Dependencies
-
-You should first install dependencies of servos, battery moniter and display screen. 
-Please refer to `minipupper_ros_bsp <https://github.com/mangdangroboticsclub/minipupper_ros_bsp>`_ .
-
-* 1.2.2 Controller Joystick interface installation
-
-The Joystick interface in ROS is based on `ps4-ros <https://github.com/solbach/ps4-ros>`_  project. 
+1.	The image can be flashed into the card using an adaptor. If you PC do not have a microSD slot, please use a microSD card reader to burn the image.
+2.	Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the official website, and flash it into your SD card according to the following guide.
+3.	Plug the card into the Mini Pupper card port and setup your own wifi.
 
 ::
 
-	pip install ds4drv
-	sudo apt install ros-noetic-joy
-	sudo wget https://raw.githubusercontent.com/chrippa/ds4drv/master/udev/50-ds4drv.rules -O /etc/udev/rules.d/50-ds4drv.rules
-	sudo udevadm control --reload-rules
-	sudo udevadm trigger
-	sudo reboot
+	sudo nano /etc/netplan/50-cloud-init.yaml
 
-Then go into pairing mode with the controller: Home button + share button for ~3 sec.
-Run $ds4drv from command line until the controller is connected.
+4.	When the editor is opened, edit the content as below while replacing Mangdang and mangdang with your actual wifi SSID and password.
 
-::
+.. image:: ../_static/netplan yaml.jpg
+    :align: center   
 
-	ds4drv
-
-This will output something like "Created devices /dev/input/jsX".
-Then give the permissions to the device
+5.	Save the file with Ctrl+S and exit with Ctrl+X.
+6.	Run the following commands to reboot and connect to your actual wifi.
 
 ::
 
-	sudo chmod a+rw /dev/input/jsX
+	sudo netplan apply
+	sudo apt update
+	sudo apt upgrade
+	reboot
 
-
-* 1.2.3 Mini Pupper ROS packages installation
-
-**Then you can install the ROS packages for Mini Pupper. This should be installed both on Mini Pupper and your PC.**
-
-::
-
-	cd <your_ws>/src
-	git clone --recursive https://github.com/mangdangroboticsclub/minipupper_ros
-	cd minipupper_ros/champ
-	# it's not recommend to compile gazebo on raspberry pi
-	sudo rm -rf champ_gazebo
-	cd ../../..
-	rosdep install --from-paths src --ignore-src -r -y
-	catkin_make
-	source <your_ws>/devel/setup.bash
-
-
-* 1.2.4 Network Setup
-
-Connect your PC and Mini Pupper to the same WiFi and find the assigned IP address with commands below.
+7. After reboot, open ~/.bashrc with text editor in the terminal.
 
 ::
 
-	ifconfig
+	nano ~/.bashrc
 
-Open the file and update the ROS IP settings with the command below.
+8. Scroll to the end of the file.
+
+.. image:: ../_static/bashrc.jpg
+    :align: center   
+
+9. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
 
 ::
 
-	sudo gedit ~/.bashrc
+	export ROBOT_MODEL=mini_pupper_2
 
-Then add your Master and hostname config,for an example
+10. Save the file with Ctrl+S and exit with Ctrl+X.
+11. Run the following command to apply the change.
 
 ::
 
-	export ROS_MASTER_URI=http://192.168.1.106:11311
-	export ROS_HOSTNAME=192.168.1.107
+	source ~/.bashrc
 
+1.3 Connecting Mini Pupper to PC
+^^^^^^
 
+1. Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini Pupper and one for PC local.
+2. Look at monitor of Mini Pupper to obtain the IP address of it.
+
+.. image:: ../_static/IPaddress.jpg
+    :align: center   
+
+3. Use one of the terminals and run the following command to connect to the Mini Pupper. The default password is “mangdang”.
+
+::
+
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+
+4. Open ~/.bashrc with text editor in both terminals.
+
+::
+
+	nano ~/.bashrc
+
+5. Scroll to the end of the file for both terminals.
+
+.. image:: ../_static/bashrc.jpg
+    :align: center   
+
+6. Add the following line in both terminals to setup the connection. The number inputted can be any number, but it should be the same for both terminals.
+
+::
+
+	 export ROS_DOMAIN_ID=42
+
+7. Save the file with Ctrl+S and exit with Ctrl+X.
+8. Run the following command to apply the change.
+
+::
+
+	source ~/.bashrc
+
+9. Use the following command in both terminals to confirm that the PC and the Mini Pupper are connected:
+
+::
+
+	ros2 node list
+
+10. Compare the output in both terminals:
+
+.. image:: ../_static/node list.jpg
+    :align: center   
+
+If the output in both terminals shows the same list of node which is similar to the picture, your PC and the Mini Pupper is connected
+
+**NOTE: the node list depends on the nodes in progress, which may not be exactly the same from the image.**
+ 
 2.Quick Start
 ------------
 
@@ -171,101 +210,201 @@ The hip and shank should be horizontal, and the ham should be vertical.
 
 ::
 
-	roslaunch servo_interface calibrate.launch
+	calibrate
 
 Make sure Mini Pupper looks like this after calibrating.
 
 .. image:: ../_static/109.jpg
     :align: center   
 
-2.2 Walking
+2.2 Joystick Setup
 ^^^^^^
 
-* 2.2.1 Run the base driver
+1. Press the HOME button on the controller.
+2. Search for available bluetooth devices on your PC and connect to it.
 
-**You should run this command on Mini Pupper**
+.. image:: ../_static/controller connection.jpg
+    :align: center   
+
+.. image:: ../_static/controller address.jpg
+    :align: center   
+
+3. Use the following command to check the name of the joystick.
+
+Terminal output: In this case the name of the joystick is “js0”.
+
+.. image:: ../_static/dev-input.jpg
+    :align: center   
+
+4. Use the following command to check if the joystick us connected.
+
+::
+	sudo apt install joystick
+	jstest /dev/input/{NAME_OF_JOYSTICK}
+
+There will be output as followed if joystick is connected.
+
+.. image:: ../_static/jstest.jpg
+    :align: center   
+
+2.3 Bringup
+^^^^^^
+
+1. Open a terminal with Ctrl+Alt+T  to connect Mini Pupper.
+2. Look at monitor of Mini Pupper to obtain the IP address of it.
+3. Use one of the terminals and run the following command to connect to the Mini Pupper. The default password is mangdang.
 
 ::
 
-	roslaunch mini_pupper bringup.launch
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
 
-If Mini Pupper didn't stand as what you expect, you can edit calibration.yaml in servo_interface/config/calibration to fix the angles.
-
-* 2.2.2 Control Mini Pupper
-
-There are two options to control Mini Pupper:
-
-1.Use keyboard
-
-**It's recommended to run this command on PC.**
+4. Bring up basic packages to start Mini Pupper applications. 
 
 ::
 
-	roslaunch champ_teleop teleop.launch
+	. ~/ros2_ws/install/setup.bash
+	ros2 launch mini_pupper_bringup bringup.launch.py
+
+When the robot model is Mini Pupper 2, the terminal output will look like below.
+
+.. image:: ../_static/Bringup1.jpg
+    :align: center   
+
+.. image:: ../_static/Bringup2.jpg
+    :align: center   
 
 
-2.Use the controller
+5. Topics and services can be listed with commands below.
 
-**It's recommended to run this command on Mini Pupper.**
-
-**Don't run this command while using move_base because even if you are doing nothing with the joystick, it would still send cmd_vel with all the values as zero.**
-
-::
-
-	roslaunch ps4_interface ps4_interface.launch
-
-For the controller usage, please refer to Quick Start Guide.
-
-* 2.2.2 LCD Screen
-
-::
-
-	python3 ~/minipupper_ros_bsp/mangdang/LCD/demo.py
-
-We also made a simple ROS interface of the LCD screen, which subscribes sensor_msgs/Image.
+Topic list
 
 ::
 
-	rosrun display_interface display_interface.py
+	ros2 topic list
 
+.. image:: ../_static/topic list.jpg
+    :align: center   
+
+Service list
+
+::
+
+	ros2 service list
+
+.. image:: ../_static/service list.jpg
+    :align: center   
+
+
+2.4 Teleoporation
+^^^^^^
+
+**WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Teleoperate the robot, and be careful when testing the robot on the table as the robot might fall.**
+
+* 2.4.1 Keyboard
+
+1. Open a terminal with Ctrl+Alt+T on remote PC.
+2. Run teleoperation node using the following command.
+
+::
+
+	. ~/ros2_ws/install/setup.bash
+	ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+Terminal output: 
+
+.. image:: ../_static/keyboard teleop.jpg
+    :align: center   
+
+* 2.4.2 Joystick
+
+1. Open a terminal with Ctrl+Alt+T on remote PC.
+2. Run teleoperation node using the following command.
+
+::
+
+	. ~/ros2_ws/install/setup.bash
+	ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
+
+Terminal output:
+
+.. image:: ../_static/joystick teleop node.jpg
+    :align: center  
 
 3. SLAM
 ------------
 
-3.1 Run the base driver
+**NOTE: Please run the SLAM node on Remote PC.**
+**Make sure to launch the Bringup from Mini Pupper before executing any operation.**
+
+3.1 Run SLAM Node
 ^^^^^^
 
-**You should run this command on Mini Pupper**
+1.If Bringup is not launched on Mini Pupper, launch Bringup first.
+
+•	Open a terminal with Ctrl+Alt+T  to connect Mini Pupper.
+•	Look at monitor of Mini Pupper to obtain the IP address of it.
+
+•	Use one of the terminals and run the following command to connect to the Mini Pupper. The default password is mangdang.
 
 ::
 
-	roslaunch mini_pupper bringup.launch
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
 
+•	Bring up basic packages to start Mini Pupper applications. 
 
-3.2 Run Cartographer
+::
+	
+	. ~/ros2_ws/install/setup.bash
+	ros2 launch mini_pupper_bringup bringup.launch.py
+
+2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node. 
+
+::
+	
+	. ~/ros2_ws/install/setup.bash
+	ros2 launch mini_pupper_slam slam.launch.py
+
+3.2 Teleoperation
 ^^^^^^
 
-**You should run this command on PC**
-**If you are using gazebo, set the param /use_sim_time to true in the launch file.**
+**NOTE: Once SLAM node is successfully up and running, we can use teleoperation to explore unknown area of the map. Vigorous change of the linear and angular speed might lower the smoothness of map generated.**
+**WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Be careful when testing the robot on the table as the robot might fall during teleoperation.**
+
+* 3.2.1 Keyboard
+
+1. Open a terminal with Ctrl+Alt+T on remote PC.
+2. Run teleoperation node using the following command.
 
 ::
 
-	roslaunch mini_pupper slam.launch
+	. ~/ros2_ws/install/setup.bash
+	ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
-Then you can use keyboard or joystick to control your Mini Pupper walking around and creating a map. To save the map, run these commands below.
+* 3.2.2 Joystick
 
-::
-
-	rosservice call /finish_trajectory 0
-	rosservice call /write_state "{filename: '${HOME}/map.pbstream'}"
-	rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/map -pbstream_filename=${HOME}/map.pbstream -resolution=0.05
-
-Remember to edit map.yaml</br>
-The first line should be
+1. Open a terminal with Ctrl+Alt+T on remote PC.
+2. Run teleoperation node using the following command.
 
 ::
 
-	image: map.pgm
+	. ~/ros2_ws/install/setup.bash
+	ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
 
-Then, copy map.pbstream, map.pgm and map.yaml files you just saved to 
-<your_ws>/src/minipupper_ros/mini_pupper/maps
+After teleoperation, a map with unknown area revealed will be shown as followed:
+
+.. image:: ../_static/slam.jpg
+    :align: center  
+
+3.3 Save the map
+^^^^^^
+
+1. Open a terminal with Ctrl+Alt+T on remote PC.
+2. Use the following command to launch the map_saver_cli node in the nav2_map_server package to create map files.
+The map file is saved in the directory where the map_saver_cli node is launched at.
+
+::
+
+	. ~/ros2_ws/install/setup.bash
+	ros2 run nav2_map_server map_saver_cli -f ~/map 
+
+After running the above command, two files will be generated, namely map.pgm and map.yaml.
