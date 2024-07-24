@@ -5,10 +5,11 @@ ROS2 Installation
 .. contents::
   :depth: 2
 
-
 Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
 
 We recommend you explore Mini Pupper with ROS2 network, make sure your PC and Mini Pupper have connected to the same WiFi.
+
+Through the following steps, you will be able to setup the ros2 for your remote PC and the Mini Pupper.
 
 1. PC Setup
 ------------
@@ -31,7 +32,8 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 	git clone https://github.com/Tiryoh/ros2_setup_scripts_ubuntu.git
 	~/ros2_setup_scripts_ubuntu/ros2-humble-ros-base-main.sh
 	source /opt/ros/humble/setup.bash
-	After ROS 2 installation, download the Mini Pupper ROS package in the workspace.
+
+After ROS 2 installation, download the Mini Pupper ROS package in the workspace.
 
 1.2 Install Mini Pupper ROS Repository
 ^^^^^^

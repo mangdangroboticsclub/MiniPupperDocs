@@ -8,6 +8,8 @@ ROS2 Quick Start Guide
 1. Joystick Setup
 ------------
 
+Through the following steps, you will be able to connect and set up the ROS2 software for the joystick.
+
 1. Press the HOME button on the controller.
 
 .. image:: ../_static/Bluetooth-connection-button.jpg
@@ -26,6 +28,8 @@ ROS2 Quick Start Guide
     :align: center   
 
 |
+
+The video below shows the change of flashlight colour during connection.
 
 .. raw:: html
 
@@ -47,6 +51,7 @@ Terminal output: In this case the name of the joystick is “js0”.
 4. Use the following command to check if the joystick us connected.
 
 ::
+    
 	sudo apt install joystick
 	jstest /dev/input/{NAME_OF_JOYSTICK}
 
@@ -59,6 +64,8 @@ There will be output as followed if joystick is connected.
 
 2. Bringup
 ------------
+
+Through the following steps, you will be able launch the software to bringup the Mini Pupper hardware.
 
 1. Open a terminal with Ctrl+Alt+T  to connect Mini Pupper.
 2. Look at monitor of Mini Pupper to obtain the IP address of it.
@@ -89,7 +96,7 @@ When the robot model is Mini Pupper 2, the terminal output will look like below.
 
 5. Topics and services can be listed with commands below.
 
-Topic list
+* Topic list
 
 ::
 
@@ -100,7 +107,7 @@ Topic list
 
 |
 
-Service list
+* Service list
 
 ::
 
@@ -113,6 +120,8 @@ Service list
 
 3. Teleoporation
 ------------
+
+Through the following steps, you will be able to teleoperate Mini Pupper either using the keyboard or joystick.
 
 **WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Teleoperate the robot, and be careful when testing the robot on the table as the robot might fall.**
 
@@ -140,6 +149,8 @@ You can drive the pupper using the keyboard following the guide below.
     :align: center
 
 |
+
+The video shows the effect of each keyboard button on the movement of the robot.
 
 .. raw:: html
 
@@ -173,6 +184,8 @@ You can drive the pupper using the joystick following the guide below.
     :align: center  
 
 |
+
+The video shows the effect of each button of the joystick on the movement of the robot.
 
 .. raw:: html
 

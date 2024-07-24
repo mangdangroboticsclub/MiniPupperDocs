@@ -7,6 +7,8 @@ Simulation
 
 Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
 
+The following steps allows us to simulate the teleoperation, SLAM and Navigation of Mini Pupper using RViz and Gazebo.
+
 **NOTE: Please run the Simulation on Remote PC.**
 
 1. RViz Simulation
@@ -15,7 +17,7 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 1.1 Launch Simulation World
 ^^^^^^
 
-1. Run the following command to launch bringup the robot simulation without connecting to the real robot.
+1. Run the following command to launch bringup the robot simulation without connecting to the robot.
 
 ::
 
@@ -51,6 +53,8 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
+
+The following video demonstrates the teleoperation simulation under RViz.
 
 .. raw:: html
 
@@ -95,6 +99,8 @@ Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_
 
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
+
+The following video demonstrates the teleoperation simulation under Gazebo.
 
 .. raw:: html
 
@@ -150,6 +156,8 @@ Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node.
   . ~/ros2_ws/install/setup.bash
   ros2 launch teleop_twist_joy teleop-launch.py joy_dev:=/dev/input/{NAME_OF_JOYSTICK}
 
+The following video demonstrates the simulation of SLAM under RViz.
+
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -163,7 +171,8 @@ Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node.
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
 2. Use the following command to launch the map_saver_cli node in the nav2_map_server package to create map files.
-The map file is saved in the directory where the map_saver_cli node is launched at.
+
+•	The map file is saved in the directory where the map_saver_cli node is launched at.
 
 ::
 
@@ -206,14 +215,24 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 ^^^^^^
 
 1. Click the 2D Pose Estimate button in the RViz2 menu.
-2. Click on the map on the place where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+2. Click on the map on location of the robot simulation relative to the map, drag the green arrow, the root of the arrow is the position of the robot simulation while the direction of the arrow will be the orientation of the robot simulation.
 3. Repeat step 1 and 2 until the inaccessible area detected by the robot is overlapping completely with the black area on the map.
+
+.. image:: ../_static/initial-pose-simulation.jpg
+    :align: center  
 
 4.4 Set Navigation Goal
 ^^^^^^
 
-1. Click the Nav2 Goal button in the RViz2 menu. Nav2 will plan the path and guide the robot towards reaching the goal.
-2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing, while the root of the green arrow is the destination at which the robot will finally reach.
+1. Click the Nav2 Goal button in the RViz2 menu. A path will be planned to guide the robot simulation towards the destination.
+2. Click on the map to set the destination of the robot simulation and drag the green arrow toward the direction where the robot simulation will be facing, while the root of the green arrow is the destination at which the robot simulation will finally reach.
+
+.. image:: ../_static/Nav2.png
+    :align: center  
+
+|
+
+The following video demonstrates the simulation of navigation under RViz.
 
 .. raw:: html
 
@@ -222,3 +241,4 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
     </div>
 
 |
+

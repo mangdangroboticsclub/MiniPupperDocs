@@ -5,6 +5,12 @@ Navigation
 .. contents::
   :depth: 2
 
+Navigation allows the robot to move from one location to the specified destination based on the infomation of a map given from the IMU and the lidar sensor created from SLAM.
+
+Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to Navigation functions.
+
+The following video shows how we can use the navigation function to make the Mini Pupper move along the planned path.
+
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -12,8 +18,6 @@ Navigation
     </div>
 
 |
-
-Mini Pupper's ROS version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to Navigation functions.
 
 **NOTE: Please run the Navigation node on Remote PC.**
 **WARNING: Make sure to run the Bringup from the Mini Pupper before navigation. Put the robot on the ground the prevent the robot from falling during movement.**
@@ -57,7 +61,7 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 ------------
 
 1. Click the 2D Pose Estimate button in the RViz2 menu.
-2. Click on the map on the place where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+2. Click on the map on location of the robot relative to the map, drag the green arrow, the root of the arrow is the position of the robot while the direction of the arrow will be the orientation of the robot.
 3. Repeat step 1 and 2 until the inaccessible area detected by the robot is overlapping completely with the black area on the map.
 
 .. image:: ../_static/2D-pose-estimation.jpg
@@ -68,5 +72,10 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 3. Set Navigation Goal
 ------------
 
-1. Click the Nav2 Goal button in the RViz2 menu. Nav2 will plan the path and guide the robot towards reaching the goal.
+1. Click the Nav2 Goal button in the RViz2 menu. A path will be planned to guide the robot towards the destination.
 2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing, while the root of the green arrow is the destination at which the robot will finally reach.
+
+.. image:: ../_static/Nav2.png
+    :align: center  
+
+|
