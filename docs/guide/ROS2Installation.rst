@@ -104,14 +104,18 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 |
 
+4. Run the following command to edit the network setting of the pupper.
+
 ::
 
 	sudo nano /etc/netplan/50-cloud-init.yaml
 
-4.	When the editor is opened, edit the content as below while replacing Mangdang and mangdang with your actual wifi SSID and password.
+When the editor is opened, edit the content as below while replacing Mangdang and mangdang with your actual wifi SSID and password.
 
 .. image:: ../_static/netplan-yaml.png
     :align: center   
+
+|
 
 5.	Save the file with Ctrl+S and exit with Ctrl+X.
 6.	Run the following commands to reboot and connect to your actual wifi.
@@ -157,6 +161,8 @@ You can also download the `pre-built ROS image <https://drive.google.com/drive/f
 
 .. image:: ../_static/IPaddress.jpg
     :align: center   
+
+|
 
 3. Use one of the terminals and run the following command to connect to the Mini Pupper. The default password is “mangdang”.
 
