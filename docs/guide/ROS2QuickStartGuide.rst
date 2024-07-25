@@ -5,6 +5,10 @@ ROS2 Quick Start Guide
 .. contents::
   :depth: 2
 
+Mini Pupper's ROS2 installation package is `ros2_setup_scripts <https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_  provided by our contributor @Tiryoh.
+Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
+Mini Pupper's software supporting lidar sensor is based on `ldlidar_stl_ros2 <https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  open source project.
+
 1. Joystick Setup
 ------------
 
@@ -162,6 +166,9 @@ The video shows the effect of each keyboard button on the movement of the robot.
 
 3.2 Joystick
 ^^^^^^
+
+**NOTE: The design of button of joystick node on ROS2 is different from that mentioned in other sections which is used for non-ROS programs.**
+**WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Teleoperate the robot, and be careful when testing the robot on the table as the robot might fall.**
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
 2. Run teleoperation node using the following command.

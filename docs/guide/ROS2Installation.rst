@@ -5,7 +5,9 @@ ROS2 Installation
 .. contents::
   :depth: 2
 
+Mini Pupper's ROS2 installation package is `ros2_setup_scripts <https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_  provided by our contributor @Tiryoh.
 Mini Pupper's ROS2 version is based on `Champ <https://github.com/chvmp/champ>`_  open source project, and we made some changes to SLAM and Navigation functions.
+Mini Pupper's software supporting lidar sensor is based on `ldlidar_stl_ros2 <https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  open source project.
 
 We recommend you explore Mini Pupper with ROS2 network, make sure your PC and Mini Pupper have connected to the same WiFi.
 
@@ -24,6 +26,8 @@ PC Setup corresponds to PC (your desktop or laptop PC) for controlling Mini Pupp
 ^^^^^^
 
 Open the terminal with Ctrl+Alt+T from Remote PC. 
+
+We are using the installation package `ros2_setup_scripts <https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_  provided by our contributor @Tiryoh.
 
 ::
 
@@ -95,18 +99,57 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 2. Mini Pupper Setup
 ------------
 
+2.1 Image flashing
+^^^^^^
+
+The steps below are for oyu to setup ROS2 environment of Mini Pupper by yourself.
 You can also download the `pre-built ROS image <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ for Mini Pupper side, named "xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img".
 
-1.	The image can be flashed into the card using an adaptor. If you PC do not have a microSD slot, please use a microSD card reader to burn the image.
-2.	Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the official website, and flash it into your SD card according to the following guide.
-3.	Plug the card into the Mini Pupper card port and setup your own wifi.
+1. The image can be flashed into the card using an adaptor. If your PC do not have a microSD slot, please use a microSD card reader to burn the image.
+2. Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the official website, and flash it into your SD card according to the following guide.
+3. Download balenaEtcher from https://etcher.balena.io/.
+4. Press the blue button to choose the destination where you download the image and select the image.
+
+.. image:: ../_static/choose-image.png
+    :align: center   
+
+|
+
+5. Press the blue button to choose the destination where you are flashing the image into (the address of the SD card).
+
+.. image:: ../_static/target1.png
+    :align: center   
+
+|
+
+.. image:: ../_static/target2.png
+    :align: center   
+
+|
+
+6. Press the flash button and you will see the image below. Wait until the process to complete.
+
+.. image:: ../_static/flashing.png
+    :align: center   
+
+|
+
+.. image:: ../_static/validating.png
+    :align: center   
+
+|
+
+2.2 Wifi-Setting
+^^^^^^
+
+1. Plug the card into the Mini Pupper card port and setup your own wifi.
 
 .. image:: ../_static/Sd-card-reader.jpg
     :align: center   
 
 |
 
-4. Run the following command to edit the network setting of the pupper.
+2. Run the following command to edit the network setting of the pupper.
 
 ::
 
@@ -119,8 +162,8 @@ When the editor is opened, edit the content as below while replacing Mangdang an
 
 |
 
-5.	Save the file with Ctrl+S and exit with Ctrl+X.
-6.	Run the following commands to reboot and connect to your actual wifi.
+3.	Save the file with Ctrl+S and exit with Ctrl+X.
+4.	Run the following commands to reboot and connect to your actual wifi.
 
 ::
 
@@ -129,27 +172,30 @@ When the editor is opened, edit the content as below while replacing Mangdang an
 	sudo apt upgrade
 	reboot
 
-7. After reboot, open ~/.bashrc with text editor in the terminal.
+2.3 Robot model setting
+^^^^^^
+
+1. After reboot, open ~/.bashrc with text editor in the terminal.
 
 ::
 
 	nano ~/.bashrc
 
-8. Scroll to the end of the file.
+2. Scroll to the end of the file.
 
 .. image:: ../_static/bashrc.png
     :align: center 
 
 |  
 
-9. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
+3. Add the following line to export the robot model with the computer. Please use the proper keyword among mini_pupper, mini_pupper_2 for the ROBOT_MODEL parameter according to your robot model.
 
 ::
 
 	export ROBOT_MODEL=mini_pupper_2
 
-10. Save the file with Ctrl+S and exit with Ctrl+X.
-11. Run the following command to apply the change.
+4. Save the file with Ctrl+S and exit with Ctrl+X.
+5. Run the following command to apply the change.
 
 ::
 
@@ -170,7 +216,7 @@ When the editor is opened, edit the content as below while replacing Mangdang an
 
 ::
 
-	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
 4. Open ~/.bashrc with text editor in both terminals.
 
