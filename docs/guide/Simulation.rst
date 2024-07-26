@@ -181,6 +181,13 @@ The following video demonstrates the simulation of SLAM under RViz.
   . ~/ros2_ws/install/setup.bash
   ros2 run nav2_map_server map_saver_cli -f ~/map 
 
+The following pictures shows the .pgm file to be saved.
+
+.. image:: ../_static/map1.png
+    :align: center  
+
+|
+
 4. Navigation Simulation
 ------------
 
@@ -239,7 +246,7 @@ The following video demonstrates the simulation of navigation under RViz.
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/77gWrRvZ-Zo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uvI-3KEDqgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 |

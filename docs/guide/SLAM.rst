@@ -95,3 +95,10 @@ The map file is saved in the directory where the map_saver_cli node is launched 
 	ros2 run nav2_map_server map_saver_cli -f ~/map 
 
 After running the above command, two files will be generated, namely map.pgm and map.yaml.
+
+The following pictures shows the .pgm file to be saved.
+
+.. image:: ../_static/map2.png
+    :align: center  
+
+|

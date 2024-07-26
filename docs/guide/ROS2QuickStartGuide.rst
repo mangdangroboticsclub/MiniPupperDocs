@@ -168,6 +168,7 @@ The video shows the effect of each keyboard button on the movement of the robot.
 ^^^^^^
 
 **NOTE: The design of button of joystick node on ROS2 is different from that mentioned in other sections which is used for non-ROS programs.**
+
 **WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Teleoperate the robot, and be careful when testing the robot on the table as the robot might fall.**
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
