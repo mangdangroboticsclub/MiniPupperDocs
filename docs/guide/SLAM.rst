@@ -70,7 +70,7 @@ Following the steps below, we can use teleoperation to explore unknown area of t
 
 After teleoperation, a map with unknown area revealed will be shown as followed:
 
-.. image:: ../_static/slam-map.jpg
+.. image:: ../_static/Map_generation.jpg
     :align: center  
 
 |
