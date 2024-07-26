@@ -26,7 +26,7 @@ The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by
 
 ::
 
-	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
 •	Bring up basic packages to start Mini Pupper applications. 
 

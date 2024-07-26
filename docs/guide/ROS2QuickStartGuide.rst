@@ -77,9 +77,9 @@ Through the following steps, you will be able launch the software to bringup the
 
 ::
 
-	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
-4. Bring up basic packages to start Mini Pupper applications. 
+4. Bring up basic packages to start Mini Pupper applications. The command of sourcing the built package, ". ~/ros2_ws/install/setup.bash" can be replaced by ". ~/ros2_ws/install/setup.zsh", depending on the file type you use.
 
 ::
 

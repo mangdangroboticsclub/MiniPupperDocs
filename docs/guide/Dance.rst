@@ -19,7 +19,7 @@ The video demonstrates the dancing function of Mini Pupper.
 
 |
 
-**NOTE: The nodes for playing music and dance cand be executed on both Mini Pupper and Remote PC. **
+**NOTE: The nodes for playing music and dance cand be executed on both Mini Pupper and Remote PC.**
 
 1. Install Music Packages
 ------------
@@ -31,7 +31,7 @@ The video demonstrates the dancing function of Mini Pupper.
 
 ::
 
-    ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+    ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
 .. image:: ../_static/IPaddress.jpg
     :align: center  
@@ -58,7 +58,7 @@ The video demonstrates the dancing function of Mini Pupper.
 
 ::
 
-    ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+    ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
 •	Bring up basic packages to start Mini Pupper applications. 
 

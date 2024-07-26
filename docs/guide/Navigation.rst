@@ -41,7 +41,7 @@ The following video shows how we can use the navigation function to make the Min
 
 ::
 
-	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER)
+	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
 •	Bring up basic packages to start Mini Pupper applications. 
 
