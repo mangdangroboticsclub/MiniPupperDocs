@@ -77,23 +77,15 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Guide
 
     guide/Features
     guide/HowToOrder
     guide/QuickStartGuide
     guide/Assembly
-    guide/AssembleMiniPupper2
-    guide/AssembleMiniPupper2Pro
-    guide/Software
-    guide/SoftwareCalibration.MP2
-    guide/ROS2Installation
-    guide/ROS2QuickStartGuide  
-    guide/SLAM
-    guide/Navigation
-    guide/Simulation
-    guide/Dance
+    guide/SoftwareCalibration
+    guide/ROS2Guide
     guide/MachineLearning
     guide/Examples
 
