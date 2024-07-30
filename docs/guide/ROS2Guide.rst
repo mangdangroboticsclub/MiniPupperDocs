@@ -471,9 +471,6 @@ The video shows the effect of each button of the joystick on the movement of the
 SLAM
 ######################
 
-.. contents::
-  :depth: 2
-
 The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by estimating current location in an arbitrary space. Following the steps below, we can use Mini Pupper to draw a map of the surrounding area.
 
 **NOTE: Please run the SLAM node on Remote PC.**
