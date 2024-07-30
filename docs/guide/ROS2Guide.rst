@@ -5,7 +5,7 @@ ROS2 Guide
 .. contents::
   :depth: 2
 
-ROS2 Installation
+Installation
 ######################
 
 
@@ -267,7 +267,7 @@ If the output in both terminals shows the same list of node which is similar to 
 
    <div style="page-break-before: always;"></div>
 
-ROS2 Quick Start
+Quick Start
 ######################
 
 1. Joystick Setup

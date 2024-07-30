@@ -87,6 +87,8 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
     guide/SoftwareCalibration
     guide/ROS2Guide
     guide/MachineLearning
+	guide/ReinforcementLearning
+	guide/MultimodalGenAI
     guide/Examples
 
 .. toctree::
