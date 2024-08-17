@@ -67,7 +67,7 @@ Step 1.2 Download the image
 
 * You can download latest image file via the below folder. 
 
-	`MiniPupperRelease.from.MangDang <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_ 
+	`Release.from.MangDang <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_ 
 	
 
 * The below picture is the custom carry board. 
@@ -83,9 +83,8 @@ Step 1.2 Download the image
 Step 1.3 Write the image into microSD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. Please refer to the official manual and below link. It may take a while to complete. 
+* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. It takes a while to complete. 
 
-※ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <https://etcherpc.com/?usp=sharing>`_ 
 
 
 * Remove the SD card from the PC and insert it into the Raspberry pi. 
@@ -828,7 +827,7 @@ Step 1.1 Charging the battery
 Step 1.2 Download the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/175PWfA3oIgC565D_2thNbvp9qQf6Y6-V>`_ 
+* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_ 
 
 ※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version. 	
 
@@ -840,9 +839,7 @@ Step 1.2 Download the image
 Step 1.3 Write the image into a microSD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. Please take a look at the official manual. It may take a while to complete. 
-
-※ Reference Link: `Download Etcher – Flash OS images to USB drives & SD cards <https://etcherpc.com/?usp=sharing>`_ 
+* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. It may take a while to complete. 
 
 
 2. Position of the screws
@@ -1401,7 +1398,7 @@ Step 1.1 Charging the battery
 Step 1.2 Download the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/175PWfA3oIgC565D_2thNbvp9qQf6Y6-V>`_ 
+* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_ 
 
 ※ “v2Pro_stanford**.img” means the image is for Ubuntu 22.04 version. 	
 
@@ -1413,7 +1410,7 @@ Step 1.2 Download the image
 Step 1.3 Write the image into a microSD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. Please take a look at the official manual. It may take a while to complete. 
+* Insert the microSD card into your PC's SD card reader and write the image. We recommend the image creation tool balenaEtcher or Win32DiskImager as it is easy and reliable. It may take a while to complete. 
 
 
 2. Position of the screws
