@@ -7,7 +7,7 @@ Our channels:  `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `
 
 MD Robot Starter Kits will make robotics easier for schools, homeschool families, enthusiasts, and beyond.
 
-Our new robots are `coming soon on Kickstarter <https://www.kickstarter.com/projects/mdrobotkits/md-robot-kits-open-source-support-your-genai-creativity>`_ !
+Our new robots are launched `on Kickstarter, Sep. 5 2024 <https://www.kickstarter.com/projects/mdrobotkits/md-robot-kits-open-source-support-your-genai-creativity>`_ !
 
 .. image:: _static/MP2GA.jpg
     :align: center 
