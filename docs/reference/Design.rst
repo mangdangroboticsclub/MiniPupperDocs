@@ -16,13 +16,13 @@ Mini Pupper: https://a360.co/3wFLSlT
 
 BOM
 -------------------
-Link: `Bill of Materials <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_
+Link: `Bill of Materials of Mini Pupper <https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_
 
 .. raw:: html
 
-    <iframe height = 400 width = 600 src="https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287&rtpof=true&amp;headers=false"></iframe>
+    <iframe height = 400 width = 600 src="https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167&rtpof=true&amp;headers=false"></iframe>
 
     
 STL
 -------------------
-Link: `STL for 3D print <https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_
+Link: `Mini Pupper STL files for 3D print  <https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_
