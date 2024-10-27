@@ -6,6 +6,8 @@ Features
 
 .. image:: ../_static/MP1vs2.png
     :align: center 
+
+
 	
 Hardware Specifications
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -13,11 +15,15 @@ Hardware Specifications
 .. image:: ../_static/Spec.MP1vs2.png
     :align: center 
 
+
+
 Mini Pupper 1 Dimension
 ^^^^^^^^^^
 
 .. image:: ../_static/Dimension.png
     :align: center 
+
+
 
 Add-ons
 ^^^^^^^^^^^^^^^^^^^^^
@@ -34,4 +40,4 @@ If you want to explore ROS SLAM, Navigation functions based on Lidar, you also n
 
 * Camera module
 
-If you want to explore OpenCV camera AI functions, you can choose a single MIPI camera, such as Raspberry Pi v2 or v1.3 camera module. 
+If you want to explore OpenCV camera AI functions, you can choose a single MIPI camera, such as Raspberry Pi v2 or v1.3 `camera module. <https://www.raspberrypi.com/documentation/accessories/camera.html>`_
