@@ -4,32 +4,34 @@ Features
 .. contents::
   :depth: 2
 
-.. image:: ../_static/Feature001.jpg
+.. image:: ../_static/MP1vs2.png
     :align: center 
 	
 Hardware Specifications
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Dimensions: 210x110x165mm
-* Weight: 509g
-* Battery: 1000mAh / micro-usb charge
-* Processor: Raspberry Pi 4B
-* Screen: 240x320 ISP LCD
-* Input charger: 5V 1A
-* OS: Ubuntu/ROS
+.. image:: ../_static/Spec.MP1vs2.png
+    :align: center 
 
-Dimension
+Mini Pupper 1 Dimension
 ^^^^^^^^^^
+
 .. image:: ../_static/Dimension.png
     :align: center 
 
-Open Source Hardware
+Add-ons
 ^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../_static/MP1vs2.2.png
+    :align: center 
 
 * Lidar module
 
-If you want to explore ROS SLAM, Navigation functions based on Lidar, you also need a Lidar module. We can ONLY ensure the Lidar module can work well based on our source code, and NOT ensure that you get from other channels. We already tested some Lidar modules, such as, PRLidar A1, YDLidar X2L, and LD06. For Mini Pupper, we refer to LD06 as it is smaller. 
+If you want to explore ROS SLAM, Navigation functions based on Lidar, you also need a Lidar module. We can ONLY ensure the STL-06P Lidar module can work well based on our source code, and NOT ensure that you get it from other channels. We customized the Lidar cable to connect our robot easily instead of using bulky wires. 
 
-* OpenCV Camera module
+.. image:: ../_static/Add-on.Lidar.png
+    :align: center 
 
-For potential security issues, the camera module is not included in our default package. If you want to explore camera AI functions, you can choose a normal USB camera module, of course, a 3D camera module is better for study. If try the 3D camera module, we recommend you OpenCV's latest 3D camera module, named OAK-D LITE, comes from OpenCV&Luxonis. We have good relationship with Luxonis, their RobotHub will release more interesting demos soon. 
+* Camera module
+
+If you want to explore OpenCV camera AI functions, you can choose a single MIPI camera, such as Raspberry Pi v2 or v1.3 camera module. 

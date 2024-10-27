@@ -3,7 +3,7 @@ MD Robot Starter Kits User Manual
 
 Multimodal Generative AI, Open-source, ROS2, Robot Education Kit
 ------------
-Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_
+Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub?tab=repositories/>`_
 
 MD Robot Starter Kit is a robot learning platform, it will make robotics easier for schools, homeschool families, enthusiasts, and beyond.
 
