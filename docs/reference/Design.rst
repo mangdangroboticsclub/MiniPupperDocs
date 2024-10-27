@@ -1,4 +1,4 @@
-Mechanical Design
+Mechanical Design for Mini Pupper
 =================
 .. contents::
   :depth: 2
