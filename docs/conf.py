@@ -18,11 +18,11 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'Mini Pupper'
-copyright = '2023, MangDang Technology Co., Limited'
+copyright = '2024, MangDang Technology Co., Limited'
 author = 'MangDang Technology Co., Limited'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0-alpha'
+release = '2.0.0-alpha'
 
 
 # -- General configuration ---------------------------------------------------
