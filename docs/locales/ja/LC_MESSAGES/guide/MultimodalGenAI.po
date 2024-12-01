@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/MultimodalGenAI.rst:3
 msgid "Multimodal Generative AI"
-msgstr ""
+msgstr "マルチモーダル生成AI"
 
 #: ../../guide/MultimodalGenAI.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/MultimodalGenAI.rst:9
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../guide/MultimodalGenAI.rst:25
 msgid "MD Robot Kits support ChatGPT@OpenAI, Gemini@Google, and Claude@AWS."

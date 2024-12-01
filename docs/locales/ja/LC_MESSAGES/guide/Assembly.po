@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/Assembly.rst:3
 msgid "Assembly"
-msgstr ""
+msgstr "組み立て"
 
 #: ../../guide/Assembly.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/Assembly.rst:9
 msgid "Assemble Mini Pupper"
-msgstr ""
+msgstr "ミニぷぱ組み立て"
 
 #: ../../guide/Assembly.rst:11
 msgid ""

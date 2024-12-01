@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../reference/FAQ.rst:3
 msgid "FAQ(Frequently Asked Questions)"
-msgstr ""
+msgstr "FAQ(よくある質問)"
 
 #: ../../reference/FAQ.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../reference/FAQ.rst:9
 msgid "FAQ"

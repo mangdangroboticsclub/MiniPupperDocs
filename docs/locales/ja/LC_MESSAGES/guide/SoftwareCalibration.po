@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/SoftwareCalibration.rst:3
 msgid "Software Calibration"
-msgstr ""
+msgstr "ソフトウェアキャリブレーション"
 
 #: ../../guide/SoftwareCalibration.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/SoftwareCalibration.rst:9
 msgid "Software Calibration for Mini Pupper"
-msgstr ""
+msgstr "ミニぷぱのソフトウェアキャリブレーション"
 
 #: ../../guide/SoftwareCalibration.rst:13
 #: ../../guide/SoftwareCalibration.rst:162

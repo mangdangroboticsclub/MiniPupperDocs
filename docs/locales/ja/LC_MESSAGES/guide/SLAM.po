@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../guide/SLAM.rst:3
 msgid "SLAM"
-msgstr ""
+msgstr "SLAM"
 
 #: ../../guide/SLAM.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/SLAM.rst:8
 msgid ""

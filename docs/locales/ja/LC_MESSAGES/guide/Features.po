@@ -20,27 +20,27 @@ msgstr ""
 
 #: ../../guide/Features.rst:2
 msgid "Features"
-msgstr ""
+msgstr "機能紹介"
 
 #: ../../guide/Features.rst:5
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/Features.rst:13
 msgid "Hardware Specifications"
-msgstr ""
+msgstr "ハードウェアの仕様"
 
 #: ../../guide/Features.rst:21
 msgid "Mini Pupper 1 Dimension"
-msgstr ""
+msgstr "ミニぷぱ1の図面"
 
 #: ../../guide/Features.rst:29
 msgid "Add-ons"
-msgstr ""
+msgstr "アドオン"
 
 #: ../../guide/Features.rst:34
 msgid "Lidar module"
-msgstr ""
+msgstr "Lidarモジュール"
 
 #: ../../guide/Features.rst:36
 msgid ""
@@ -49,11 +49,14 @@ msgid ""
 "can work well based on our source code, and NOT ensure that you get it "
 "from other channels. We customized the Lidar cable to connect our robot "
 "easily instead of using bulky wires."
-msgstr ""
+msgstr "ROS SLAM、Lidar に基づくナビゲーション機能を探索したい場合は、Lidar モジュールも必要です。"
+"STL-06P Lidar モジュールが適切に動作することは、当社のソース コードに基づいてのみ保証されており、"
+"他のチャネルから入手できるかどうかは保証されていません。"
+"かさばるワイヤを使用する代わりに、ロボットを簡単に接続できるように Lidar ケーブルをカスタマイズしました。"
 
 #: ../../guide/Features.rst:41
 msgid "Camera module"
-msgstr ""
+msgstr "カメラモジュール"
 
 #: ../../guide/Features.rst:43
 msgid ""
@@ -61,4 +64,4 @@ msgid ""
 "single MIPI camera, such as Raspberry Pi v2 or v1.3 `camera module. "
 "<https://www.raspberrypi.com/documentation/accessories/camera.html>`_"
 msgstr ""
-
+"OpenCV カメラの AI 機能を調べたい場合は、Raspberry Pi v2 または v1.3 カメラ モジュールなどの単一の MIPI カメラを選択できます。"

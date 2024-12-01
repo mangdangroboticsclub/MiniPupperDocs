@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/HowToOrder.rst:3
 msgid "How To Order"
-msgstr ""
+msgstr "注文方法"
 
 #: ../../guide/HowToOrder.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/HowToOrder.rst:9
 msgid "Order parts individually"
-msgstr ""
+msgstr "部品の個別注文"
 
 #: ../../guide/HowToOrder.rst:10
 msgid ""
@@ -36,20 +36,23 @@ msgid ""
 " `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
 msgstr ""
+"すべてのパーツを1つずつ注文することができます。"
+" `こちら <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`"
 
 #: ../../guide/HowToOrder.rst:12
 msgid ""
 "However, you can purchase a kit to build the robot from MangDang channel "
 "for cheaper and one-stop shopping."
 msgstr ""
+"MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
 
 #: ../../guide/HowToOrder.rst:16
 msgid "One-stop channel"
-msgstr ""
+msgstr "ワンストップチャンネル"
 
 #: ../../guide/HowToOrder.rst:18
 msgid "World Wide"
-msgstr ""
+msgstr "ワールドワイド"
 
 #: ../../guide/HowToOrder.rst:19
 msgid "`Shopify <https://mangdang.store/>`_"
@@ -63,7 +66,7 @@ msgstr ""
 
 #: ../../guide/HowToOrder.rst:23
 msgid "North America"
-msgstr ""
+msgstr "北アメリカ"
 
 #: ../../guide/HowToOrder.rst:24
 msgid ""

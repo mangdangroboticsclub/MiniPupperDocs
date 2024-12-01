@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/Examples.rst:3
 msgid "Examples"
-msgstr ""
+msgstr "例"
 
 #: ../../guide/Examples.rst:8
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/Examples.rst:11
 msgid "1. Custom shell parts"
-msgstr ""
+msgstr "1. カスタム外装パーツ"
 
 #: ../../guide/Examples.rst:12
 msgid ""

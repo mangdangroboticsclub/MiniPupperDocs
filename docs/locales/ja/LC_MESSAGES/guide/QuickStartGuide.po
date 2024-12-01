@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:3
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "クイックスタートガイド"
 
 #: ../../guide/QuickStartGuide.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/QuickStartGuide.rst:9
 msgid "Run Pupper Robot"

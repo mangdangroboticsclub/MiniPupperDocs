@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../guide/MachineLearning.rst:3
 msgid "Machine Learning"
-msgstr ""
+msgstr "機械学習"
 
 #: ../../guide/MachineLearning.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/MachineLearning.rst:9
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../guide/MachineLearning.rst:18
 msgid ""

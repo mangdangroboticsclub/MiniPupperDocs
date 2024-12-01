@@ -20,19 +20,19 @@ msgstr ""
 
 #: ../../reference/Design.rst:2
 msgid "Mechanical Design for Mini Pupper"
-msgstr ""
+msgstr "ミニぷぱのメカニカルデザイン"
 
 #: ../../reference/Design.rst:4
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../reference/Design.rst:7
 msgid "Fusion 360 CAD model"
-msgstr ""
+msgstr "Fusion360 CAD モデル"
 
 #: ../../reference/Design.rst:9
 msgid "Mini Pupper: https://a360.co/3wFLSlT"
-msgstr ""
+msgstr "ミニぷぱ: https://a360.co/3wFLSlT"
 
 #: ../../reference/Design.rst:18
 msgid "BOM"
