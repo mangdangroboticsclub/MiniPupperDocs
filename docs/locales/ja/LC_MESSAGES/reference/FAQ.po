@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../reference/FAQ.rst:3
+msgid "FAQ(Frequently Asked Questions)"
+msgstr ""
+
+#: ../../reference/FAQ.rst:6
+msgid "Contents"
+msgstr ""
+
+#: ../../reference/FAQ.rst:9
+msgid "FAQ"
+msgstr ""
+
+#: ../../reference/FAQ.rst:12
+msgid "Q1. How to use Pupper long time for development?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:13
+msgid ""
+"The battery power can only run Pupper dozens of minutes, it is not "
+"convenient for long time development."
+msgstr ""
+
+#: ../../reference/FAQ.rst:15
+msgid "A1: Please confirm the below solutions for makers."
+msgstr ""
+
+#: ../../reference/FAQ.rst:17
+msgid ""
+"Use Raspberry Pi default adapter to long time coding and debug, and use "
+"the battery to test the movement."
+msgstr ""
+
+#: ../../reference/FAQ.rst:18
+msgid "Use DC power supply to long time coding, debug and test."
+msgstr ""
+
+#: ../../reference/FAQ.rst:21
+msgid "Q2. How about the leading time if I order?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:22
+msgid ""
+"A2: After get your payment, your package can be shipped from "
+"Shenzhen/China factory, the shipping time is about 1~3 weeks by air to "
+"most of places in the world."
+msgstr ""
+
+#: ../../reference/FAQ.rst:25
+msgid "Q3. Will the shipping be free?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:26
+msgid ""
+"A3: No, but we will also give you a special shipping fee, within $30USD "
+"to most places of NA, JP, EU and UK."
+msgstr ""
+
+#: ../../reference/FAQ.rst:29
+msgid "Q4. Can I get the DDP(Delivered Duty Paid ) service?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:30
+msgid ""
+"A4: Sure, the shipping fee already includes the DDP service, you don't "
+"care about the duty fee, just like you place an order locally."
+msgstr ""
+
+#: ../../reference/FAQ.rst:33
+msgid "Q5. What's the restrictions of the shipping address?"
+msgstr ""
+
+#: ../../reference/FAQ.rst:34
+msgid ""
+"A5: Our 2 express vendors can ship to 135+ countries/regions, but not "
+"including India, Montenegro, Armenia, Nigeria, Colombia, South Africa, "
+"North Korea, Sudan, Syria, Hawaii, Palmañola, and County Antrim."
+msgstr ""
+
+#: ../../reference/FAQ.rst:37
+msgid "Q6. Shipping Info Requirement"
+msgstr ""
+
+#: ../../reference/FAQ.rst:38
+msgid ""
+"A6: When you pay, please also let us know your below shipping info, "
+"thanks! ::"
+msgstr ""
+
+#: ../../reference/FAQ.rst:48
+msgid "If you live in Japan, please use the Japanese information."
+msgstr ""
+
+#: ../../reference/FAQ.rst:49
+msgid "If you live in South Korea, also need your ID number."
+msgstr ""
+
+#: ../../reference/FAQ.rst:50
+msgid "If you live in Taiwan, also need your ID number and Chinese information."
+msgstr ""
+
+#: ../../reference/FAQ.rst:51
+msgid ""
+"If you live in Brazil, also need your tax number (CPF), or corporate tax "
+"number (CNPJ)."
+msgstr ""
+
+#: ../../reference/FAQ.rst:54
+msgid ""
+"If you have any requirements or questions, please feel free to mail to "
+"sales@mangdang.net, thanks!"
+msgstr ""
+

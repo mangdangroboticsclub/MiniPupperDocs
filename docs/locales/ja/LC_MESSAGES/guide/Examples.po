@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/Examples.rst:3
+msgid "Examples"
+msgstr ""
+
+#: ../../guide/Examples.rst:8
+msgid "Contents"
+msgstr ""
+
+#: ../../guide/Examples.rst:11
+msgid "1. Custom shell parts"
+msgstr ""
+
+#: ../../guide/Examples.rst:12
+msgid ""
+"Mini Pupper is an open source project, that means, you can custom what "
+"you want. You can find all the `3D printed shell files "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi?usp=sharing>`_  and custom them."
+msgstr ""
+
+#: ../../guide/Examples.rst:15
+msgid "How about connect it to LEGO parts?"
+msgstr ""
+
+#: ../../guide/Examples.rst:21
+msgid "Or DIY it like @nisshan_"
+msgstr ""
+
+#: ../../guide/Examples.rst:31
+msgid "2. Custom Facial Animation"
+msgstr ""
+
+#: ../../guide/Examples.rst:34
+msgid "2.1 Prerequisites"
+msgstr ""
+
+#: ../../guide/Examples.rst:36
+msgid "HDMI Display"
+msgstr ""
+
+#: ../../guide/Examples.rst:37
+msgid "micro HDMI cable"
+msgstr ""
+
+#: ../../guide/Examples.rst:38
+msgid "Keyboard and mouse"
+msgstr ""
+
+#: ../../guide/Examples.rst:39
+msgid "a new custom picture(size: 320x240 pix)"
+msgstr ""
+
+#: ../../guide/Examples.rst:45
+msgid "2.2 Run"
+msgstr ""
+
+#: ../../guide/Examples.rst:47
+msgid "Connect MiniPupper to a display, a keyboard and a mouse."
+msgstr ""
+
+#: ../../guide/Examples.rst:49
+msgid "Ubuntu login(The default password is mangdang)"
+msgstr ""
+
+#: ../../guide/Examples.rst:54
+msgid "Replace the logo.png file using your custom picture"
+msgstr ""
+
+#: ../../guide/Examples.rst:56
+msgid "Reboot Mini Pupper and then you will see your custom picture"
+msgstr ""
+
+#: ../../guide/Examples.rst:63
+msgid "3. Keyboard controller"
+msgstr ""
+
+#: ../../guide/Examples.rst:66
+msgid "3.1 Keyboard controller based on nonROS version"
+msgstr ""
+
+#: ../../guide/Examples.rst:67
+msgid ""
+"The feature is based on `PupperKeyboardController project "
+"<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_, "
+"it's Pygame-based keyboard controller for Stanford Pupper."
+msgstr ""
+
+#: ../../guide/Examples.rst:69
+msgid "Install PyGame"
+msgstr ""
+
+#: ../../guide/Examples.rst:75
+msgid "Controls"
+msgstr ""
+
+#: ../../guide/Examples.rst:89
+msgid "3.2 Keyboard controller based on ROS version"
+msgstr ""
+
+#: ../../guide/Examples.rst:91
+msgid "Please refer to the SLAM section."
+msgstr ""
+
+#: ../../guide/Examples.rst:94
+msgid "4. Web controller"
+msgstr ""
+
+#: ../../guide/Examples.rst:96
+msgid ""
+"Please refer to `Mini Pupper Web controller project "
+"<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:99
+msgid "5. How to control a Mini Pupper PWM servo"
+msgstr ""
+
+#: ../../guide/Examples.rst:101
+msgid ""
+"Mini Pupper servo is a PWM servo, You can connect one servo to Pi board "
+"as the following picture shows, run the samle code,and then the servo "
+"will move. You can find the code `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+
+#: ../../guide/Examples.rst:108
+msgid "6. Forward Kinematics"
+msgstr ""
+
+#: ../../guide/Examples.rst:111 ../../guide/Examples.rst:148
+msgid "Lecture"
+msgstr ""
+
+#: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
+msgid "Please study the basic knowledge of forward kinematics online first."
+msgstr ""
+
+#: ../../guide/Examples.rst:115
+msgid ""
+"You can also refer to the following video clips come from `Stanford "
+"Robotics Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:117
+msgid "Forward kinematics lecture"
+msgstr ""
+
+#: ../../guide/Examples.rst:125
+msgid "Follow-up lecture to clarify some things"
+msgstr ""
+
+#: ../../guide/Examples.rst:135 ../../guide/Examples.rst:161
+msgid "Sample code"
+msgstr ""
+
+#: ../../guide/Examples.rst:137
+msgid ""
+"We prepared a simple Forward kinematics sample code based on Mini Pupper,"
+" you can try it `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+
+#: ../../guide/Examples.rst:145
+msgid "7. Inverse Kinematics"
+msgstr ""
+
+#: ../../guide/Examples.rst:152
+msgid ""
+"You can also refer to the following video clips come from `Stanford "
+"Robotics Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-4-spr22.html>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:163
+msgid ""
+"We prepared a simple Inverse kinematics sample code based on Mini Pupper,"
+" you can try it `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+
+#: ../../guide/Examples.rst:172
+msgid "8. PID control"
+msgstr ""
+
+#: ../../guide/Examples.rst:174
+msgid "Will update later!"
+msgstr ""
+
+#: ../../guide/Examples.rst:177
+msgid "9. Docker"
+msgstr ""
+
+#: ../../guide/Examples.rst:180
+msgid "9.1 Docker for Pupper"
+msgstr ""
+
+#: ../../guide/Examples.rst:181
+msgid ""
+"Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
+"ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:184
+msgid "9.2 Docker for Host"
+msgstr ""
+
+#: ../../guide/Examples.rst:185
+msgid ""
+"Host computer setup for interfacing with a Mini Pupper over a network, "
+"comes from `mp_host_setup project "
+"<https://github.com/zmk5/mp_host_setup.git>`_."
+msgstr ""
+
+#: ../../guide/Examples.rst:188
+msgid "10. Scratch program"
+msgstr ""
+
+#: ../../guide/Examples.rst:190
+msgid "Will update soon!"
+msgstr ""
+

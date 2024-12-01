@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-14 13:47+0900\n"
+"POT-Creation-Date: 2024-12-01 17:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../reference/Design.rst:2
-msgid "Mechanical Design"
+#, fuzzy
+msgid "Mechanical Design for Mini Pupper"
 msgstr "機械設計"
 
 #: ../../reference/Design.rst:4 ../../reference/FAQ.rst:6
@@ -32,46 +33,32 @@ msgid "Fusion 360 CAD model"
 msgstr "Fusion 360 CADモデル"
 
 #: ../../reference/Design.rst:9
-msgid "Mini Pupper: https://a360.co/3CL8zoQ"
-msgstr "ミニぷぱ:https://a360.co/3CL8zoQ"
-
-#: ../../reference/Design.rst:16
-msgid ""
-"(The up one is before April 15 2022, the below parts are after April 15 "
-"2022)"
-msgstr "(↑は2022年4月15日以前、↓は2022年4月15日以降の部品)"
-
-#: ../../reference/Design.rst:18
-msgid "Mini Pupper: https://a360.co/3M6kGBS"
+#, fuzzy
+msgid "Mini Pupper: https://a360.co/3wFLSlT"
 msgstr "ミニぷぱ:https://a360.co/3M6kGBS"
 
-#: ../../reference/Design.rst:25
-msgid "Mini Pupper + Lidar: https://a360.co/3xujiF1"
-msgstr "ミニぷぱ + Lidar: https://a360.co/3xujiF1"
-
-#: ../../reference/Design.rst:31
-msgid "Mini Pupper + OAK-D 3D camera module: https://a360.co/3KQ6HQx"
-msgstr "ミニぷぱ + OAK-D 3D カメラモジュール: https://a360.co/3KQ6HQx"
-
-#: ../../reference/Design.rst:39
+#: ../../reference/Design.rst:18
 msgid "BOM"
 msgstr "BOM"
 
-#: ../../reference/Design.rst:40
+#: ../../reference/Design.rst:19
+#, fuzzy
 msgid ""
-"Link: `Bill of Materials "
+"Link: `Bill of Materials of Mini Pupper "
+"<https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
+msgstr ""
+"リンク: `関連資料 "
 "<https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
-msgstr "リンク: `関連資料 <https://docs.google.com/spreadsheets/d/18phJat8GdK5Yq5p4K1ZmfY1-nMf1lQw4/edit?usp=sharing&ouid=106447032200713258287>`_"
 
-#: ../../reference/Design.rst:48
+#: ../../reference/Design.rst:27
 msgid "STL"
 msgstr "STL"
 
-#: ../../reference/Design.rst:49
+#: ../../reference/Design.rst:28
 msgid ""
-"Link: `STL for 3D print "
-"<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
-msgstr "リンク:`STL(3Dプリント用) <https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
+"Link: `Mini Pupper STL files for 3D print  "
+"<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
+msgstr ""
 
 #: ../../reference/FAQ.rst:3
 msgid "FAQ(Frequently Asked Questions)"
@@ -145,7 +132,9 @@ msgid ""
 "A5: Our 2 express vendors can ship to 135+ countries/regions, but not "
 "including India, Montenegro, Armenia, Nigeria, Colombia, South Africa, "
 "North Korea, Sudan, Syria, Hawaii, Palmañola, and County Antrim."
-msgstr "A5: 当社のエクスプレス業者2社は135以上の国や地域に発送可能ですが、インド、モンテネグロ、アルメニア、ナイジェリア、コロンビア、南アフリカ、北朝鮮、スーダン、シリア、ハワイ、パルマニョーラ、アントリム郡は含まれません。"
+msgstr ""
+"A5: "
+"当社のエクスプレス業者2社は135以上の国や地域に発送可能ですが、インド、モンテネグロ、アルメニア、ナイジェリア、コロンビア、南アフリカ、北朝鮮、スーダン、シリア、ハワイ、パルマニョーラ、アントリム郡は含まれません。"
 
 #: ../../reference/FAQ.rst:37
 msgid "Q6. Shipping Info Requirement"
@@ -195,7 +184,10 @@ msgid ""
 "You can also find the detailed `Schematic and Datasheet "
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
-msgstr "Mini Pupperのカスタムボードデザインについては、以下の写真をご参照ください。また、詳しい情報は   `回路図とデータシート <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ よりご確認ください。"
+msgstr ""
+"Mini Pupperのカスタムボードデザインについては、以下の写真をご参照ください。また、詳しい情報は   `回路図とデータシート "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ よりご確認ください。"
 
 #: ../../reference/PCB.rst:15
 msgid "Top side"
@@ -238,4 +230,26 @@ msgstr "裏面"
 
 #~ msgid "Bottom View:"
 #~ msgstr ""
+
+#~ msgid "Mini Pupper: https://a360.co/3CL8zoQ"
+#~ msgstr "ミニぷぱ:https://a360.co/3CL8zoQ"
+
+#~ msgid ""
+#~ "(The up one is before April 15 "
+#~ "2022, the below parts are after "
+#~ "April 15 2022)"
+#~ msgstr "(↑は2022年4月15日以前、↓は2022年4月15日以降の部品)"
+
+#~ msgid "Mini Pupper + Lidar: https://a360.co/3xujiF1"
+#~ msgstr "ミニぷぱ + Lidar: https://a360.co/3xujiF1"
+
+#~ msgid "Mini Pupper + OAK-D 3D camera module: https://a360.co/3KQ6HQx"
+#~ msgstr "ミニぷぱ + OAK-D 3D カメラモジュール: https://a360.co/3KQ6HQx"
+
+#~ msgid ""
+#~ "Link: `STL for 3D print "
+#~ "<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
+#~ msgstr ""
+#~ "リンク:`STL(3Dプリント用) "
+#~ "<https://drive.google.com/file/d/16RHIUzUDHC0pM9Wi8KQIN6yku_I1qCS3/view?usp=sharing>`_"
 

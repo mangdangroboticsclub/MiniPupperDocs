@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/SoftwareCalibration.rst:3
+msgid "Software Calibration"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:6
+msgid "Contents"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:9
+msgid "Software Calibration for Mini Pupper"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:13
+#: ../../guide/SoftwareCalibration.rst:162
+msgid "1. Calibration Setup"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:16
+#: ../../guide/SoftwareCalibration.rst:165
+msgid "Tools"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:17
+msgid ""
+"In addition to the tools included in the kit, the following items are "
+"required."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:19
+#: ../../guide/SoftwareCalibration.rst:168
+msgid "USB keyboard"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:20
+msgid "USB mouse"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:21
+#: ../../guide/SoftwareCalibration.rst:169
+msgid "HDMI display"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:22
+msgid "micro HDMI cable for connection between display and Raspberry Pi"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:25
+msgid "Step 1.1 Startup raspberry pi"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:27
+msgid "Connect the Raspberry pi to the display with a microHDMI cable."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:28
+msgid "Connect a USB keyboard and mouse to the Raspberry pi."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:29
+msgid ""
+"Press and hold the battery button of the Mini Pupper for three seconds to"
+" start Raspberry pi."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:30
+msgid ""
+"If you can see Ubuntu running on your screen, you have succeeded. You "
+"should also see the face on Mini Pupper display."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:37
+#: ../../guide/SoftwareCalibration.rst:187
+msgid "Step 1.2 Log in"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:39
+#: ../../guide/SoftwareCalibration.rst:189
+msgid "Press ubuntu button on the screen to log in."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:40
+#: ../../guide/SoftwareCalibration.rst:190
+msgid "Default username: ubuntu"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:41
+#: ../../guide/SoftwareCalibration.rst:191
+msgid "Default password: mangdang"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:44
+msgid "Step 1.3 Set keyboard (Optional)"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:46
+msgid ""
+"If you want to change the keyboard type, for an example, Japanese "
+"keyboard, you will need this setting. Press the menu button in the bottom"
+" left corner and type settings to bring up settings."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:51
+msgid ""
+"Select Region & Language and press + for Input Sources. On the screen "
+"that comes up, select the three dots for other and type Japanese to "
+"select it. Type Japanese to select it."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:55
+msgid "Step 1.4 Open ports for ssh (Optional)"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:57
+msgid "Attempt to make an ssh connection from your PC to Ubuntu."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:63
+#: ../../guide/SoftwareCalibration.rst:232
+msgid ""
+"If you are unable to make an ssh connection from your PC, you will need "
+"to configure the following, maybe."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:70
+#: ../../guide/SoftwareCalibration.rst:239
+msgid "If firewall is not running, do the following."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:77
+#: ../../guide/SoftwareCalibration.rst:247
+msgid "2. Calibration"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:80
+msgid "Step 2.1 Leg calibration (not for ROS image)"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:81
+#: ../../guide/SoftwareCalibration.rst:251
+msgid "Please refer to the below calibration video clip."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:90
+msgid ""
+"During Mini Pupper calibration, if the servo horn assembly position is "
+"not right, it is not easy to calibrate, even break the servo. Please "
+"follow the below easy guide(not for ROS image)."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:93
+msgid "Make sure Mini Pupper is pre-assembled except the 4 legs."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:98
+msgid ""
+"Power on, double-click on the Calibration Tool icon on your desktop to "
+"launch it."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:108
+msgid ""
+"※ The calibration process is: calibrate each servo --> Press \"Update\" "
+"button to save the settings --> Press × to close and save the "
+"calibration."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:110
+msgid ""
+"※ Calibrate each servo by moving the bars or click the space position "
+"near the bars."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:112
+msgid "※ Reset button: when you hope to re-start from the last time."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:114
+msgid "※ Restore button: Restore factory settings and Press × to close."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:116
+msgid ""
+"Use the calibration GUI tool to calibrate #1 #4 #7 #10 hip servos to the "
+"horizontal position."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:126
+#: ../../guide/SoftwareCalibration.rst:260
+msgid ""
+"Then assemble the 4 legs by hand at the right position as the below "
+"picture shows."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:131
+msgid ""
+"Use the calibration GUI tool to optimize the legs position. For each leg,"
+" move the bars so that all the legs are at a 45 degree angle. The angle "
+"of the legs will change in conjunction with the position of the slide bar"
+" on the screen. However, if it does not move, then the steps you have "
+"followed are incorrect."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:133
+msgid ""
+"You can use the iPhone's tilt sensor app, a ruler or a protractor to "
+"measure the angle. I also used a ruler and a protractor."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:138
+#: ../../guide/SoftwareCalibration.rst:265
+msgid ""
+"It is a little bit difficult to measure the accurate inclination of the "
+"legs, so it is better to place the legs on a grid, like a piece of graph "
+"paper, to check that they are in the same position from front to back and"
+" from side to side, and to make any final adjustments."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:143
+msgid ""
+"When all legs are at 45° inclination as shown, press Update to save the "
+"settings. Press × to close the calibration application."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:147
+msgid "Step 2.2 Connect controller"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:149
+msgid "Please check the next chapter."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:151
+msgid "If you can control it with a controller, it's OK."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:159
+msgid "Software Calibration for Mini Pupper 2 and 2Pro"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:166
+msgid ""
+"For beginners, in addition to the tools included in the kit, the "
+"following items are required."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:170
+msgid "micro HDMI cable for connection between display and carry board"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:175
+msgid ""
+"For beyond, you can use your PC to ssh to Mini Pupper to do everything, "
+"please refer to step 1.4"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:178
+msgid "Step 1.1 Startup"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:180
+msgid "Connect the carry board to the display with a microHDMI cable."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:181
+msgid "Connect a USB keyboard to the carry board."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:182
+msgid ""
+"Press and hold the battery button of the Mini Pupper for three seconds to"
+" boot up."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:183
+msgid ""
+"If you can see Ubuntu running on your screen, you have succeeded. You "
+"should also see the IP address or \"IP: no IPv4 address\" on Mini Pupper "
+"display."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:194
+msgid "Step 1.3 Set your own WiFi"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:196
+msgid ""
+"Edit the WiFi configure file(50-cloud-init.yaml), and set your WiFi to "
+"your own."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:210
+msgid ""
+"You can also refer to `mini_pupper_web_controller "
+"<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:214
+msgid "Step 1.4 Open ports for ssh without HDMI display"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:216
+msgid "Use your phone to set the default WiFi used by Mini Pupper."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:218
+msgid "WiFi name: Mangdang"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:220
+msgid "Password:   mangdang"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:222
+msgid "Power on your robot and check the LCD display"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:224
+msgid "If the LCD shows “IP: no IPv4 address”, then reboot your robot again."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:226
+msgid ""
+"After the LCD shows the IP address, make an ssh connection from your PC "
+"to your robot."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:250
+msgid "Step 2.1 Leg calibration"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:270
+msgid ""
+"When all legs are at 45° inclination as shown, press \"s\" to save the "
+"settings. Press \"q\" to quite the calibration application."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:274
+msgid "Step 2.2 Use a web browser to run"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:276
+msgid ""
+"Point a web browser to http://x.x.x.x:8080 where x.x.x.x is the IP "
+"address of your mini_pupper, such as, http://192.168.5.196:8080"
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:277
+msgid "Click the “Activate” button of the \"Controller\" tab."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:278
+msgid "Click the “Activate/Deactivate” button of the \"Pupper\" tab."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:279
+msgid "Click the \"≡\" icon at the top left corner."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:280
+msgid "Choose the \"Walk\" option."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:281
+msgid "Click the \"Walk/Rest\" button."
+msgstr ""
+
+#: ../../guide/SoftwareCalibration.rst:282
+msgid "Use the scroll bar to control your Mini Pupper"
+msgstr ""
+

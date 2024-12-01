@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/Features.rst:2
+msgid "Features"
+msgstr ""
+
+#: ../../guide/Features.rst:5
+msgid "Contents"
+msgstr ""
+
+#: ../../guide/Features.rst:13
+msgid "Hardware Specifications"
+msgstr ""
+
+#: ../../guide/Features.rst:21
+msgid "Mini Pupper 1 Dimension"
+msgstr ""
+
+#: ../../guide/Features.rst:29
+msgid "Add-ons"
+msgstr ""
+
+#: ../../guide/Features.rst:34
+msgid "Lidar module"
+msgstr ""
+
+#: ../../guide/Features.rst:36
+msgid ""
+"If you want to explore ROS SLAM, Navigation functions based on Lidar, you"
+" also need a Lidar module. We can ONLY ensure the STL-06P Lidar module "
+"can work well based on our source code, and NOT ensure that you get it "
+"from other channels. We customized the Lidar cable to connect our robot "
+"easily instead of using bulky wires."
+msgstr ""
+
+#: ../../guide/Features.rst:41
+msgid "Camera module"
+msgstr ""
+
+#: ../../guide/Features.rst:43
+msgid ""
+"If you want to explore OpenCV camera AI functions, you can choose a "
+"single MIPI camera, such as Raspberry Pi v2 or v1.3 `camera module. "
+"<https://www.raspberrypi.com/documentation/accessories/camera.html>`_"
+msgstr ""
+
