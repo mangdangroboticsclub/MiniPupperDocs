@@ -236,7 +236,7 @@ msgstr "エディタが開いたら、Mangdangとmangdangを実際のWi-FiのSSI
 
 #: ../../guide/ROS2Guide.rst:168
 msgid "Run the following commands to reboot and connect to your actual wifi."
-msgstr "以下のコマンドを実行して再起動し、無線LANに接続する。"
+msgstr "以下のコマンドを実行して再起動し、Wi-Fiに接続します。"
 
 #: ../../guide/ROS2Guide.rst:178
 msgid "2.3 Robot model setting"
