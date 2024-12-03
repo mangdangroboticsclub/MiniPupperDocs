@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../guide/Assembly.rst:90
 msgid "Remove the SD card from the PC and insert it into the Raspberry pi."
-msgstr "PCからSDカードを抜いて、ラズパイに挿す。"
+msgstr "PCからSDカードを抜いて、ラズパイに挿します。"
 
 #: ../../guide/Assembly.rst:97 ../../guide/Assembly.rst:846
 #: ../../guide/Assembly.rst:1417
