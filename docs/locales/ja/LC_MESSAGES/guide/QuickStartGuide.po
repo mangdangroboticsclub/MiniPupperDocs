@@ -28,15 +28,15 @@ msgstr "コンテンツ"
 
 #: ../../guide/QuickStartGuide.rst:9
 msgid "Run Pupper Robot"
-msgstr ""
+msgstr "ミニぷぱロボットの起動"
 
 #: ../../guide/QuickStartGuide.rst:19
 msgid "|youtu.be-pre-assembled-user-guide|"
-msgstr ""
+msgstr "|YouTube組み立て前ユーザーガイド|"
 
 #: ../../guide/QuickStartGuide.rst:21
 msgid "Power On Mini Pupper"
-msgstr ""
+msgstr "ミニぷぱの電源オン"
 
 #: ../../guide/QuickStartGuide.rst:23
 msgid ""
@@ -44,22 +44,28 @@ msgid ""
 "Pupper. After power on, if you push on the power button for at least 3 "
 "seconds again, it will power off."
 msgstr ""
+"バッテリーの電源ボタンを3秒以上押し続けてミニぷぱを起動してください。"
 
 #: ../../guide/QuickStartGuide.rst:25
 msgid "Connect the controller to the Pi by putting it pairing mode."
 msgstr ""
+"コントローラーをペアリングモードにしてラズパイに接続します。"
 
 #: ../../guide/QuickStartGuide.rst:27 ../../guide/QuickStartGuide.rst:74
 msgid ""
 "To put it into pairing mode, hold the share button and home button at the"
 " same time until it starts making quick double flashes."
 msgstr ""
+"ペアリングモードにするには、シェアボタンとホームボタンを同時に押し続け、"
+"2回の点滅を始めるまで待ちます。"
 
 #: ../../guide/QuickStartGuide.rst:28
 msgid ""
 "If it starts making slow single flashes, hold the home button down until "
 "it stops blinking(about 15s) and try again."
 msgstr ""
+"ゆっくりとした1回の点滅を始めた場合は、ホームボタンを押し続け点滅が停止する"
+"（約15秒）まで待ってから再度試してください。
 
 #: ../../guide/QuickStartGuide.rst:33
 msgid ""
@@ -67,6 +73,9 @@ msgid ""
 "controller should turn a dim green (or whatever color you chose in "
 "pupper/HardwareConfig.py for the deactivated color)."
 msgstr ""
+"コントローラーがロボットに接続されるまで待ちます。"
+"このとき、コントローラーは薄い緑色"
+"（またはpupper/HardwareConfig.pyで設定した非アクティブ状態の色）に変わります。"
 
 #: ../../guide/QuickStartGuide.rst:34
 msgid ""
@@ -74,100 +83,107 @@ msgid ""
 "should turn bright green (or again, whatever you chose in "
 "HardwareConfig)."
 msgstr ""
+"コントローラーのL1ボタンを押してロボットを「アクティブ化」します。"
+"コントローラーは明るい緑色（またはHardwareConfigで選択した色）に変わります。"
 
 #: ../../guide/QuickStartGuide.rst:35
 msgid ""
 "You're good to go! Check out the controls section below for operating "
 "instructions."
 msgstr ""
+"準備完了です！操作方法については以下のコントロールセクションをご覧ください。"
 
 #: ../../guide/QuickStartGuide.rst:38
 msgid "Pupper Robot controls"
 msgstr ""
+msgstr "ミニぷぱロボットのコントロール"
 
 #: ../../guide/QuickStartGuide.rst:40
 msgid "L1: Press to toggle active mode and deactivate mode."
-msgstr ""
+msgstr "L1: アクティブモードと非アクティブモードを切り替えます。"
+
 
 #: ../../guide/QuickStartGuide.rst:42
 msgid ""
 "Note: the controller's front light will change colors to indicate if the "
 "robot is deactivated or activated."
 msgstr ""
+"注: コントローラーの前面ライトは、ロボットが非アクティブまたはアクティブであることを示すために色が変わります。"
 
 #: ../../guide/QuickStartGuide.rst:44
 msgid "R1: Press to transition between Rest mode and Trot mode."
-msgstr ""
+msgstr "R1: レストモードとトロットモードを切り替えます。"
 
 #: ../../guide/QuickStartGuide.rst:46
 msgid "Left joystick"
-msgstr ""
+msgstr "左ジョイスティック"
 
 #: ../../guide/QuickStartGuide.rst:48
 msgid "Forward/back: moves the robot forward/backward when in Trot mode."
-msgstr ""
+msgstr "前後: トロットモード時にロボットを前進/後退させます。"
 
 #: ../../guide/QuickStartGuide.rst:49
 msgid "Left/right: moves the robot left/right when in Trot mode."
-msgstr ""
+msgstr "左右: トロットモード時にロボットを左右に移動させます。"
 
 #: ../../guide/QuickStartGuide.rst:51
 msgid "Right joystick"
-msgstr ""
+msgstr "右ジョイスティック"
 
 #: ../../guide/QuickStartGuide.rst:53
 msgid "Forward/back: pitches the robot forward/backward."
-msgstr ""
+msgstr "前後: ロボットを前後に傾けます。"
 
 #: ../../guide/QuickStartGuide.rst:54
 msgid "Left/right: turns the robot left/right."
-msgstr ""
+msgstr "左右: ロボットを左右に回転させます。"
 
 #: ../../guide/QuickStartGuide.rst:58
 msgid "D-Pad"
-msgstr ""
+msgstr "Dパッド"
 
 #: ../../guide/QuickStartGuide.rst:57
 msgid "Forward/back: raises and lowers the body."
-msgstr ""
+msgstr "前後: ロボットの体を上げたり下げたりします。"
 
 #: ../../guide/QuickStartGuide.rst:58
 msgid "Left/rights: rolls the body left/right."
-msgstr ""
+msgstr "左右: ロボットの体を左右に傾けます。"
 
 #: ../../guide/QuickStartGuide.rst:60
 msgid "\"X\" button: Press it three times to complete a full hop."
-msgstr ""
+msgstr "「X」ボタン: 3回押して完全なジャンプを実行します。"
 
 #: ../../guide/QuickStartGuide.rst:62
 msgid "Shut down the system to press controller circle botton for 3 seconds."
-msgstr ""
+msgstr "コントローラーの円形ボタンを3秒間押してシステムをシャットダウンします。"
 
 #: ../../guide/QuickStartGuide.rst:67
 msgid "Power off the battery"
-msgstr ""
+msgstr "バッテリーの電源を切る"
 
 #: ../../guide/QuickStartGuide.rst:70
 msgid "Important Notes"
-msgstr ""
+msgstr "重要な注意事項"
 
 #: ../../guide/QuickStartGuide.rst:72
 msgid "Controller pairing instructions (repeat of instructions above)"
-msgstr ""
+msgstr "コントローラーのペアリング手順（上記手順の繰り返し）"
 
 #: ../../guide/QuickStartGuide.rst:75
 msgid ""
 "If it starts making slow single flashes, hold the home button down until "
 "it stops blinking and try again."
 msgstr ""
+"ゆっくりとした単一の点滅を始めた場合は、ホームボタンを押し続け、点滅が停止するまで待ってから再度試してください。"
 
 #: ../../guide/QuickStartGuide.rst:77
 msgid "Battery voltage"
-msgstr ""
+msgstr "バッテリー電圧"
 
 #: ../../guide/QuickStartGuide.rst:79
 msgid ""
 "If you use external power supply to power the robot with anything higher "
 "than 8.4V (aka >2S) you'll almost certainly fry all your servos!"
 msgstr ""
-
+"ロボットを外部電源で駆動する場合、8.4V（2S以上）を超える電圧を使用すると、サーボがほぼ確実に故障します！"
