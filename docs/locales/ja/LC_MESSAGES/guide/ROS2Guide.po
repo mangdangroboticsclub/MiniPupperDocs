@@ -342,7 +342,7 @@ msgstr "ターミナルの出力：この場合、ジョイスティックの名
 
 #: ../../guide/ROS2Guide.rst:316
 msgid "Use the following command to check if the joystick us connected."
-msgstr "以下のコマンドで、ジョイスティックが接続されているかどうかを確認"
+msgstr "以下のコマンドで、ジョイスティックが接続されているかどうかを確認します"
 
 #: ../../guide/ROS2Guide.rst:323
 msgid "There will be output as followed if joystick is connected."
