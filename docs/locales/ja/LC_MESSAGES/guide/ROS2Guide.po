@@ -222,7 +222,7 @@ msgstr "2.2 WiFi設定"
 
 #: ../../guide/ROS2Guide.rst:147
 msgid "Plug the card into the Mini Pupper card port and setup your own wifi."
-msgstr "SDカードをミニぷぱカードポートに差し込み、自身の無線LANを設定する。"
+msgstr "SDカードをミニぷぱのカードポートに差し込み、Wi-Fi接続のための設定をします。"
 
 #: ../../guide/ROS2Guide.rst:154
 msgid "Run the following command to edit the network setting of the pupper."
