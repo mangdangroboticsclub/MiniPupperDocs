@@ -218,7 +218,7 @@ msgstr "\"Flash!\"(書き込み)ボタンを押すと、下の画像が表示さ
 
 #: ../../guide/ROS2Guide.rst:145
 msgid "2.2 Wifi-Setting"
-msgstr "2.2 WiFi設定"
+msgstr "2.2 Wi-Fi設定"
 
 #: ../../guide/ROS2Guide.rst:147
 msgid "Plug the card into the Mini Pupper card port and setup your own wifi."
