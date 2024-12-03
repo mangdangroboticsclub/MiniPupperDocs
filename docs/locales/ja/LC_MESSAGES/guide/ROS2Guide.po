@@ -346,7 +346,7 @@ msgstr "以下のコマンドで、ジョイスティックが接続されてい
 
 #: ../../guide/ROS2Guide.rst:323
 msgid "There will be output as followed if joystick is connected."
-msgstr "ジョイスティックが接続されている場合は、次のような出力になる"
+msgstr "ジョイスティックが接続されている場合は、次のような出力になります"
 
 #: ../../guide/ROS2Guide.rst:331
 msgid "2. Bringup"
