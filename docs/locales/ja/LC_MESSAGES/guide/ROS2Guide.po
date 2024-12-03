@@ -232,7 +232,7 @@ msgstr "以下のコマンドを実行して、ミニぷぱのネットワーク
 msgid ""
 "When the editor is opened, edit the content as below while replacing "
 "Mangdang and mangdang with your actual wifi SSID and password."
-msgstr "エディタが開いたら、Mangdangとmangdangを無線LANのSSIDとパスワードに置き換えながら、以下のように内容を編集してください。"
+msgstr "エディタが開いたら、Mangdangとmangdangを実際のWi-FiのSSIDとパスワードに置き換えながら、以下のように内容を編集してください。"
 
 #: ../../guide/ROS2Guide.rst:168
 msgid "Run the following commands to reboot and connect to your actual wifi."
