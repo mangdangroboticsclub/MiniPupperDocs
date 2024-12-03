@@ -338,7 +338,7 @@ msgstr "以下のコマンドでジョイスティックの名前を確認"
 
 #: ../../guide/ROS2Guide.rst:309
 msgid "Terminal output: In this case the name of the joystick is “js0”."
-msgstr "ターミナルの出力:この場合、ジョイスティックの名前は \"js0 \""
+msgstr "ターミナルの出力：この場合、ジョイスティックの名前は \"js0 \"です。"
 
 #: ../../guide/ROS2Guide.rst:316
 msgid "Use the following command to check if the joystick us connected."
