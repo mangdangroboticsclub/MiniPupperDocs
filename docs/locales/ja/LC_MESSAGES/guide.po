@@ -368,7 +368,7 @@ msgid ""
 "Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
 "the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
 "the surface."
-msgstr "下図のように、M2x5mm のネジを１コ図中の部品 ⑤ と部品 ⑥ のところに差し込み、締め付ける。"
+msgstr "下図のように、M2x5mm のネジを１コ図中の部品 ⑤ と部品 ⑥ のところに差し込み、締め付けます。"
 
 #: ../../guide/Assembly.rst:241 ../../guide/Assembly.rst:947
 #: ../../guide/Assembly.rst:1518
