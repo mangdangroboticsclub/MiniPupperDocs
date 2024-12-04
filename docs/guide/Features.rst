@@ -5,38 +5,38 @@ Features
   :depth: 2
 
 .. image:: ../_static/MP1vs2.png
-    :align: center 
+    :align: center
 
 
-	
+
 Hardware Specifications
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/Spec.MP1vs2.png
-    :align: center 
+    :align: center
 
 
 
 Mini Pupper 1 Dimension
-^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/Dimension.png
-    :align: center 
+    :align: center
 
 
 
 Add-ons
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/MP1vs2.2.png
-    :align: center 
+    :align: center
 
 * Lidar module
 
-If you want to explore ROS SLAM, Navigation functions based on Lidar, you also need a Lidar module. We can ONLY ensure the STL-06P Lidar module can work well based on our source code, and NOT ensure that you get it from other channels. We customized the Lidar cable to connect our robot easily instead of using bulky wires. 
+If you want to explore ROS SLAM, Navigation functions based on Lidar, you also need a Lidar module. We can ONLY ensure the STL-06P Lidar module can work well based on our source code, and NOT ensure that you get it from other channels. We customized the Lidar cable to connect our robot easily instead of using bulky wires.
 
 .. image:: ../_static/Add-on.Lidar.png
-    :align: center 
+    :align: center
 
 * Camera module
 
