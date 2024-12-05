@@ -33,84 +33,84 @@ msgstr "ミニぷぱのソフトウェアキャリブレーション"
 #: ../../guide/SoftwareCalibration.rst:13
 #: ../../guide/SoftwareCalibration.rst:162
 msgid "1. Calibration Setup"
-msgstr ""
+msgstr "1. キャリブレーションセットアップ"
 
 #: ../../guide/SoftwareCalibration.rst:16
 #: ../../guide/SoftwareCalibration.rst:165
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: ../../guide/SoftwareCalibration.rst:17
 msgid ""
 "In addition to the tools included in the kit, the following items are "
 "required."
-msgstr ""
+msgstr "付属の工具のほかに、次のものが必要です。"
 
 #: ../../guide/SoftwareCalibration.rst:19
 #: ../../guide/SoftwareCalibration.rst:168
 msgid "USB keyboard"
-msgstr ""
+msgstr "USB キーボード"
 
 #: ../../guide/SoftwareCalibration.rst:20
 msgid "USB mouse"
-msgstr ""
+msgstr "USB マウス"
 
 #: ../../guide/SoftwareCalibration.rst:21
 #: ../../guide/SoftwareCalibration.rst:169
 msgid "HDMI display"
-msgstr ""
+msgstr "HDMIディスプレイ"
 
 #: ../../guide/SoftwareCalibration.rst:22
 msgid "micro HDMI cable for connection between display and Raspberry Pi"
-msgstr ""
+msgstr "ディスプレイとRaspberry Piを接続するためのmicro HDMIケーブル"
 
 #: ../../guide/SoftwareCalibration.rst:25
 msgid "Step 1.1 Startup raspberry pi"
-msgstr ""
+msgstr "Step 1.1 Raspberry Piの起動"
 
 #: ../../guide/SoftwareCalibration.rst:27
 msgid "Connect the Raspberry pi to the display with a microHDMI cable."
-msgstr ""
+msgstr "Raspberry PiとディスプレイをmicroHDMIケーブルで接続します。"
 
 #: ../../guide/SoftwareCalibration.rst:28
 msgid "Connect a USB keyboard and mouse to the Raspberry pi."
-msgstr ""
+msgstr "Raspberry PiにUSBキーボードとマウスを接続する。"
 
 #: ../../guide/SoftwareCalibration.rst:29
 msgid ""
 "Press and hold the battery button of the Mini Pupper for three seconds to"
 " start Raspberry pi."
-msgstr ""
+msgstr "ミニぷぱの電池ボタンを3秒間長押しして、Raspberry Piを起動します。"
 
 #: ../../guide/SoftwareCalibration.rst:30
 msgid ""
 "If you can see Ubuntu running on your screen, you have succeeded. You "
 "should also see the face on Mini Pupper display."
-msgstr ""
+msgstr "画面上にUbuntuが起動しているのが確認できれば成功です。ミニぷぱのディスプレイにも顔が表示されているはずです。"
 
 #: ../../guide/SoftwareCalibration.rst:37
 #: ../../guide/SoftwareCalibration.rst:187
 msgid "Step 1.2 Log in"
-msgstr ""
+msgstr "Step 1.2 ログイン"
 
 #: ../../guide/SoftwareCalibration.rst:39
 #: ../../guide/SoftwareCalibration.rst:189
 msgid "Press ubuntu button on the screen to log in."
-msgstr ""
+msgstr "画面上のubuntuボタンを押し、ログインしてください。"
 
 #: ../../guide/SoftwareCalibration.rst:40
 #: ../../guide/SoftwareCalibration.rst:190
 msgid "Default username: ubuntu"
-msgstr ""
+msgstr "初期設定のユーザー名：ubuntu"
 
 #: ../../guide/SoftwareCalibration.rst:41
 #: ../../guide/SoftwareCalibration.rst:191
 msgid "Default password: mangdang"
-msgstr ""
+msgstr "初期パスワード：mangdang"
 
 #: ../../guide/SoftwareCalibration.rst:44
 msgid "Step 1.3 Set keyboard (Optional)"
-msgstr ""
+msgstr "Step 1.3 キーボードを設定する（オプション）"
 
 #: ../../guide/SoftwareCalibration.rst:46
 msgid ""
@@ -118,64 +118,67 @@ msgid ""
 "keyboard, you will need this setting. Press the menu button in the bottom"
 " left corner and type settings to bring up settings."
 msgstr ""
+"キーボードの種類（たとえば日本語キーボード）を変更する場合は、この設定が必要になります。"
+"左下隅のメニューボタンを押し、\"settings\"もしくは"\設定"\"と入力し、"
+"設定アプリケーションを表示します。"
 
 #: ../../guide/SoftwareCalibration.rst:51
 msgid ""
 "Select Region & Language and press + for Input Sources. On the screen "
 "that comes up, select the three dots for other and type Japanese to "
 "select it. Type Japanese to select it."
-msgstr ""
+msgstr "「地域と言語」を選択し、「入力ソース」の「＋」を押してください。出てきた画面で、その他に3つの点を選択し、日本語を入力して選択します。日本語を入力してください。"
 
 #: ../../guide/SoftwareCalibration.rst:55
 msgid "Step 1.4 Open ports for ssh (Optional)"
-msgstr ""
+msgstr "Step 1.4 ssh用のポートを開く（オプション）"
 
 #: ../../guide/SoftwareCalibration.rst:57
 msgid "Attempt to make an ssh connection from your PC to Ubuntu."
-msgstr ""
+msgstr "PCからUbuntuへのssh接続を試みます。"
 
 #: ../../guide/SoftwareCalibration.rst:63
 #: ../../guide/SoftwareCalibration.rst:232
 msgid ""
 "If you are unable to make an ssh connection from your PC, you will need "
 "to configure the following, maybe."
-msgstr ""
+msgstr "PCからssh接続ができない場合は、恐らく以下の設定が必要です。"
 
 #: ../../guide/SoftwareCalibration.rst:70
 #: ../../guide/SoftwareCalibration.rst:239
 msgid "If firewall is not running, do the following."
-msgstr ""
+msgstr "ファイアウォールが動作していない場合は、次のようにしてください。"
 
 #: ../../guide/SoftwareCalibration.rst:77
 #: ../../guide/SoftwareCalibration.rst:247
 msgid "2. Calibration"
-msgstr ""
+msgstr "2. キャリブレーション"
 
 #: ../../guide/SoftwareCalibration.rst:80
 msgid "Step 2.1 Leg calibration (not for ROS image)"
-msgstr ""
+msgstr "Step 2.1 足のキャリブレーション（ROSイメージ用ではない）"
 
 #: ../../guide/SoftwareCalibration.rst:81
 #: ../../guide/SoftwareCalibration.rst:251
 msgid "Please refer to the below calibration video clip."
-msgstr ""
+msgstr "以下のキャリブレーション動画をご参照ください。"
 
 #: ../../guide/SoftwareCalibration.rst:90
 msgid ""
 "During Mini Pupper calibration, if the servo horn assembly position is "
 "not right, it is not easy to calibrate, even break the servo. Please "
 "follow the below easy guide(not for ROS image)."
-msgstr ""
+msgstr "ミニぷぱのキャリブレーションを行う際、サーボホーンの組み立て位置がずれていると、キャリブレーションがうまくいかず、サーボを壊してしまう可能性があります。以下のガイドに従ってください（ROSイメージではありません）。"
 
 #: ../../guide/SoftwareCalibration.rst:93
 msgid "Make sure Mini Pupper is pre-assembled except the 4 legs."
-msgstr ""
+msgstr "ミニぷぱが4本の足を除いて組み立て済みであることを確認してください。"
 
 #: ../../guide/SoftwareCalibration.rst:98
 msgid ""
 "Power on, double-click on the Calibration Tool icon on your desktop to "
 "launch it."
-msgstr ""
+msgstr "電源を入れ、デスクトップ上のCalibration Toolのアイコンをダブルクリックして起動してください。"
 
 #: ../../guide/SoftwareCalibration.rst:108
 msgid ""
@@ -183,33 +186,35 @@ msgid ""
 "button to save the settings --> Press × to close and save the "
 "calibration."
 msgstr ""
+"キャリブレーションの手順:各サーボをキャリブレーションする → ☑を押して設定を保存する → ×を押してキャリブレーションを終了し保存する "
+"となります。"
 
 #: ../../guide/SoftwareCalibration.rst:110
 msgid ""
 "※ Calibrate each servo by moving the bars or click the space position "
 "near the bars."
-msgstr ""
+msgstr "※ スライドバーを動かすか、バーの近くのスペース位置をクリックして、各サーボを調整します。"
 
 #: ../../guide/SoftwareCalibration.rst:112
 msgid "※ Reset button: when you hope to re-start from the last time."
-msgstr ""
+msgstr "※ リセットボタン: 前回から再起動したい場合。"
 
 #: ../../guide/SoftwareCalibration.rst:114
 msgid "※ Restore button: Restore factory settings and Press × to close."
-msgstr ""
+msgstr "※ リストアボタン: 工場出荷時の設定に復元し、× を押して閉じます。"
 
 #: ../../guide/SoftwareCalibration.rst:116
 msgid ""
 "Use the calibration GUI tool to calibrate #1 #4 #7 #10 hip servos to the "
 "horizontal position."
-msgstr ""
+msgstr "キャリブレーションGUIツールを使って、#1 #4 #7 #10 の脚部サーボを水平位置にキャリブレーションします。"
 
 #: ../../guide/SoftwareCalibration.rst:126
 #: ../../guide/SoftwareCalibration.rst:260
 msgid ""
 "Then assemble the 4 legs by hand at the right position as the below "
 "picture shows."
-msgstr ""
+msgstr "その後、下の写真のように、4本の足を正しい位置に取り付けます。"
 
 #: ../../guide/SoftwareCalibration.rst:131
 msgid ""
@@ -218,13 +223,13 @@ msgid ""
 "of the legs will change in conjunction with the position of the slide bar"
 " on the screen. However, if it does not move, then the steps you have "
 "followed are incorrect."
-msgstr ""
+msgstr "キャリブレーションGUIツールで足の位置を最適化する。足の角度は、画面上のスライドバーの位置と連動して変化します。もし動かない場合は、操作間違いが原因だと考えられます。もう一度手順に従って修正しましょう。"
 
 #: ../../guide/SoftwareCalibration.rst:133
 msgid ""
 "You can use the iPhone's tilt sensor app, a ruler or a protractor to "
 "measure the angle. I also used a ruler and a protractor."
-msgstr ""
+msgstr "角度を測るには、iPhoneの傾きセンサーアプリや、定規、分度器などが使えます。私も定規と分度器を使ってみました。"
 
 #: ../../guide/SoftwareCalibration.rst:138
 #: ../../guide/SoftwareCalibration.rst:265
@@ -233,63 +238,63 @@ msgid ""
 "legs, so it is better to place the legs on a grid, like a piece of graph "
 "paper, to check that they are in the same position from front to back and"
 " from side to side, and to make any final adjustments."
-msgstr ""
+msgstr "足の正確な傾きを測るのは少し難しいので、方眼紙のようなグリッドに足を置き、前後左右の位置が同じかどうかを確認し、最終調整するのがよいでしょう。"
 
 #: ../../guide/SoftwareCalibration.rst:143
 msgid ""
 "When all legs are at 45° inclination as shown, press Update to save the "
 "settings. Press × to close the calibration application."
-msgstr ""
+msgstr "図のようにすべての足が45°の傾きになったら、Update を押して設定を保存します。×を押して、キャリブレーションアプリケーションを終了します。"
 
 #: ../../guide/SoftwareCalibration.rst:147
 msgid "Step 2.2 Connect controller"
-msgstr ""
+msgstr "Step 2.2 コントローラーの接続"
 
 #: ../../guide/SoftwareCalibration.rst:149
 msgid "Please check the next chapter."
-msgstr ""
+msgstr "次の章でご確認ください。"
 
 #: ../../guide/SoftwareCalibration.rst:151
 msgid "If you can control it with a controller, it's OK."
-msgstr ""
+msgstr "コントローラーで操作できればOKです。"
 
 #: ../../guide/SoftwareCalibration.rst:159
 msgid "Software Calibration for Mini Pupper 2 and 2Pro"
-msgstr ""
+msgstr "ミニぷぱ2と2Proのソフトウェアキャリブレーション"
 
 #: ../../guide/SoftwareCalibration.rst:166
 msgid ""
 "For beginners, in addition to the tools included in the kit, the "
 "following items are required."
-msgstr ""
+msgstr "初心者の方は、キットに含まれる工具の他に以下のものが必要となります。"
 
 #: ../../guide/SoftwareCalibration.rst:170
 msgid "micro HDMI cable for connection between display and carry board"
-msgstr ""
+msgstr "ディスプレイとPCB基板を接続するためのマイクロHDMIケーブル"
 
 #: ../../guide/SoftwareCalibration.rst:175
 msgid ""
 "For beyond, you can use your PC to ssh to Mini Pupper to do everything, "
 "please refer to step 1.4"
-msgstr ""
+msgstr "これ以降は、PCを使用してミニぷぱにSSH接続してすべてを行うことができます。Step 1.4を参照してください。"
 
 #: ../../guide/SoftwareCalibration.rst:178
 msgid "Step 1.1 Startup"
-msgstr ""
+msgstr "Step 1.1 起動"
 
 #: ../../guide/SoftwareCalibration.rst:180
 msgid "Connect the carry board to the display with a microHDMI cable."
-msgstr ""
+msgstr "PCB基板にマイクロHDMIケーブルを接続します。"
 
 #: ../../guide/SoftwareCalibration.rst:181
 msgid "Connect a USB keyboard to the carry board."
-msgstr ""
+msgstr "PCB基板にUSBキーボードを接続します。"
 
 #: ../../guide/SoftwareCalibration.rst:182
 msgid ""
 "Press and hold the battery button of the Mini Pupper for three seconds to"
 " boot up."
-msgstr ""
+msgstr "ミニぷぱのバッテリー ボタンを3秒間押したままにして起動します。"
 
 #: ../../guide/SoftwareCalibration.rst:183
 msgid ""
@@ -297,94 +302,102 @@ msgid ""
 "should also see the IP address or \"IP: no IPv4 address\" on Mini Pupper "
 "display."
 msgstr ""
+"画面上で Ubuntu が実行中になっているのを確認できれば成功です。ミニぷぱのディスプレイに IP アドレスまたは「IP: no IPv4 "
+"address」も表示されるはずです。"
 
 #: ../../guide/SoftwareCalibration.rst:194
 msgid "Step 1.3 Set your own WiFi"
-msgstr ""
+msgstr "Step 1.3 Wi-Fiの設定"
 
 #: ../../guide/SoftwareCalibration.rst:196
 msgid ""
 "Edit the WiFi configure file(50-cloud-init.yaml), and set your WiFi to "
 "your own."
-msgstr ""
+msgstr "Wi-Fi 構成ファイル (50-cloud-init.yaml) を編集し、Wi-Fi を独自のものに設定します。"
 
 #: ../../guide/SoftwareCalibration.rst:210
 msgid ""
 "You can also refer to `mini_pupper_web_controller "
 "<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_"
 msgstr ""
+"mini_pupper_webコントローラも参照できます`mini_pupper_web_controller "
+"<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_"
 
 #: ../../guide/SoftwareCalibration.rst:214
 msgid "Step 1.4 Open ports for ssh without HDMI display"
-msgstr ""
+msgstr "ステップ 1.4 HDMI ディスプレイなしで SSH のポートを開く"
 
 #: ../../guide/SoftwareCalibration.rst:216
 msgid "Use your phone to set the default WiFi used by Mini Pupper."
-msgstr ""
+msgstr "スマートフォンを使用して、ミニぷぱが使用するデフォルトの Wi-Fi を設定します。"
 
 #: ../../guide/SoftwareCalibration.rst:218
 msgid "WiFi name: Mangdang"
-msgstr ""
+msgstr "Wi-Fi名: Mangdang"
 
 #: ../../guide/SoftwareCalibration.rst:220
 msgid "Password:   mangdang"
-msgstr ""
+msgstr " \"Password:   mangdang"
 
 #: ../../guide/SoftwareCalibration.rst:222
 msgid "Power on your robot and check the LCD display"
-msgstr ""
+msgstr "ロボットの電源を入れ、液晶ディスプレイを確認します"
 
 #: ../../guide/SoftwareCalibration.rst:224
 msgid "If the LCD shows “IP: no IPv4 address”, then reboot your robot again."
-msgstr ""
+msgstr "液晶ディスプレイに「IP: no IPv4 address」と表示されたら、ロボットを再起動します。"
 
 #: ../../guide/SoftwareCalibration.rst:226
 msgid ""
 "After the LCD shows the IP address, make an ssh connection from your PC "
 "to your robot."
-msgstr ""
+msgstr "液晶ディスプレイに IP アドレスが表示されたら、PC からロボットに SSH 接続します。"
 
 #: ../../guide/SoftwareCalibration.rst:250
 msgid "Step 2.1 Leg calibration"
-msgstr ""
+msgstr "Step 2.1 足のキャリブレーション"
 
 #: ../../guide/SoftwareCalibration.rst:270
 msgid ""
 "When all legs are at 45° inclination as shown, press \"s\" to save the "
 "settings. Press \"q\" to quite the calibration application."
-msgstr ""
+msgstr "図のようにすべての足が 45° の傾斜になったら、「s」を押して設定を保存します。「q」を押してキャリブレーションアプリケーションを終了します。"
 
 #: ../../guide/SoftwareCalibration.rst:274
 msgid "Step 2.2 Use a web browser to run"
-msgstr ""
+msgstr "Step 2.2 Web ブラウザを使用して実行"
 
 #: ../../guide/SoftwareCalibration.rst:276
 msgid ""
 "Point a web browser to http://x.x.x.x:8080 where x.x.x.x is the IP "
 "address of your mini_pupper, such as, http://192.168.5.196:8080"
 msgstr ""
+"Web ブラウザで http://x.x.x.x:8080 にアクセスします。x.x.x.x は ミニぷぱの IP アドレスです (例: "
+"http://192.168.5.196:8080)"
 
 #: ../../guide/SoftwareCalibration.rst:277
+#, fuzzy
 msgid "Click the “Activate” button of the \"Controller\" tab."
-msgstr ""
+msgstr "「Controller」タブの「Activatate」ボタンをクリックします。"
 
 #: ../../guide/SoftwareCalibration.rst:278
+#, fuzzy
 msgid "Click the “Activate/Deactivate” button of the \"Pupper\" tab."
-msgstr ""
+msgstr "「Pupper」タブの「Activatate/Deactivate」ボタンをクリックします。"
 
 #: ../../guide/SoftwareCalibration.rst:279
 msgid "Click the \"≡\" icon at the top left corner."
-msgstr ""
+msgstr "左上隅の「≡」アイコンをクリックします。"
 
 #: ../../guide/SoftwareCalibration.rst:280
 msgid "Choose the \"Walk\" option."
-msgstr ""
+msgstr "「Walk」オプションを選択します。"
 
 #: ../../guide/SoftwareCalibration.rst:281
 msgid "Click the \"Walk/Rest\" button."
-msgstr ""
+msgstr "「Walk/Rest」ボタンをクリックします。"
 
 #: ../../guide/SoftwareCalibration.rst:282
 msgid "Use the scroll bar to control your Mini Pupper"
-msgstr ""
+msgstr "スクロールバーを使用してミニぷぱを制御します"
 
