@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../reference/PCB.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../reference/PCB.rst:9
 msgid "PCB Design"
-msgstr ""
+msgstr "PCBデザイン"
 
 #: ../../reference/PCB.rst:11
 msgid ""
@@ -37,12 +37,17 @@ msgid ""
 "<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
 "eLVm5zjyi>`_ ."
 msgstr ""
+"Mini Pupper のカスタム ボード設計については、下の写真を参照してください。"
+"`詳細な回路図とデータシート "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_"
+
 
 #: ../../reference/PCB.rst:15
 msgid "Top side"
-msgstr ""
+msgstr "表側"
 
 #: ../../reference/PCB.rst:21
 msgid "Bottom side"
-msgstr ""
+msgstr "裏側"
 

@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../guide/ReinforcementLearning.rst:3
 msgid "Reinforcement Learning(RL)"
-msgstr ""
+msgstr "強化学習(RL)"
 
 #: ../../guide/ReinforcementLearning.rst:6
 msgid "Contents"

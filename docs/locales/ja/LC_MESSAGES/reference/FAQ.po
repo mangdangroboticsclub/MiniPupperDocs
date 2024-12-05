@@ -33,30 +33,35 @@ msgstr ""
 #: ../../reference/FAQ.rst:12
 msgid "Q1. How to use Pupper long time for development?"
 msgstr ""
+"Q1. 開発でミニぷぱを長時間使用するにはどうすればよいですか？"
 
 #: ../../reference/FAQ.rst:13
 msgid ""
 "The battery power can only run Pupper dozens of minutes, it is not "
 "convenient for long time development."
 msgstr ""
+"バッテリー電源ではミニぷぱを数十分しか動作させられないため、長時間の開発には不向きです。"
 
 #: ../../reference/FAQ.rst:15
 msgid "A1: Please confirm the below solutions for makers."
 msgstr ""
+"A1: メーカー向けの以下のソリューションを確認してください。"
 
 #: ../../reference/FAQ.rst:17
 msgid ""
 "Use Raspberry Pi default adapter to long time coding and debug, and use "
 "the battery to test the movement."
 msgstr ""
+"Raspberry Piの標準アダプターを使用して長時間のコーディングとデバッグを行い、"
+"バッテリーを使用して動作テストします。"
 
 #: ../../reference/FAQ.rst:18
 msgid "Use DC power supply to long time coding, debug and test."
-msgstr ""
+msgstr "DC電源を使用して長時間のコーディング、デバッグ、テストを行います。"
 
 #: ../../reference/FAQ.rst:21
 msgid "Q2. How about the leading time if I order?"
-msgstr ""
+msgstr "Q2. 注文した場合のリードタイムはどのくらいですか？"
 
 #: ../../reference/FAQ.rst:22
 msgid ""
@@ -64,30 +69,37 @@ msgid ""
 "Shenzhen/China factory, the shipping time is about 1~3 weeks by air to "
 "most of places in the world."
 msgstr ""
+"A2: お支払い後、パッケージは深セン/中国の工場から発送されます。"
+"発送時間は、世界中のほとんどの場所への航空便で約1〜3週間です。"
 
 #: ../../reference/FAQ.rst:25
 msgid "Q3. Will the shipping be free?"
-msgstr ""
+msgstr "Q3. 送料は無料ですか?"
 
 #: ../../reference/FAQ.rst:26
 msgid ""
 "A3: No, but we will also give you a special shipping fee, within $30USD "
 "to most places of NA, JP, EU and UK."
 msgstr ""
+"A3: いいえ、ただし、北米、日本、EU、英国のほとんどの場所への30米ドル以内の特別送料もご提供いたします。"
 
 #: ../../reference/FAQ.rst:29
 msgid "Q4. Can I get the DDP(Delivered Duty Paid ) service?"
 msgstr ""
+"Q4. DDP（Delivered Duty Paid ）サービスを利用できますか？"
 
 #: ../../reference/FAQ.rst:30
 msgid ""
 "A4: Sure, the shipping fee already includes the DDP service, you don't "
 "care about the duty fee, just like you place an order locally."
 msgstr ""
+"A4: はい、配送料にはすでにDDPサービスが含まれています。"
+"現地で注文するのと同じように、関税を気にする必要はありません。"
 
 #: ../../reference/FAQ.rst:33
 msgid "Q5. What's the restrictions of the shipping address?"
 msgstr ""
+"Q5. 配送先住所の制限は何ですか？"
 
 #: ../../reference/FAQ.rst:34
 msgid ""
@@ -95,38 +107,42 @@ msgid ""
 "including India, Montenegro, Armenia, Nigeria, Colombia, South Africa, "
 "North Korea, Sudan, Syria, Hawaii, Palmañola, and County Antrim."
 msgstr ""
+"A5: 当社の2つのエクスプレスベンダーは、135以上の国/地域に配送できますが、"
+"インド、モンテネグロ、アルメニア、ナイジェリア、コロンビア、南アフリカ、"
+"北朝鮮、スーダン、シリア、ハワイ、パルマノーラ、アントリム州は含まれません。"
 
 #: ../../reference/FAQ.rst:37
 msgid "Q6. Shipping Info Requirement"
-msgstr ""
+msgstr "Q6. 配送情報の要件"
 
 #: ../../reference/FAQ.rst:38
 msgid ""
 "A6: When you pay, please also let us know your below shipping info, "
 "thanks! ::"
-msgstr ""
+msgstr "A6: お支払いの際には、以下の配送情報もお知らせください。ありがとうございます！"
 
 #: ../../reference/FAQ.rst:48
 msgid "If you live in Japan, please use the Japanese information."
-msgstr ""
+msgstr "日本にお住まいの場合は、日本語の情報を入力してください。"
 
 #: ../../reference/FAQ.rst:49
 msgid "If you live in South Korea, also need your ID number."
-msgstr ""
+msgstr "韓国にお住まいの場合は、ID 番号も必要です。"
 
 #: ../../reference/FAQ.rst:50
 msgid "If you live in Taiwan, also need your ID number and Chinese information."
-msgstr ""
+msgstr "台湾にお住まいの場合は、ID 番号と中国語の情報も必要です。"
 
 #: ../../reference/FAQ.rst:51
 msgid ""
 "If you live in Brazil, also need your tax number (CPF), or corporate tax "
 "number (CNPJ)."
-msgstr ""
+msgstr "ブラジルにお住まいの場合は、納税者番号 (CPF) または法人税番号 (CNPJ) も必要です。"
 
 #: ../../reference/FAQ.rst:54
 msgid ""
 "If you have any requirements or questions, please feel free to mail to "
 "sales@mangdang.net, thanks!"
 msgstr ""
-
+"ご要望やご質問がございましたら、sales@mangdang.net までお気軽にメールしてください。"
+"よろしくお願いいたします。"
