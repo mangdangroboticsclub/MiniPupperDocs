@@ -46,7 +46,7 @@ msgid ""
 "<https://github.com/chvmp/champ>`_  open source project, and we made some"
 " changes to SLAM and Navigation functions."
 msgstr ""
-"Mini PupperのROS2バージョンはC `Champ <https://github.com/chvmp/champ>`_  "
+"Mini PupperのROS2バージョンは `Champ <https://github.com/chvmp/champ>`_  "
 "オープンソースプロジェクトをベースにしており、SLAMとナビゲーション機能にいくつかの変更を加えました。"
 
 #: ../../guide/ROS2Guide.rst:14
