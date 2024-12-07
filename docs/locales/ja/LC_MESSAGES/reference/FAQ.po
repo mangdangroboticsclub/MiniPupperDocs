@@ -45,7 +45,7 @@ msgstr ""
 #: ../../reference/FAQ.rst:15
 msgid "A1: Please confirm the below solutions for makers."
 msgstr ""
-"A1: メーカー向けの以下のソリューションを確認してください。"
+"A1: メイカー向けの以下のソリューションを確認してください。"
 
 #: ../../reference/FAQ.rst:17
 msgid ""

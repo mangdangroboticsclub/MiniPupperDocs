@@ -99,7 +99,7 @@ msgstr "3. キーボードコントローラー"
 
 #: ../../guide/Examples.rst:66
 msgid "3.1 Keyboard controller based on nonROS version"
-msgstr "3.1 非 ROS バージョンに基づくキーボードコントローラー"
+msgstr "3.1 ROSを使わないキーボードコントローラー"
 
 #: ../../guide/Examples.rst:67
 msgid ""
@@ -108,8 +108,8 @@ msgid ""
 "it's Pygame-based keyboard controller for Stanford Pupper."
 msgstr ""
 "この機能は、Stanford Pupper 用の Pygame ベースのキーボード "
-"コントローラーであるPupperKeyboardController "
-"プロジェクトに基づいています。<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_"
+"コントローラーである `PupperKeyboardController <https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ "
+"プロジェクトに基づいています。"
 
 #: ../../guide/Examples.rst:69
 msgid "Install PyGame"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../guide/Examples.rst:108
 msgid "6. Forward Kinematics"
-msgstr "6. Forward kinematics(フォワードキネマティクス)"
+msgstr "6. 順運動学（Forward Kinematics）"
 
 #: ../../guide/Examples.rst:111 ../../guide/Examples.rst:148
 msgid "Lecture"
@@ -167,7 +167,7 @@ msgstr "講義"
 
 #: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
 msgid "Please study the basic knowledge of forward kinematics online first."
-msgstr "まずはオンラインでフォワードキネマティクスの基礎知識を学んでください。"
+msgstr "まずはオンラインで順運動学の基礎知識を学んでください。"
 
 #: ../../guide/Examples.rst:115
 msgid ""
@@ -199,14 +199,14 @@ msgid ""
 " You can run it on your Windows or Ubuntu with Python environment, just "
 "like the following picture shows."
 msgstr ""
-"ミニぷぱに基づく簡単なフォワードキネマティクスのサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
+"ミニぷぱに基づく簡単な順運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
 "Python 環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
 #: ../../guide/Examples.rst:145
 #, fuzzy
 msgid "7. Inverse Kinematics"
-msgstr "7. Inverse kinematics(インバースキネマティクス)"
+msgstr "7. 逆運動学（Inverse Kinematics）"
 
 #: ../../guide/Examples.rst:152
 msgid ""
@@ -226,7 +226,7 @@ msgid ""
 " You can run it on your Windows or Ubuntu with Python environment, just "
 "like the following picture shows."
 msgstr ""
-"ミニぷぱに基づく簡単なインバースキネマティクスのサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
+"ミニぷぱに基づく簡単な逆運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
 "Python 環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 

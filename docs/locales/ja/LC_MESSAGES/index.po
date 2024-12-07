@@ -118,7 +118,7 @@ msgid ""
 "cost, personal quadruped kit with open-source software. With MD Robot "
 "Starter Kits, you can build a robot dog that can drive around and have "
 "enough horsepower to create exciting applications."
-msgstr "Mini Pupper は、Stanford Pupper からインスピレーションを得た、"
+msgstr "ミニぷぱ（Mini Pupper）は、Stanford Pupper からインスピレーションを得た、"
 "オープンソース ソフトウェアの低コストの個人用四足歩行キットです。"
 "MD Robot Starter Kits で走行可能なエキサイティングなアプリケーションを作成するのに十分な馬力を持つロボット犬を構築できます。"
 
