@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"POT-Creation-Date: 2024-12-05 23:57+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "コンテンツ"
 
 #: ../../guide/Examples.rst:11
 msgid "1. Custom shell parts"
-msgstr "1. カスタム外装パーツ"
+msgstr "1. 外装パーツのカスタマイズ"
 
 #: ../../guide/Examples.rst:12
 msgid ""
@@ -51,7 +51,7 @@ msgstr "@nisshan_のDIY例"
 
 #: ../../guide/Examples.rst:31
 msgid "2. Custom Facial Animation"
-msgstr "2. カスタム顔アニメーション"
+msgstr "2. 顔アニメーションのカスタマイズ"
 
 #: ../../guide/Examples.rst:34
 msgid "2.1 Prerequisites"
@@ -71,7 +71,7 @@ msgstr "キーボードとマウス"
 
 #: ../../guide/Examples.rst:39
 msgid "a new custom picture(size: 320x240 pix)"
-msgstr "新しいカスタム画像 (サイズ: 320x240 ピクセル)"
+msgstr "新しいカスタマイズ画像 (サイズ: 320x240 ピクセル)"
 
 #: ../../guide/Examples.rst:45
 msgid "2.2 Run"
@@ -87,11 +87,11 @@ msgstr "Ubuntu ログイン (デフォルトのパスワードは mangdang)"
 
 #: ../../guide/Examples.rst:54
 msgid "Replace the logo.png file using your custom picture"
-msgstr "logo.png ファイルをカスタム画像に置き換えます"
+msgstr "logo.png ファイルをカスタマイズ画像に置き換えます"
 
 #: ../../guide/Examples.rst:56
 msgid "Reboot Mini Pupper and then you will see your custom picture"
-msgstr "ミニぷぱを再起動すると、カスタム画像が表示されます。"
+msgstr "ミニぷぱを再起動すると、カスタマイズ画像が表示されます。"
 
 #: ../../guide/Examples.rst:63
 msgid "3. Keyboard controller"
@@ -107,8 +107,9 @@ msgid ""
 "<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_, "
 "it's Pygame-based keyboard controller for Stanford Pupper."
 msgstr ""
-"この機能は、Stanford Pupper 用の Pygame ベースのキーボード "
-"コントローラーである `PupperKeyboardController <https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ "
+"この機能は、Stanford Pupper 用の Pygame ベースのキーボード コントローラーである "
+"`PupperKeyboardController "
+"<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ "
 "プロジェクトに基づいています。"
 
 #: ../../guide/Examples.rst:69
@@ -199,13 +200,13 @@ msgid ""
 " You can run it on your Windows or Ubuntu with Python environment, just "
 "like the following picture shows."
 msgstr ""
-"ミニぷぱに基づく簡単な順運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
-"Python 環境で実行できます。次のファイルで試すことができます。`こちら "
+"ミニぷぱに基づく簡単な順運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で Python "
+"環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
 #: ../../guide/Examples.rst:145
 #, fuzzy
-msgid "7. Inverse Kinematics"
+msgid "7. Inverse Kinematics"
 msgstr "7. 逆運動学（Inverse Kinematics）"
 
 #: ../../guide/Examples.rst:152
@@ -226,8 +227,8 @@ msgid ""
 " You can run it on your Windows or Ubuntu with Python environment, just "
 "like the following picture shows."
 msgstr ""
-"ミニぷぱに基づく簡単な逆運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
-"Python 環境で実行できます。次のファイルで試すことができます。`こちら "
+"ミニぷぱに基づく簡単な逆運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で Python "
+"環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
 #: ../../guide/Examples.rst:172
@@ -265,9 +266,9 @@ msgid ""
 "comes from `mp_host_setup project "
 "<https://github.com/zmk5/mp_host_setup.git>`_."
 msgstr ""
-"ネットワーク経由でミニぷぱとインターフェイスするためのホストコンピュータのセットアップは、”
-"mp_host_setup プロジェクトから取得します。"
-"`mp_host_setup project <https://github.com/zmk5/mp_host_setup.git>`_"
+"ネットワーク経由でミニぷぱとインターフェイスするためのホストコンピュータのセットアップは、mp_host_setup "
+"プロジェクトから取得します。`mp_host_setup project "
+"<https://github.com/zmk5/mp_host_setup.git>`_"
 
 #: ../../guide/Examples.rst:188
 msgid "10. Scratch program"
@@ -276,7 +277,4 @@ msgstr ""
 #: ../../guide/Examples.rst:190
 msgid "Will update soon!"
 msgstr ""
-
-#~ msgid "7. Inverse Kinematics(インバースキネマティクス)"
-#~ msgstr ""
 
