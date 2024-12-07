@@ -251,9 +251,7 @@ msgid "3. Connecting Mini Pupper to PC"
 msgstr "3. ミニぷぱとPCの接続"
 
 #: ../../guide/ROS2Guide.rst:209
-#, fuzzy
-msgid ""
-"Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini "
+msgid "Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini "
 "Pupper and one for PC local."
 msgstr "Ctrl+Alt+T でターミナルを開き、ミニぷぱ に接続します。"
 

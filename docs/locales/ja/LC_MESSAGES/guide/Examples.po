@@ -205,7 +205,6 @@ msgstr ""
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
 #: ../../guide/Examples.rst:145
-#, fuzzy
 msgid "7. Inverse Kinematics"
 msgstr "7. 逆運動学（Inverse Kinematics）"
 

@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../guide/ReinforcementLearning.rst:9
 msgid "Summary"
-msgstr "概要"
+msgstr "まとめ"
 
 #: ../../guide/ReinforcementLearning.rst:11
 msgid ""

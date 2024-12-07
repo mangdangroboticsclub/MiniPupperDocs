@@ -376,12 +376,10 @@ msgstr ""
 "http://192.168.5.196:8080)"
 
 #: ../../guide/SoftwareCalibration.rst:277
-#, fuzzy
 msgid "Click the “Activate” button of the \"Controller\" tab."
 msgstr "「Controller」タブの「Activatate」ボタンをクリックします。"
 
 #: ../../guide/SoftwareCalibration.rst:278
-#, fuzzy
 msgid "Click the “Activate/Deactivate” button of the \"Pupper\" tab."
 msgstr "「Pupper」タブの「Activatate/Deactivate」ボタンをクリックします。"
 
