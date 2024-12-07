@@ -11,7 +11,7 @@ The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by
 **Make sure to launch the Bringup from Mini Pupper before executing any operation.**
 
 1. Run SLAM Node
-------------
+------------------
 
 1. If Bringup is not launched on Mini Pupper, launch Bringup first.
 
@@ -24,22 +24,22 @@ The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by
 
 	ssh ubuntu@{IP_ADDRESS_OF_MINI_PUPPER}
 
-•	Bring up basic packages to start Mini Pupper applications. 
+•	Bring up basic packages to start Mini Pupper applications.
 
 ::
-	
+
 	. ~/ros2_ws/install/setup.bash
 	ros2 launch mini_pupper_bringup bringup.launch.py
 
-2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node. 
+2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the SLAM node.
 
 ::
-	
+
 	. ~/ros2_ws/install/setup.bash
 	ros2 launch mini_pupper_slam slam.launch.py
 
 2. Teleoperation
-------------
+--------------------
 
 Following the steps below, we can use teleoperation to explore unknown area of the map.
 
@@ -47,7 +47,7 @@ Following the steps below, we can use teleoperation to explore unknown area of t
 **WARNING: Make sure to run the Bringup from the Mini Pupper before teleoperation. Be careful when testing the robot on the table as the robot might fall during teleoperation.**
 
 2.1 Keyboard
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
 2. Run teleoperation node using the following command.
@@ -58,7 +58,7 @@ Following the steps below, we can use teleoperation to explore unknown area of t
 	ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 2.2 Joystick
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open a terminal with Ctrl+Alt+T on remote PC.
 2. Run teleoperation node using the following command.
@@ -71,12 +71,12 @@ Following the steps below, we can use teleoperation to explore unknown area of t
 After teleoperation, a map with unknown area revealed will be shown as followed:
 
 .. image:: ../_static/Map_generation.jpg
-    :align: center  
+    :align: center
 
 |
 
 3. Save the map
-------------
+------------------------
 
 Following the steps below, the files of the map will be saved.
 
@@ -88,13 +88,13 @@ The map file is saved in the directory where the map_saver_cli node is launched 
 ::
 
 	. ~/ros2_ws/install/setup.bash
-	ros2 run nav2_map_server map_saver_cli -f ~/map 
+	ros2 run nav2_map_server map_saver_cli -f ~/map
 
 After running the above command, two files will be generated, namely map.pgm and map.yaml.
 
 The following pictures shows the .pgm file to be saved.
 
 .. image:: ../_static/map2.png
-    :align: center  
+    :align: center
 
 |
