@@ -99,7 +99,7 @@ msgstr "3. キーボードコントローラー"
 
 #: ../../guide/Examples.rst:66
 msgid "3.1 Keyboard controller based on nonROS version"
-msgstr "3.1 非 ROS バージョンに基づくキーボードコントローラー"
+msgstr "3.1 ROSを使わないキーボードコントローラー"
 
 #: ../../guide/Examples.rst:67
 msgid ""
