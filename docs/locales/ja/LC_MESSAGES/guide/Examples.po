@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../guide/Examples.rst:108
 msgid "6. Forward Kinematics"
-msgstr "6. Forward kinematics(フォワードキネマティクス)"
+msgstr "6. 順運動学（Forward Kinematics）"
 
 #: ../../guide/Examples.rst:111 ../../guide/Examples.rst:148
 msgid "Lecture"
