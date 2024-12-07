@@ -206,7 +206,7 @@ msgstr ""
 #: ../../guide/Examples.rst:145
 #, fuzzy
 msgid "7. Inverse Kinematics"
-msgstr "7. Inverse kinematics(インバースキネマティクス)"
+msgstr "7. 逆運動学（Inverse Kinematics）"
 
 #: ../../guide/Examples.rst:152
 msgid ""
