@@ -167,7 +167,7 @@ msgstr "講義"
 
 #: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
 msgid "Please study the basic knowledge of forward kinematics online first."
-msgstr "まずはオンラインでフォワードキネマティクスの基礎知識を学んでください。"
+msgstr "まずはオンラインで順運動学の基礎知識を学んでください。"
 
 #: ../../guide/Examples.rst:115
 msgid ""
