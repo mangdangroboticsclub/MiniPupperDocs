@@ -108,8 +108,8 @@ msgid ""
 "it's Pygame-based keyboard controller for Stanford Pupper."
 msgstr ""
 "この機能は、Stanford Pupper 用の Pygame ベースのキーボード "
-"コントローラーであるPupperKeyboardController "
-"プロジェクトに基づいています。<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_"
+"コントローラーである `PupperKeyboardController <https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ "
+"プロジェクトに基づいています。"
 
 #: ../../guide/Examples.rst:69
 msgid "Install PyGame"
