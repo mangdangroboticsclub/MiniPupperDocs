@@ -37,8 +37,8 @@ msgid ""
 " by one of our contributor @Tiryoh."
 msgstr ""
 "Mini PupperのROS2インストールパッケージは、私たちのコントリビューターの一人である@Tiryohによって書かれた "
-"`ros2_setup_scripts "
-"<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`に基づいています。"
+" `ros2_setup_scripts "
+"<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_ に基づいています。"
 
 #: ../../guide/ROS2Guide.rst:13
 msgid ""
