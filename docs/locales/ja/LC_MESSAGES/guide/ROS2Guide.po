@@ -56,8 +56,8 @@ msgid ""
 "<https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  open source "
 "project."
 msgstr ""
-"lidarセンサーをサポートするMini Pupperのソフトウェアは`ldlidar_stl_ros2 "
-"<https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_ "
+"lidarセンサーをサポートするMini Pupperのソフトウェアは `ldlidar_stl_ros2 "
+"<https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  "
 "オープンソースプロジェクトに基づいています。"
 
 #: ../../guide/ROS2Guide.rst:16
