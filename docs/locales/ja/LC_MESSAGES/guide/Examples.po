@@ -199,7 +199,7 @@ msgid ""
 " You can run it on your Windows or Ubuntu with Python environment, just "
 "like the following picture shows."
 msgstr ""
-"ミニぷぱに基づく簡単なフォワードキネマティクスのサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
+"ミニぷぱに基づく簡単な順運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で "
 "Python 環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
