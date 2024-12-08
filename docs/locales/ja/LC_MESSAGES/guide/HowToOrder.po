@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/HowToOrder.rst:3
+msgid "How To Order"
+msgstr "注文方法"
+
+#: ../../guide/HowToOrder.rst:6
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../guide/HowToOrder.rst:9
+msgid "Order parts individually"
+msgstr "部品の個別注文"
+
+#: ../../guide/HowToOrder.rst:10
+msgid ""
+"You can order all the parts one by one, Please find the BOM list to order"
+" `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ ."
+msgstr ""
+"すべてのパーツを1つずつ注文することができます。"
+" `こちら <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`"
+
+#: ../../guide/HowToOrder.rst:12
+msgid ""
+"However, you can purchase a kit to build the robot from MangDang channel "
+"for cheaper and one-stop shopping."
+msgstr ""
+"MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
+
+#: ../../guide/HowToOrder.rst:16
+msgid "One-stop channel"
+msgstr "ワンストップチャンネル"
+
+#: ../../guide/HowToOrder.rst:18
+msgid "World Wide"
+msgstr "ワールドワイド"
+
+#: ../../guide/HowToOrder.rst:19
+msgid "`Shopify <https://mangdang.store/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:20
+msgid ""
+"`Aliexpress "
+"<https://www.aliexpress.com/store/911381222?spm=a2g0o.detail.1000007.1.2ed464e6sdYBwy>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:23
+msgid "North America"
+msgstr "北アメリカ"
+
+#: ../../guide/HowToOrder.rst:24
+msgid ""
+"`Amazon "
+"<https://www.amazon.com/s?me=A3V5171RNQ5C18&marketplaceID=ATVPDKIKX0DER>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:25
+msgid "`RobotShop <https://www.robotshop.com/en/vendor/mangdang.html>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:28
+msgid "Japan 日本"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:29
+msgid ""
+"`Amazon "
+"<https://www.amazon.co.jp/s?me=A14LOTMOI42BRX&marketplaceID=A1VC38T7YXB528>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:30
+msgid "`Makuake <https://www.makuake.com/project/mini_pupper/shopping/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:31
+msgid "`楽天市場 <https://www.rakuten.co.jp/mangdang/>`_"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:34
+msgid "China 中国"
+msgstr ""
+
+#: ../../guide/HowToOrder.rst:35
+msgid ""
+"`Taobao "
+"<https://shop170300127.taobao.com/search.htm?spm=a1z10.1-c-s.w5002-22838104363.1.6d5d661eivPk3l&search=y>`_"
+msgstr ""
+

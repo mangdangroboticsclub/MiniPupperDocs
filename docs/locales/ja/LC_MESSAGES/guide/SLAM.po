@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/SLAM.rst:3
+msgid "SLAM"
+msgstr "SLAM"
+
+#: ../../guide/SLAM.rst:6
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../guide/SLAM.rst:8
+msgid ""
+"The SLAM (Simultaneous Localization and Mapping) is a technique to draw a"
+" map by estimating current location in an arbitrary space. Following the "
+"steps below, we can use Mini Pupper to draw a map of the surrounding "
+"area."
+msgstr ""
+
+#: ../../guide/SLAM.rst:10
+msgid ""
+"**NOTE: Please run the SLAM node on Remote PC.** **Make sure to launch "
+"the Bringup from Mini Pupper before executing any operation.**"
+msgstr ""
+
+#: ../../guide/SLAM.rst:14
+msgid "1. Run SLAM Node"
+msgstr ""
+
+#: ../../guide/SLAM.rst:16
+msgid "If Bringup is not launched on Mini Pupper, launch Bringup first."
+msgstr ""
+
+#: ../../guide/SLAM.rst:18
+msgid "Open a terminal with Ctrl+Alt+T  to connect Mini Pupper."
+msgstr ""
+
+#: ../../guide/SLAM.rst:19
+msgid "Look at monitor of Mini Pupper to obtain the IP address of it."
+msgstr ""
+
+#: ../../guide/SLAM.rst:21
+msgid ""
+"Use one of the terminals and run the following command to connect to the "
+"Mini Pupper. The default password is mangdang."
+msgstr ""
+
+#: ../../guide/SLAM.rst:27
+msgid "Bring up basic packages to start Mini Pupper applications."
+msgstr ""
+
+#: ../../guide/SLAM.rst:34
+msgid ""
+"Open a new terminal from Remote PC with Ctrl + Alt + T and launch the "
+"SLAM node."
+msgstr ""
+
+#: ../../guide/SLAM.rst:42
+msgid "2. Teleoperation"
+msgstr ""
+
+#: ../../guide/SLAM.rst:44
+msgid ""
+"Following the steps below, we can use teleoperation to explore unknown "
+"area of the map."
+msgstr ""
+
+#: ../../guide/SLAM.rst:46
+msgid ""
+"**NOTE: Once SLAM node is successfully up and running. Vigorous change of"
+" the linear and angular speed might lower the smoothness of map "
+"generated.** **WARNING: Make sure to run the Bringup from the Mini Pupper"
+" before teleoperation. Be careful when testing the robot on the table as "
+"the robot might fall during teleoperation.**"
+msgstr ""
+
+#: ../../guide/SLAM.rst:50
+msgid "2.1 Keyboard"
+msgstr ""
+
+#: ../../guide/SLAM.rst:52 ../../guide/SLAM.rst:63 ../../guide/SLAM.rst:83
+msgid "Open a terminal with Ctrl+Alt+T on remote PC."
+msgstr ""
+
+#: ../../guide/SLAM.rst:53 ../../guide/SLAM.rst:64
+msgid "Run teleoperation node using the following command."
+msgstr ""
+
+#: ../../guide/SLAM.rst:61
+msgid "2.2 Joystick"
+msgstr ""
+
+#: ../../guide/SLAM.rst:71
+msgid ""
+"After teleoperation, a map with unknown area revealed will be shown as "
+"followed:"
+msgstr ""
+
+#: ../../guide/SLAM.rst:79
+msgid "3. Save the map"
+msgstr ""
+
+#: ../../guide/SLAM.rst:81
+msgid "Following the steps below, the files of the map will be saved."
+msgstr ""
+
+#: ../../guide/SLAM.rst:84
+msgid ""
+"Use the following command to launch the map_saver_cli node in the "
+"nav2_map_server package to create map files."
+msgstr ""
+
+#: ../../guide/SLAM.rst:86
+msgid ""
+"The map file is saved in the directory where the map_saver_cli node is "
+"launched at."
+msgstr ""
+
+#: ../../guide/SLAM.rst:93
+msgid ""
+"After running the above command, two files will be generated, namely "
+"map.pgm and map.yaml."
+msgstr ""
+
+#: ../../guide/SLAM.rst:95
+msgid "The following pictures shows the .pgm file to be saved."
+msgstr ""
+

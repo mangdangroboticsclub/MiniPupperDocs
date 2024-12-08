@@ -1,0 +1,882 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/ROS2Guide.rst:3
+msgid "ROS2 Guide"
+msgstr "ROS2ガイド"
+
+#: ../../guide/ROS2Guide.rst:6
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../guide/ROS2Guide.rst:9
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../guide/ROS2Guide.rst:12
+msgid ""
+"Mini Pupper's ROS2 installation package is based on `ros2_setup_scripts "
+"<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_  which is written"
+" by one of our contributor @Tiryoh."
+msgstr ""
+"Mini PupperのROS2インストールパッケージは、私たちのコントリビューターの一人である@Tiryohによって書かれた "
+" `ros2_setup_scripts "
+"<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_ に基づいています。"
+
+#: ../../guide/ROS2Guide.rst:13
+msgid ""
+"Mini Pupper's ROS2 version is based on `Champ "
+"<https://github.com/chvmp/champ>`_  open source project, and we made some"
+" changes to SLAM and Navigation functions."
+msgstr ""
+"Mini PupperのROS2バージョンは `Champ <https://github.com/chvmp/champ>`_  "
+"オープンソースプロジェクトをベースにしており、SLAMとナビゲーション機能にいくつかの変更を加えました。"
+
+#: ../../guide/ROS2Guide.rst:14
+msgid ""
+"Mini Pupper's software supporting lidar sensor is based on "
+"`ldlidar_stl_ros2 "
+"<https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  open source "
+"project."
+msgstr ""
+"lidarセンサーをサポートするMini Pupperのソフトウェアは `ldlidar_stl_ros2 "
+"<https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2>`_  "
+"オープンソースプロジェクトに基づいています。"
+
+#: ../../guide/ROS2Guide.rst:16
+msgid ""
+"We recommend you explore Mini Pupper with ROS2 network, make sure your PC"
+" and Mini Pupper have connected to the same WiFi."
+msgstr "PCとMini Pupperが同じWiFiに接続されていることを確認してください。"
+
+#: ../../guide/ROS2Guide.rst:18
+msgid ""
+"Through the following steps, you will be able to setup the ros2 for your "
+"remote PC and the Mini Pupper."
+msgstr "以下のステップで、リモートPCとMini Pupperのros2をセットアップすることができます。"
+
+#: ../../guide/ROS2Guide.rst:21
+msgid "1. PC Setup"
+msgstr "1. PCセットアップ"
+
+#: ../../guide/ROS2Guide.rst:23
+msgid ""
+"PC Setup corresponds to PC (your desktop or laptop PC) for controlling "
+"Mini Pupper remotely. Do not apply these commands to your Mini Pupper."
+msgstr ""
+"PCセットアップはMini "
+"PupperをリモートコントロールするためのPC（デスクトップまたはラップトップPC）に対応しています。これらのコマンドをMini "
+"Pupperに適用しないでください。"
+
+#: ../../guide/ROS2Guide.rst:25
+msgid ""
+"**WARNING: The contents in this chapter corresponds to the Remote PC "
+"(your desktop or laptop PC) which will control Mini Pupper. Do not apply "
+"these commands to your Raspberry Pi on Mini Pupper or Compute Module 4 on"
+" Mini Pupper 2.**"
+msgstr ""
+"警告：本章の内容は、ミニぷぱを制御するリモートPC（デスクトップまたはラップトップPC）に対応しています。これらのコマンドをミニぷぱ上のRaspberry"
+" Piやミニぷぱ2上のCompute Module 4に適用しないでください。"
+
+#: ../../guide/ROS2Guide.rst:27
+msgid ""
+"**NOTE: This instruction was tested on Linux with Ubuntu 22.04 and ROS2 "
+"Humble.**"
+msgstr "**注：この説明はLinuxのUbuntu 22.04とROS2 Humbleでテストしました。**"
+
+#: ../../guide/ROS2Guide.rst:30
+msgid "1.1 Install ROS 2 Humble"
+msgstr "ROS2 Humbleのインストール"
+
+#: ../../guide/ROS2Guide.rst:32 ../../guide/ROS2Guide.rst:47
+#: ../../guide/ROS2Guide.rst:60
+msgid "Open the terminal with Ctrl+Alt+T from Remote PC."
+msgstr "リモートPCからCtrl+Alt+Tでターミナルを開く。"
+
+#: ../../guide/ROS2Guide.rst:42
+msgid ""
+"After ROS 2 installation, download the Mini Pupper ROS package in the "
+"workspace."
+msgstr "ROS 2のインストール後、ワークスペースでミニぷぱ ROSパッケージをダウンロードします。"
+
+#: ../../guide/ROS2Guide.rst:45
+msgid "1.2 Install Mini Pupper ROS Repository"
+msgstr "1.2 ミニぷぱ ROSレポジトリのインストール"
+
+#: ../../guide/ROS2Guide.rst:58
+msgid "1.3 Install Dependent ROS 2 Packages and Build Package"
+msgstr "1.3 依存する ROS 2 パッケージのインストールとパッケージのビルド"
+
+#: ../../guide/ROS2Guide.rst:72
+msgid "1.4. Export Robot Model"
+msgstr "1.4 ロボットモデルのエクスポート"
+
+#: ../../guide/ROS2Guide.rst:74
+msgid "Open ~/.bashrc with text editor in the terminal."
+msgstr "ターミナルで~/.bashrcをテキストエディタで開く。"
+
+#: ../../guide/ROS2Guide.rst:80 ../../guide/ROS2Guide.rst:186
+msgid "Scroll to the end of the file."
+msgstr "ファイルの最後までスクロールする"
+
+#: ../../guide/ROS2Guide.rst:87 ../../guide/ROS2Guide.rst:193
+msgid ""
+"Add the following line to export the robot model with the computer. "
+"Please use the proper keyword among mini_pupper, mini_pupper_2 for the "
+"ROBOT_MODEL parameter according to your robot model."
+msgstr ""
+"以下の行を追加して、ロボットモデルをコンピュータにエクスポートしてください。ROBOT_MODELパラメータには、あなたのロボットモデルに合わせて、mini_pupper,"
+" mini_pupper_2の中から適切なキーワードを使用してください。"
+
+#: ../../guide/ROS2Guide.rst:93 ../../guide/ROS2Guide.rst:167
+#: ../../guide/ROS2Guide.rst:199 ../../guide/ROS2Guide.rst:242
+msgid "Save the file with Ctrl+S and exit with Ctrl+X."
+msgstr "Ctrl+Sでファイルを保存し、Ctrl+Xで終了する。"
+
+#: ../../guide/ROS2Guide.rst:94 ../../guide/ROS2Guide.rst:200
+#: ../../guide/ROS2Guide.rst:243
+msgid "Run the following command to apply the change."
+msgstr "以下のコマンドを実行して変更を適用する。"
+
+#: ../../guide/ROS2Guide.rst:102
+msgid "2. Mini Pupper Setup"
+msgstr "2. ミニぷぱのセットアップ"
+
+#: ../../guide/ROS2Guide.rst:105
+msgid "2.1 Image flashing"
+msgstr "2.1 イメージの書き込み"
+
+#: ../../guide/ROS2Guide.rst:107
+msgid ""
+"The steps below are for you to setup ROS2 environment of Mini Pupper by "
+"yourself. You can also download the `pre-built ROS image "
+"<https://drive.google.com/drive/folders/1ZF4vulHbXvVF4RPWWGxEe7rxcJ9LyeEu?usp=sharing>`_"
+" for Mini Pupper side, named \"YYYYMMDD_MD-"
+"Puppy2_ROS2Humble_Ubuntu22.04.img\" or \"YYYYMMDD_MD-"
+"Puppy1_ROS2Humble_Ubuntu22.04.img\". Please select the appropriate image "
+"according to the date and the robot model."
+msgstr ""
+"以下の手順はミニぷぱのROS2環境をご自身でセットアップするためのものです。また、ミニぷぱ側で "
+"`ビルド済みのROSイメージ<https://drive.google.com/drive/folders/1ZF4vulHbXvVF4RPWWGxEe7rxcJ9LyeEu?usp=sharing>`_"
+"（\"YYYYMMDD_MD-Puppy2_ROS2Humble_Ubuntu22.04.img \" または \"YYYYMMDD_MD-"
+"Puppy1_ROS2Humble_Ubuntu22.04.img\"）をダウンロードすることもできます。日付とロボットの機種に応じて適切なイメージを選択してください。"
+
+#: ../../guide/ROS2Guide.rst:110
+msgid ""
+"The image can be flashed into the card using an adaptor. If your PC do "
+"not have a microSD slot, please use a microSD card reader to burn the "
+"image."
+msgstr "イメージはアダプターを使用してカードに書き込みすることができます。PCにmicroSDスロットがない場合は、microSDカードリーダーを使用してイメージを書き込んでください。"
+
+#: ../../guide/ROS2Guide.rst:111
+msgid ""
+"Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the "
+"official website, and flash it into your SD card according to the "
+"following guide."
+msgstr ""
+"公式サイトからubuntu-22.04.2-preinstalled-server-"
+"arm64+raspi.img.xzをダウンロードし、以下のガイドに従ってSDカードに書き込みする。"
+
+#: ../../guide/ROS2Guide.rst:112
+msgid "Download balenaEtcher from https://etcher.balena.io/."
+msgstr "https://etcher.balena.io/ から、balenaEtcherをダウンロードしてください。"
+
+#: ../../guide/ROS2Guide.rst:113
+msgid ""
+"Press the blue button to choose the destination where you download the "
+"image and select the image."
+msgstr "青いボタンを押して、画像のダウンロード先を選択し、画像を選択します。"
+
+#: ../../guide/ROS2Guide.rst:120
+msgid ""
+"Press the blue button to choose the destination where you are flashing "
+"the image into (the address of the SD card)."
+msgstr "青いボタンを押して、イメージを書き込みする先（SDカードの場所）を選択します。"
+
+#: ../../guide/ROS2Guide.rst:132
+msgid ""
+"Press the flash button and you will see the image below. Wait until the "
+"process to complete."
+msgstr "\"Flash!\"(書き込み)ボタンを押すと、下の画像が表示されます。プロセスが完了するまで待ちます。"
+
+#: ../../guide/ROS2Guide.rst:145
+msgid "2.2 Wifi-Setting"
+msgstr "2.2 Wi-Fi設定"
+
+#: ../../guide/ROS2Guide.rst:147
+msgid "Plug the card into the Mini Pupper card port and setup your own wifi."
+msgstr "SDカードをミニぷぱのカードポートに差し込み、Wi-Fi接続のための設定をします。"
+
+#: ../../guide/ROS2Guide.rst:154
+msgid "Run the following command to edit the network setting of the pupper."
+msgstr "以下のコマンドを実行して、ミニぷぱのネットワーク設定を編集します。"
+
+#: ../../guide/ROS2Guide.rst:160
+msgid ""
+"When the editor is opened, edit the content as below while replacing "
+"Mangdang and mangdang with your actual wifi SSID and password."
+msgstr "エディタが開いたら、Mangdangとmangdangを実際のWi-FiのSSIDとパスワードに置き換えながら、以下のように内容を編集してください。"
+
+#: ../../guide/ROS2Guide.rst:168
+msgid "Run the following commands to reboot and connect to your actual wifi."
+msgstr "以下のコマンドを実行して再起動し、Wi-Fiに接続します。"
+
+#: ../../guide/ROS2Guide.rst:178
+msgid "2.3 Robot model setting"
+msgstr "2.3 ロボットモデルの設定"
+
+#: ../../guide/ROS2Guide.rst:180
+msgid "After reboot, open ~/.bashrc with text editor in the terminal."
+msgstr "再起動後、ターミナルで~/.bashrcをテキストエディタで開く。"
+
+#: ../../guide/ROS2Guide.rst:207
+msgid "3. Connecting Mini Pupper to PC"
+msgstr "3. ミニぷぱとPCの接続"
+
+#: ../../guide/ROS2Guide.rst:209
+msgid "Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini "
+"Pupper and one for PC local."
+msgstr "Ctrl+Alt+T でターミナルを開き、ミニぷぱ に接続します。"
+
+#: ../../guide/ROS2Guide.rst:210 ../../guide/ROS2Guide.rst:336
+#: ../../guide/ROS2Guide.rst:485 ../../guide/ROS2Guide.rst:596
+#: ../../guide/ROS2Guide.rst:920 ../../guide/ROS2Guide.rst:946
+msgid "Look at monitor of Mini Pupper to obtain the IP address of it."
+msgstr "ミニぷぱの画面を見て、IPアドレスを取得する。"
+
+#: ../../guide/ROS2Guide.rst:217
+msgid ""
+"Use one of the terminals and run the following command to connect to the "
+"Mini Pupper. The default password is “mangdang”."
+msgstr "ターミナルを使用し、以下のコマンドを実行してミニぷぱに接続してください。デフォルトのパスワードは \"mangdang \"です。"
+
+#: ../../guide/ROS2Guide.rst:223
+msgid "Open ~/.bashrc with text editor in both terminals."
+msgstr "両方のターミナルで~/.bashrcをテキストエディタで開く。"
+
+#: ../../guide/ROS2Guide.rst:229
+msgid "Scroll to the end of the file for both terminals."
+msgstr "両端末のファイルを最後までスクロールする。"
+
+#: ../../guide/ROS2Guide.rst:236
+msgid ""
+"Add the following line in both terminals to setup the connection. The "
+"number inputted can be any number, but it should be the same for both "
+"terminals."
+msgstr "両端末に以下の行を追加して接続を設定する。入力される数字はどのようなものでも構いませんが、両端末で同じでなければなりません。"
+
+#: ../../guide/ROS2Guide.rst:249
+msgid ""
+"Use the following command in both terminals to confirm that the PC and "
+"the Mini Pupper are connected:"
+msgstr "両方のターミナルで以下のコマンドを使用し、PCとミニぷぱが接続されていることを確認します:"
+
+#: ../../guide/ROS2Guide.rst:255
+msgid "Compare the output in both terminals:"
+msgstr "両ターミナルの出力を比較する:"
+
+#: ../../guide/ROS2Guide.rst:262
+msgid ""
+"If the output in both terminals shows the same list of node which is "
+"similar to the picture, your PC and the Mini Pupper is connected"
+msgstr "両端末の出力が画像と同じようなノードリストを表示していれば、PCとミニぷぱは接続されています。"
+
+#: ../../guide/ROS2Guide.rst:264
+msgid ""
+"**NOTE: the node list depends on the nodes in progress, which may not be "
+"exactly the same from the image.**"
+msgstr "注意：ノードのリストは起動中のノードに依存するため、画像とは多少異なる場合もあります。"
+
+#: ../../guide/ROS2Guide.rst:271
+msgid "Quick Start"
+msgstr "クイックスタート"
+
+#: ../../guide/ROS2Guide.rst:274
+msgid "1. Joystick Setup"
+msgstr "1. ジョイスティック設定"
+
+#: ../../guide/ROS2Guide.rst:276
+msgid ""
+"Through the following steps, you will be able to connect and set up the "
+"ROS2 software for the joystick."
+msgstr "以下の手順で、ROS2ソフトウェアにジョイスティックに接続設定できます。"
+
+#: ../../guide/ROS2Guide.rst:278
+msgid "Press the HOME button on the controller."
+msgstr "コントローラの HOME ボタンを押す。"
+
+#: ../../guide/ROS2Guide.rst:285
+msgid "Search for available bluetooth devices on your PC and connect to it."
+msgstr "PC上で利用可能なBluetoothデバイスを検索し接続"
+
+#: ../../guide/ROS2Guide.rst:297
+msgid "The video below shows the change of flashlight colour during connection."
+msgstr "次の動画は、接続中のフラッシュライトの色の変化"
+
+#: ../../guide/ROS2Guide.rst:307
+msgid "Use the following command to check the name of the joystick."
+msgstr "以下のコマンドでジョイスティックの名前を確認"
+
+#: ../../guide/ROS2Guide.rst:309
+msgid "Terminal output: In this case the name of the joystick is “js0”."
+msgstr "ターミナルの出力：この場合、ジョイスティックの名前は \"js0 \"です。"
+
+#: ../../guide/ROS2Guide.rst:316
+msgid "Use the following command to check if the joystick us connected."
+msgstr "以下のコマンドで、ジョイスティックが接続されているかどうかを確認します"
+
+#: ../../guide/ROS2Guide.rst:323
+msgid "There will be output as followed if joystick is connected."
+msgstr "ジョイスティックが接続されている場合は、次のような出力になります"
+
+#: ../../guide/ROS2Guide.rst:331
+msgid "2. Bringup"
+msgstr "2. 起動"
+
+#: ../../guide/ROS2Guide.rst:333
+msgid ""
+"Through the following steps, you will be able launch the software to "
+"bringup the Mini Pupper hardware."
+msgstr "以下の手順でソフトウェアを実行し、ミニぷぱハードウェアを起動します。"
+
+#: ../../guide/ROS2Guide.rst:335 ../../guide/ROS2Guide.rst:484
+#: ../../guide/ROS2Guide.rst:595 ../../guide/ROS2Guide.rst:945
+msgid "Open a terminal with Ctrl+Alt+T  to connect Mini Pupper."
+msgstr "Ctrl+Alt+T でターミナルを開き、ミニぷぱ に接続します。"
+
+#: ../../guide/ROS2Guide.rst:337 ../../guide/ROS2Guide.rst:487
+#: ../../guide/ROS2Guide.rst:603 ../../guide/ROS2Guide.rst:922
+#: ../../guide/ROS2Guide.rst:949
+msgid ""
+"Use one of the terminals and run the following command to connect to the "
+"Mini Pupper. The default password is mangdang."
+msgstr "いずれかのターミナルを使用し、以下のコマンドを実行してミニぷぱに接続します。デフォルトのパスワードは \"mangdang\"です。"
+
+#: ../../guide/ROS2Guide.rst:343
+msgid ""
+"Bring up basic packages to start Mini Pupper applications. The command of"
+" sourcing the built package, \". ~/ros2_ws/install/setup.bash\" can be "
+"replaced by \". ~/ros2_ws/install/setup.zsh\", depending on the file type"
+" you use."
+msgstr ""
+"ミニぷぱアプリケーションを起動するための基本パッケージを呼び出します。ビルドされたパッケージをsource するコマンド、"
+"「. ~/ros2_ws/install/setup.bash」は、「./ros2_ws/install/setup.zsh」に置き換えることができます。"
+
+#: ../../guide/ROS2Guide.rst:350
+msgid ""
+"When the robot model is Mini Pupper 2, the terminal output will look like"
+" below."
+msgstr "ロボットモデルがミニぷぱ2の場合、ターミナル出力は以下のようになります。"
+
+#: ../../guide/ROS2Guide.rst:362
+msgid "Topics and services can be listed with commands below."
+msgstr "トピックやサービスは、以下のコマンドで一覧できます。"
+
+#: ../../guide/ROS2Guide.rst:364
+msgid "Topic list"
+msgstr "トピック一覧"
+
+#: ../../guide/ROS2Guide.rst:375
+msgid "Service list"
+msgstr "サービス一覧"
+
+#: ../../guide/ROS2Guide.rst:387
+msgid "3. Teleoporation"
+msgstr "3.遠隔操作"
+
+#: ../../guide/ROS2Guide.rst:389
+msgid ""
+"Through the following steps, you will be able to teleoperate Mini Pupper "
+"either using the keyboard or joystick."
+msgstr "以下の手順で、キーボードまたはジョイスティックを使ってミニぷぱを遠隔操作することができます。"
+
+#: ../../guide/ROS2Guide.rst:391 ../../guide/ROS2Guide.rst:433
+msgid ""
+"**WARNING: Make sure to run the Bringup from the Mini Pupper before "
+"teleoperation. Teleoperate the robot, and be careful when testing the "
+"robot on the table as the robot might fall.**"
+msgstr "警告:遠隔操作の前に、必ずミニぷぱからブリングアップを実行してください。ロボットを遠隔操作し、ロボットをテーブル上でテストする際は、ロボットが落下する可能性があるため注意してください。"
+
+#: ../../guide/ROS2Guide.rst:394
+msgid "3.1 Keyboard"
+msgstr "3.1 キーボード"
+
+#: ../../guide/ROS2Guide.rst:396 ../../guide/ROS2Guide.rst:435
+#: ../../guide/ROS2Guide.rst:518 ../../guide/ROS2Guide.rst:529
+#: ../../guide/ROS2Guide.rst:549 ../../guide/ROS2Guide.rst:684
+#: ../../guide/ROS2Guide.rst:694 ../../guide/ROS2Guide.rst:730
+#: ../../guide/ROS2Guide.rst:740 ../../guide/ROS2Guide.rst:786
+#: ../../guide/ROS2Guide.rst:796 ../../guide/ROS2Guide.rst:817
+msgid "Open a terminal with Ctrl+Alt+T on remote PC."
+msgstr "リモートPCでCtrl+Alt+Tでターミナルを開く。"
+
+#: ../../guide/ROS2Guide.rst:397 ../../guide/ROS2Guide.rst:436
+#: ../../guide/ROS2Guide.rst:519 ../../guide/ROS2Guide.rst:530
+#: ../../guide/ROS2Guide.rst:685 ../../guide/ROS2Guide.rst:695
+#: ../../guide/ROS2Guide.rst:731 ../../guide/ROS2Guide.rst:741
+#: ../../guide/ROS2Guide.rst:787 ../../guide/ROS2Guide.rst:797
+msgid "Run teleoperation node using the following command."
+msgstr "以下のコマンドを使用して、遠隔操作ノードを実行する。"
+
+#: ../../guide/ROS2Guide.rst:404 ../../guide/ROS2Guide.rst:443
+msgid "Terminal output:"
+msgstr "ターミナル出力:"
+
+#: ../../guide/ROS2Guide.rst:411
+msgid "You can drive the pupper using the keyboard following the guide below."
+msgstr "以下のガイドに従って、キーボードを使ってミニぷぱを操作することができます。"
+
+#: ../../guide/ROS2Guide.rst:418
+msgid ""
+"The video shows the effect of each keyboard button on the movement of the"
+" robot."
+msgstr "各キーボードボタンとロボットの動きの動画"
+
+#: ../../guide/ROS2Guide.rst:429
+msgid "3.2 Joystick"
+msgstr "3.2 ジョイスティック"
+
+#: ../../guide/ROS2Guide.rst:431
+msgid ""
+"**NOTE: The design of button of joystick node on ROS2 is different from "
+"that mentioned in other sections which is used for non-ROS programs.**"
+msgstr "注意: ROS2のジョイスティックノードのボタンのデザインは、他のセクションで述べられているROS以外のプログラムで使用されるものとは異なります。"
+
+#: ../../guide/ROS2Guide.rst:450
+msgid "You can drive the pupper using the joystick following the guide below."
+msgstr "警告:遠隔操作の前に、必ずミニぷぱからブリングアップを実行してください。ロボットを遠隔操作し、ロボットをテーブル上でテストする際は、ロボットが落下する可能性があるため注意してください。"
+
+#: ../../guide/ROS2Guide.rst:457
+msgid ""
+"The video shows the effect of each button of the joystick on the movement"
+" of the robot."
+msgstr "以下のコマンドを使用して、遠隔操作ノードを実行する。"
+
+#: ../../guide/ROS2Guide.rst:472
+msgid "SLAM"
+msgstr ""
+
+#: ../../guide/ROS2Guide.rst:474
+msgid ""
+"The SLAM (Simultaneous Localization and Mapping) is a technique to draw a"
+" map by estimating current location in an arbitrary space. Following the "
+"steps below, we can use Mini Pupper to draw a map of the surrounding "
+"area."
+msgstr ""
+"SLAM（Simultaneous Localization and "
+"Mapping:地図と位置の同時推定）とは、任意の空間内の現在位置を推定して地図を描く技術です。以下の手順で、ミニぷぱを使って周辺地図を描画します。"
+
+#: ../../guide/ROS2Guide.rst:476
+msgid ""
+"**NOTE: Please run the SLAM node on Remote PC.** **Make sure to launch "
+"the Bringup from Mini Pupper before executing any operation.**"
+msgstr "**注意:リモートPC上でSLAMノードを実行してください。****操作を実行する前に、必ずミニぷぱから起動してください。**"
+
+#: ../../guide/ROS2Guide.rst:480
+msgid "1. Run SLAM Node"
+msgstr "1. SLAMノードを実行する"
+
+#: ../../guide/ROS2Guide.rst:482
+msgid "If Bringup is not launched on Mini Pupper, launch Bringup first."
+msgstr "起動されていない場合はまずミニぷぱから起動してください。"
+
+#: ../../guide/ROS2Guide.rst:493 ../../guide/ROS2Guide.rst:609
+#: ../../guide/ROS2Guide.rst:955
+msgid "Bring up basic packages to start Mini Pupper applications."
+msgstr "ミニぷぱの基本パッケージを立ち上げて起動します。"
+
+#: ../../guide/ROS2Guide.rst:500 ../../guide/ROS2Guide.rst:774
+msgid ""
+"Open a new terminal from Remote PC with Ctrl + Alt + T and launch the "
+"SLAM node."
+msgstr "リモートPCからCtrl + Alt + Tで新しいターミナルを開き、SLAMノードを起動する。"
+
+#: ../../guide/ROS2Guide.rst:508
+msgid "2. Teleoperation"
+msgstr "2. 遠隔操作"
+
+#: ../../guide/ROS2Guide.rst:510
+msgid ""
+"Following the steps below, we can use teleoperation to explore unknown "
+"area of the map."
+msgstr "以下の手順で、遠隔操作を使って地図上の未知のエリアを探索することができる。"
+
+#: ../../guide/ROS2Guide.rst:512
+msgid ""
+"**NOTE: Once SLAM node is successfully up and running. Vigorous change of"
+" the linear and angular speed might lower the smoothness of map "
+"generated.** **WARNING: Make sure to run the Bringup from the Mini Pupper"
+" before teleoperation. Be careful when testing the robot on the table as "
+"the robot might fall during teleoperation.**"
+msgstr "**注意:SLAMノードが正常に起動して動作している状態で、直線速度や角速度を大きく変化させると、生成されるマップの滑らかさが低下する可能性があります。****警告:遠隔操作の前に、必ずミニぷぱから起動してください。また、遠隔操作中にロボットが落下する恐れがあるため、テーブル上でロボットをテストする際は十分に注意してください。**"
+
+#: ../../guide/ROS2Guide.rst:516
+msgid "2.1 Keyboard"
+msgstr "2.1 キーボード"
+
+#: ../../guide/ROS2Guide.rst:527
+msgid "2.2 Joystick"
+msgstr "2.2 ジョイスティック"
+
+#: ../../guide/ROS2Guide.rst:537
+msgid ""
+"After teleoperation, a map with unknown area revealed will be shown as "
+"followed:"
+msgstr "遠隔操作の後、以下のように未知の領域が明らかになった地図が表示される:"
+
+#: ../../guide/ROS2Guide.rst:545
+msgid "3. Save the map"
+msgstr "地図を保存する"
+
+#: ../../guide/ROS2Guide.rst:547
+msgid "Following the steps below, the files of the map will be saved."
+msgstr "下の手順で、地図のファイルが保存されます。"
+
+#: ../../guide/ROS2Guide.rst:550 ../../guide/ROS2Guide.rst:818
+msgid ""
+"Use the following command to launch the map_saver_cli node in the "
+"nav2_map_server package to create map files."
+msgstr ""
+
+#: ../../guide/ROS2Guide.rst:552 ../../guide/ROS2Guide.rst:820
+msgid ""
+"The map file is saved in the directory where the map_saver_cli node is "
+"launched at."
+msgstr "次のコマンドを使用して、nav2_map_serverパッケージのmap_saver_cliノードを起動し、マップファイルを作成します。"
+
+#: ../../guide/ROS2Guide.rst:559
+msgid ""
+"After running the above command, two files will be generated, namely "
+"map.pgm and map.yaml."
+msgstr "上記のコマンドを実行すると、map.pgmとmap.yamlという2つのファイルが生成される。"
+
+#: ../../guide/ROS2Guide.rst:561 ../../guide/ROS2Guide.rst:827
+msgid "The following pictures shows the .pgm file to be saved."
+msgstr "以下の写真は保存された.pgmファイルです。"
+
+#: ../../guide/ROS2Guide.rst:573
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: ../../guide/ROS2Guide.rst:575
+msgid ""
+"Navigation allows the robot to move from one location to the specified "
+"destination based on the infomation of a map given from the IMU and the "
+"lidar sensor created from SLAM."
+msgstr "ナビゲーションは、SLAMによって作成されたIMUとLIDARセンサから得た地図の情報に基づいて、ロボットがある場所から指定された目的地まで移動することを可能にします。"
+
+#: ../../guide/ROS2Guide.rst:577
+msgid ""
+"The following video shows how we can use the navigation function to make "
+"the Mini Pupper move along the planned path."
+msgstr "次のビデオでは、ナビゲーション機能を使ってミニぷぱを予定されたパスに沿って移動させる方法を紹介しています。"
+
+#: ../../guide/ROS2Guide.rst:587
+msgid ""
+"**NOTE: Please run the Navigation node on Remote PC.** **WARNING: Make "
+"sure to run the Bringup from the Mini Pupper before navigation. Put the "
+"robot on the ground the prevent the robot from falling during movement.**"
+msgstr "**注意:リモートPC上でナビゲーションノードを実行してください。****警告:ナビゲーションの前に必ずミニぷぱからブリングアップを実行してください。移動中のロボットの落下を防ぐため、ロボットを地面に置いてください。**"
+
+#: ../../guide/ROS2Guide.rst:591
+msgid "1. Run Navigation Node"
+msgstr "1. ナビゲーション・ノードを実行"
+
+#: ../../guide/ROS2Guide.rst:593 ../../guide/ROS2Guide.rst:943
+msgid "1.If Bringup is not launched on Mini Pupper, launch Bringup first."
+msgstr "起動されていない場合はまずミニぷぱから起動してください。"
+
+#: ../../guide/ROS2Guide.rst:616 ../../guide/ROS2Guide.rst:850
+msgid ""
+"Open a new terminal from Remote PC with Ctrl + Alt + T and launch the "
+"Navigation node."
+msgstr "リモートPCからCtrl + Alt + Tで新しいターミナルを開き、ナビゲーションノードを起動します。"
+
+#: ../../guide/ROS2Guide.rst:623 ../../guide/ROS2Guide.rst:864
+msgid ""
+"The map used in navigation is two-dimensional Occupancy Grid Map (OGM). "
+"The white area is collision free area while black area is occupied and "
+"inaccessible area, and gray area represents the unknown area."
+msgstr ""
+"ナビゲーションに使用される地図は2次元のOGM（Occupancy Grid "
+"Map）である。白い領域は衝突のない領域であり、黒い領域は占有領域と進入禁止領域、灰色の領域は未知の領域を表す。"
+
+#: ../../guide/ROS2Guide.rst:626
+msgid "2. Estimate Initial Pose"
+msgstr "2. 初期ポーズの推定"
+
+#: ../../guide/ROS2Guide.rst:628 ../../guide/ROS2Guide.rst:869
+msgid "Click the 2D Pose Estimate button in the RViz2 menu."
+msgstr "RViz2メニューの2D Pose Estimateボタンをクリックします。"
+
+#: ../../guide/ROS2Guide.rst:629
+msgid ""
+"Click on the map on location of the robot relative to the map, drag the "
+"green arrow, the root of the arrow is the position of the robot while the"
+" direction of the arrow will be the orientation of the robot."
+msgstr "地図上のロボットの位置をクリックし、緑色の矢印をドラッグします。矢印の根元がロボットの位置で、矢印の方向がロボットの向きになります。"
+
+#: ../../guide/ROS2Guide.rst:630 ../../guide/ROS2Guide.rst:871
+msgid ""
+"Repeat step 1 and 2 until the inaccessible area detected by the robot is "
+"overlapping completely with the black area on the map."
+msgstr "ロボットが検出した進入不可能なエリアが地図上の黒いエリアと完全に重なるまで、ステップ1と2を繰り返す。"
+
+#: ../../guide/ROS2Guide.rst:638
+msgid "3. Set Navigation Goal"
+msgstr "3. ナビゲーションゴールの設定"
+
+#: ../../guide/ROS2Guide.rst:640
+msgid ""
+"Click the Nav2 Goal button in the RViz2 menu. A path will be planned to "
+"guide the robot towards the destination."
+msgstr "RViz2メニューのNav2 Goalボタンをクリックします。目的地に向かってロボットを誘導する経路が計画されます。"
+
+#: ../../guide/ROS2Guide.rst:641
+msgid ""
+"Click on the map to set the destination of the robot and drag the green "
+"arrow toward the direction where the robot will be facing, while the root"
+" of the green arrow is the destination at which the robot will finally "
+"reach."
+msgstr "マップをクリックしてロボットの目的地を設定し、ロボットが向いている方向に向かって緑の矢印をドラッグします。"
+
+#: ../../guide/ROS2Guide.rst:653
+msgid "Simulation"
+msgstr "シミュレーション"
+
+#: ../../guide/ROS2Guide.rst:655
+msgid ""
+"The following steps allows us to simulate the teleoperation, SLAM and "
+"Navigation of Mini Pupper using RViz and Gazebo."
+msgstr "以下のステップでは、RVizとGazeboを使用して、ミニぷぱの遠隔操作、SLAM、ナビゲーションのシミュレーションを行います。"
+
+#: ../../guide/ROS2Guide.rst:657
+msgid "**NOTE: Please run the Simulation on Remote PC.**"
+msgstr "**注意:リモートPCでシミュレーションを実行してください。**"
+
+#: ../../guide/ROS2Guide.rst:660
+msgid "1. RViz Simulation"
+msgstr "1. RVizシミュレーション"
+
+#: ../../guide/ROS2Guide.rst:663
+msgid "1.1 Launch Simulation World"
+msgstr "1.1 シミュレーション環境の起動"
+
+#: ../../guide/ROS2Guide.rst:665
+msgid ""
+"Run the following command to launch bringup the robot simulation without "
+"connecting to the robot."
+msgstr "以下のコマンドを実行し、ロボットに接続せずにロボットシミュレーションを起動します。"
+
+#: ../../guide/ROS2Guide.rst:672
+msgid "Run the following command to launch RViz simulation."
+msgstr "以下のコマンドを実行してRVizシミュレーションを起動します。"
+
+#: ../../guide/ROS2Guide.rst:680
+msgid "1.2. Teleoperation"
+msgstr "1.2. 遠隔操作"
+
+#: ../../guide/ROS2Guide.rst:682
+msgid "1.2.1 Keyboard"
+msgstr "1.2.1 キーボード"
+
+#: ../../guide/ROS2Guide.rst:692
+msgid "1.2.2 Joystick"
+msgstr "1.2.2 ジョイスティック"
+
+#: ../../guide/ROS2Guide.rst:702
+msgid "The following video demonstrates the teleoperation simulation under RViz."
+msgstr "次のビデオはRVizでの遠隔操作シミュレーションのデモです。"
+
+#: ../../guide/ROS2Guide.rst:713
+msgid "2. Gazebo Simulation"
+msgstr "2. Gazebo シミュレーション"
+
+#: ../../guide/ROS2Guide.rst:716
+msgid "2.1 Launch Simulation World"
+msgstr "2.1 シミュレーション環境起動"
+
+#: ../../guide/ROS2Guide.rst:718 ../../guide/ROS2Guide.rst:764
+#: ../../guide/ROS2Guide.rst:840
+msgid "Run the following command to launch Gazebo simulation."
+msgstr "以下のコマンドを実行して、Gazeboシミュレーションを起動します。"
+
+#: ../../guide/ROS2Guide.rst:726
+msgid "2.2. Teleoperation:"
+msgstr "2.2. 遠隔操作"
+
+#: ../../guide/ROS2Guide.rst:728
+msgid "2.2.1 Keyboard"
+msgstr "2.2.1 キーボード"
+
+#: ../../guide/ROS2Guide.rst:738
+msgid "2.2.2 Joystick"
+msgstr "2.2.2 ジョイスティック"
+
+#: ../../guide/ROS2Guide.rst:748
+msgid ""
+"The following video demonstrates the teleoperation simulation under "
+"Gazebo."
+msgstr "次のビデオは、Gazeboの下での遠隔操作シミュレーションのデモです。"
+
+#: ../../guide/ROS2Guide.rst:759
+msgid "3. Test SLAM (Mapping) in Gazebo"
+msgstr "3. GazeboでSLAM（マッピング）テスト"
+
+#: ../../guide/ROS2Guide.rst:762
+msgid "3.1 Launch Simulation World"
+msgstr "3.1 シミュレーション環境の起動"
+
+#: ../../guide/ROS2Guide.rst:772
+msgid "3.2 Run SLAM Node"
+msgstr "3.2 SLAMノードの実行"
+
+#: ../../guide/ROS2Guide.rst:782
+msgid "3.3 Teleoperation"
+msgstr "3.3 遠隔操作"
+
+#: ../../guide/ROS2Guide.rst:784
+msgid "3.3.1 Keyboard"
+msgstr "3.3.1 キーボード"
+
+#: ../../guide/ROS2Guide.rst:794
+msgid "3.3.2 Joystick"
+msgstr "3.3.2 ジョイスティック"
+
+#: ../../guide/ROS2Guide.rst:804
+msgid "The following video demonstrates the simulation of SLAM under RViz."
+msgstr "次のビデオでは、RVizでのSLAMのシミュレーションを示しています。"
+
+#: ../../guide/ROS2Guide.rst:815
+msgid "3.4 Save the map"
+msgstr "3.4 地図を保存する"
+
+#: ../../guide/ROS2Guide.rst:835
+msgid "4. Navigation Simulation"
+msgstr "4.ナビゲーションシミュレーション"
+
+#: ../../guide/ROS2Guide.rst:838
+msgid "4.1 Launch Simulation World"
+msgstr "4.1 シミュレーション起動"
+
+#: ../../guide/ROS2Guide.rst:848
+msgid "4.2 Launch Navigation Simulation"
+msgstr "4.2 ナビゲーションシミュレーション起動"
+
+#: ../../guide/ROS2Guide.rst:857
+msgid ""
+"If you wish to use the map you generated in previous step, you can "
+"specify the map path with the following command."
+msgstr "前のステップで生成したマップを使用したい場合は、次のコマンドでマップのパスを指定します。"
+
+#: ../../guide/ROS2Guide.rst:867
+msgid "4.3 Estimate Initial Pose"
+msgstr "4.3 初期ポーズの推定"
+
+#: ../../guide/ROS2Guide.rst:870
+msgid ""
+"Click on the map on location of the robot simulation relative to the map,"
+" drag the green arrow, the root of the arrow is the position of the robot"
+" simulation while the direction of the arrow will be the orientation of "
+"the robot simulation."
+msgstr "地図上のロボットシミュレーションの位置をクリックし、緑色の矢印をドラッグします。矢印の根元がロボットシミュレーションの位置で、矢印の方向がロボットシミュレーションの向きになります。"
+
+#: ../../guide/ROS2Guide.rst:877
+msgid "4.4 Set Navigation Goal"
+msgstr "4.4 ナビゲーションゴールの設定"
+
+#: ../../guide/ROS2Guide.rst:879
+msgid ""
+"Click the Nav2 Goal button in the RViz2 menu. A path will be planned to "
+"guide the robot simulation towards the destination."
+msgstr ""
+
+#: ../../guide/ROS2Guide.rst:880
+msgid ""
+"Click on the map to set the destination of the robot simulation and drag "
+"the green arrow toward the direction where the robot simulation will be "
+"facing, while the root of the green arrow is the destination at which the"
+" robot simulation will finally reach."
+msgstr ""
+"ロボットシミュレーションの目的地を設定するために地図上をクリックし、ロボットシミュレーションが向いている方向に向かって緑の矢印をドラッグします。RViz2メニューのNav2"
+" Goalボタンをクリックします。目的地に向かってロボットシミュレーションを誘導する経路が計画されます。"
+
+#: ../../guide/ROS2Guide.rst:887
+msgid "The following video demonstrates the simulation of navigation under RViz."
+msgstr "次のビデオはRVizでのナビゲーションのシミュレーションです。"
+
+#: ../../guide/ROS2Guide.rst:902
+msgid "Dance"
+msgstr "ダンス"
+
+#: ../../guide/ROS2Guide.rst:904
+msgid "The video demonstrates the dancing function of Mini Pupper."
+msgstr "ミニぷぱのダンス機能実演ビデオ"
+
+#: ../../guide/ROS2Guide.rst:914
+msgid ""
+"**NOTE: The nodes for playing music and dance cand be executed on both "
+"Mini Pupper and Remote PC.**"
+msgstr "**注:音楽とダンスを再生するノードは、ミニぷぱとリモートPCの両方で実行できます。**"
+
+#: ../../guide/ROS2Guide.rst:917
+msgid "1. Install Music Packages"
+msgstr "1.音楽パッケージのインストール"
+
+#: ../../guide/ROS2Guide.rst:919
+msgid "Open a terminal with Ctrl+Alt+T to connect Mini Pupper."
+msgstr "Ctrl+Alt+T でターミナルを開き、ミニぷぱ に接続します。"
+
+#: ../../guide/ROS2Guide.rst:933
+msgid ""
+"Use the following command to install required packages for the pupper to "
+"play music."
+msgstr "ミニぷぱが音楽の再生に必要なパッケージをインストールするには、以下のコマンドを使用します。"
+
+#: ../../guide/ROS2Guide.rst:941
+msgid "2. Launch Bringup"
+msgstr "起動"
+
+#: ../../guide/ROS2Guide.rst:963
+msgid "3. Launch Music Node"
+msgstr "3.ミュージック・ノードを立ち上げる"
+
+#: ../../guide/ROS2Guide.rst:965
+msgid "Open a new terminal with Ctrl + Alt + T and launch the Music node."
+msgstr "Ctrl + Alt + Tで新しいターミナルを開き、Musicノードを起動します。"
+
+#: ../../guide/ROS2Guide.rst:973
+msgid "4. Launch Dance Node"
+msgstr "4. ダンスノードを立ち上げる"
+
+#: ../../guide/ROS2Guide.rst:975
+msgid "Open a new terminal with Ctrl + Alt + T and launch the Dance node."
+msgstr "Ctrl + Alt + Tで新しいターミナルを開き、Danceノードを起動する。"
+
+#~ msgid ""
+#~ "Open two terminals with Ctrl+Alt+T "
+#~ "twice, one for connecting to Mini "
+#~ "Pupper and one for PC "
+#~ "local.Ctrl+Alt+Tで2つのターミナルを2回開きます。1つはミニぷぱに接続するため、もう1つはPCローカル用です"
+#~ msgstr ""
+
+#~ msgid "2. 起動"
+#~ msgstr ""
+

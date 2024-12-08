@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-14 13:47+0900\n"
+"POT-Creation-Date: 2024-12-01 17:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,126 +18,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:42
+#: ../../index.rst:51
 msgid "Guide"
 msgstr "ガイド"
 
-#: ../../index.rst:57
+#: ../../index.rst:66
 msgid "References"
 msgstr "資料集"
 
 #: ../../index.rst:2
-msgid "Mini Pupper User Manual"
-msgstr "ミニぷぱ ユーザーマニュアル"
+msgid "MD Robot Starter Kits User Manual"
+msgstr "MD ロボット スターターキット ユーザーマニュアル"
 
 #: ../../index.rst:5
-msgid "Genuine,ROS,Open-source,Education Robot Kit"
-msgstr "本格的な、ROS、オープンソース、教育用ロボットキット"
+msgid "Multimodal Generative AI, Open-source, ROS2, Robot Education Kit"
+msgstr "マルチモーダル生成AI, オープンソース, ROS2, ロボット教育キット"
 
 #: ../../index.rst:6
 msgid ""
-"Connect us by `Discord <https://discord.gg/xJdt3dHBVw>`_ or `Twitter "
-"<https://twitter.com/LeggedRobot>`_ or `FaceBook "
-"<https://www.facebook.com/afreez.gan/>`_ or `Github "
-"<https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_"
-msgstr "公式アカウント:`Discord <https://discord.gg/xJdt3dHBVw>`_  、 `Twitter <https://twitter.com/LeggedRobot>`_ 、 `FaceBook <https://www.facebook.com/afreez.gan/>`_ 、 `Github <https://github.com/mangdangroboticsclub/QuadrupedRobot/>`_ "
+"Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ ,"
+" `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord"
+" <https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
+"<https://twitter.com/LeggedRobot>`_ ,  `Github "
+"<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+msgstr ""
+"私達のチャンネル:  `オンラインショップ <https://mangdang.store/collections/shop>`_ ,"
+" `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord"
+" <https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
+"<https://twitter.com/LeggedRobot>`_ ,  `Github "
+"<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+
+#: ../../index.rst:8
+msgid ""
+"MD Robot Starter Kit is a robot learning platform, it will make robotics "
+"easier for schools, homeschool families, enthusiasts, and beyond."
+msgstr ""
+"MD ロボット スターター キットはロボット学習プラットフォームであり、学校、ホームスクールの家族、愛好家などにとってロボット工学をより簡単に学習できるようになります。"
+
+#: ../../index.rst:16
+msgid "※ Key Features:"
+msgstr "※ 主な特徴"
+
+#: ../../index.rst:18
+msgid "Quick Setup: Set up your study environment in 30 minutes."
+msgstr "クイックセットアップ: 30分で学習環境をセットアップ"
 
 #: ../../index.rst:19
 msgid ""
-"Mini Pupper will make robotics easier for schools, homeschool families, "
-"enthusiasts and beyond."
-msgstr ""
-"「Mini Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by "
-"MangDang"
+"Mechanics: Quickly assemble and understand mechanical design in 60 "
+"minutes."
+msgstr "メカニクス: 60 分で機械設計をすばやく組み立てて理解します。"
 
-#: ../../index.rst:30
-msgid "What is Mini Pupper?"
-msgstr "ミニぷぱって何?"
+#: ../../index.rst:20
+msgid "Robotics control: ready-to-study kinematics examples."
+msgstr "ロボット制御: すぐに学習できる運動学の例。
 
-#: ../../index.rst:32
+#: ../../index.rst:21
 msgid ""
-"Mini Pupper is a low-cost, personal quadruped kit with open-source "
-"software. Mini Pupper was created by MANGDANG in Septemper 2021. With "
-"Mini Pupper, you’ll be able to build a robot dog that can drive around, "
-"and have enough horsepower to create exciting applications."
-msgstr "ミニぷぱは、オープンソースソフトウェアを搭載した低価格の個人向け四足ロボットです。ミニぷぱは、2021年9月にMangDang社によって作成されました。ミニぷぱがあれば、走り回れるロボット犬を作ることができ、十分な馬力を持つので、エキサイティングなアプリケーションを作ることができます。"
+"ROS(Robot Operating System): Study SLAM and navigation with example "
+"projects."
+msgstr "ROS (ロボット オペレーティング システム): サンプル プロジェクトで SLAM とナビゲーションを学習します。"
 
-#: ../../index.rst:34
+#: ../../index.rst:22
 msgid ""
-"For more information, please refer to `Kickstarter Campaign "
-"<https://www.kickstarter.com/projects/336477435/mini-pupper-open-"
-"sourceros-robot-dog-kit>`_, `Makuake Campaign "
-"<https://www.makuake.com/project/mini_pupper/>`_, `Amazon AWS Robotics "
-"Blog <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-"
-"pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_, "
-"`Amazon 2022 re:MARS Workshop <https://aws.amazon.com/blogs/robotics"
-"/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-"
-"any-infrastructure/>`_. Mini Pupper will have a full-day workshop on "
-"`ROSCon 2022 event <https://roscon.ros.org/2022/>`_."
-msgstr "詳しい情報は、下記のリンクよりご確認ください。`Kickstarter キャンペーン <https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit>`_, `Makuake キャンペーン <https://www.makuake.com/project/mini_pupper/>`_, `Amazon AWS ロボティクス ブログ <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_, `Amazon 2022 re:MARS Workshop <https://aws.amazon.com/blogs/robotics/build-and-simulate-a-mini-pupper-robot-in-the-cloud-without-managing-any-infrastructure/>`_ 。ミニぷぱ は `ROSCon 2022 event <https://roscon.ros.org/2022/>`_ で1日ワークショップも行いますので、ご興味のある方は、ぜひ参加してください。"
+"OpenCV: supports Pi single MIPI camera and OpenCV's official OAK-D-Lite "
+"3D camera module."
+msgstr "OpenCV: Pi シングル MIPI カメラと OpenCV の公式 OAK-D-Lite 3D カメラ モジュールをサポートします。"
 
-#: ../../index.rst:36
+#: ../../index.rst:23
+msgid "Generative AI: ChatGPT@OpenAI, Gemini@Google, Claude@AWS"
+msgstr "生成 AI: ChatGPT@OpenAI、Gemini@Google、Claude@AWS"
+
+#: ../../index.rst:24
+msgid "Open-source: DIY and customize what you want!"
+msgstr "オープンソース: DIY で必要なものをカスタマイズしましょう!"
+
+#: ../../index.rst:25
+msgid "Pi: it's super expandable, endorsed by Raspberry Pi."
+msgstr "Pi: Raspberry Pi によって承認されている非常に拡張性の高いものです。"
+
+#: ../../index.rst:27
+msgid "※ Global Events together with Ubuntu, ROS, AWS, IEEE etc."
+msgstr "※ Ubuntu、ROS、AWS、IEEE 等と連携したグローバルイベント"
+
+#: ../../index.rst:37
+msgid "What is MD Robot Starter Kits?"
+msgstr "MD ロボット スターター キットとは?"
+
+#: ../../index.rst:39
 msgid ""
-"Many makers are contributing to Mini Pupper project, some parts referred "
-"to other contributors' documents, many thanks for all the guys who helped"
-" Mini Pupper project!"
-msgstr "ドキュメントは何人かのボランティアからのもので、MiniPupperプロジェクトを手伝ってくれたすべての人に感謝します!!!"
+"MD Robot Starter Kits include Mini Pupper 1(launched in 2021), Mini "
+"Pupper 2(launched in 2022)."
+msgstr "MD ロボット スターター キットには、「ミニぷぱ1」Mini Pupper 1 (2021 年発売)、「ミニぷぱ2」Mini Pupper 2 (2022 年発売) が含まれます。"
 
-#~ msgid ""
-#~ "「Mini "
-#~ "Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by"
-#~ " MangDang"
-#~ msgstr ""
+#: ../../index.rst:41
+msgid ""
+"Mini Pupper, inspired by `Stanford Pupper "
+"<https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-"
+"cost, personal quadruped kit with open-source software. With MD Robot "
+"Starter Kits, you can build a robot dog that can drive around and have "
+"enough horsepower to create exciting applications."
+msgstr "ミニぷぱ（Mini Pupper）は、Stanford Pupper からインスピレーションを得た、"
+"オープンソース ソフトウェアの低コストの個人用四足歩行キットです。"
+"MD Robot Starter Kits で走行可能なエキサイティングなアプリケーションを作成するのに十分な馬力を持つロボット犬を構築できます。"
 
-#~ msgid "ドキュメントは何人かのボランティアからのもので、MiniPupperプロジェクトを手伝ってくれたすべての人に感謝します!!!"
-#~ msgstr ""
+#: ../../index.rst:45
+msgid "About MangDang Technology Co., Limited"
+msgstr "MangDang(マンダン テクノロジーカンパニー)について"
 
-#~ msgid "Build Guide"
-#~ msgstr "基本製作"
+#: ../../index.rst:46
+msgid ""
+"Founded in 2020, MangDang specializes in the research, development, and "
+"production of robot products that make people's lives better. MangDang is"
+" headquartered in  `Hong Kong Science Park "
+"<https://www.hkstp.org/en/directory/material-and-precision-engineering"
+"/mangdang-technology-colimited>`_. We are a global team with members from"
+" many countries and regions."
+msgstr "2020 年に設立されたマンダンは、人々の生活をより良くするロボット製品の研究、開発、製造を専門としています。"
+"マンダンの本社は香港サイエンス パークにあります。"
+"私たちは、多くの国や地域のメンバーで構成されるグローバル チームです。"
 
-#~ msgid "Welcome to Mini Pupper's documentation!"
-#~ msgstr "ようこそ！"
-
-#~ msgid "About Mini Pupper"
-#~ msgstr "はじめに"
-
-#~ msgid "The offical instruction document about the Mini Pupper"
-#~ msgstr "公式資料へのリンク"
-
-#~ msgid ""
-#~ "`Kickstarter <https://www.kickstarter.com/projects/336477435"
-#~ "/mini-pupper-open-sourceros-robot-dog-"
-#~ "kit>`_ `Makuake "
-#~ "<https://www.makuake.com/project/mini_pupper/>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The documents come from several "
-#~ "volunteers, many thanks for all the "
-#~ "guys who helped Mini Pupper project!!!"
-#~ msgstr "MiniPupper のドキュメントは、ボランティアたちによる多大な貢献のおかげです。全ての協力者にとても感謝しております!!!"
-
-#~ msgid ""
-#~ "`Mini Pupperを動かそう / How to get "
-#~ "Mini Pupper walking "
-#~ "<https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5>`_  "
-#~ "@nisshan_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Mini Pupper」がやってきた！（1: make 編） "
-#~ "<http://deve.sakura.ne.jp/make_robots/2021/12/24/%e3%80%8cmini-"
-#~ "pupper%e3%80%8d%e3%81%8c%e3%82%84%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%ef%bc%881-make-%e7%b7%a8%ef%bc%89/>`_"
-#~ "  @devemin"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Mini Pupperを動かすまで "
-#~ "<https://zenn.dev/tiryoh/scraps/4da80714b84fa9>`_  @Tiryoh"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Mini Pupper（ミニぷぱ）で遊ぶ <https://min.togetter.com/EnagHLB>`_"
-#~ "  @saitotetsuya"
-#~ msgstr ""
-
+#: ../../index.rst:48
+msgid ""
+"We are all dreamers, and we look forward to connecting talents worldwide "
+"and innovating together to perform splendid times!"
+msgstr "私たちは皆、夢想家であり、世界中の才能を結びつけ、"
+"素晴らしい時間を演出するために一緒に革新することを楽しみにしています。"
