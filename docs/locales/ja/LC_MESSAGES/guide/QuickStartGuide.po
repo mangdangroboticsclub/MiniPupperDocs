@@ -32,7 +32,7 @@ msgstr "ミニぷぱロボットの起動"
 
 #: ../../guide/QuickStartGuide.rst:19
 msgid "|youtu.be-pre-assembled-user-guide|"
-msgstr "|YouTube組み立て前ユーザーガイド|"
+msgstr "|youtu.be-pre-assembled-user-guide-ja|"
 
 #: ../../guide/QuickStartGuide.rst:21
 msgid "Power On Mini Pupper"

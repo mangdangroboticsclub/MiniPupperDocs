@@ -44,7 +44,7 @@ msgid ""
 "<https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
 msgstr ""
 "Link: `ミニぷぱ部品表"
-"<https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
+" <https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
 
 #: ../../reference/Design.rst:27
 msgid "STL"
@@ -57,4 +57,3 @@ msgid ""
 msgstr ""
 "Link: `3Dプリント用ミニぷぱSTLファイル  "
 "<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
-
