@@ -28,7 +28,7 @@ msgstr "コンテンツ"
 
 #: ../../guide/Assembly.rst:9
 msgid "Assemble Mini Pupper"
-msgstr "ミニぷぱ組み立て"
+msgstr "ミニぷぱの組み立て"
 
 #: ../../guide/Assembly.rst:11
 msgid ""
