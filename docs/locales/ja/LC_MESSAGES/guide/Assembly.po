@@ -709,7 +709,7 @@ msgstr "Step 5.8　ファン"
 
 #: ../../guide/Assembly.rst:627
 msgid "To install the fan."
-msgstr ""
+msgstr "ファンの取り付け"
 
 #: ../../guide/Assembly.rst:637
 msgid "Step 5.9 Raspberry Pi 4"
