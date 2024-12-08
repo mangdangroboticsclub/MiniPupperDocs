@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/MachineLearning.rst:3
+msgid "Machine Learning"
+msgstr "機械学習"
+
+#: ../../guide/MachineLearning.rst:6
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../guide/MachineLearning.rst:9
+msgid "Summary"
+msgstr "概要"
+
+#: ../../guide/MachineLearning.rst:18
+msgid ""
+"For potential security issues, the camera module is not included in our "
+"default package. If you want to explore camera AI functions, you can "
+"choose a normal USB camera module, of course, a 3D camera module is "
+"better for study. If try the 3D camera module, we recommend you OpenCV's "
+"latest 3D camera module, named OAK-D LITE, comes from OpenCV&Luxonis."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:21
+msgid "1. Single camera module"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:23
+msgid "1.1 Collision Avoidance"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:24 ../../guide/MachineLearning.rst:28
+#: ../../guide/MachineLearning.rst:32 ../../guide/MachineLearning.rst:36
+#: ../../guide/MachineLearning.rst:40 ../../guide/MachineLearning.rst:62
+msgid "Will update late."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:27
+msgid "1.2 Teleoperation"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:31
+msgid "1.3 Road Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:35
+msgid "1.4 Object Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:39
+msgid "1.5 Face Detect"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:43
+msgid "2. 3D(OAK-D-Lite) camera module"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:46
+msgid "2.1 Object Following"
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:47
+msgid ""
+"You can download the `pre-built ROS image "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ , named \"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\" to "
+"test the object following feature using OAK-D-LITE 3D camera module."
+msgstr ""
+
+#: ../../guide/MachineLearning.rst:61
+msgid "2.2 Live streaming"
+msgstr ""
+

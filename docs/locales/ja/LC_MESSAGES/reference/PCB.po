@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../reference/PCB.rst:3
+msgid "PCB"
+msgstr ""
+
+#: ../../reference/PCB.rst:6
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../reference/PCB.rst:9
+msgid "PCB Design"
+msgstr "PCBデザイン"
+
+#: ../../reference/PCB.rst:11
+msgid ""
+"For Mini Pupper custom board design, please refer to the below pictures. "
+"You can also find the detailed `Schematic and Datasheet "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_ ."
+msgstr ""
+"Mini Pupper のカスタム ボード設計については、下の写真を参照してください。"
+"`詳細な回路図とデータシート "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi>`_"
+
+
+#: ../../reference/PCB.rst:15
+msgid "Top side"
+msgstr "表側"
+
+#: ../../reference/PCB.rst:21
+msgid "Bottom side"
+msgstr "裏側"
+

@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-05 23:57+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../guide/Examples.rst:3
+msgid "Examples"
+msgstr "例"
+
+#: ../../guide/Examples.rst:8
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: ../../guide/Examples.rst:11
+msgid "1. Custom shell parts"
+msgstr "1. 外装パーツのカスタマイズ"
+
+#: ../../guide/Examples.rst:12
+msgid ""
+"Mini Pupper is an open source project, that means, you can custom what "
+"you want. You can find all the `3D printed shell files "
+"<https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
+"eLVm5zjyi?usp=sharing>`_  and custom them."
+msgstr ""
+"ミニぷぱはオープンソースプロジェクトです。つまり、必要なものをカスタマイズできます。次のリンクのすべてのファイルをカスタマイズできます。 `3D "
+"プリント用外装ファイル <https://drive.google.com/drive/folders"
+"/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_ "
+
+#: ../../guide/Examples.rst:15
+msgid "How about connect it to LEGO parts?"
+msgstr "LEGO パーツをつなげてみませんか?"
+
+#: ../../guide/Examples.rst:21
+msgid "Or DIY it like @nisshan_"
+msgstr "@nisshan_のDIY例"
+
+#: ../../guide/Examples.rst:31
+msgid "2. Custom Facial Animation"
+msgstr "2. 顔アニメーションのカスタマイズ"
+
+#: ../../guide/Examples.rst:34
+msgid "2.1 Prerequisites"
+msgstr "2.1 前提条件"
+
+#: ../../guide/Examples.rst:36
+msgid "HDMI Display"
+msgstr "HDMIディスプレイ"
+
+#: ../../guide/Examples.rst:37
+msgid "micro HDMI cable"
+msgstr "マイクロHDMIケーブル"
+
+#: ../../guide/Examples.rst:38
+msgid "Keyboard and mouse"
+msgstr "キーボードとマウス"
+
+#: ../../guide/Examples.rst:39
+msgid "a new custom picture(size: 320x240 pix)"
+msgstr "新しいカスタマイズ画像 (サイズ: 320x240 ピクセル)"
+
+#: ../../guide/Examples.rst:45
+msgid "2.2 Run"
+msgstr "2.2 実行"
+
+#: ../../guide/Examples.rst:47
+msgid "Connect MiniPupper to a display, a keyboard and a mouse."
+msgstr "ミニぷぱをディスプレイ、キーボード、マウスに接続します。"
+
+#: ../../guide/Examples.rst:49
+msgid "Ubuntu login(The default password is mangdang)"
+msgstr "Ubuntu ログイン (デフォルトのパスワードは mangdang)"
+
+#: ../../guide/Examples.rst:54
+msgid "Replace the logo.png file using your custom picture"
+msgstr "logo.png ファイルをカスタマイズ画像に置き換えます"
+
+#: ../../guide/Examples.rst:56
+msgid "Reboot Mini Pupper and then you will see your custom picture"
+msgstr "ミニぷぱを再起動すると、カスタマイズ画像が表示されます。"
+
+#: ../../guide/Examples.rst:63
+msgid "3. Keyboard controller"
+msgstr "3. キーボードコントローラー"
+
+#: ../../guide/Examples.rst:66
+msgid "3.1 Keyboard controller based on nonROS version"
+msgstr "3.1 ROSを使わないキーボードコントローラー"
+
+#: ../../guide/Examples.rst:67
+msgid ""
+"The feature is based on `PupperKeyboardController project "
+"<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_, "
+"it's Pygame-based keyboard controller for Stanford Pupper."
+msgstr ""
+"この機能は、Stanford Pupper 用の Pygame ベースのキーボード コントローラーである "
+"`PupperKeyboardController "
+"<https://github.com/stanfordroboticsclub/PupperKeyboardController>`_ "
+"プロジェクトに基づいています。"
+
+#: ../../guide/Examples.rst:69
+msgid "Install PyGame"
+msgstr "PyGameをインストール"
+
+#: ../../guide/Examples.rst:75
+msgid "Controls"
+msgstr "操作"
+
+#: ../../guide/Examples.rst:89
+msgid "3.2 Keyboard controller based on ROS version"
+msgstr "3.2 ROS バージョンに基づくキーボードコントローラー"
+
+#: ../../guide/Examples.rst:91
+msgid "Please refer to the SLAM section."
+msgstr "SLAM セクションを参照してください。"
+
+#: ../../guide/Examples.rst:94
+msgid "4. Web controller"
+msgstr "4. WEBコントローラー"
+
+#: ../../guide/Examples.rst:96
+msgid ""
+"Please refer to `Mini Pupper Web controller project "
+"<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_."
+msgstr ""
+"Mini Pupper Web コントローラー プロジェクトを参照してください。`Mini Pupper Web controller "
+"project "
+"<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_"
+
+#: ../../guide/Examples.rst:99
+msgid "5. How to control a Mini Pupper PWM servo"
+msgstr "5. Mini Pupper PWM サーボの制御方法"
+
+#: ../../guide/Examples.rst:101
+msgid ""
+"Mini Pupper servo is a PWM servo, You can connect one servo to Pi board "
+"as the following picture shows, run the samle code,and then the servo "
+"will move. You can find the code `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+"ミニぷぱサーボは PWM サーボです。次の図に示すように、1 つのサーボを Pi ボードに接続し、サンプル "
+"コードを実行すると、サーボが動きます。コードはこちらにあります。次の図に示すように、Windows または Ubuntu で Python "
+"環境を使用して実行できます。"
+
+#: ../../guide/Examples.rst:108
+msgid "6. Forward Kinematics"
+msgstr "6. 順運動学（Forward Kinematics）"
+
+#: ../../guide/Examples.rst:111 ../../guide/Examples.rst:148
+msgid "Lecture"
+msgstr "講義"
+
+#: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
+msgid "Please study the basic knowledge of forward kinematics online first."
+msgstr "まずはオンラインで順運動学の基礎知識を学んでください。"
+
+#: ../../guide/Examples.rst:115
+msgid ""
+"You can also refer to the following video clips come from `Stanford "
+"Robotics Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_."
+msgstr ""
+"Stanford Robotics Independent Study の次のビデオ クリップも参照できます。`Stanford Robotics"
+" Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_"
+
+#: ../../guide/Examples.rst:117
+msgid "Forward kinematics lecture"
+msgstr "フォワードキネマティクス講義"
+
+#: ../../guide/Examples.rst:125
+msgid "Follow-up lecture to clarify some things"
+msgstr "いくつかの点を明確にするためのフォローアップ講義"
+
+#: ../../guide/Examples.rst:135 ../../guide/Examples.rst:161
+msgid "Sample code"
+msgstr "サンプルコード"
+
+#: ../../guide/Examples.rst:137
+msgid ""
+"We prepared a simple Forward kinematics sample code based on Mini Pupper,"
+" you can try it `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+"ミニぷぱに基づく簡単な順運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で Python "
+"環境で実行できます。次のファイルで試すことができます。`こちら "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
+
+#: ../../guide/Examples.rst:145
+msgid "7. Inverse Kinematics"
+msgstr "7. 逆運動学（Inverse Kinematics）"
+
+#: ../../guide/Examples.rst:152
+msgid ""
+"You can also refer to the following video clips come from `Stanford "
+"Robotics Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-4-spr22.html>`_."
+msgstr ""
+"Stanford Robotics Independent Study の次のビデオ クリップも参照できます。`Stanford Robotics"
+" Independent Study <https://pupper-independent-"
+"study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_"
+
+#: ../../guide/Examples.rst:163
+msgid ""
+"We prepared a simple Inverse kinematics sample code based on Mini Pupper,"
+" you can try it `here "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_."
+" You can run it on your Windows or Ubuntu with Python environment, just "
+"like the following picture shows."
+msgstr ""
+"ミニぷぱに基づく簡単な逆運動学のサンプルコードを用意しました。図に示すように、Windows または Ubuntu で Python "
+"環境で実行できます。次のファイルで試すことができます。`こちら "
+"<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
+
+#: ../../guide/Examples.rst:172
+msgid "8. PID control"
+msgstr "8. PID制御"
+
+#: ../../guide/Examples.rst:174
+msgid "Will update later!"
+msgstr ""
+
+#: ../../guide/Examples.rst:177
+msgid "9. Docker"
+msgstr ""
+
+#: ../../guide/Examples.rst:180
+msgid "9.1 Docker for Pupper"
+msgstr ""
+
+#: ../../guide/Examples.rst:181
+msgid ""
+"Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
+"ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
+msgstr ""
+"ミニぷぱROS パッケージ用の Dockerfile は、docker-mini-pupper-ros プロジェクトから取得します"
+"。`docker-mini-pupper-ros project <https://github.com/Tiryoh/docker-mini-"
+"pupper-ros.git>`_"
+
+#: ../../guide/Examples.rst:184
+msgid "9.2 Docker for Host"
+msgstr "9.2 ホスト用Docker"
+
+#: ../../guide/Examples.rst:185
+msgid ""
+"Host computer setup for interfacing with a Mini Pupper over a network, "
+"comes from `mp_host_setup project "
+"<https://github.com/zmk5/mp_host_setup.git>`_."
+msgstr ""
+"ネットワーク経由でミニぷぱとインターフェイスするためのホストコンピュータのセットアップは、mp_host_setup "
+"プロジェクトから取得します。`mp_host_setup project "
+"<https://github.com/zmk5/mp_host_setup.git>`_"
+
+#: ../../guide/Examples.rst:188
+msgid "10. Scratch program"
+msgstr ""
+
+#: ../../guide/Examples.rst:190
+msgid "Will update soon!"
+msgstr ""
+

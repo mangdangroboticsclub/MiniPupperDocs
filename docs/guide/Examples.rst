@@ -141,7 +141,7 @@ You can run it on your Windows or Ubuntu with Python environment, just like the 
 .. image:: ../_static/ForwardKinematics_SimpleModeMove.png
   :align: center
 
-7. Inverse Kinematics
+7. Inverse Kinematics
 -------------
 
 Lecture
