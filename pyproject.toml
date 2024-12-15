@@ -1,0 +1,12 @@
+[project]
+name = "minipupperdocs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sphinx-rtd-theme>=3.0.2",
+    "sphinx>=8.1.3",
+    "recommonmark>=0.7.1",
+    "sphinx-intl>=2.3.1",
+]
