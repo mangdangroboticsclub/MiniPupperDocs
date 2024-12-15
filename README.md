@@ -10,15 +10,15 @@ This document is written in [reStructuredText](https://www.sphinx-doc.org/en/mas
 This document can also be built locally, where the following environment setup would be initially required:
 
 ```bash
-# Setup uv (An extremely fast Python package and project manager)
-pip install uv
+# Setup Poetry (Python package and project manager)
+pip install poetry
 ```
 
 ```bash
 # Install the Python packages
-uv sync
+poetry install
 # Activate virtual env
-source .venv/bin/activate
+poetry shell
 ```
 
 Then the following commands can build a result of HTML documents to view in browsers directly:
