@@ -17,9 +17,8 @@ build:
       - asdf plugin add uv
       - asdf install uv latest
       - asdf global uv latest
-    post_create_environment:
-      - uv venv $READTHEDOCS_VIRTUALENV_PATH
     post_install:
+      - uv venv $READTHEDOCS_VIRTUALENV_PATH
       - VIRTUAL_ENV=$READTHEDOCS_VIRTUALENV_PATH uv sync
 
 sphinx:
