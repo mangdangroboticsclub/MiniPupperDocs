@@ -10,16 +10,15 @@ This document is written in [reStructuredText](https://www.sphinx-doc.org/en/mas
 This document can also be built locally, where the following environment setup would be initially required:
 
 ```bash
-# It is a good moment to create a Python virtual environment.
-sudo apt-get install python3-venv
-python -m venv .venv
+# Setup Poetry (Python package and project manager)
+pip install poetry
+```
 
-source ./.venv/bin/activate
-# When in fish shell environment
-source ./.venv/bin/activate.fish
-
-# Install Python requirements
-pip3 install -r requirements.txt
+```bash
+# Install the Python packages
+poetry install
+# Activate virtual env
+poetry shell
 ```
 
 Then the following commands can build a result of HTML documents to view in browsers directly:
