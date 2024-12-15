@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 23:57+0900\n"
+"POT-Creation-Date: 2024-12-15 20:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../guide/Examples.rst:3
 msgid "Examples"
@@ -116,23 +116,23 @@ msgstr ""
 msgid "Install PyGame"
 msgstr "PyGameをインストール"
 
-#: ../../guide/Examples.rst:75
+#: ../../guide/Examples.rst:76
 msgid "Controls"
 msgstr "操作"
 
-#: ../../guide/Examples.rst:89
+#: ../../guide/Examples.rst:91
 msgid "3.2 Keyboard controller based on ROS version"
 msgstr "3.2 ROS バージョンに基づくキーボードコントローラー"
 
-#: ../../guide/Examples.rst:91
+#: ../../guide/Examples.rst:93
 msgid "Please refer to the SLAM section."
 msgstr "SLAM セクションを参照してください。"
 
-#: ../../guide/Examples.rst:94
+#: ../../guide/Examples.rst:96
 msgid "4. Web controller"
 msgstr "4. WEBコントローラー"
 
-#: ../../guide/Examples.rst:96
+#: ../../guide/Examples.rst:98
 msgid ""
 "Please refer to `Mini Pupper Web controller project "
 "<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_."
@@ -141,11 +141,11 @@ msgstr ""
 "project "
 "<https://github.com/mangdangroboticsclub/mini_pupper_web_controller>`_"
 
-#: ../../guide/Examples.rst:99
+#: ../../guide/Examples.rst:101
 msgid "5. How to control a Mini Pupper PWM servo"
 msgstr "5. Mini Pupper PWM サーボの制御方法"
 
-#: ../../guide/Examples.rst:101
+#: ../../guide/Examples.rst:103
 msgid ""
 "Mini Pupper servo is a PWM servo, You can connect one servo to Pi board "
 "as the following picture shows, run the samle code,and then the servo "
@@ -158,19 +158,19 @@ msgstr ""
 "コードを実行すると、サーボが動きます。コードはこちらにあります。次の図に示すように、Windows または Ubuntu で Python "
 "環境を使用して実行できます。"
 
-#: ../../guide/Examples.rst:108
+#: ../../guide/Examples.rst:110
 msgid "6. Forward Kinematics"
 msgstr "6. 順運動学（Forward Kinematics）"
 
-#: ../../guide/Examples.rst:111 ../../guide/Examples.rst:148
+#: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
 msgid "Lecture"
 msgstr "講義"
 
-#: ../../guide/Examples.rst:113 ../../guide/Examples.rst:150
+#: ../../guide/Examples.rst:115
 msgid "Please study the basic knowledge of forward kinematics online first."
 msgstr "まずはオンラインで順運動学の基礎知識を学んでください。"
 
-#: ../../guide/Examples.rst:115
+#: ../../guide/Examples.rst:117
 msgid ""
 "You can also refer to the following video clips come from `Stanford "
 "Robotics Independent Study <https://pupper-independent-"
@@ -180,19 +180,19 @@ msgstr ""
 " Independent Study <https://pupper-independent-"
 "study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_"
 
-#: ../../guide/Examples.rst:117
+#: ../../guide/Examples.rst:119
 msgid "Forward kinematics lecture"
 msgstr "フォワードキネマティクス講義"
 
-#: ../../guide/Examples.rst:125
+#: ../../guide/Examples.rst:127
 msgid "Follow-up lecture to clarify some things"
 msgstr "いくつかの点を明確にするためのフォローアップ講義"
 
-#: ../../guide/Examples.rst:135 ../../guide/Examples.rst:161
+#: ../../guide/Examples.rst:137 ../../guide/Examples.rst:163
 msgid "Sample code"
 msgstr "サンプルコード"
 
-#: ../../guide/Examples.rst:137
+#: ../../guide/Examples.rst:139
 msgid ""
 "We prepared a simple Forward kinematics sample code based on Mini Pupper,"
 " you can try it `here "
@@ -204,11 +204,16 @@ msgstr ""
 "環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
-#: ../../guide/Examples.rst:145
+#: ../../guide/Examples.rst:147
 msgid "7. Inverse Kinematics"
 msgstr "7. 逆運動学（Inverse Kinematics）"
 
 #: ../../guide/Examples.rst:152
+#, fuzzy
+msgid "Please study the basic knowledge of inverse kinematics online first."
+msgstr "まずはオンラインで順運動学の基礎知識を学んでください。"
+
+#: ../../guide/Examples.rst:154
 msgid ""
 "You can also refer to the following video clips come from `Stanford "
 "Robotics Independent Study <https://pupper-independent-"
@@ -218,7 +223,7 @@ msgstr ""
 " Independent Study <https://pupper-independent-"
 "study.readthedocs.io/en/latest/course-material/lab-3-spr22.html>`_"
 
-#: ../../guide/Examples.rst:163
+#: ../../guide/Examples.rst:165
 msgid ""
 "We prepared a simple Inverse kinematics sample code based on Mini Pupper,"
 " you can try it `here "
@@ -230,23 +235,23 @@ msgstr ""
 "環境で実行できます。次のファイルで試すことができます。`こちら "
 "<https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_"
 
-#: ../../guide/Examples.rst:172
+#: ../../guide/Examples.rst:174
 msgid "8. PID control"
 msgstr "8. PID制御"
 
-#: ../../guide/Examples.rst:174
+#: ../../guide/Examples.rst:176
 msgid "Will update later!"
 msgstr ""
 
-#: ../../guide/Examples.rst:177
+#: ../../guide/Examples.rst:179
 msgid "9. Docker"
 msgstr ""
 
-#: ../../guide/Examples.rst:180
+#: ../../guide/Examples.rst:182
 msgid "9.1 Docker for Pupper"
 msgstr ""
 
-#: ../../guide/Examples.rst:181
+#: ../../guide/Examples.rst:183
 msgid ""
 "Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
 "ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
@@ -255,11 +260,11 @@ msgstr ""
 "。`docker-mini-pupper-ros project <https://github.com/Tiryoh/docker-mini-"
 "pupper-ros.git>`_"
 
-#: ../../guide/Examples.rst:184
+#: ../../guide/Examples.rst:186
 msgid "9.2 Docker for Host"
 msgstr "9.2 ホスト用Docker"
 
-#: ../../guide/Examples.rst:185
+#: ../../guide/Examples.rst:187
 msgid ""
 "Host computer setup for interfacing with a Mini Pupper over a network, "
 "comes from `mp_host_setup project "
@@ -269,11 +274,11 @@ msgstr ""
 "プロジェクトから取得します。`mp_host_setup project "
 "<https://github.com/zmk5/mp_host_setup.git>`_"
 
-#: ../../guide/Examples.rst:188
+#: ../../guide/Examples.rst:190
 msgid "10. Scratch program"
 msgstr ""
 
-#: ../../guide/Examples.rst:190
+#: ../../guide/Examples.rst:192
 msgid "Will update soon!"
 msgstr ""
 

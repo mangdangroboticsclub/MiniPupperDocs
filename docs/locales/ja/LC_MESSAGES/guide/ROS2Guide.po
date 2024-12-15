@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"POT-Creation-Date: 2024-12-15 20:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../guide/ROS2Guide.rst:3
 msgid "ROS2 Guide"
@@ -36,8 +36,8 @@ msgid ""
 "<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_  which is written"
 " by one of our contributor @Tiryoh."
 msgstr ""
-"Mini PupperのROS2インストールパッケージは、私たちのコントリビューターの一人である@Tiryohによって書かれた "
-" `ros2_setup_scripts "
+"Mini PupperのROS2インストールパッケージは、私たちのコントリビューターの一人である@Tiryohによって書かれた  "
+"`ros2_setup_scripts "
 "<https://github.com/Tiryoh/ros2_setup_scripts_ubuntu>`_ に基づいています。"
 
 #: ../../guide/ROS2Guide.rst:13
@@ -92,14 +92,14 @@ msgid ""
 "these commands to your Raspberry Pi on Mini Pupper or Compute Module 4 on"
 " Mini Pupper 2.**"
 msgstr ""
-"警告：本章の内容は、ミニぷぱを制御するリモートPC（デスクトップまたはラップトップPC）に対応しています。これらのコマンドをミニぷぱ上のRaspberry"
-" Piやミニぷぱ2上のCompute Module 4に適用しないでください。"
+"**警告：本章の内容は、ミニぷぱを制御するリモートPC（デスクトップまたはラップトップPC）に対応しています。これらのコマンドをミニぷぱ上のRaspberry"
+" Piやミニぷぱ2上のCompute Module 4に適用しないでください。**"
 
 #: ../../guide/ROS2Guide.rst:27
 msgid ""
 "**NOTE: This instruction was tested on Linux with Ubuntu 22.04 and ROS2 "
 "Humble.**"
-msgstr "**注：この説明はLinuxのUbuntu 22.04とROS2 Humbleでテストしました。**"
+msgstr "注：この説明はLinuxのUbuntu 22.04とROS2 Humbleでテストしました。"
 
 #: ../../guide/ROS2Guide.rst:30
 msgid "1.1 Install ROS 2 Humble"
@@ -217,11 +217,13 @@ msgid ""
 msgstr "\"Flash!\"(書き込み)ボタンを押すと、下の画像が表示されます。プロセスが完了するまで待ちます。"
 
 #: ../../guide/ROS2Guide.rst:145
-msgid "2.2 Wifi-Setting"
+#, fuzzy
+msgid "2.2 WiFi-Setting"
 msgstr "2.2 Wi-Fi設定"
 
 #: ../../guide/ROS2Guide.rst:147
-msgid "Plug the card into the Mini Pupper card port and setup your own wifi."
+#, fuzzy
+msgid "Plug the card into the Mini Pupper card port and setup your own WiFi."
 msgstr "SDカードをミニぷぱのカードポートに差し込み、Wi-Fi接続のための設定をします。"
 
 #: ../../guide/ROS2Guide.rst:154
@@ -251,7 +253,8 @@ msgid "3. Connecting Mini Pupper to PC"
 msgstr "3. ミニぷぱとPCの接続"
 
 #: ../../guide/ROS2Guide.rst:209
-msgid "Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini "
+msgid ""
+"Open two terminals with Ctrl+Alt+T twice, one for connecting to Mini "
 "Pupper and one for PC local."
 msgstr "Ctrl+Alt+T でターミナルを開き、ミニぷぱ に接続します。"
 
@@ -376,8 +379,8 @@ msgid ""
 "replaced by \". ~/ros2_ws/install/setup.zsh\", depending on the file type"
 " you use."
 msgstr ""
-"ミニぷぱアプリケーションを起動するための基本パッケージを呼び出します。ビルドされたパッケージをsource するコマンド、"
-"「. ~/ros2_ws/install/setup.bash」は、「./ros2_ws/install/setup.zsh」に置き換えることができます。"
+"ミニぷぱアプリケーションを起動するための基本パッケージを呼び出します。ビルドされたパッケージをsource するコマンド、「. "
+"~/ros2_ws/install/setup.bash」は、「./ros2_ws/install/setup.zsh」に置き換えることができます。"
 
 #: ../../guide/ROS2Guide.rst:350
 msgid ""
