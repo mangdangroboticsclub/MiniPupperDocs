@@ -70,3 +70,12 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
     reference/Design
     reference/PCB
     reference/FAQ
+
+About Translation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Japanese translation contributors
+
+* `naraki <https://github.com/naraki>`_
+* `Tech Life Hacking <https://github.com/tech-life-hacking>`_
+* `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_

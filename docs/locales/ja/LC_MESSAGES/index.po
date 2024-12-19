@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 17:16+0900\n"
+"POT-Creation-Date: 2024-12-20 00:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,9 @@ msgid ""
 "<https://twitter.com/LeggedRobot>`_ ,  `Github "
 "<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
 msgstr ""
-"私達のチャンネル:  `オンラインショップ <https://mangdang.store/collections/shop>`_ ,"
-" `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord"
-" <https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
+"私達のチャンネル:  `オンラインショップ <https://mangdang.store/collections/shop>`_ , "
+"`FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord "
+"<https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
 "<https://twitter.com/LeggedRobot>`_ ,  `Github "
 "<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
 
@@ -53,7 +53,8 @@ msgid ""
 "MD Robot Starter Kit is a robot learning platform, it will make robotics "
 "easier for schools, homeschool families, enthusiasts, and beyond."
 msgstr ""
-"MD ロボット スターター キットはロボット学習プラットフォームであり、学校、ホームスクールの家族、愛好家などにとってロボット工学をより簡単に学習できるようになります。"
+"MD ロボット スターター "
+"キットはロボット学習プラットフォームであり、学校、ホームスクールの家族、愛好家などにとってロボット工学をより簡単に学習できるようになります。"
 
 #: ../../index.rst:16
 msgid "※ Key Features:"
@@ -71,7 +72,7 @@ msgstr "メカニクス: 60 分で機械設計をすばやく組み立てて理�
 
 #: ../../index.rst:20
 msgid "Robotics control: ready-to-study kinematics examples."
-msgstr "ロボット制御: すぐに学習できる運動学の例。
+msgstr "ロボット制御: すぐに学習できる運動学の例"
 
 #: ../../index.rst:21
 msgid ""
@@ -109,7 +110,9 @@ msgstr "MD ロボット スターター キットとは?"
 msgid ""
 "MD Robot Starter Kits include Mini Pupper 1(launched in 2021), Mini "
 "Pupper 2(launched in 2022)."
-msgstr "MD ロボット スターター キットには、「ミニぷぱ1」Mini Pupper 1 (2021 年発売)、「ミニぷぱ2」Mini Pupper 2 (2022 年発売) が含まれます。"
+msgstr ""
+"MD ロボット スターター キットには、「ミニぷぱ1」Mini Pupper 1 (2021 年発売)、「ミニぷぱ2」Mini Pupper 2 "
+"(2022 年発売) が含まれます。"
 
 #: ../../index.rst:41
 msgid ""
@@ -118,9 +121,10 @@ msgid ""
 "cost, personal quadruped kit with open-source software. With MD Robot "
 "Starter Kits, you can build a robot dog that can drive around and have "
 "enough horsepower to create exciting applications."
-msgstr "ミニぷぱ（Mini Pupper）は、Stanford Pupper からインスピレーションを得た、"
-"オープンソース ソフトウェアの低コストの個人用四足歩行キットです。"
-"MD Robot Starter Kits で走行可能なエキサイティングなアプリケーションを作成するのに十分な馬力を持つロボット犬を構築できます。"
+msgstr ""
+"ミニぷぱ（Mini Pupper）は、Stanford Pupper からインスピレーションを得た、オープンソース "
+"ソフトウェアの低コストの個人用四足歩行キットです。MD Robot Starter Kits "
+"で走行可能なエキサイティングなアプリケーションを作成するのに十分な馬力を持つロボット犬を構築できます。"
 
 #: ../../index.rst:45
 msgid "About MangDang Technology Co., Limited"
@@ -134,13 +138,32 @@ msgid ""
 "<https://www.hkstp.org/en/directory/material-and-precision-engineering"
 "/mangdang-technology-colimited>`_. We are a global team with members from"
 " many countries and regions."
-msgstr "2020 年に設立されたマンダンは、人々の生活をより良くするロボット製品の研究、開発、製造を専門としています。"
-"マンダンの本社は香港サイエンス パークにあります。"
-"私たちは、多くの国や地域のメンバーで構成されるグローバル チームです。"
+msgstr ""
+"2020 年に設立されたマンダンは、人々の生活をより良くするロボット製品の研究、開発、製造を専門としています。マンダンの本社は香港サイエンス "
+"パークにあります。私たちは、多くの国や地域のメンバーで構成されるグローバル チームです。"
 
 #: ../../index.rst:48
 msgid ""
 "We are all dreamers, and we look forward to connecting talents worldwide "
 "and innovating together to perform splendid times!"
-msgstr "私たちは皆、夢想家であり、世界中の才能を結びつけ、"
-"素晴らしい時間を演出するために一緒に革新することを楽しみにしています。"
+msgstr "私たちは皆、夢想家であり、世界中の才能を結びつけ、素晴らしい時間を演出するために一緒に革新することを楽しみにしています。"
+
+#: ../../index.rst:75
+msgid "About Translation"
+msgstr "翻訳クレジット"
+
+#: ../../index.rst:77
+msgid "Japanese translation contributors"
+msgstr "日本語への翻訳協力"
+
+#: ../../index.rst:79
+msgid "`naraki <https://github.com/naraki>`_"
+msgstr ""
+
+#: ../../index.rst:80
+msgid "`Tech Life Hacking <https://github.com/tech-life-hacking>`_"
+msgstr ""
+
+#: ../../index.rst:81
+msgid "`Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_"
+msgstr ""
