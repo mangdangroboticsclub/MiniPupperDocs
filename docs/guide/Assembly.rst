@@ -781,6 +781,22 @@ Step 7.3 Completion!
 Assemble Mini Pupper 2
 ######################
 
+There are two kinds of kits to assemble.
+
+* Complete Kit: For those who are eager to understand every aspect of the mechanical details, this kit is for you. It requires a hands-on approach as you'll be assembling everything from scratch. Plan on spending at least 5 hours or more on this engaging DIY project.
+
+* Standard Kit: If you're looking for a quicker start, the Standard Kit is the way to go. With the legs pre-assembled, you can have your project up and running in approximately one hour. It's designed for those who want to jump right in and start experiencing the fun without the extensive assembly time.
+
+
+This is the video clip for the Standard kit, please refer to the section "Standard Kit Main Parts Assembly" for detailed steps.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7u9tU_Fva6Y?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+	
+
 This is the video clip for the complete kit, please refer to the below sections for detailed steps.
 
 .. raw:: html
@@ -1232,7 +1248,53 @@ Step 5.6 Assemble the speaker
     :align: center
 
 
-6. Cover Assembly
+6. Standard Kit Main Parts Assembly
+--------------------------
+
+Step 1 Preparation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following picture shows all the parts.
+
+.. image:: ../_static/MP2.StandardKit.0.png
+    :align: center
+	
+Step 2 Assemble the bottom plate. 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Connect the 4 legs to the bottom plate using the M2 x 5mm screws.
+
+.. image:: ../_static/MP2.StandardKit.1.png
+    :align: center
+
+
+Step 3 Assemble the top PCB board.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Insert the four-legged connection wire into the top board. Connect the LCD screen cable to the PCB board. Please pay attention to the direction.
+
+.. image:: ../_static/MP2.StandardKit.2.png
+    :align: center
+	
+Step 4 Adjust the power line
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Pass the power line on the PCB board through the hole in the bottom plate.
+
+.. image:: ../_static/MP2.StandardKit.3.png
+    :align: center
+	
+	
+Step 5 Assemble the speaker
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Fix the PCB board and bottom board using M2 × 5mm screws.
+
+.. image:: ../_static/MP2.StandardKit.4.png
+    :align: center
+	
+
+7. Cover Assembly
 -----------------
 Please refer to the below video clip.
 
@@ -1242,7 +1304,7 @@ Please refer to the below video clip.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Nw8dl4CGt9A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-Step 6.1 Side panels
+Step 1 Side panels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/111.v2.jpg
@@ -1251,7 +1313,7 @@ Step 6.1 Side panels
 .. image:: ../_static/112.v2.jpg
     :align: center
 
-Step 6.2 Shin guards
+Step 2 Shin guards
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use four M2x10mm countersunk screws.
@@ -1262,7 +1324,7 @@ Step 6.2 Shin guards
 .. image:: ../_static/114.v2.jpg
     :align: center
 
-Step 6.3 Shoulders
+Step 3 Shoulders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Insert only the screws first and then insert the shoulder parts into the gap. Insert the 2 mm hex driver into the hole in the shoulder part and tighten the screws.
@@ -1279,7 +1341,7 @@ Step 6.3 Shoulders
 .. image:: ../_static/122.v2.jpg
     :align: center
 
-Step 6.4 Shoes
+Step 4 Shoes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Put on 4 shoes.
@@ -1296,10 +1358,10 @@ Complete!
 
 
 
-7. Add-On Assembly
+8. Add-On Assembly
 -------------------
 
-Step 7.1 Lidar
+Step 1 Lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
@@ -1327,7 +1389,7 @@ Connect the custom cable to the Lidar module and fix it using the self-tapping s
 .. image:: ../_static/MP2.Lidar.5.jpg
     :align: center
 
-Step 7.2 Camera
+Step 2 Camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
