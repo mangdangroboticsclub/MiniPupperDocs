@@ -7,16 +7,18 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mini Pupper \n"
+"Project-Id-Version: Mini Pupper\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-31 15:33+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-01-01 02:27+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../guide/QuickStartGuide.rst:3
 msgid "Quick Start Guide"
@@ -27,15 +29,15 @@ msgid "Contents"
 msgstr "コンテンツ"
 
 #: ../../guide/QuickStartGuide.rst:9
-#, fuzzy
 msgid "Run Pupper Robot using controller"
-msgstr "ミニぷぱロボットの起動"
+msgstr "ミニぷぱロボットの操作"
 
 #: ../../guide/QuickStartGuide.rst:11
 msgid ""
-"You can use the controller to play Stanford Pupper, Mini Pupper and Mini "
-"Pupper 2, the steps are same."
+"You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 2, the steps are "
+"same."
 msgstr ""
+"コントローラーを使って同じようにStanford Pupper、ミニぷぱ、ミニぷぱ2を操作することができます。"
 
 #: ../../guide/QuickStartGuide.rst:21
 msgid "|youtu.be-pre-assembled-user-guide|"
@@ -47,9 +49,8 @@ msgstr "ミニぷぱの電源オン"
 
 #: ../../guide/QuickStartGuide.rst:25
 msgid ""
-"Push on the battery power button for at least 3 seconds to power on Mini "
-"Pupper. After power on, if you push on the power button for at least 3 "
-"seconds again, it will power off."
+"Push on the battery power button for at least 3 seconds to power on Mini Pupper. After power on, if "
+"you push on the power button for at least 3 seconds again, it will power off."
 msgstr "バッテリーの電源ボタンを3秒以上押し続けてミニぷぱを起動してください。"
 
 #: ../../guide/QuickStartGuide.rst:27
@@ -58,39 +59,43 @@ msgstr "コントローラーをペアリングモードにしてラズパイに
 
 #: ../../guide/QuickStartGuide.rst:29 ../../guide/QuickStartGuide.rst:76
 msgid ""
-"To put it into pairing mode, hold the share button and home button at the"
-" same time until it starts making quick double flashes."
-msgstr "ペアリングモードにするには、シェアボタンとホームボタンを同時に押し続け、2回の点滅を始めるまで待ちます。"
+"To put it into pairing mode, hold the share button and home button at the same time until it starts "
+"making quick double flashes."
+msgstr ""
+"ペアリングモードにするには、シェアボタンとホームボタンを同時に押し続け、2回の点滅を始めるまで待ちま"
+"す。"
 
 #: ../../guide/QuickStartGuide.rst:30
 msgid ""
-"If it starts making slow single flashes, hold the home button down until "
-"it stops blinking(about 15s) and try again."
-msgstr "ゆっくりとした1回の点滅を始めた場合は、ホームボタンを押し続け点滅が停止する（約15秒）まで待ってから再度試してください"
+"If it starts making slow single flashes, hold the home button down until it stops blinking(about "
+"15s) and try again."
+msgstr ""
+"ゆっくりとした1回の点滅を始めた場合は、ホームボタンを押し続け点滅が停止する（約15秒）まで待ってから"
+"再度試してください"
 
 #: ../../guide/QuickStartGuide.rst:35
 msgid ""
-"Wait until the controller binds to the robot, at which point the "
-"controller should turn a dim green (or whatever color you chose in "
-"pupper/HardwareConfig.py for the deactivated color)."
-msgstr "コントローラーがロボットに接続されるまで待ちます。このとき、コントローラーは薄い緑色（またはpupper/HardwareConfig.pyで設定した非アクティブ状態の色）に変わります。"
+"Wait until the controller binds to the robot, at which point the controller should turn a dim green "
+"(or whatever color you chose in pupper/HardwareConfig.py for the deactivated color)."
+msgstr ""
+"コントローラーがロボットに接続されるまで待ちます。このとき、コントローラーは薄い緑色（またはpupper/"
+"HardwareConfig.pyで設定した非アクティブ状態の色）に変わります。"
 
 #: ../../guide/QuickStartGuide.rst:36
 msgid ""
-"Press L1 on the controller to \"activate\" the robot. The controller "
-"should turn bright green (or again, whatever you chose in "
-"HardwareConfig)."
-msgstr "コントローラーのL1ボタンを押してロボットを「アクティブ化」します。コントローラーは明るい緑色（またはHardwareConfigで選択した色）に変わります。"
+"Press L1 on the controller to \"activate\" the robot. The controller should turn bright green (or "
+"again, whatever you chose in HardwareConfig)."
+msgstr ""
+"コントローラーのL1ボタンを押してロボットを「アクティブ化」します。コントローラーは明るい緑色（または"
+"HardwareConfigで選択した色）に変わります。"
 
 #: ../../guide/QuickStartGuide.rst:37
-msgid ""
-"You're good to go! Check out the controls section below for operating "
-"instructions."
+msgid "You're good to go! Check out the controls section below for operating instructions."
 msgstr "準備完了です！操作方法については以下のコントロールセクションをご覧ください。"
 
 #: ../../guide/QuickStartGuide.rst:40
 msgid "Pupper Robot controls using controller"
-msgstr ""
+msgstr "コントローラを使ったミニぷぱの操作"
 
 #: ../../guide/QuickStartGuide.rst:42
 msgid "L1: Press to toggle active mode and deactivate mode."
@@ -98,9 +103,11 @@ msgstr "L1: アクティブモードと非アクティブモードを切り替�
 
 #: ../../guide/QuickStartGuide.rst:44
 msgid ""
-"Note: the controller's front light will change colors to indicate if the "
-"robot is deactivated or activated."
-msgstr "注: コントローラーの前面ライトは、ロボットが非アクティブまたはアクティブであることを示すために色が変わります。"
+"Note: the controller's front light will change colors to indicate if the robot is deactivated or "
+"activated."
+msgstr ""
+"注: コントローラーの前面ライトは、ロボットが非アクティブまたはアクティブであることを示すために色が変"
+"わります。"
 
 #: ../../guide/QuickStartGuide.rst:46
 msgid "R1: Press to transition between Rest mode and Trot mode."
@@ -155,7 +162,6 @@ msgid "Power off the battery"
 msgstr "バッテリーの電源を切る"
 
 #: ../../guide/QuickStartGuide.rst:72
-#, fuzzy
 msgid "Important Notes using controller"
 msgstr "重要な注意事項"
 
@@ -165,9 +171,11 @@ msgstr "コントローラーのペアリング手順（上記手順の繰り返
 
 #: ../../guide/QuickStartGuide.rst:77
 msgid ""
-"If it starts making slow single flashes, hold the home button down until "
-"it stops blinking and try again."
-msgstr "ゆっくりとした単一の点滅を始めた場合は、ホームボタンを押し続け、点滅が停止するまで待ってから再度試してください。"
+"If it starts making slow single flashes, hold the home button down until it stops blinking and try "
+"again."
+msgstr ""
+"ゆっくりとした単一の点滅を始めた場合は、ホームボタンを押し続け、点滅が停止するまで待ってから再度試し"
+"てください。"
 
 #: ../../guide/QuickStartGuide.rst:79
 msgid "Battery voltage"
@@ -175,48 +183,52 @@ msgstr "バッテリー電圧"
 
 #: ../../guide/QuickStartGuide.rst:81
 msgid ""
-"If you use external power supply to power the robot with anything higher "
-"than 8.4V (aka >2S) you'll almost certainly fry all your servos!"
-msgstr "ロボットを外部電源で駆動する場合、8.4V（2S以上）を超える電圧を使用すると、サーボがほぼ確実に故障します！"
+"If you use external power supply to power the robot with anything higher than 8.4V (aka >2S) you'll "
+"almost certainly fry all your servos!"
+msgstr ""
+"ロボットを外部電源で駆動する場合、8.4V（2S以上）を超える電圧を使用すると、サーボがほぼ確実に故障しま"
+"す！"
 
 #: ../../guide/QuickStartGuide.rst:85
 msgid "Run Mini Pupper 2 Generative AI functions"
-msgstr ""
+msgstr "ミニぷぱ2を生成AIを使って操作"
 
 #: ../../guide/QuickStartGuide.rst:88
 msgid "Preparation"
-msgstr ""
+msgstr "準備"
 
 #: ../../guide/QuickStartGuide.rst:90
-#, fuzzy
 msgid "Charging the battery"
-msgstr "バッテリーの電源を切る"
+msgstr "バッテリーを充電する"
 
 #: ../../guide/QuickStartGuide.rst:92
 msgid ""
-"The battery is charged via USB, see picture for USB socket, and can also "
-"be charged while attached to the Mini Pupper body."
+"The battery is charged via USB, see picture for USB socket, and can also be charged while attached "
+"to the Mini Pupper body."
 msgstr ""
+"バッテリーはUSBケーブルを接続して充電します。バッテリーをミニぷぱの本体に取り付けたままでも充電する"
+"ことができます。"
 
 #: ../../guide/QuickStartGuide.rst:94
-msgid ""
-"※ LED light: Green means there is enough power, and Red means you need to"
-" charge it."
-msgstr ""
+msgid "※ LED light: Green means there is enough power, and Red means you need to charge it."
+msgstr "※LED緑：バッテリー充電完了、LED赤：バッテリー残量低下"
 
 #: ../../guide/QuickStartGuide.rst:96
 msgid ""
-"※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC "
-"will change it to 1A. It needs about 1 hour to charge 80% and the light "
-"will become green, and an additional 1 hour to 100%, anyway, you can use "
-"it when the light becomes green."
+"※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It "
+"needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, "
+"anyway, you can use it when the light becomes green."
 msgstr ""
+"※5V/1A以上のアダプタの使用を推奨します。5V/2Aのアダプタでも1Aで充電されます。フル充電には2時間ほどか"
+"かります。1時間で80%ほどに到達し、この時点でLEDは緑色になります。その次の1時間で100%に到達します。"
+"LEDが緑色になった時点でバッテリは使用可能です。"
 
 #: ../../guide/QuickStartGuide.rst:102
 msgid ""
-"The battery runs continuously for about 30 minutes, and if you want it to"
-" work for a long time, you can connect the adapter."
+"The battery runs continuously for about 30 minutes, and if you want it to work for a long time, you "
+"can connect the adapter."
 msgstr ""
+"バッテリーの連続稼働時間は30分ほどです。さらに長時間稼働させる場合は電源アダプタの使用を推奨します。"
 
 #: ../../guide/QuickStartGuide.rst:105
 msgid "Power On"
@@ -228,8 +240,8 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:113
 msgid ""
-"If you press and hold the battery button manually for more than 3 "
-"seconds, the battery will turn green and light up."
+"If you press and hold the battery button manually for more than 3 seconds, the battery will turn "
+"green and light up."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:119
@@ -261,9 +273,7 @@ msgid "WiFi password: mangdang"
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:141
-msgid ""
-"Please refer to the following video demo. "
-"https://youtube.com/shorts/djDqob18IsQ"
+msgid "Please refer to the following video demo. https://youtube.com/shorts/djDqob18IsQ"
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:145
@@ -272,17 +282,16 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:147
 msgid ""
-"When you turn on Mini Pupper, the display will connect to the default "
-"WiFi after about 30 seconds, the IP address will be displayed."
+"When you turn on Mini Pupper, the display will connect to the default WiFi after about 30 seconds, "
+"the IP address will be displayed."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:153
 msgid ""
-"To connect to the robot, please use your mobile phone or PC browser "
-"(please connect to the default WiFi and make sure you are on the same "
-"network as the robot). After confirming the IP address of the robot, "
-"connect the robot using the browser. For example, if the IP address is "
-"\"192.168.1.103,\" enter \"192.168.1.103:8080\" in the browser."
+"To connect to the robot, please use your mobile phone or PC browser (please connect to the default "
+"WiFi and make sure you are on the same network as the robot). After confirming the IP address of "
+"the robot, connect the robot using the browser. For example, if the IP address is \"192.168.1.103,"
+"\" enter \"192.168.1.103:8080\" in the browser."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:160
@@ -307,8 +316,8 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:177
 msgid ""
-"After clicking \"AI On,\" wait for about 15 seconds until the display "
-"blinks once or twice and displays \"Hello, World.\""
+"After clicking \"AI On,\" wait for about 15 seconds until the display blinks once or twice and "
+"displays \"Hello, World.\""
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:183
@@ -325,20 +334,17 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:188
 msgid ""
-"game（The robot will play rock-paper-scissors game with you when he hear "
-"the key word “game”.）"
+"game（The robot will play rock-paper-scissors game with you when he hear the key word “game”.）"
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:189
-msgid ""
-"picture(The robot will take a photo and analyze it when he hear the key "
-"word “picture”.)"
+msgid "picture(The robot will take a photo and analyze it when he hear the key word “picture”.)"
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:190
 msgid ""
-"The robot will do relative actions when he hear the key word “look up” or"
-" “look down” or “look left” or “look right” or “come”."
+"The robot will do relative actions when he hear the key word “look up” or “look down” or “look "
+"left” or “look right” or “come”."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:193
@@ -347,10 +353,9 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:198
 msgid ""
-"Tip: The AI function can work continuously for about 20 minutes. If you "
-"want to use it for a long time, you can manually turn it off and restart "
-"it every 15 minutes. We will check how to make it work for a long time in"
-" the future."
+"Tip: The AI function can work continuously for about 20 minutes. If you want to use it for a long "
+"time, you can manually turn it off and restart it every 15 minutes. We will check how to make it "
+"work for a long time in the future."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:202
@@ -359,35 +364,28 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:204
 msgid ""
-"If you want to set up your Mini Pupper to connect to WiFi in your home or"
-" office, follow the steps below."
+"If you want to set up your Mini Pupper to connect to WiFi in your home or office, follow the steps "
+"below."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:206
-msgid ""
-"Step 1: First, follow the steps above to connect the Mini Pupper to the "
-"default WiFi."
+msgid "Step 1: First, follow the steps above to connect the Mini Pupper to the default WiFi."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:208
 msgid ""
-"Step 2: After checking the IP address of the robot, connect to the robot "
-"using your mobile phone or PC (also connect to the default WiFi) browser."
-" For example, if the IP address is \"192.168.1.108,\" enter "
-"\"192.168.1.108:8080\" in the browser."
+"Step 2: After checking the IP address of the robot, connect to the robot using your mobile phone or "
+"PC (also connect to the default WiFi) browser. For example, if the IP address is \"192.168.1.108,\" "
+"enter \"192.168.1.108:8080\" in the browser."
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:214
 msgid ""
-"Step 3: Click \"Setting\" on the bottom left, and you will see the "
-"settings page on the right. After that, enter your home / office WiFi "
-"SSID and password, click \"Connect,\" and then click \"Reboot.\""
+"Step 3: Click \"Setting\" on the bottom left, and you will see the settings page on the right. "
+"After that, enter your home / office WiFi SSID and password, click \"Connect,\" and then click "
+"\"Reboot.\""
 msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:220
 msgid "Tip: Make sure WiFi is active before restarting the robot."
 msgstr ""
-
-#~ msgid "Pupper Robot controls"
-#~ msgstr ""
-
