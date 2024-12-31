@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-15 20:42+0900\n"
+"POT-Creation-Date: 2024-12-31 15:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,79 +68,79 @@ msgid ""
 "design, that's OK."
 msgstr "3Dプリンターをお持ちの場合、以前の3Dプリントデザインを使用しても問題ありません。"
 
-#: ../../guide/Assembly.rst:38 ../../guide/Assembly.rst:801
-#: ../../guide/Assembly.rst:1372
+#: ../../guide/Assembly.rst:38 ../../guide/Assembly.rst:817
+#: ../../guide/Assembly.rst:1434
 msgid "1. Write the pre-built image into microSD"
 msgstr "1. ビルド済みイメージをmicroSDに書き込む"
 
 #: ../../guide/Assembly.rst:41 ../../guide/Assembly.rst:149
-#: ../../guide/Assembly.rst:804 ../../guide/Assembly.rst:1375
+#: ../../guide/Assembly.rst:820 ../../guide/Assembly.rst:1437
 msgid "Tools"
 msgstr "ツール"
 
 #: ../../guide/Assembly.rst:42 ../../guide/Assembly.rst:150
-#: ../../guide/Assembly.rst:805 ../../guide/Assembly.rst:1376
+#: ../../guide/Assembly.rst:821 ../../guide/Assembly.rst:1438
 msgid ""
 "In addition to the tools included in the kit, the following items are "
 "required for assembly."
 msgstr "キットに含まれるツールに加えて、以下のアイテムが組み立てに必要です。"
 
-#: ../../guide/Assembly.rst:44 ../../guide/Assembly.rst:807
-#: ../../guide/Assembly.rst:1378
+#: ../../guide/Assembly.rst:44 ../../guide/Assembly.rst:823
+#: ../../guide/Assembly.rst:1440
 msgid "USB keyboard"
 msgstr "USBキーボード"
 
-#: ../../guide/Assembly.rst:45 ../../guide/Assembly.rst:808
-#: ../../guide/Assembly.rst:1379
+#: ../../guide/Assembly.rst:45 ../../guide/Assembly.rst:824
+#: ../../guide/Assembly.rst:1441
 msgid "USB mouse"
 msgstr "USBマウス"
 
-#: ../../guide/Assembly.rst:46 ../../guide/Assembly.rst:809
-#: ../../guide/Assembly.rst:1380
+#: ../../guide/Assembly.rst:46 ../../guide/Assembly.rst:825
+#: ../../guide/Assembly.rst:1442
 msgid "PC"
 msgstr "PC"
 
-#: ../../guide/Assembly.rst:47 ../../guide/Assembly.rst:810
-#: ../../guide/Assembly.rst:1381
+#: ../../guide/Assembly.rst:47 ../../guide/Assembly.rst:826
+#: ../../guide/Assembly.rst:1443
 msgid "microSD card reader"
 msgstr "microSDカードリーダー"
 
-#: ../../guide/Assembly.rst:48 ../../guide/Assembly.rst:811
-#: ../../guide/Assembly.rst:1382
+#: ../../guide/Assembly.rst:48 ../../guide/Assembly.rst:827
+#: ../../guide/Assembly.rst:1444
 msgid "HDMI Display"
 msgstr "HDMIディスプレイ"
 
-#: ../../guide/Assembly.rst:49 ../../guide/Assembly.rst:812
-#: ../../guide/Assembly.rst:1383
+#: ../../guide/Assembly.rst:49 ../../guide/Assembly.rst:828
+#: ../../guide/Assembly.rst:1445
 msgid "micro HDMI cable"
 msgstr "micro HDMIケーブル"
 
-#: ../../guide/Assembly.rst:50 ../../guide/Assembly.rst:813
-#: ../../guide/Assembly.rst:1384
+#: ../../guide/Assembly.rst:50 ../../guide/Assembly.rst:829
+#: ../../guide/Assembly.rst:1446
 msgid "USB charger"
 msgstr "USB充電器"
 
-#: ../../guide/Assembly.rst:54 ../../guide/Assembly.rst:817
-#: ../../guide/Assembly.rst:1388
+#: ../../guide/Assembly.rst:54 ../../guide/Assembly.rst:833
+#: ../../guide/Assembly.rst:1450
 msgid "Step 1.1 Charging the battery"
 msgstr "ステップ1.1 バッテリーの充電"
 
-#: ../../guide/Assembly.rst:56 ../../guide/Assembly.rst:819
-#: ../../guide/Assembly.rst:1390
+#: ../../guide/Assembly.rst:56 ../../guide/Assembly.rst:835
+#: ../../guide/Assembly.rst:1452
 msgid ""
 "The battery is charged via USB, see picture for USB socket, and can also "
 "be charged while attached to the Mini Pupper body."
 msgstr "バッテリーはUSBで充電されます。USBソケットの位置は画像を参照してください。ミニぷぱ本体に取り付けたままでも充電可能です。"
 
-#: ../../guide/Assembly.rst:58 ../../guide/Assembly.rst:821
-#: ../../guide/Assembly.rst:1392
+#: ../../guide/Assembly.rst:58 ../../guide/Assembly.rst:837
+#: ../../guide/Assembly.rst:1454
 msgid ""
 "※ LED light: Green means there is enough power, and Red means you need to"
 " charge it."
 msgstr "※ LEDライト: 緑は十分な電力があり、赤は充電が必要であることを示しています。"
 
-#: ../../guide/Assembly.rst:60 ../../guide/Assembly.rst:823
-#: ../../guide/Assembly.rst:1394
+#: ../../guide/Assembly.rst:60 ../../guide/Assembly.rst:839
+#: ../../guide/Assembly.rst:1456
 msgid ""
 "※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC "
 "will change it to 1A. It needs about 1 hour to charge 80% and the light "
@@ -150,8 +150,8 @@ msgstr ""
 "※ "
 "推奨は5V/1Aのアダプターです。5V/2Aのアダプターを使用した場合でも、バッテリーICが1Aに調整します。80%までの充電に約1時間が必要で、この時点でライトが緑に変わります。その後さらに1時間で100%まで充電できます。緑に変わった時点で使用可能です。"
 
-#: ../../guide/Assembly.rst:66 ../../guide/Assembly.rst:829
-#: ../../guide/Assembly.rst:1400
+#: ../../guide/Assembly.rst:66 ../../guide/Assembly.rst:845
+#: ../../guide/Assembly.rst:1462
 msgid "Step 1.2 Download the image"
 msgstr "Step 1.2 イメージのダウンロード"
 
@@ -201,13 +201,13 @@ msgstr "microSDカードをPCのSDカードリーダーに挿入し、イメー�
 msgid "Remove the SD card from the PC and insert it into the Raspberry pi."
 msgstr "SDカードをPCから取り外し、Raspberry Piに挿入します。"
 
-#: ../../guide/Assembly.rst:97 ../../guide/Assembly.rst:847
-#: ../../guide/Assembly.rst:1418
+#: ../../guide/Assembly.rst:97 ../../guide/Assembly.rst:863
+#: ../../guide/Assembly.rst:1480
 msgid "2. Position of the screws"
 msgstr "2. ネジの位置"
 
-#: ../../guide/Assembly.rst:99 ../../guide/Assembly.rst:849
-#: ../../guide/Assembly.rst:1420
+#: ../../guide/Assembly.rst:99 ../../guide/Assembly.rst:865
+#: ../../guide/Assembly.rst:1482
 msgid "The pictures show the position of the screws briefly."
 msgstr "ネジの位置を簡単に示した図です。"
 
@@ -217,15 +217,15 @@ msgid ""
 " after April 15 2022 version)"
 msgstr "(上の写真は2022年4月15日以前のバージョンで、下の写真は2022年4月15日以降のバージョンです。)"
 
-#: ../../guide/Assembly.rst:138 ../../guide/Assembly.rst:862
-#: ../../guide/Assembly.rst:1433
+#: ../../guide/Assembly.rst:138 ../../guide/Assembly.rst:878
+#: ../../guide/Assembly.rst:1495
 msgid "3. Legs Assembly"
 msgstr "3. 足の組み立て"
 
 #: ../../guide/Assembly.rst:139 ../../guide/Assembly.rst:350
-#: ../../guide/Assembly.rst:650 ../../guide/Assembly.rst:863
-#: ../../guide/Assembly.rst:1237 ../../guide/Assembly.rst:1434
-#: ../../guide/Assembly.rst:1808
+#: ../../guide/Assembly.rst:650 ../../guide/Assembly.rst:879
+#: ../../guide/Assembly.rst:1299 ../../guide/Assembly.rst:1496
+#: ../../guide/Assembly.rst:1870
 msgid "Please refer to the below video clip."
 msgstr "以下の動画を参照してください。"
 
@@ -239,63 +239,63 @@ msgid ""
 "it after you have much background."
 msgstr "ロックタイトを初めて使用される方には、あまりお勧めできませんが、ある程度経験を積んでからご使用ください。"
 
-#: ../../guide/Assembly.rst:156 ../../guide/Assembly.rst:1038
-#: ../../guide/Assembly.rst:1609
+#: ../../guide/Assembly.rst:156 ../../guide/Assembly.rst:1054
+#: ../../guide/Assembly.rst:1671
 msgid ""
 "※ Loctite prevents the nut from loosening, but it is not essential, as it"
 " can be tightened only when looseness is noticed."
 msgstr "ロックタイトはナットの緩みを防止しますが、緩みに気づいたときに締めれば良いので必須ではありません。"
 
-#: ../../guide/Assembly.rst:159 ../../guide/Assembly.rst:872
-#: ../../guide/Assembly.rst:1443
+#: ../../guide/Assembly.rst:159 ../../guide/Assembly.rst:888
+#: ../../guide/Assembly.rst:1505
 msgid "Bolt to use"
 msgstr "使用するボルト"
 
-#: ../../guide/Assembly.rst:160 ../../guide/Assembly.rst:873
-#: ../../guide/Assembly.rst:1444
+#: ../../guide/Assembly.rst:160 ../../guide/Assembly.rst:889
+#: ../../guide/Assembly.rst:1506
 msgid "M2x5mm        2x4=8   ①+②, ⑤+⑥"
 msgstr "M2x5mm        2x4=8   ①+②, ⑤+⑥"
 
-#: ../../guide/Assembly.rst:161 ../../guide/Assembly.rst:874
-#: ../../guide/Assembly.rst:1445
+#: ../../guide/Assembly.rst:161 ../../guide/Assembly.rst:890
+#: ../../guide/Assembly.rst:1507
 msgid "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
 msgstr "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
 
-#: ../../guide/Assembly.rst:162 ../../guide/Assembly.rst:875
-#: ../../guide/Assembly.rst:1446
+#: ../../guide/Assembly.rst:162 ../../guide/Assembly.rst:891
+#: ../../guide/Assembly.rst:1508
 msgid "M2x12mm       1x4=4   ⑤+⑦"
 msgstr "M2x12mm       1x4=4   ⑤+⑦"
 
-#: ../../guide/Assembly.rst:163 ../../guide/Assembly.rst:876
-#: ../../guide/Assembly.rst:1447
+#: ../../guide/Assembly.rst:163 ../../guide/Assembly.rst:892
+#: ../../guide/Assembly.rst:1509
 msgid "M2x14mm       1x4=4   ③+⑤"
 msgstr "M2x14mm       1x4=4   ③+⑤"
 
-#: ../../guide/Assembly.rst:166 ../../guide/Assembly.rst:879
-#: ../../guide/Assembly.rst:1450
+#: ../../guide/Assembly.rst:166 ../../guide/Assembly.rst:895
+#: ../../guide/Assembly.rst:1512
 msgid "Step 3.1 Single leg"
 msgstr "Step 3.1 片足"
 
-#: ../../guide/Assembly.rst:168 ../../guide/Assembly.rst:881
-#: ../../guide/Assembly.rst:1452
+#: ../../guide/Assembly.rst:168 ../../guide/Assembly.rst:897
+#: ../../guide/Assembly.rst:1514
 msgid ""
 "Assemble the four legs. The front and back of the right side are the "
 "same, and so are the front and back of the left side. Show you how to "
 "assemble the right side."
 msgstr "足を組み立てるとき、左側は前後セットで同じ形の足２つ、右側も同様で、併せて足を４コ組み立てます。下記は右側の前後セットを例に詳しく説明します。"
 
-#: ../../guide/Assembly.rst:170 ../../guide/Assembly.rst:883
-#: ../../guide/Assembly.rst:1454
+#: ../../guide/Assembly.rst:170 ../../guide/Assembly.rst:899
+#: ../../guide/Assembly.rst:1516
 msgid "Video Instructions, please refer to the link https://youtu.be/Ut7UnS3CTZs"
 msgstr "説明動画は次ののリンクをご参照ください。https://youtu.be/Ut7UnS3CTZs"
 
-#: ../../guide/Assembly.rst:173 ../../guide/Assembly.rst:886
-#: ../../guide/Assembly.rst:1457
+#: ../../guide/Assembly.rst:173 ../../guide/Assembly.rst:902
+#: ../../guide/Assembly.rst:1519
 msgid "The parts are numbered as follows to explain."
 msgstr "説明の便宜上、以下のようにパーツに番号を振りました。"
 
-#: ../../guide/Assembly.rst:179 ../../guide/Assembly.rst:892
-#: ../../guide/Assembly.rst:1463
+#: ../../guide/Assembly.rst:179 ../../guide/Assembly.rst:908
+#: ../../guide/Assembly.rst:1525
 msgid "Assemble ① and ②"
 msgstr "①と②の組み立て"
 
@@ -313,13 +313,13 @@ msgid ""
 "bearing and press it in without gaps."
 msgstr "②のボールベアリング2個は奥まで挿し込み、下記の写真のように先が少し見える状態になっている必要があります。叩くなどして隙間をなくせば大丈夫です"
 
-#: ../../guide/Assembly.rst:198 ../../guide/Assembly.rst:908
-#: ../../guide/Assembly.rst:1479
+#: ../../guide/Assembly.rst:198 ../../guide/Assembly.rst:924
+#: ../../guide/Assembly.rst:1541
 msgid "Assemble ② and ③"
 msgstr "②と③の組み立て"
 
-#: ../../guide/Assembly.rst:200 ../../guide/Assembly.rst:910
-#: ../../guide/Assembly.rst:1481
+#: ../../guide/Assembly.rst:200 ../../guide/Assembly.rst:926
+#: ../../guide/Assembly.rst:1543
 msgid ""
 "Use an M2x8mm screw and an M2 locknut. Insert the screw from the bottom "
 "to the top of ③, pass through ② and tighten with the nut. It is important"
@@ -329,44 +329,44 @@ msgstr ""
 "M2x8mm のボルトを1つと M2 "
 "Locknutを使用します。ボルトを③の下から上に挿し、②を通し、ナットで締めます。③の部品の向きには気をつける必要があります。真ん中の穴の位置を良く見ましょう。"
 
-#: ../../guide/Assembly.rst:212 ../../guide/Assembly.rst:919
-#: ../../guide/Assembly.rst:1490
+#: ../../guide/Assembly.rst:212 ../../guide/Assembly.rst:935
+#: ../../guide/Assembly.rst:1552
 msgid "Adjustment of the length of ④"
 msgstr "④の長さの調整"
 
-#: ../../guide/Assembly.rst:214 ../../guide/Assembly.rst:921
-#: ../../guide/Assembly.rst:1492
+#: ../../guide/Assembly.rst:214 ../../guide/Assembly.rst:937
+#: ../../guide/Assembly.rst:1554
 msgid ""
 "The length of ④ must match the length of ⑤. When adjusting the length, it"
 " is easier to use two long screws to make sure that the lengths match. "
 "Once the lengths have been adjusted, take apart all."
 msgstr "④の長さが⑤と一致している必要があります。長さを調整するとき、M2x14mmなどの長いボルトを2本使うと、長さが一致しているか確認しやすいです。長さの調整が完了したら、これらはすべてバラしましょう。"
 
-#: ../../guide/Assembly.rst:222 ../../guide/Assembly.rst:929
-#: ../../guide/Assembly.rst:1500
+#: ../../guide/Assembly.rst:222 ../../guide/Assembly.rst:945
+#: ../../guide/Assembly.rst:1562
 msgid "If it's hard to twist, you can use two screwdrivers to assist."
 msgstr "回しづらい場合、補助として2つのドライバーを使ってみてください。"
 
-#: ../../guide/Assembly.rst:228 ../../guide/Assembly.rst:935
-#: ../../guide/Assembly.rst:1506
+#: ../../guide/Assembly.rst:228 ../../guide/Assembly.rst:951
+#: ../../guide/Assembly.rst:1568
 msgid "Assemble ⑤ and ⑥"
 msgstr "⑤と⑥の組み立て"
 
-#: ../../guide/Assembly.rst:230 ../../guide/Assembly.rst:937
-#: ../../guide/Assembly.rst:1508
+#: ../../guide/Assembly.rst:230 ../../guide/Assembly.rst:953
+#: ../../guide/Assembly.rst:1570
 msgid ""
 "Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
 "the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
 "the surface."
 msgstr "M2x5mm ネジを 1つ使用します。まずネジを ⑤ に挿入し、次に ⑥ の穴に挿入して締めます。⑥ の大きい穴が表面を向くようにします。"
 
-#: ../../guide/Assembly.rst:241 ../../guide/Assembly.rst:948
-#: ../../guide/Assembly.rst:1519
+#: ../../guide/Assembly.rst:241 ../../guide/Assembly.rst:964
+#: ../../guide/Assembly.rst:1581
 msgid "Assemble ⑤ and ⑦"
 msgstr "部品 ⑤ と ⑦ の組み立て"
 
-#: ../../guide/Assembly.rst:243 ../../guide/Assembly.rst:950
-#: ../../guide/Assembly.rst:1521
+#: ../../guide/Assembly.rst:243 ../../guide/Assembly.rst:966
+#: ../../guide/Assembly.rst:1583
 msgid ""
 "Use an M2x12mm screw, an M2 locknut and two sets of ball bearings. Each "
 "ball bearing is made up of three parts, the top and bottom parts with the"
@@ -381,13 +381,13 @@ msgstr ""
 "の歪んだ側を注意深く見て、正しい方向を向いていることを確認します。次に、別のボールベアリング セットをねじ込みます。最後に、ネジを ⑤ "
 "に挿入し、ナットで締めます。"
 
-#: ../../guide/Assembly.rst:262 ../../guide/Assembly.rst:969
-#: ../../guide/Assembly.rst:1540
+#: ../../guide/Assembly.rst:262 ../../guide/Assembly.rst:985
+#: ../../guide/Assembly.rst:1602
 msgid "Assemble ④ and ⑦"
 msgstr " ④ と ⑦ の組み立て"
 
-#: ../../guide/Assembly.rst:264 ../../guide/Assembly.rst:971
-#: ../../guide/Assembly.rst:1542
+#: ../../guide/Assembly.rst:264 ../../guide/Assembly.rst:987
+#: ../../guide/Assembly.rst:1604
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ "
 "through, then tighten it with the nut. The direction of the front and "
@@ -395,30 +395,30 @@ msgid ""
 msgstr "M2x8mmのネジとM2ナットを使用します。ネジを⑦に差し込み、④を通し、ナットで締めます。④の表裏の向きはどちらでも構いません。"
 
 #: ../../guide/Assembly.rst:266 ../../guide/Assembly.rst:281
-#: ../../guide/Assembly.rst:973 ../../guide/Assembly.rst:988
-#: ../../guide/Assembly.rst:1544 ../../guide/Assembly.rst:1559
+#: ../../guide/Assembly.rst:989 ../../guide/Assembly.rst:1004
+#: ../../guide/Assembly.rst:1606 ../../guide/Assembly.rst:1621
 msgid "Left and right leg"
 msgstr "左右の足"
 
-#: ../../guide/Assembly.rst:277 ../../guide/Assembly.rst:984
-#: ../../guide/Assembly.rst:1555
+#: ../../guide/Assembly.rst:277 ../../guide/Assembly.rst:1000
+#: ../../guide/Assembly.rst:1617
 msgid "Assemble ③ and ④"
 msgstr "③ と ④ の組み立て"
 
-#: ../../guide/Assembly.rst:279 ../../guide/Assembly.rst:986
-#: ../../guide/Assembly.rst:1557
+#: ../../guide/Assembly.rst:279 ../../guide/Assembly.rst:1002
+#: ../../guide/Assembly.rst:1619
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ "
 "through, then tighten it with the nut."
 msgstr "M2x8mmのネジとM2ナットを使用します。ネジを③に差し込み、④を通し、ナットで締めます。"
 
-#: ../../guide/Assembly.rst:289 ../../guide/Assembly.rst:996
-#: ../../guide/Assembly.rst:1567
+#: ../../guide/Assembly.rst:289 ../../guide/Assembly.rst:1012
+#: ../../guide/Assembly.rst:1629
 msgid "Assemble ③ and ⑤"
 msgstr "③ と ⑤ の組み立て"
 
-#: ../../guide/Assembly.rst:291 ../../guide/Assembly.rst:998
-#: ../../guide/Assembly.rst:1569
+#: ../../guide/Assembly.rst:291 ../../guide/Assembly.rst:1014
+#: ../../guide/Assembly.rst:1631
 msgid ""
 "Use M2x14mm screws and two sets of ball bearings. Thread the screws "
 "through the bearings, ③, bearings, ⑤, in that order. The screws are not "
@@ -428,31 +428,31 @@ msgstr ""
 "M2x14mm ネジとボールベアリング2組のを使用します。ネジをベアリング③、ベアリング⑤ "
 "の順に通します。ネジは固定されていませんが、次の工程でサーボを取り付けるときにネジを締めます。"
 
-#: ../../guide/Assembly.rst:302 ../../guide/Assembly.rst:1009
-#: ../../guide/Assembly.rst:1580
+#: ../../guide/Assembly.rst:302 ../../guide/Assembly.rst:1025
+#: ../../guide/Assembly.rst:1642
 msgid "Completion of a right leg"
 msgstr "右足の完成"
 
-#: ../../guide/Assembly.rst:305 ../../guide/Assembly.rst:1012
-#: ../../guide/Assembly.rst:1583
+#: ../../guide/Assembly.rst:305 ../../guide/Assembly.rst:1028
+#: ../../guide/Assembly.rst:1645
 msgid ""
 "Now we have one leg on the right side. Here are some pictures so you can "
 "see it from different angles. The left leg should be symmetrical with the"
 " right one."
 msgstr "これで、右側に片方の足ができました。さまざまな角度から見ることができるように、写真を貼っておきます。左足は右足と対称になっているはずです。"
 
-#: ../../guide/Assembly.rst:316 ../../guide/Assembly.rst:1020
-#: ../../guide/Assembly.rst:1591
+#: ../../guide/Assembly.rst:316 ../../guide/Assembly.rst:1036
+#: ../../guide/Assembly.rst:1653
 msgid "opposite side"
 msgstr "反対側"
 
-#: ../../guide/Assembly.rst:325 ../../guide/Assembly.rst:1026
-#: ../../guide/Assembly.rst:1597
+#: ../../guide/Assembly.rst:325 ../../guide/Assembly.rst:1042
+#: ../../guide/Assembly.rst:1659
 msgid "Step 3.2 Four legs"
 msgstr "Step 3.2 四足"
 
-#: ../../guide/Assembly.rst:331 ../../guide/Assembly.rst:1032
-#: ../../guide/Assembly.rst:1603
+#: ../../guide/Assembly.rst:331 ../../guide/Assembly.rst:1048
+#: ../../guide/Assembly.rst:1665
 msgid "Step 3.3 Locktite"
 msgstr "Step 3.3 ロックタイト"
 
@@ -463,8 +463,8 @@ msgid ""
 " the nut later, as it can be loosened by a strong force."
 msgstr "ナットは動く関節にあるので、ナットを強く締めても直ぐに緩んでしまいます。ロックタイトで固定しましょう。ロックタイトで固定されたナットは強い力で緩められるので、あとから解体も可能です。"
 
-#: ../../guide/Assembly.rst:338 ../../guide/Assembly.rst:1046
-#: ../../guide/Assembly.rst:1617
+#: ../../guide/Assembly.rst:338 ../../guide/Assembly.rst:1062
+#: ../../guide/Assembly.rst:1679
 msgid "Some screws are also secured with glue as the below picture shows."
 msgstr "下の写真のように接着剤をつけたネジもあります。"
 
@@ -571,8 +571,8 @@ msgid ""
 "other cables length is 15cm."
 msgstr "※サーボケーブルは2種類あり、No. 1,4,7,10のケーブルの長さは9cm、その他のケーブルの長さは15cmです。"
 
-#: ../../guide/Assembly.rst:448 ../../guide/Assembly.rst:1091
-#: ../../guide/Assembly.rst:1668
+#: ../../guide/Assembly.rst:448 ../../guide/Assembly.rst:1107
+#: ../../guide/Assembly.rst:1730
 msgid ""
 "It is useful to put masking tape on the cables and write the number of "
 "servos during this process to make it easier later."
@@ -613,8 +613,8 @@ msgstr "バッテリーをDIYする場合は、最初にミニぷぱのバッテ
 msgid "Install the battery pack."
 msgstr "バッテリーパックを取り付けます。"
 
-#: ../../guide/Assembly.rst:505 ../../guide/Assembly.rst:1107
-#: ../../guide/Assembly.rst:1757
+#: ../../guide/Assembly.rst:505 ../../guide/Assembly.rst:1123
+#: ../../guide/Assembly.rst:1819
 msgid "Be careful of the carbon fiber front and rear orientation."
 msgstr "前後の向きに気をつけましょう。"
 
@@ -710,33 +710,29 @@ msgstr "ファンの取り付け"
 msgid "Step 5.9 Raspberry Pi 4"
 msgstr "Step 5.9 Raspberry Pi 4"
 
-#: ../../guide/Assembly.rst:649 ../../guide/Assembly.rst:1236
-#: ../../guide/Assembly.rst:1807
+#: ../../guide/Assembly.rst:649 ../../guide/Assembly.rst:1869
 msgid "6. Cover Assembly"
 msgstr "6. カバー部の組み立て"
 
-#: ../../guide/Assembly.rst:660 ../../guide/Assembly.rst:1246
-#: ../../guide/Assembly.rst:1817
+#: ../../guide/Assembly.rst:660 ../../guide/Assembly.rst:1879
 msgid "Step 6.1 Side panels"
 msgstr "Step 6.1 本体のサイドパネル"
 
-#: ../../guide/Assembly.rst:669 ../../guide/Assembly.rst:1255
-#: ../../guide/Assembly.rst:1826
+#: ../../guide/Assembly.rst:669 ../../guide/Assembly.rst:1888
 msgid "Step 6.2 Shin guards"
 msgstr "Step 6.2 もものカバー"
 
-#: ../../guide/Assembly.rst:671 ../../guide/Assembly.rst:1257
-#: ../../guide/Assembly.rst:1828
+#: ../../guide/Assembly.rst:671 ../../guide/Assembly.rst:1319
+#: ../../guide/Assembly.rst:1890
 msgid "Use four M2x10mm countersunk screws."
 msgstr "M2x10mmの皿ネジを4本使用します。"
 
-#: ../../guide/Assembly.rst:680 ../../guide/Assembly.rst:1266
-#: ../../guide/Assembly.rst:1837
+#: ../../guide/Assembly.rst:680 ../../guide/Assembly.rst:1899
 msgid "Step 6.3 Shoulders"
 msgstr "Step 6.3 肩のカバー"
 
-#: ../../guide/Assembly.rst:682 ../../guide/Assembly.rst:1268
-#: ../../guide/Assembly.rst:1839
+#: ../../guide/Assembly.rst:682 ../../guide/Assembly.rst:1330
+#: ../../guide/Assembly.rst:1901
 msgid ""
 "Insert only the screws first and then insert the shoulder parts into the "
 "gap. Insert the 2 mm hex driver into the hole in the shoulder part and "
@@ -758,8 +754,8 @@ msgstr "M2x10mmネジを4本使用します。穴が小さくボルトが入ら�
 msgid "Step 6.5 Shoes"
 msgstr "Step 6.5 足先"
 
-#: ../../guide/Assembly.rst:713 ../../guide/Assembly.rst:1285
-#: ../../guide/Assembly.rst:1856
+#: ../../guide/Assembly.rst:713 ../../guide/Assembly.rst:1347
+#: ../../guide/Assembly.rst:1918
 msgid "Put on 4 shoes."
 msgstr "足先を取り付ける"
 
@@ -771,8 +767,7 @@ msgstr "Step 6.6 完成！"
 msgid "7.Add-On Assembly"
 msgstr "7.アドオン"
 
-#: ../../guide/Assembly.rst:735 ../../guide/Assembly.rst:1303
-#: ../../guide/Assembly.rst:1874
+#: ../../guide/Assembly.rst:735 ../../guide/Assembly.rst:1936
 msgid "Step 7.1 Lidar"
 msgstr "Step 7.1 LIDAR"
 
@@ -780,8 +775,7 @@ msgstr "Step 7.1 LIDAR"
 msgid "If you order the Lidar, the Lidar holder will be shipped together."
 msgstr "LIDAR を注文した場合、LIDAR 取付台も一緒に発送されます。"
 
-#: ../../guide/Assembly.rst:749 ../../guide/Assembly.rst:1331
-#: ../../guide/Assembly.rst:1902
+#: ../../guide/Assembly.rst:749 ../../guide/Assembly.rst:1964
 msgid "Step 7.2 Camera"
 msgstr "Step 7.2 カメラ"
 
@@ -804,18 +798,46 @@ msgid "Assemble Mini Pupper 2"
 msgstr "ミニぷぱ2の組み立て"
 
 #: ../../guide/Assembly.rst:784
+msgid "There are two kinds of kits to assemble."
+msgstr ""
+
+#: ../../guide/Assembly.rst:786
+msgid ""
+"Complete Kit: For those who are eager to understand every aspect of the "
+"mechanical details, this kit is for you. It requires a hands-on approach "
+"as you'll be assembling everything from scratch. Plan on spending at "
+"least 5 hours or more on this engaging DIY project."
+msgstr ""
+
+#: ../../guide/Assembly.rst:788
+msgid ""
+"Standard Kit: If you're looking for a quicker start, the Standard Kit is "
+"the way to go. With the legs pre-assembled, you can have your project up "
+"and running in approximately one hour. It's designed for those who want "
+"to jump right in and start experiencing the fun without the extensive "
+"assembly time."
+msgstr ""
+
+#: ../../guide/Assembly.rst:791
+#, fuzzy
+msgid ""
+"This is the video clip for the Standard kit, please refer to the section "
+"\"Standard Kit Main Parts Assembly\" for detailed steps."
+msgstr "これは完全なキットのビデオクリップです。詳細な手順については、以下の「セクション」を参照してください。"
+
+#: ../../guide/Assembly.rst:800
 msgid ""
 "This is the video clip for the complete kit, please refer to the below "
 "sections for detailed steps."
 msgstr "これは完全なキットのビデオクリップです。詳細な手順については、以下の「セクション」を参照してください。"
 
-#: ../../guide/Assembly.rst:792
+#: ../../guide/Assembly.rst:808
 msgid ""
 "Please also refer to Mini Pupper 2 Fusion 360 CAD model: "
 "https://a360.co/485n8mP"
 msgstr "ミニぷぱ2のFusion 360 CAD モデルも参照してください。: https://a360.co/485n8mP"
 
-#: ../../guide/Assembly.rst:831 ../../guide/Assembly.rst:1402
+#: ../../guide/Assembly.rst:847 ../../guide/Assembly.rst:1464
 msgid ""
 "You can download the pre-built image files from  `Mini Pupper pre-built "
 "images <https://drive.google.com/drive/folders/1c0ShF-"
@@ -825,19 +847,19 @@ msgstr ""
 "<https://drive.google.com/drive/folders/1c0ShF-"
 "R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_"
 
-#: ../../guide/Assembly.rst:833
+#: ../../guide/Assembly.rst:849
 msgid "※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version."
 msgstr "※\"xxx_stanford**.img\"はUbuntu 22.04バージョンのイメージであることを意味します。"
 
-#: ../../guide/Assembly.rst:835 ../../guide/Assembly.rst:1406
+#: ../../guide/Assembly.rst:851 ../../guide/Assembly.rst:1468
 msgid "The picture below is the custom carry board."
 msgstr "下の写真はPCB基板です。"
 
-#: ../../guide/Assembly.rst:841 ../../guide/Assembly.rst:1412
+#: ../../guide/Assembly.rst:857 ../../guide/Assembly.rst:1474
 msgid "Step 1.3 Write the image into a microSD card"
 msgstr "Step 1.3 イメージをmicroSDカードに書き込む"
 
-#: ../../guide/Assembly.rst:843 ../../guide/Assembly.rst:1414
+#: ../../guide/Assembly.rst:859 ../../guide/Assembly.rst:1476
 msgid ""
 "Insert the microSD card into your PC's SD card reader and write the "
 "image. We recommend the image creation tool balenaEtcher or "
@@ -845,118 +867,118 @@ msgid ""
 "complete."
 msgstr "microSDカードをPCのSDカードリーダーに挿入し、イメージを書き込んでください。操作が簡単で信頼性のあるbalenaEtcherまたはWin32DiskImagerを使用することをお勧めします。書き込みには時間がかかります。"
 
-#: ../../guide/Assembly.rst:900 ../../guide/Assembly.rst:1471
+#: ../../guide/Assembly.rst:916 ../../guide/Assembly.rst:1533
 msgid "The two sides of bearings inside ② are different."
 msgstr "②のベアリングに表裏があり内側が異なります。"
 
-#: ../../guide/Assembly.rst:1034 ../../guide/Assembly.rst:1605
+#: ../../guide/Assembly.rst:1050 ../../guide/Assembly.rst:1667
 msgid ""
 "After Mini Pupper run sometime, some screws or nuts will loose, you have "
 "to check and tighten them if needed. It's helpful to understand how it "
 "works."
 msgstr "ミニぷぱをしばらく使用するとネジやナットが緩むことがあります必要に応じて確認し、締め直す必要があります。仕組みを理解しておくと良いでしょう。"
 
-#: ../../guide/Assembly.rst:1036 ../../guide/Assembly.rst:1607
+#: ../../guide/Assembly.rst:1052 ../../guide/Assembly.rst:1669
 msgid ""
 "※ We don't recommend new users to use the Loctite at first, you can use "
 "it after you have much background."
 msgstr "※初心者の場合は最初からロックタイトを使用することをお勧めしません。十分理解した上で使用してください。"
 
-#: ../../guide/Assembly.rst:1052 ../../guide/Assembly.rst:1623
+#: ../../guide/Assembly.rst:1068 ../../guide/Assembly.rst:1685
 msgid "4. Display and Frame of face"
 msgstr "4. 液晶画面と顔のフレーム"
 
-#: ../../guide/Assembly.rst:1054 ../../guide/Assembly.rst:1625
+#: ../../guide/Assembly.rst:1070 ../../guide/Assembly.rst:1687
 msgid ""
 "Remove the protective sheet for the display. Fold the thin flexible cable"
 " at the edge of the display. Attach the board and the display to the main"
 " unit."
 msgstr "液晶画面上のシートを外し、付属の基板ケーブルを周りに収める。基板とディスプレイを本体に取り付けます。"
 
-#: ../../guide/Assembly.rst:1068 ../../guide/Assembly.rst:1639
+#: ../../guide/Assembly.rst:1084 ../../guide/Assembly.rst:1701
 msgid ""
 "When attaching the display, you can use a stick to gently push the "
 "flexible FPC cable, so that it goes as far back as possible. Don't bend "
 "this FPC cable at 180 degrees."
 msgstr "ディスプレイを取り付けるときは、棒を使ってフレキシブルケーブルをそっと押し、できるだけ奥まで押し込むようにしてください。このフレキシブルケーブルを180度に折り曲げないでください。"
 
-#: ../../guide/Assembly.rst:1078 ../../guide/Assembly.rst:1649
+#: ../../guide/Assembly.rst:1094 ../../guide/Assembly.rst:1711
 msgid "5. Body Frame and Hips Assembly"
 msgstr "5. 本体と脚部の組み立て"
 
-#: ../../guide/Assembly.rst:1080
+#: ../../guide/Assembly.rst:1096
 msgid "Refer to the top video for how to set servo ID."
 msgstr "サーボ ID の設定方法については、上のビデオを参照してください。"
 
-#: ../../guide/Assembly.rst:1081 ../../guide/Assembly.rst:1658
+#: ../../guide/Assembly.rst:1097 ../../guide/Assembly.rst:1720
 msgid "For the position of each servo, please refer to the below picture."
 msgstr "各サーボの位置については下の図を参照してください。"
 
-#: ../../guide/Assembly.rst:1087 ../../guide/Assembly.rst:1664
+#: ../../guide/Assembly.rst:1103 ../../guide/Assembly.rst:1726
 msgid "Step 5.1 Body center parts"
 msgstr "Step 5.1 本体中央パーツ"
 
-#: ../../guide/Assembly.rst:1089 ../../guide/Assembly.rst:1666
+#: ../../guide/Assembly.rst:1105 ../../guide/Assembly.rst:1728
 msgid "Connect the No.1, 4, 7, 10 servos to the body center parts."
 msgstr "1, 4, 7, 10番のサーボを本体中央パーツに取り付けます"
 
-#: ../../guide/Assembly.rst:1097 ../../guide/Assembly.rst:1674
+#: ../../guide/Assembly.rst:1113 ../../guide/Assembly.rst:1736
 msgid "Pay attention to the center part direction."
 msgstr "中央パーツの方向に注意してください。"
 
-#: ../../guide/Assembly.rst:1105
+#: ../../guide/Assembly.rst:1121
 msgid "Connect the center parts to the bottom carbon fiber"
 msgstr "中央部分を下部のカーボンファイバーの板に取り付けます"
 
-#: ../../guide/Assembly.rst:1116 ../../guide/Assembly.rst:1683
+#: ../../guide/Assembly.rst:1132 ../../guide/Assembly.rst:1745
 msgid "Step 5.2 Hip parts"
 msgstr "Step 5.2 脚部"
 
-#: ../../guide/Assembly.rst:1117 ../../guide/Assembly.rst:1684
+#: ../../guide/Assembly.rst:1133 ../../guide/Assembly.rst:1746
 msgid "Assemble four hip parts, please refer to the servo positions."
 msgstr "サーボの位置を参考にして4つの脚部の組み立てます。"
 
-#: ../../guide/Assembly.rst:1125
+#: ../../guide/Assembly.rst:1141
 msgid "Ensure the No.1, 4, 7, 10 servos at the right position."
 msgstr "1, 4, 7, 10番サーボが正しい位置にあることを確認します。"
 
-#: ../../guide/Assembly.rst:1130
+#: ../../guide/Assembly.rst:1146
 msgid ""
 "Use the custom cable to connect the battery to the top PCB board, and "
 "click the battery button for more than 3 seconds to boot up it."
 msgstr "カスタムケーブルを使用してバッテリーを上部の PCB基板に接続し、バッテリー ボタンを 3 秒以上クリックして起動します。"
 
-#: ../../guide/Assembly.rst:1135
+#: ../../guide/Assembly.rst:1151
 msgid ""
 "Connect the servos to the top PCB board, please pay attention to the "
 "servo connector directions."
 msgstr "サーボを上部の PCB基板に接続します。サーボ コネクタの方向に注意してください。"
 
-#: ../../guide/Assembly.rst:1143 ../../guide/Assembly.rst:1722
+#: ../../guide/Assembly.rst:1159 ../../guide/Assembly.rst:1784
 msgid "Connect the four hip parts to the body, please pay attention."
 msgstr "4つの脚部をボディに注意しながら接続します。"
 
-#: ../../guide/Assembly.rst:1145 ../../guide/Assembly.rst:1724
+#: ../../guide/Assembly.rst:1161 ../../guide/Assembly.rst:1786
 msgid "Don't power off the battery now."
 msgstr "ここではバッテリーの電源を切らないてください"
 
-#: ../../guide/Assembly.rst:1146 ../../guide/Assembly.rst:1725
+#: ../../guide/Assembly.rst:1162 ../../guide/Assembly.rst:1787
 msgid "Ensure all the servo positions are right."
 msgstr "サーボの位置がすべて正しいことを確認します。"
 
-#: ../../guide/Assembly.rst:1152 ../../guide/Assembly.rst:1728
+#: ../../guide/Assembly.rst:1168 ../../guide/Assembly.rst:1790
 msgid "Step 5.3 Front and back body parts"
 msgstr "Step 5.3 本体前後のパーツ"
 
-#: ../../guide/Assembly.rst:1154
+#: ../../guide/Assembly.rst:1170
 msgid "Power off the battery, and connect the front and back body parts."
 msgstr "バッテリーの電源を切り、本体の前と後ろのパーツを取り付けます。"
 
-#: ../../guide/Assembly.rst:1162
+#: ../../guide/Assembly.rst:1178
 msgid "Pay attention to the directions."
 msgstr "向きに注意してください"
 
-#: ../../guide/Assembly.rst:1167
+#: ../../guide/Assembly.rst:1183
 msgid ""
 "Power on the battery to check the hip parts all at their right positions,"
 " connect all the rest servos to the PCB board, and then power off the "
@@ -965,50 +987,129 @@ msgstr ""
 "バッテリーの電源を入れて、脚部パーツがすべて正しい位置にあることを確認し、残りのすべてのサーボを "
 "PCB基板に接続したらバッテリーの電源をオフにして先に進みます。"
 
-#: ../../guide/Assembly.rst:1172
+#: ../../guide/Assembly.rst:1188
 msgid "Connect the LCD cable to the PCB board, make the servo cables clear."
 msgstr "液晶画面のケーブルをPCB基板に接続し、サーボケーブルをまとめます。"
 
-#: ../../guide/Assembly.rst:1180
+#: ../../guide/Assembly.rst:1196
 msgid "Fix the top and bottom boards."
 msgstr "上部と下部の板を固定します。"
 
-#: ../../guide/Assembly.rst:1193 ../../guide/Assembly.rst:1761
+#: ../../guide/Assembly.rst:1209 ../../guide/Assembly.rst:1823
 msgid "Step 5.4 Assemble four legs to the body"
 msgstr "Step 5.4 4本の足を本体に取り付ける"
 
-#: ../../guide/Assembly.rst:1198
+#: ../../guide/Assembly.rst:1214
 msgid ""
 "Pay attention to the theoretically best angles, it's better to meet the "
 "theoretically best angles as much as possible. But don't worry, we'll use"
 " the software to calibrate the angles later."
 msgstr "可能な限り理論的にベストな角度になるように注意して取り付けてください。でも心配しないでください。後でソフトウェアを使用して角度を調整できます。"
 
-#: ../../guide/Assembly.rst:1209 ../../guide/Assembly.rst:1780
+#: ../../guide/Assembly.rst:1225 ../../guide/Assembly.rst:1842
 msgid "Step 5.5 Assemble the battery to the body"
 msgstr "Step 5.5 バッテリーを本体に取り付け"
 
-#: ../../guide/Assembly.rst:1214 ../../guide/Assembly.rst:1785
+#: ../../guide/Assembly.rst:1230 ../../guide/Assembly.rst:1847
 msgid "Slide the battery backward and secure it."
 msgstr "バッテリーを後ろにスライドさせて固定します。"
 
-#: ../../guide/Assembly.rst:1226 ../../guide/Assembly.rst:1797
+#: ../../guide/Assembly.rst:1242 ../../guide/Assembly.rst:1859
 msgid "Step 5.6 Assemble the speaker"
 msgstr "Step 5.6 スピーカーの取り付け"
 
-#: ../../guide/Assembly.rst:1283 ../../guide/Assembly.rst:1854
-msgid "Step 6.4 Shoes"
+#: ../../guide/Assembly.rst:1252
+msgid "6. Standard Kit Main Parts Assembly"
+msgstr ""
+
+#: ../../guide/Assembly.rst:1255
+#, fuzzy
+msgid "Step 1 Preparation"
+msgstr "Step 7.3 完成!"
+
+#: ../../guide/Assembly.rst:1257
+msgid "The following picture shows all the parts."
+msgstr ""
+
+#: ../../guide/Assembly.rst:1263
+#, fuzzy
+msgid "Step 2 Assemble the bottom plate."
+msgstr "Step 5.6 スピーカーの取り付け"
+
+#: ../../guide/Assembly.rst:1265
+#, fuzzy
+msgid "Connect the 4 legs to the bottom plate using the M2 x 5mm screws."
+msgstr "2つのサーボを箱にはめて、M2x6mmのネジで固定します。"
+
+#: ../../guide/Assembly.rst:1272
+#, fuzzy
+msgid "Step 3 Assemble the top PCB board."
+msgstr "Step 5.6 スピーカーの取り付け"
+
+#: ../../guide/Assembly.rst:1274
+msgid ""
+"Insert the four-legged connection wire into the top board. Connect the "
+"LCD screen cable to the PCB board. Please pay attention to the direction."
+msgstr ""
+
+#: ../../guide/Assembly.rst:1280
+msgid "Step 4 Adjust the power line"
+msgstr ""
+
+#: ../../guide/Assembly.rst:1282
+msgid "Pass the power line on the PCB board through the hole in the bottom plate."
+msgstr ""
+
+#: ../../guide/Assembly.rst:1289
+#, fuzzy
+msgid "Step 5 Assemble the speaker"
+msgstr "Step 5.6 スピーカーの取り付け"
+
+#: ../../guide/Assembly.rst:1291
+#, fuzzy
+msgid "Fix the PCB board and bottom board using M2 × 5mm screws."
+msgstr "上部と下部の板を固定します。"
+
+#: ../../guide/Assembly.rst:1298
+#, fuzzy
+msgid "7. Cover Assembly"
+msgstr "6. カバー部の組み立て"
+
+#: ../../guide/Assembly.rst:1308
+#, fuzzy
+msgid "Step 1 Side panels"
+msgstr "Step 6.1 本体のサイドパネル"
+
+#: ../../guide/Assembly.rst:1317
+#, fuzzy
+msgid "Step 2 Shin guards"
+msgstr "Step 6.2 もものカバー"
+
+#: ../../guide/Assembly.rst:1328
+#, fuzzy
+msgid "Step 3 Shoulders"
+msgstr "Step 6.3 肩のカバー"
+
+#: ../../guide/Assembly.rst:1345
+#, fuzzy
+msgid "Step 4 Shoes"
 msgstr "Step 6.4 足先"
 
-#: ../../guide/Assembly.rst:1295 ../../guide/Assembly.rst:1866
+#: ../../guide/Assembly.rst:1357 ../../guide/Assembly.rst:1928
 msgid "Complete!"
 msgstr "完成!"
 
-#: ../../guide/Assembly.rst:1300 ../../guide/Assembly.rst:1871
-msgid "7. Add-On Assembly"
+#: ../../guide/Assembly.rst:1362
+#, fuzzy
+msgid "8. Add-On Assembly"
 msgstr "7.アドオン"
 
-#: ../../guide/Assembly.rst:1305 ../../guide/Assembly.rst:1876
+#: ../../guide/Assembly.rst:1365
+#, fuzzy
+msgid "Step 1 Lidar"
+msgstr "Step 7.1 LIDAR"
+
+#: ../../guide/Assembly.rst:1367 ../../guide/Assembly.rst:1938
 msgid ""
 "If you order the Lidar, the 3D-printed Lidar holder and custom cable will"
 " be shipped together. You can also print the holder by yourself using the"
@@ -1019,25 +1120,30 @@ msgstr ""
 " `Mini Pupper 2 STLファイル "
 "<https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_"
 
-#: ../../guide/Assembly.rst:1310 ../../guide/Assembly.rst:1881
+#: ../../guide/Assembly.rst:1372 ../../guide/Assembly.rst:1943
 msgid "Connect the 3 holders to the 3D-printed part."
 msgstr "3つのホルダーを 3Dプリントした部品に取り付けます。"
 
-#: ../../guide/Assembly.rst:1315 ../../guide/Assembly.rst:1886
+#: ../../guide/Assembly.rst:1377 ../../guide/Assembly.rst:1948
 msgid "Connect the custom cable to the Lidar connector on the PCB board."
 msgstr "カスタムケーブルを PCB基板上の Lidar コネクタに接続します。"
 
-#: ../../guide/Assembly.rst:1320 ../../guide/Assembly.rst:1891
+#: ../../guide/Assembly.rst:1382 ../../guide/Assembly.rst:1953
 msgid "Fix the 3D-printed part on the PCB board."
 msgstr "3Dプリントした部品をPCB基板に固定します。"
 
-#: ../../guide/Assembly.rst:1325 ../../guide/Assembly.rst:1896
+#: ../../guide/Assembly.rst:1387 ../../guide/Assembly.rst:1958
 msgid ""
 "Connect the custom cable to the Lidar module and fix it using the self-"
 "tapping screws."
 msgstr "カスタムケーブルを Lidar モジュールに接続し、セルフタッピングネジを使用して固定します。"
 
-#: ../../guide/Assembly.rst:1333 ../../guide/Assembly.rst:1904
+#: ../../guide/Assembly.rst:1393
+#, fuzzy
+msgid "Step 2 Camera"
+msgstr "Step 7.2 カメラ"
+
+#: ../../guide/Assembly.rst:1395 ../../guide/Assembly.rst:1966
 msgid ""
 "Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite "
 "camera module. You can also print the holder by yourself using the `Mini "
@@ -1049,29 +1155,29 @@ msgstr ""
 "Pupper 2 STLファイル "
 "<https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_"
 
-#: ../../guide/Assembly.rst:1350
+#: ../../guide/Assembly.rst:1412
 msgid "Assemble Mini Pupper 2 Pro"
 msgstr "ミニぷぱ2 Proの組み立て"
 
-#: ../../guide/Assembly.rst:1353
+#: ../../guide/Assembly.rst:1415
 msgid "※ General DIY process:"
 msgstr "※ 一般的な DIY プロセス:"
 
-#: ../../guide/Assembly.rst:1355
+#: ../../guide/Assembly.rst:1417
 msgid "Assemble --> Calibration --> Run"
 msgstr "組み立て --> キャリブレーション --> 実行"
 
-#: ../../guide/Assembly.rst:1357
+#: ../../guide/Assembly.rst:1419
 msgid "※ Attention:"
 msgstr "※ 注意:"
 
-#: ../../guide/Assembly.rst:1359
+#: ../../guide/Assembly.rst:1421
 msgid ""
 "The MCU(ESP32 and AT32) software are both pre-installed, you don't need "
 "to flash any MCU image."
 msgstr "MCU(ESP32 および AT32) ソフトウェアは両方ともプリインストールされているためMCU イメージを書き込む必要はありません。"
 
-#: ../../guide/Assembly.rst:1360
+#: ../../guide/Assembly.rst:1422
 msgid ""
 "You don't need to set each servo number as Mini Pupper 2 because the "
 "servo number is fixed by the hardware design, please follow the guide to "
@@ -1080,88 +1186,96 @@ msgstr ""
 "サーボ番号はハードウェア設計によって固定されているため、ミニぷぱ2 "
 "として各サーボ番号を設定する必要はありません。ガイドに従ってサーボを正しい位置に配置してください。"
 
-#: ../../guide/Assembly.rst:1363
+#: ../../guide/Assembly.rst:1425
 msgid ""
 "Please refer to Mini Pupper 2 Fusion 360 CAD model for your reference: "
 "https://a360.co/485n8mP"
 msgstr "参考として、ミニぷぱ2 Fusion 360 CAD モデルを参照してください: https://a360.co/485n8mP"
 
-#: ../../guide/Assembly.rst:1404
+#: ../../guide/Assembly.rst:1466
 #, fuzzy
 msgid "※ “v2Pro_stanford**.img” means the image is for Ubuntu 22.04 version."
 msgstr "※\\“v2Pro_stanford**.img\\”はUbuntu 22.04バージョンのイメージであることを意味します。"
 
-#: ../../guide/Assembly.rst:1651
+#: ../../guide/Assembly.rst:1713
 msgid ""
 "Before you connect the CM4 module to the carry board, please make sure to"
 " remove the protective film on the Thermal Pad."
 msgstr "CM4 モジュールを PCB基板に接続する前にサーマルパッドの保護フィルムを必ず取り外してください。"
 
-#: ../../guide/Assembly.rst:1657
+#: ../../guide/Assembly.rst:1719
 msgid ""
 "Don't need to set servo ID for v2 pro version, the servo ID is fixed by "
 "hardware design."
 msgstr "v2 pro バージョンではサーボ ID を設定する必要はありません。サーボ ID はハードウェア設計によって固定されています。"
 
-#: ../../guide/Assembly.rst:1692
+#: ../../guide/Assembly.rst:1754
 msgid "Connect the No.1, 4, 7, 10 servos to the servo MCU PCB baord."
 msgstr "1, 4, 7, 10番サーボをサーボMCU PCB基板に接続します。"
 
-#: ../../guide/Assembly.rst:1697
+#: ../../guide/Assembly.rst:1759
 msgid "Connect the rest servos to the servo MCU PCB baord."
 msgstr "残りのサーボをサーボMCU PCB基板に接続します。"
 
-#: ../../guide/Assembly.rst:1702
+#: ../../guide/Assembly.rst:1764
 msgid "Pay attention to the servo cable connectors' directions."
 msgstr "サーボケーブルコネクタの方向に注意してください。"
 
-#: ../../guide/Assembly.rst:1707
+#: ../../guide/Assembly.rst:1769
 msgid "Use the DIY cable to connect the top PCB board to the servo MCU PCB baord."
 msgstr "DIY ケーブルを使用して、上部の PCB基板をサーボ MCU PCB基板に接続します。"
 
-#: ../../guide/Assembly.rst:1712
+#: ../../guide/Assembly.rst:1774
 msgid "Power on the battery and connect to the top PCB board."
 msgstr "バッテリーの電源を入れ、上部の PCB基板に接続します。"
 
-#: ../../guide/Assembly.rst:1717
+#: ../../guide/Assembly.rst:1779
 msgid "Connect the four black hip parts to the relative servos(No. 1,4,7,10)."
 msgstr "4つの黒い脚部を対応するサーボ（No.1, 4, 7, 10）に接続します。"
 
-#: ../../guide/Assembly.rst:1730
+#: ../../guide/Assembly.rst:1792
 msgid ""
 "Power off the battery, adjust the red cable position and connect the "
 "front and back body parts."
 msgstr "バッテリーの電源を切り、赤いケーブルの位置を調整し、前部と後部の本体パーツを接続します。"
 
-#: ../../guide/Assembly.rst:1735
+#: ../../guide/Assembly.rst:1797
 msgid "Use the screws to fix the top PCB board."
 msgstr "ネジを使用して上部の PCB基板を固定します。"
 
-#: ../../guide/Assembly.rst:1740
+#: ../../guide/Assembly.rst:1802
 msgid "You can tighten the servo MCU PCB board with tape."
 msgstr "サーボ MCU PCB基板をテープで締めます。"
 
-#: ../../guide/Assembly.rst:1746
+#: ../../guide/Assembly.rst:1808
 msgid ""
 "Power the battery and connect to the top PCB board to ensure the four "
 "black hip part positions are right."
 msgstr "バッテリーに電源を入れ、上部の PCB基板に接続して、4 つの黒い脚部部品の位置が正しいことを確認します。"
 
-#: ../../guide/Assembly.rst:1752
+#: ../../guide/Assembly.rst:1814
 msgid "Connect the center parts to the bottom carbon fiber."
 msgstr "中央の部品を下部のカーボンファイバー板に取り付けます。"
 
-#: ../../guide/Assembly.rst:1763
+#: ../../guide/Assembly.rst:1825
 msgid "Prepare the four pre-assembled legs"
 msgstr "組み立て済みの4本の足を準備します"
 
-#: ../../guide/Assembly.rst:1768
+#: ../../guide/Assembly.rst:1830
 msgid ""
 "Pay attention to the theoretically best angles, it's better to meet the "
 "theoretically best angles as much as possible."
 msgstr "可能な限り理論的にベストな角度になるように注意して取り付けてください。"
 
-#: ../../guide/Assembly.rst:1770
+#: ../../guide/Assembly.rst:1832
 msgid "But don't worry, we'll use the software to calibrate the angles later."
 msgstr "でも心配しないでください。後でソフトウェアを使用して角度を調整できます。"
+
+#: ../../guide/Assembly.rst:1916
+msgid "Step 6.4 Shoes"
+msgstr "Step 6.4 足先"
+
+#: ../../guide/Assembly.rst:1933
+msgid "7. Add-On Assembly"
+msgstr "7.アドオン"
 
