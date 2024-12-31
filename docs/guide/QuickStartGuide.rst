@@ -82,13 +82,13 @@ Important Notes using controller
 
 
 Run Mini Pupper 2 Generative AI functions
-######################
-
-Preparation
 ------------
 
-Charging the battery
+Preparation
 ^^^^^^^^^^^^
+
+1. Charging the battery
+
 * The battery is charged via USB, see picture for USB socket, and can also be charged while attached to the Mini Pupper body.
 
 ※ LED light: Green means there is enough power, and Red means you need to charge it.
@@ -98,9 +98,11 @@ Charging the battery
 .. image:: ../_static/100.jpg
     :align: center
 
-Power On
-^^^^^^^^^^^^
+
 The battery runs continuously for about 30 minutes, and if you want it to work for a long time, you can connect the adapter.
+
+
+2. Power On
 
 Connect the battery by hand.
 
@@ -113,6 +115,7 @@ If you press and hold the battery button manually for more than 3 seconds, the b
 .. image:: ../_static/powerOn.2.jpg
     :align: center
 
+
 When the power adapter is connected to the robot, it starts automatically.
 
 .. image:: ../_static/powerOn.3.jpg
@@ -120,10 +123,9 @@ When the power adapter is connected to the robot, it starts automatically.
 
 
 Quick start using the default WiFi
-------------
-
-Connect the robot to the default WiFi
 ^^^^^^^^^^^^
+
+1. Connect the robot to the default WiFi
 
 The robot will find the default WiFi by itself after starting up.
 
@@ -134,16 +136,18 @@ You can set the default WiFi on your phone before booting.
 .. image:: ../_static/wifi.default.jpg
     :align: center
 
+
 Please refer to the following video demo.
 https://youtube.com/shorts/djDqob18IsQ
 
 
-Try AI functions
-^^^^^^^^^^^^
+2. Try AI functions
+
 When you turn on Mini Pupper, the display will connect to the default WiFi after about 30 seconds, the IP address will be displayed.
 
 .. image:: ../_static/LCD.IPaddress.png
     :align: center
+
 
 To connect to the robot, please use your mobile phone or PC browser (please connect to the default WiFi and make sure you are on the same network as the robot).
 After confirming the IP address of the robot, connect the robot using the browser. For example, if the IP address is "192.168.1.103," enter "192.168.1.103:8080" in the browser.
@@ -151,10 +155,10 @@ After confirming the IP address of the robot, connect the robot using the browse
 .. image:: ../_static/mobile.IE.1.jpg
     :align: center
 
-Enable AI mode
-^^^^^^^^^^^^
 
-Capture from the phone
+Enable AI mode
+
+* Capture from the phone
 
 .. image:: ../_static/mobile.IE.2.jpg
     :align: center
@@ -162,7 +166,7 @@ Capture from the phone
 “Activate/Deactivate” -->  “三”  --> “Settings” --> “AI On” .
 
 
-Capture from the PC
+* Capture from the PC
 
 .. image:: ../_static/PC.IE.1.png
     :align: center
@@ -176,7 +180,6 @@ After clicking "AI On," wait for about 15 seconds until the display blinks once 
 
 
 Run the AI functions
-^^^^^^^^^^^^
 
 You can talk to the robot and control it with the keywords
 
@@ -186,7 +189,6 @@ You can talk to the robot and control it with the keywords
 * The robot will do relative actions when he hear the key word “look up” or “look down” or “look left” or “look right” or “come”.
 
 Disable the AI functions
-^^^^^^^^^^^^
 
 AI mode disable: click「AI off」button.
 
@@ -195,8 +197,9 @@ AI mode disable: click「AI off」button.
 
 Tip: The AI function can work continuously for about 20 minutes. If you want to use it for a long time, you can manually turn it off and restart it every 15 minutes. We will check how to make it work for a long time in the future.
 
+
 Connect your own WiFi
-------------
+^^^^^^^^^^^^
 
 If you want to set up your Mini Pupper to connect to WiFi in your home or office, follow the steps below.
 
@@ -207,9 +210,11 @@ Step 2: After checking the IP address of the robot, connect to the robot using y
 .. image:: ../_static/mobile.IE.1.jpg
     :align: center
 	
+
 Step 3: Click "Setting" on the bottom left, and you will see the settings page on the right. After that, enter your home / office WiFi SSID and password, click "Connect," and then click "Reboot."
 
 .. image:: ../_static/mobile.setWiFi.jpg
     :align: center
+
 
 Tip: Make sure WiFi is active before restarting the robot.
