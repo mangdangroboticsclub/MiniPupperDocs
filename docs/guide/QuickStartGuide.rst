@@ -130,6 +130,7 @@ Quick start using the default WiFi
 The robot will find the default WiFi by itself after starting up.
 
 You can set the default WiFi on your phone before booting.
+
 * WiFi name: Mangdang
 * WiFi password: mangdang 
 
@@ -188,9 +189,8 @@ You can talk to the robot and control it with the keywords
 * picture(The robot will take a photo and analyze it when he hear the key word “picture”.)
 * The robot will do relative actions when he hear the key word “look up” or “look down” or “look left” or “look right” or “come”.
 
-Disable the AI functions
 
-AI mode disable: click「AI off」button.
+Disable the AI functions：click「AI off」button.
 
 .. image:: ../_static/mobile.IE.disableAI.png
     :align: center
