@@ -75,8 +75,24 @@ jobs:
             exit 0
           fi
           git push origin update-translation-${GITHASH}
-          gh pr create \
+          NEW_PR=$(gh pr create \
             --base main \
             --head update-translation-${GITHASH} \
-            --title "Update translation files" \
-            --body ":twisted_rightwards_arrows: Update translation files ($GITHUB_SHA)"
+            --title "[bot] Update translation files" \
+            --body ":twisted_rightwards_arrows: Update translation files ($GITHUB_SHA)" --json number --jq '.number')
+          echo "New PR created: $NEW_PR"
+          echo "new_pr=$NEW_PR" >> $GITHUB_ENV
+
+      - name: Check existing PR
+        if: steps.translation-file.outputs.update == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_PR: ${{ env.new_pr }}
+        run: |
+          EXISTING_PR=$(gh pr list --search "[bot] Update translation files" --json number --jq '.[0].number')
+          if [[ -n "$EXISTING_PR" ]]; then
+            echo "Existing PR found: $EXISTING_PR"
+            gh pr comment $EXISTING_PR --body "Addressed by #$NEW_PR"
+            gh pr close $EXISTING_PR
+          else
+            echo "No existing PR found."
