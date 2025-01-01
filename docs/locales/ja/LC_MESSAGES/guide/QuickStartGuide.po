@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Mini Pupper\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-31 15:33+0000\n"
-"PO-Revision-Date: 2025-01-01 02:27+0900\n"
+"PO-Revision-Date: 2025-01-01 02:31+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:85
 msgid "Run Mini Pupper 2 Generative AI functions"
-msgstr "ミニぷぱ2を生成AIを使って操作"
+msgstr "生成AIを使ってミニぷぱ2を操作"
 
 #: ../../guide/QuickStartGuide.rst:88
 msgid "Preparation"
@@ -221,7 +221,7 @@ msgid ""
 msgstr ""
 "※5V/1A以上のアダプタの使用を推奨します。5V/2Aのアダプタでも1Aで充電されます。フル充電には2時間ほどか"
 "かります。1時間で80%ほどに到達し、この時点でLEDは緑色になります。その次の1時間で100%に到達します。"
-"LEDが緑色になった時点でバッテリは使用可能です。"
+"LEDが緑色になった時点でバッテリーを使用できます。"
 
 #: ../../guide/QuickStartGuide.rst:102
 msgid ""
