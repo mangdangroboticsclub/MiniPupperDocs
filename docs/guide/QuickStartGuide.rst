@@ -91,9 +91,9 @@ Preparation
 
 * The battery is charged via USB, see picture for USB socket, and can also be charged while attached to the Mini Pupper body.
 
-※ LED light: Green means there is enough power, and Red means you need to charge it.
+NOTE: LED light **GREEN** means there is enough power, and **RED** means you need to charge it.
 
-※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green.
+NOTE: We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green.
 
 .. image:: ../_static/100.jpg
     :align: center
@@ -132,7 +132,7 @@ The robot will find the default WiFi by itself after starting up.
 You can set the default WiFi on your phone before booting.
 
 * WiFi name: Mangdang
-* WiFi password: mangdang 
+* WiFi password: mangdang
 
 .. image:: ../_static/wifi.default.jpg
     :align: center
@@ -184,13 +184,13 @@ Run the AI functions
 
 You can talk to the robot and control it with the keywords
 
-* dance ( The robot will dance when he hear the key word “dance”.)
-* game（The robot will play rock-paper-scissors game with you when he hear the key word “game”.）
-* picture(The robot will take a photo and analyze it when he hear the key word “picture”.)
-* The robot will do relative actions when he hear the key word “look up” or “look down” or “look left” or “look right” or “come”.
+* dance (The robot will dance when he hear the key word "dance".)
+* game (The robot will play rock-paper-scissors game with you when he hear the key word "game".)
+* picture(The robot will take a photo and analyze it when he hear the key word "picture".)
+* The robot will do relative actions when he hear the key word "look up" or "look down" or "look left" or "look right" or "come".
 
 
-Disable the AI functions：click「AI off」button.
+To Disable the AI functions: click「AI off」button.
 
 .. image:: ../_static/mobile.IE.disableAI.png
     :align: center
@@ -209,7 +209,7 @@ Step 2: After checking the IP address of the robot, connect to the robot using y
 
 .. image:: ../_static/mobile.IE.1.jpg
     :align: center
-	
+
 
 Step 3: Click "Setting" on the bottom left, and you will see the settings page on the right. After that, enter your home / office WiFi SSID and password, click "Connect," and then click "Reboot."
 
