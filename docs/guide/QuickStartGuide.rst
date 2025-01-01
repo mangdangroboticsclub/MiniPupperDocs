@@ -6,7 +6,7 @@ Quick Start Guide
   :depth: 2
 
 Run Pupper Robot using controller
------------------
+-----------------------------------
 
 You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 2, the steps are same.
 
@@ -37,7 +37,7 @@ You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 
 5. You're good to go! Check out the controls section below for operating instructions.
 
 Pupper Robot controls using controller
------------------------
+------------------------------------------
 
 * L1: Press to toggle active mode and deactivate mode.
 
@@ -69,7 +69,7 @@ Pupper Robot controls using controller
 * Power off the battery
 
 Important Notes using controller
----------------
+----------------------------------
 
 * Controller pairing instructions (repeat of instructions above)
 
@@ -82,7 +82,7 @@ Important Notes using controller
 
 
 Run Mini Pupper 2 Generative AI functions
-------------
+------------------------------------------
 
 Preparation
 ^^^^^^^^^^^^
@@ -123,7 +123,7 @@ When the power adapter is connected to the robot, it starts automatically.
 
 
 Quick start using the default WiFi
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Connect the robot to the default WiFi
 
@@ -199,7 +199,7 @@ Tip: The AI function can work continuously for about 20 minutes. If you want to 
 
 
 Connect your own WiFi
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you want to set up your Mini Pupper to connect to WiFi in your home or office, follow the steps below.
 
