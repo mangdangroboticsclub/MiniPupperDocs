@@ -58,6 +58,7 @@ jobs:
           fi
 
       - name: Pull Request
+        id: new-pull-request
         if: steps.translation-file.outputs.update == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -72,19 +73,27 @@ jobs:
           git merge --no-edit origin/main
           if git diff origin/main HEAD --quiet; then
             echo "No changes to merge."
+            echo "created=false" >> $GITHUB_OUTPUT
             exit 0
           fi
           git push origin update-translation-${GITHASH}
-          NEW_PR=$(gh pr create \
+          NEW_PR_URL=$(gh pr create \
             --base main \
             --head update-translation-${GITHASH} \
             --title "[bot] Update translation files" \
-            --body ":twisted_rightwards_arrows: Update translation files ($GITHUB_SHA)" --json number --jq '.number')
+            --body ":twisted_rightwards_arrows: Update translation files ($GITHUB_SHA)")
+          if echo $NEW_PR_URL | grep -v -q pull; then
+            echo "No new Pull Request"
+            echo "created=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          NEW_PR=$(echo $NEW_PR_URL | grep pull | sed -E 's/https.*\/pull\/([0-9]*)/\1/g')
           echo "New PR created: $NEW_PR"
           echo "new_pr=$NEW_PR" >> $GITHUB_ENV
+          echo "created=true" >> $GITHUB_OUTPUT
 
       - name: Check existing PR
-        if: steps.translation-file.outputs.update == 'true'
+        if: steps.translation-file.outputs.update == 'true' && steps.new-pull-request.outputs.created == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEW_PR: ${{ env.new_pr }}
