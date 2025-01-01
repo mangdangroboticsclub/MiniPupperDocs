@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Mini Pupper\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-31 15:33+0000\n"
-"PO-Revision-Date: 2025-01-01 02:31+0900\n"
+"PO-Revision-Date: 2025-01-01 16:30+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -186,8 +186,8 @@ msgid ""
 "If you use external power supply to power the robot with anything higher than 8.4V (aka >2S) you'll "
 "almost certainly fry all your servos!"
 msgstr ""
-"ロボットを外部電源で駆動する場合、8.4V（2S以上）を超える電圧を使用すると、サーボがほぼ確実に故障しま"
-"す！"
+"ロボットを外部電源で駆動する場合、8.4V（2S以上）を超える電圧を使用すると、サーボモーターがほぼ確実に"
+"故障します！"
 
 #: ../../guide/QuickStartGuide.rst:85
 msgid "Run Mini Pupper 2 Generative AI functions"
@@ -228,41 +228,42 @@ msgid ""
 "The battery runs continuously for about 30 minutes, and if you want it to work for a long time, you "
 "can connect the adapter."
 msgstr ""
-"バッテリーの連続稼働時間は30分ほどです。さらに長時間稼働させる場合は電源アダプタの使用を推奨します。"
+"バッテリーの連続稼働時間は30分ほどです。さらに長時間稼働させる場合は電源アダプターの使用を推奨しま"
+"す。"
 
 #: ../../guide/QuickStartGuide.rst:105
 msgid "Power On"
-msgstr ""
+msgstr "電源ON"
 
 #: ../../guide/QuickStartGuide.rst:107
 msgid "Connect the battery by hand."
-msgstr ""
+msgstr "バッテリーのコネクタを接続します。"
 
 #: ../../guide/QuickStartGuide.rst:113
 msgid ""
 "If you press and hold the battery button manually for more than 3 seconds, the battery will turn "
 "green and light up."
-msgstr ""
+msgstr "バッテリーのボタンを3秒以上長押しするとバッテリーのLEDが点灯します。"
 
 #: ../../guide/QuickStartGuide.rst:119
 msgid "When the power adapter is connected to the robot, it starts automatically."
-msgstr ""
+msgstr "電源アダプターを使用する場合は、接続した後に自動的に開始します。"
 
 #: ../../guide/QuickStartGuide.rst:126
 msgid "Quick start using the default WiFi"
-msgstr ""
+msgstr "クイックスタート（デフォルトのWi-Fiを使用）"
 
 #: ../../guide/QuickStartGuide.rst:128
 msgid "Connect the robot to the default WiFi"
-msgstr ""
+msgstr "ミニぷぱをデフォルトのWi-Fiに接続"
 
 #: ../../guide/QuickStartGuide.rst:130
 msgid "The robot will find the default WiFi by itself after starting up."
-msgstr ""
+msgstr "ミニぷぱは起動後にデフォルトのWi-Fiに自動的に接続します。"
 
 #: ../../guide/QuickStartGuide.rst:132
 msgid "You can set the default WiFi on your phone before booting."
-msgstr ""
+msgstr "ミニぷぱを起動する前にスマートフォンの設定からデフォルトのWi-Fiを変更します。"
 
 #: ../../guide/QuickStartGuide.rst:134
 msgid "WiFi name: Mangdang"
@@ -274,11 +275,11 @@ msgstr ""
 
 #: ../../guide/QuickStartGuide.rst:141
 msgid "Please refer to the following video demo. https://youtube.com/shorts/djDqob18IsQ"
-msgstr ""
+msgstr "設定方法の詳細： https://youtube.com/shorts/djDqob18IsQ"
 
 #: ../../guide/QuickStartGuide.rst:145
 msgid "Try AI functions"
-msgstr ""
+msgstr "AI機能"
 
 #: ../../guide/QuickStartGuide.rst:147
 msgid ""
