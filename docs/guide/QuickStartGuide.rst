@@ -6,7 +6,7 @@ Quick Start Guide
   :depth: 2
 
 Run Pupper Robot using controller
------------------
+-----------------------------------
 
 You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 2, the steps are same.
 
@@ -37,7 +37,7 @@ You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 
 5. You're good to go! Check out the controls section below for operating instructions.
 
 Pupper Robot controls using controller
------------------------
+------------------------------------------
 
 * L1: Press to toggle active mode and deactivate mode.
 
@@ -69,7 +69,7 @@ Pupper Robot controls using controller
 * Power off the battery
 
 Important Notes using controller
----------------
+----------------------------------
 
 * Controller pairing instructions (repeat of instructions above)
 
@@ -82,7 +82,7 @@ Important Notes using controller
 
 
 Run Mini Pupper 2 Generative AI functions
-------------
+------------------------------------------
 
 Preparation
 ^^^^^^^^^^^^
@@ -91,9 +91,9 @@ Preparation
 
 * The battery is charged via USB, see picture for USB socket, and can also be charged while attached to the Mini Pupper body.
 
-※ LED light: Green means there is enough power, and Red means you need to charge it.
+NOTE: LED light **GREEN** means there is enough power, and **RED** means you need to charge it.
 
-※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green.
+NOTE: We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green.
 
 .. image:: ../_static/100.jpg
     :align: center
@@ -123,7 +123,7 @@ When the power adapter is connected to the robot, it starts automatically.
 
 
 Quick start using the default WiFi
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Connect the robot to the default WiFi
 
@@ -132,7 +132,7 @@ The robot will find the default WiFi by itself after starting up.
 You can set the default WiFi on your phone before booting.
 
 * WiFi name: Mangdang
-* WiFi password: mangdang 
+* WiFi password: mangdang
 
 .. image:: ../_static/wifi.default.jpg
     :align: center
@@ -184,13 +184,13 @@ Run the AI functions
 
 You can talk to the robot and control it with the keywords
 
-* dance ( The robot will dance when he hear the key word “dance”.)
-* game（The robot will play rock-paper-scissors game with you when he hear the key word “game”.）
-* picture(The robot will take a photo and analyze it when he hear the key word “picture”.)
-* The robot will do relative actions when he hear the key word “look up” or “look down” or “look left” or “look right” or “come”.
+* dance (The robot will dance when he hear the key word "dance".)
+* game (The robot will play rock-paper-scissors game with you when he hear the key word "game".)
+* picture(The robot will take a photo and analyze it when he hear the key word "picture".)
+* The robot will do relative actions when he hear the key word "look up" or "look down" or "look left" or "look right" or "come".
 
 
-Disable the AI functions：click「AI off」button.
+To Disable the AI functions: click「AI off」button.
 
 .. image:: ../_static/mobile.IE.disableAI.png
     :align: center
@@ -199,7 +199,7 @@ Tip: The AI function can work continuously for about 20 minutes. If you want to 
 
 
 Connect your own WiFi
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you want to set up your Mini Pupper to connect to WiFi in your home or office, follow the steps below.
 
@@ -209,7 +209,7 @@ Step 2: After checking the IP address of the robot, connect to the robot using y
 
 .. image:: ../_static/mobile.IE.1.jpg
     :align: center
-	
+
 
 Step 3: Click "Setting" on the bottom left, and you will see the settings page on the right. After that, enter your home / office WiFi SSID and password, click "Connect," and then click "Reboot."
 

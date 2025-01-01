@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"POT-Creation-Date: 2025-01-01 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../guide/HowToOrder.rst:3
 msgid "How To Order"
@@ -31,20 +31,21 @@ msgid "Order parts individually"
 msgstr "部品の個別注文"
 
 #: ../../guide/HowToOrder.rst:10
+#, fuzzy
 msgid ""
 "You can order all the parts one by one, Please find the BOM list to order"
-" `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-"
-"eLVm5zjyi>`_ ."
+" `here <https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-"
+"jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_"
+" ."
 msgstr ""
-"すべてのパーツを1つずつ注文することができます。"
-" `こちら <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`"
+"すべてのパーツを1つずつ注文することができます。 `こちら <https://drive.google.com/drive/folders"
+"/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`"
 
 #: ../../guide/HowToOrder.rst:12
 msgid ""
 "However, you can purchase a kit to build the robot from MangDang channel "
 "for cheaper and one-stop shopping."
-msgstr ""
-"MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
+msgstr "MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
 
 #: ../../guide/HowToOrder.rst:16
 msgid "One-stop channel"
@@ -92,17 +93,16 @@ msgstr ""
 msgid "`Makuake <https://www.makuake.com/project/mini_pupper/shopping/>`_"
 msgstr ""
 
-#: ../../guide/HowToOrder.rst:31
-msgid "`楽天市場 <https://www.rakuten.co.jp/mangdang/>`_"
-msgstr ""
-
-#: ../../guide/HowToOrder.rst:34
+#: ../../guide/HowToOrder.rst:33
 msgid "China 中国"
 msgstr ""
 
-#: ../../guide/HowToOrder.rst:35
+#: ../../guide/HowToOrder.rst:34
 msgid ""
 "`Taobao "
 "<https://shop170300127.taobao.com/search.htm?spm=a1z10.1-c-s.w5002-22838104363.1.6d5d661eivPk3l&search=y>`_"
 msgstr ""
+
+#~ msgid "`楽天市場 <https://www.rakuten.co.jp/mangdang/>`_"
+#~ msgstr ""
 
