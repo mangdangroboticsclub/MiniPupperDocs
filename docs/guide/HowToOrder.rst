@@ -7,7 +7,7 @@ How To Order
 
 Order parts individually
 ---------------------------
-You can order all the parts one by one, Please find the BOM list to order `here <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`_ .
+You can order all the parts one by one, Please find the BOM list to order `here <https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_ .
 
 However, you can purchase a kit to build the robot from MangDang channel for cheaper and one-stop shopping.
 
@@ -28,7 +28,6 @@ Japan 日本
 ^^^^^^^^^^^^
 * `Amazon <https://www.amazon.co.jp/s?me=A14LOTMOI42BRX&marketplaceID=A1VC38T7YXB528>`_
 * `Makuake <https://www.makuake.com/project/mini_pupper/shopping/>`_
-* `楽天市場 <https://www.rakuten.co.jp/mangdang/>`_
 
 China 中国
 ^^^^^^^^^^^
