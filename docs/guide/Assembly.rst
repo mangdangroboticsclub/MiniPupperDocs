@@ -795,7 +795,7 @@ This is the video clip for the Standard kit, please refer to the section "Standa
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7u9tU_Fva6Y?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-	
+
 
 This is the video clip for the complete kit, please refer to the below sections for detailed steps.
 
@@ -1249,7 +1249,7 @@ Step 5.6 Assemble the speaker
 
 
 6. Standard Kit Main Parts Assembly
---------------------------
+--------------------------------------
 
 Step 1 Preparation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1258,9 +1258,9 @@ The following picture shows all the parts.
 
 .. image:: ../_static/MP2.StandardKit.0.png
     :align: center
-	
-Step 2 Assemble the bottom plate. 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Step 2 Assemble the bottom plate.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Connect the 4 legs to the bottom plate using the M2 x 5mm screws.
 
@@ -1269,13 +1269,13 @@ Connect the 4 legs to the bottom plate using the M2 x 5mm screws.
 
 
 Step 3 Assemble the top PCB board.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Insert the four-legged connection wire into the top board. Connect the LCD screen cable to the PCB board. Please pay attention to the direction.
 
 .. image:: ../_static/MP2.StandardKit.2.png
     :align: center
-	
+
 Step 4 Adjust the power line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1283,8 +1283,8 @@ Pass the power line on the PCB board through the hole in the bottom plate.
 
 .. image:: ../_static/MP2.StandardKit.3.png
     :align: center
-	
-	
+
+
 Step 5 Assemble the speaker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1292,10 +1292,10 @@ Fix the PCB board and bottom board using M2 × 5mm screws.
 
 .. image:: ../_static/MP2.StandardKit.4.png
     :align: center
-	
+
 
 7. Cover Assembly
------------------
+--------------------
 Please refer to the below video clip.
 
 .. raw:: html
