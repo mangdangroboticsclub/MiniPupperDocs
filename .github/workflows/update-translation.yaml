@@ -105,3 +105,4 @@ jobs:
             gh pr close $EXISTING_PR
           else
             echo "No existing PR found."
+          fi
