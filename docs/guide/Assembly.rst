@@ -67,7 +67,7 @@ Step 1.2 Download the image
 
 * You can download latest image file via the below folder.
 
-	`Release.from.MangDang <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_
+	`Release.from.MangDang <https://drive.google.com/drive/folders/1bGAlbOWVvBkjfKjbjd-UQpA1sOBoKit9?usp=sharing>`_
 
 
 * The below picture is the custom carry board.
@@ -748,10 +748,8 @@ If you order the Lidar, the Lidar holder will be shipped together.
 Step 7.2 Camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you order the camera, the camera holder is not included in the kit.
-But you can 3d-print it from the stl file down below.
+You can print the holder by yourself using the `STL files <https://drive.google.com/drive/folders/1L4t1hxhqPaVPT9OIw9t5WhxEJ_s3Udym?usp=sharing>`_
 
-https://drive.google.com/drive/folders/1lRADDbAt7mSBJE4j8HCji1WbWcpneUED
 
 .. image:: ../_static/camera-1.jpg
     :align: center
@@ -844,7 +842,7 @@ Step 1.1 Charging the battery
 Step 1.2 Download the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_
+* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1_HNbIb2RDmHpwECjqiVlkylvU19BSfOh?usp=sharing>`_
 
 ※ “xxx_stanford**.img” means the image is for Ubuntu 22.04 version.
 
@@ -1364,7 +1362,7 @@ Complete!
 Step 1 Lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
+If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `STL files <https://drive.google.com/drive/folders/1YyU4w-Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_
 
 .. image:: ../_static/MP2.Lidar.1.jpg
     :align: center
@@ -1392,7 +1390,7 @@ Connect the custom cable to the Lidar module and fix it using the self-tapping s
 Step 2 Camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
+Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the `STL files <https://drive.google.com/drive/folders/1YyU4w-Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_
 
 
 .. image:: ../_static/MP2.LidarCamera.1.jpg
@@ -1461,7 +1459,7 @@ Step 1.1 Charging the battery
 Step 1.2 Download the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1c0ShF-R8yxiMnCgMnSOctBpkW707b1q6?usp=sharing>`_
+* You can download the pre-built image files from  `Mini Pupper pre-built images <https://drive.google.com/drive/folders/1DzxQ9rpvlqCwoGd5aP0Hki9Wre3UXc-h?usp=sharing>`_
 
 ※ “v2Pro_stanford**.img” means the image is for Ubuntu 22.04 version.
 
@@ -1935,7 +1933,7 @@ Complete!
 Step 7.1 Lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
+If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `STL files <https://drive.google.com/drive/folders/1YyU4w-Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_
 
 .. image:: ../_static/MP2.Lidar.1.jpg
     :align: center
@@ -1963,7 +1961,7 @@ Connect the custom cable to the Lidar module and fix it using the self-tapping s
 Step 7.2 Camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the `Mini Pupper 2 STL files <https://drive.google.com/drive/folders/1G8TsAhhomSA2-VkI1Wiqmuhu92EsJNb2>`_
+Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera module. You can also print the holder by yourself using the `STL files <https://drive.google.com/drive/folders/1YyU4w-Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_
 
 
 .. image:: ../_static/MP2.LidarCamera.1.jpg
