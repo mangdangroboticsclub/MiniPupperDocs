@@ -5,7 +5,7 @@ Mini Pupper will make robotics easier for schools, homeschool families, enthusia
 
 ## Sphinx Document Buildling
 
-This document is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), designed following Sphinx practice, and hosted on [Read the Docs](https://mangdang-minipupperdocs.readthedocs-hosted.com/).
+This document is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), designed following Sphinx practice, and hosted on [Read the Docs](https://minipupperdocs.readthedocs.io/en/latest/).
 
 This document can also be built locally, where the following environment setup would be initially required:
 
