@@ -22,109 +22,109 @@ msgstr ""
 
 #: ../../guide/Assembly/MiniPupper.rst:3
 msgid "Assemble Mini Pupper"
-msgstr ""
+msgstr "ミニぷぱの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:6
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../guide/Assembly/MiniPupper.rst:8
 msgid ""
 "This is the video clip for the pre-assembled leg kit, please refer to the"
 " below sections for more detailed steps."
-msgstr ""
+msgstr "脚部組み立て済みのキットのビデオです。詳細な手順については、以下のセクションを参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:17
 msgid ""
 "Please also refer to Mini Pupper Fusion 360 CAD model: "
 "https://a360.co/3wFLSlT"
-msgstr ""
+msgstr "ミニぷぱ Fusion 360 CADモデルも参照してください: https://a360.co/3wFLSlT"
 
 #: ../../guide/Assembly/MiniPupper.rst:26
 msgid "0. Update change points after April 15 2022"
-msgstr ""
+msgstr "0. 2022年4月15日以降の変更点"
 
 #: ../../guide/Assembly/MiniPupper.rst:28
 msgid "Updated the body and hip parts from 3D printed to mold."
-msgstr ""
+msgstr "ボディと脚部の部品を3Dプリントから金型成形に変更しました。"
 
 #: ../../guide/Assembly/MiniPupper.rst:29
 msgid ""
 "Re-designed and unified the original four hip parts into one for mold, "
 "for the detailed info, please refer to the mechanical design section."
-msgstr ""
+msgstr "4つの脚部の部品を金型用に再設計し一体化しました。詳細については、機械設計セクションを参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:30
 msgid ""
 "If you get your Mini Pupper kit after April 15 2022, it will be easier to"
 " assemble."
-msgstr ""
+msgstr "2022年4月15日以降にミニぷぱキットを入手された場合、組み立てが容易になっています。"
 
 #: ../../guide/Assembly/MiniPupper.rst:31
 msgid ""
 "If you have 3D printer and still hope to use the previous 3D printed "
 "design, that's OK."
-msgstr ""
+msgstr "3Dプリンターをお持ちで、以前の3Dプリント設計を使用したい場合でも問題ありません。"
 
 #: ../../guide/Assembly/MiniPupper.rst:35
 msgid "1. Write the pre-built image into microSD"
-msgstr ""
+msgstr "1. プリビルドイメージをmicroSDに書き込む"
 
 #: ../../guide/Assembly/MiniPupper.rst:38
 #: ../../guide/Assembly/MiniPupper.rst:146
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 #: ../../guide/Assembly/MiniPupper.rst:39
 #: ../../guide/Assembly/MiniPupper.rst:147
 msgid ""
 "In addition to the tools included in the kit, the following items are "
 "required for assembly."
-msgstr ""
+msgstr "キットに含まれている工具に加えて、以下のものが組み立てに必要です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:41
 msgid "USB keyboard"
-msgstr ""
+msgstr "USBキーボード"
 
 #: ../../guide/Assembly/MiniPupper.rst:42
 msgid "USB mouse"
-msgstr ""
+msgstr "USBマウス"
 
 #: ../../guide/Assembly/MiniPupper.rst:43
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #: ../../guide/Assembly/MiniPupper.rst:44
 msgid "microSD card reader"
-msgstr ""
+msgstr "microSDカードリーダー"
 
 #: ../../guide/Assembly/MiniPupper.rst:45
 msgid "HDMI Display"
-msgstr ""
+msgstr "HDMIディスプレイ"
 
 #: ../../guide/Assembly/MiniPupper.rst:46
 msgid "micro HDMI cable"
-msgstr ""
+msgstr "micro HDMIケーブル"
 
 #: ../../guide/Assembly/MiniPupper.rst:47
 msgid "USB charger"
-msgstr ""
+msgstr "USB充電器"
 
 #: ../../guide/Assembly/MiniPupper.rst:51
 msgid "Step 1.1 Charging the battery"
-msgstr ""
+msgstr "ステップ1.1 バッテリーの充電"
 
 #: ../../guide/Assembly/MiniPupper.rst:53
 msgid ""
 "The battery is charged via USB, see picture for USB socket, and can also "
 "be charged while attached to the Mini Pupper body."
-msgstr ""
+msgstr "バッテリーはUSB経由で充電します。USB端子は写真を参照してください。ミニぷぱ本体に取り付けた状態でも充電できます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:55
 msgid ""
 "※ LED light: Green means there is enough power, and Red means you need to"
 " charge it."
-msgstr ""
+msgstr "※ LEDライト：緑色は十分な電力があることを示し、赤色は充電が必要なことを示します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:57
 msgid ""
@@ -133,153 +133,163 @@ msgid ""
 "will become green, and an additional 1 hour to 100%, anyway, you can use "
 "it when the light becomes green."
 msgstr ""
+"※ "
+"5V/1Aのアダプターを推奨します。5V/2Aのアダプターを使用した場合、バッテリーICが1Aに変換します。80%充電するのに約1時間かかり、ライトが緑色になります。100%まで充電するにはさらに1時間かかりますが、ライトが緑色になれば使用可能です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:63
 msgid "Step 1.2 Download the image"
-msgstr ""
+msgstr "ステップ1.2 イメージのダウンロード"
 
 #: ../../guide/Assembly/MiniPupper.rst:65
 msgid "You can download latest image file via the below folder."
-msgstr ""
+msgstr "以下のフォルダから最新のイメージファイルをダウンロードできます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:67
 msgid ""
 "`Release.from.MangDang <https://drive.google.com/drive/folders"
 "/1bGAlbOWVvBkjfKjbjd-UQpA1sOBoKit9?usp=sharing>`_"
 msgstr ""
+"`MangDangからのリリース <https://drive.google.com/drive/folders"
+"/1bGAlbOWVvBkjfKjbjd-UQpA1sOBoKit9?usp=sharing>`_"
 
 #: ../../guide/Assembly/MiniPupper.rst:70
 msgid "The below picture is the custom carry board."
-msgstr ""
+msgstr "以下の写真はカスタムキャリーボードです。"
 
 #: ../../guide/Assembly/MiniPupper.rst:75
+#, fuzzy
 msgid ""
 "※ “xxx_MiniPupper_Controller_Ubuntu_22.04.img” means the image is for "
 "Ubuntu 22.04 version."
 msgstr ""
+"※ \"xxx_MiniPupper_Controller_Ubuntu_22.04.img\"は、Ubuntu "
+"22.04バージョン用のイメージであることを示します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:77
 msgid ""
 "※ \"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\" is the image file for "
 "the Ubuntu + ROS + OpenCV version for SLAM & Navigation & AI."
 msgstr ""
+"※ "
+"\"xxx.MiniPupper_ROS&OpenCV_Ubuntu20.04.03.img\"は、SLAM、ナビゲーション、AI用のUbuntu"
+" + ROS + OpenCVバージョンのイメージファイルです。"
 
 #: ../../guide/Assembly/MiniPupper.rst:81
 msgid "Step 1.3 Write the image into microSD card"
-msgstr ""
+msgstr "ステップ1.3 イメージをmicroSDカードに書き込む"
 
 #: ../../guide/Assembly/MiniPupper.rst:83
 msgid ""
 "Insert the microSD card into your PC's SD card reader and write the "
 "image. We recommend the image creation tool balenaEtcher or "
 "Win32DiskImager as it is easy and reliable. It takes a while to complete."
-msgstr ""
+msgstr "microSDカードをPCのSDカードリーダーに挿入し、イメージを書き込みます。簡単で信頼性の高いイメージ作成ツールとして、balenaEtcherまたはWin32DiskImagerを推奨します。完了までしばらく時間がかかります。"
 
 #: ../../guide/Assembly/MiniPupper.rst:87
 msgid "Remove the SD card from the PC and insert it into the Raspberry pi."
-msgstr ""
+msgstr "SDカードをPCから取り出し、Raspberry Piに挿入します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:94
 msgid "2. Position of the screws"
-msgstr ""
+msgstr "2. ネジの位置"
 
 #: ../../guide/Assembly/MiniPupper.rst:96
 msgid "The pictures show the position of the screws briefly."
-msgstr ""
+msgstr "写真はネジの位置を簡単に示しています。"
 
 #: ../../guide/Assembly/MiniPupper.rst:110
 #: ../../guide/Assembly/MiniPupper.rst:122
 msgid ""
 "(The up pictures are before April 15 2022 version, the below pictures are"
 " after April 15 2022 version)"
-msgstr ""
+msgstr "（上の写真は2022年4月15日以前のバージョン、下の写真は2022年4月15日以降のバージョンです）"
 
 #: ../../guide/Assembly/MiniPupper.rst:135
 msgid "3. Legs Assembly"
-msgstr ""
+msgstr "3. 脚の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:136
 #: ../../guide/Assembly/MiniPupper.rst:348
 #: ../../guide/Assembly/MiniPupper.rst:648
 msgid "Please refer to the below video clip."
-msgstr ""
+msgstr "以下のビデオクリップを参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:149
 msgid "Loctite"
-msgstr ""
+msgstr "ロックタイト"
 
 #: ../../guide/Assembly/MiniPupper.rst:151
 msgid ""
 "※ We don't recommand new users to use the Loctite at first, you can use "
 "it after you have much background."
-msgstr ""
+msgstr "※ 初めてのユーザーには、最初はロックタイトの使用をお勧めしません。十分な経験を積んでから使用してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:153
 msgid ""
 "※ Loctite prevents the nut from loosening, but it is not essential, as it"
 " can be tightened only when looseness is noticed."
-msgstr ""
+msgstr "※ ロックタイトはナットの緩みを防ぎますが、緩みが気になった時に締め直すだけでも良いため、必須ではありません。"
 
 #: ../../guide/Assembly/MiniPupper.rst:156
 msgid "Bolt to use"
-msgstr ""
+msgstr "使用するボルト"
 
 #: ../../guide/Assembly/MiniPupper.rst:157
 msgid "M2x5mm        2x4=8   ①+②, ⑤+⑥"
-msgstr ""
+msgstr "M2x5mm        2x4=8   ①+②, ⑤+⑥"
 
 #: ../../guide/Assembly/MiniPupper.rst:158
 msgid "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
-msgstr ""
+msgstr "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
 
 #: ../../guide/Assembly/MiniPupper.rst:159
 msgid "M2x12mm       1x4=4   ⑤+⑦"
-msgstr ""
+msgstr "M2x12mm       1x4=4   ⑤+⑦"
 
 #: ../../guide/Assembly/MiniPupper.rst:160
 msgid "M2x14mm       1x4=4   ③+⑤"
-msgstr ""
+msgstr "M2x14mm       1x4=4   ③+⑤"
 
 #: ../../guide/Assembly/MiniPupper.rst:163
 msgid "Step 3.1 Single leg"
-msgstr ""
+msgstr "ステップ3.1 単一の脚"
 
 #: ../../guide/Assembly/MiniPupper.rst:165
 msgid ""
 "Assemble the four legs. The front and back of the right side are the "
 "same, and so are the front and back of the left side. Show you how to "
 "assemble the right side."
-msgstr ""
+msgstr "4本の脚を組み立てます。右側の前後は同じで、左側の前後も同じです。右側の組み立て方を説明します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:167
 msgid "Video Instructions, please refer to the link https://youtu.be/Ut7UnS3CTZs"
-msgstr ""
+msgstr "ビデオ説明は、リンク https://youtu.be/Ut7UnS3CTZs を参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:170
 msgid "The parts are numbered as follows to explain."
-msgstr ""
+msgstr "部品は以下のように番号付けされています。"
 
 #: ../../guide/Assembly/MiniPupper.rst:176
 msgid "Assemble ① and ②"
-msgstr ""
+msgstr "①と②の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:178
 msgid ""
 "Use one M2x5mm screw.The screw is inserted from the bottom of ② upwards "
 "and tightened by inserting them into the screw holes in ①. Be careful "
 "about the sides of ②."
-msgstr ""
+msgstr "M2x5mmのネジを1本使用します。ネジは②の底から上向きに挿入し、①のネジ穴に差し込んで締めます。②の向きに注意してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:180
 msgid ""
 "The two ballbearings in ② should be inserted all the way in and the end "
 "should be slightly visible as shown in the picture below. Tap the ball "
 "bearing and press it in without gaps."
-msgstr ""
+msgstr "②の2つのボールベアリングは完全に挿入し、下の写真のように端が少し見える状態にします。ボールベアリングを軽く叩いて、隙間なく押し込みます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:195
 msgid "Assemble ② and ③"
-msgstr ""
+msgstr "②と③の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:197
 msgid ""
@@ -287,37 +297,37 @@ msgid ""
 "to the top of ③, pass through ② and tighten with the nut. It is important"
 " to pay attention to the orientation of ③. Look carefully at the position"
 " of the hole in the middle."
-msgstr ""
+msgstr "M2x8mmのネジとM2ロックナットを使用します。ネジを③の底から上に通し、②を通してナットで締めます。③の向きに注意することが重要です。中央の穴の位置をよく確認してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:209
 msgid "Adjustment of the length of ④"
-msgstr ""
+msgstr "④の長さの調整"
 
 #: ../../guide/Assembly/MiniPupper.rst:211
 msgid ""
 "The length of ④ must match the length of ⑤. When adjusting the length, it"
 " is easier to use two long screws to make sure that the lengths match. "
 "Once the lengths have been adjusted, take apart all."
-msgstr ""
+msgstr "④の長さは⑤の長さと一致させる必要があります。長さを調整する際は、2本の長いネジを使用すると長さを合わせやすくなります。長さを調整したら、すべて分解します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:219
 msgid "If it's hard to twist, you can use two screwdrivers to assist."
-msgstr ""
+msgstr "回しにくい場合は、2本のドライバーを使用して補助することができます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:225
 msgid "Assemble ⑤ and ⑥"
-msgstr ""
+msgstr "⑤と⑥の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:227
 msgid ""
 "Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
 "the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
 "the surface."
-msgstr ""
+msgstr "M2x5mmのネジを1本使用します。まずネジを⑤に挿入し、⑥の穴に差し込んで締めます。⑥の大きな穴は表面を向くようにしてください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:238
 msgid "Assemble ⑤ and ⑦"
-msgstr ""
+msgstr "⑤と⑦の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:240
 msgid ""
@@ -328,37 +338,37 @@ msgid ""
 "side of ⑦ to make sure it is facing the right way. Now screw in the "
 "another set of ball bearing. Finally, insert screw into ⑤ and tighten it "
 "with the nut."
-msgstr ""
+msgstr "M2x12mmのネジ、M2ロックナット、2セットのボールベアリングを使用します。各ボールベアリングは3つの部品で構成されており、上下の部品は溝のある面を内側に向けます。ネジを1セットのボールベアリングに通します。次に、ネジを⑦の穴に挿入します。⑦の反りのある側が正しい向きになっているか確認してください。次に、もう1セットのボールベアリングをネジ込みます。最後に、ネジを⑤に挿入し、ナットで締めます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:259
 msgid "Assemble ④ and ⑦"
-msgstr ""
+msgstr "④と⑦の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:261
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ "
 "through, then tighten it with the nut. The direction of the front and "
 "back of ④ can be either."
-msgstr ""
+msgstr "M2x8mmのネジとM2ナットを使用します。ネジを⑦に挿入し、④を通してナットで締めます。④の前後の向きはどちらでも構いません。"
 
 #: ../../guide/Assembly/MiniPupper.rst:263
 #: ../../guide/Assembly/MiniPupper.rst:278
 msgid "Left and right leg"
-msgstr ""
+msgstr "左右の脚"
 
 #: ../../guide/Assembly/MiniPupper.rst:274
 msgid "Assemble ③ and ④"
-msgstr ""
+msgstr "③と④の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:276
 msgid ""
 "Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ "
 "through, then tighten it with the nut."
-msgstr ""
+msgstr "M2x8mmのネジとM2ナットを使用します。ネジを③に挿入し、④を通してナットで締めます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:286
 msgid "Assemble ③ and ⑤"
-msgstr ""
+msgstr "③と⑤の組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:288
 msgid ""
@@ -366,63 +376,63 @@ msgid ""
 "through the bearings, ③, bearings, ⑤, in that order. The screws are not "
 "fixed, but you will tighten them when you mount the servo in the next "
 "step."
-msgstr ""
+msgstr "M2x14mmのネジと2セットのボールベアリングを使用します。ネジをベアリング、③、ベアリング、⑤の順に通します。この時点ではネジは固定しませんが、次のステップでサーボを取り付ける際に締めます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:299
 msgid "Completion of a right leg"
-msgstr ""
+msgstr "右脚の完成"
 
 #: ../../guide/Assembly/MiniPupper.rst:302
 msgid ""
 "Now we have one leg on the right side. Here are some pictures so you can "
 "see it from different angles. The left leg should be symmetrical with the"
 " right one."
-msgstr ""
+msgstr "これで右側の脚が1本完成しました。様々な角度から見た写真を示します。左脚は右脚と対称になるようにします。"
 
 #: ../../guide/Assembly/MiniPupper.rst:313
 msgid "opposite side"
-msgstr ""
+msgstr "反対側"
 
 #: ../../guide/Assembly/MiniPupper.rst:322
 msgid "Step 3.2 Four legs"
-msgstr ""
+msgstr "ステップ3.2 4本の脚"
 
 #: ../../guide/Assembly/MiniPupper.rst:328
 msgid "Step 3.3 Locktite"
-msgstr ""
+msgstr "ステップ3.3 ロックタイト"
 
 #: ../../guide/Assembly/MiniPupper.rst:330
 msgid ""
 "As the nut is on a moving joint, it will loosen quickly if tightened too "
 "tightly. They should be secured with Loctite. It is possible to dismantle"
 " the nut later, as it can be loosened by a strong force."
-msgstr ""
+msgstr "ナットは可動部にあるため、強く締めすぎると早く緩んでしまいます。ロックタイトで固定する必要があります。強い力で緩めることができるため、後で分解することも可能です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:335
 msgid "Some screws are also secured with glue as the below picture shows."
-msgstr ""
+msgstr "下の写真のように、一部のネジも接着剤で固定します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:342
 msgid "4. Hips Assembly"
-msgstr ""
+msgstr "4. ヒップの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:346
 msgid "Step 4.1 Hip"
-msgstr ""
+msgstr "ステップ4.1 ヒップ"
 
 #: ../../guide/Assembly/MiniPupper.rst:357
 msgid ""
 "There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
 "other cables length is 15cm."
-msgstr ""
+msgstr "サーボケーブルには2種類あり、No.1,4,7,10のケーブル長は9cm、その他のケーブル長は15cmです。"
 
 #: ../../guide/Assembly/MiniPupper.rst:359
 msgid "For the position of each servos, please refer to the below picture."
-msgstr ""
+msgstr "各サーボの位置については、以下の写真を参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:364
 msgid "Here shows how to assemble the rear right hip."
-msgstr ""
+msgstr "ここでは右後ろのヒップの組み立て方を示します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:366
 msgid ""
@@ -433,105 +443,105 @@ msgid ""
 "it, you can use the servo horn to move the output shaft to the right "
 "position, and then finally make the servo horn at the place as the right "
 "picture shows."
-msgstr ""
+msgstr "サーボシャフトが正しい位置にあるか確認します。出力軸には中央位置のマーカーが付いており、左の写真のように出力軸はデフォルトで中央位置にあります。中央の写真のように組み立て中にシャフトの位置が変わることがありますが、その場合はサーボホーンを使って出力軸を正しい位置に移動し、最後に右の写真のようにサーボホーンを配置します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:372
 msgid "Connect the servo and hip part."
-msgstr ""
+msgstr "サーボとヒップパーツを接続します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:380
 msgid "Put two servos into hip parts"
-msgstr ""
+msgstr "2つのサーボをヒップパーツに取り付けます"
 
 #: ../../guide/Assembly/MiniPupper.rst:382
 msgid "Insert two servos into the box and fix them with M2x6mm screws."
-msgstr ""
+msgstr "2つのサーボをボックスに挿入し、M2x6mmのネジで固定します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:387
 msgid "Four hip parts, please refer to the servo positions."
-msgstr ""
+msgstr "4つのヒップパーツについては、サーボの位置を参照してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:393
 msgid "Assemble leg and hip"
-msgstr ""
+msgstr "脚とヒップの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:395
 msgid ""
 "※ If you have no technology background, it's easier to attach the leg to "
 "the hip during the calibration step."
-msgstr ""
+msgstr "※ 技術的な経験がない場合は、キャリブレーションステップで脚をヒップに取り付けた方が簡単です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:397
 msgid ""
 "※ If you are the first time to assemble quadruped robot, we don't "
 "recommand you use the Loctite."
-msgstr ""
+msgstr "※ 四足歩行ロボットの組み立てが初めての場合は、ロックタイトの使用をお勧めしません。"
 
 #: ../../guide/Assembly/MiniPupper.rst:399
 msgid ""
 "Attach the leg to the hip using the M2x12mm screws. Leg is tilted at "
 "approximately 45°, as shown in the manual."
-msgstr ""
+msgstr "M2x12mmのネジを使用して脚をヒップに取り付けます。マニュアルに示されているように、脚は約45度傾けます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:404
 msgid ""
 "Tighten the screws with Loctite. Use a toothpick to apply Loctite to the "
 "servo's screw holes."
-msgstr ""
+msgstr "ロックタイトでネジを固定します。つまようじを使用してサーボのネジ穴にロックタイトを塗布します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:419
 msgid "Step 4.2 Four Hips"
-msgstr ""
+msgstr "ステップ4.2 4つのヒップ"
 
 #: ../../guide/Assembly/MiniPupper.rst:424
 msgid "※ Please pay attention to the positions of the servo gear output shaft"
-msgstr ""
+msgstr "※ サーボギアの出力軸の位置に注意してください"
 
 #: ../../guide/Assembly/MiniPupper.rst:434
 msgid "5. Body Frame Assembly"
-msgstr ""
+msgstr "5. ボディフレームの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:437
 msgid "Step 5.1 Center parts"
-msgstr ""
+msgstr "ステップ5.1 中央部品"
 
 #: ../../guide/Assembly/MiniPupper.rst:439
 msgid "The position of each servos are shown as below."
-msgstr ""
+msgstr "各サーボの位置は以下の通りです。"
 
 #: ../../guide/Assembly/MiniPupper.rst:444
 msgid ""
 "※ There are two kinds of servo cables, No.1,4,7,10 cables length is 9cm, "
 "other cables length is 15cm."
-msgstr ""
+msgstr "※ サーボケーブルには2種類あり、No.1,4,7,10のケーブル長は9cm、その他のケーブル長は15cmです。"
 
 #: ../../guide/Assembly/MiniPupper.rst:446
 msgid ""
 "It is useful to put masking tape on the cables and write the number of "
 "servos during this process to make it easier later."
-msgstr ""
+msgstr "後で分かりやすくするために、この工程でケーブルにマスキングテープを貼り、サーボの番号を書いておくと便利です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:458
 msgid "Step 5.2 Front parts"
-msgstr ""
+msgstr "ステップ5.2 前面部品"
 
 #: ../../guide/Assembly/MiniPupper.rst:460
 msgid ""
 "The front part is designed to hold the LCD screen. Make sure you don't "
 "mistake it for the rear part."
-msgstr ""
+msgstr "前面部品はLCD画面を保持するように設計されています。後部と間違えないように注意してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:470
 msgid "Step 5.3 Rear side"
-msgstr ""
+msgstr "ステップ5.3 後部"
 
 #: ../../guide/Assembly/MiniPupper.rst:472
 msgid "The same procedure as for the front part."
-msgstr ""
+msgstr "前面部品と同じ手順です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:493
 msgid "Step 5.4 Battery"
-msgstr ""
+msgstr "ステップ5.4 バッテリー"
 
 #: ../../guide/Assembly/MiniPupper.rst:495
 msgid ""
@@ -540,36 +550,38 @@ msgid ""
 "other backers work "
 "https://www.facebook.com/groups/716473723088464/posts/777616293640873/"
 msgstr ""
+"バッテリーを自作する場合は、まず当社のバッテリー仕様を確認してください。特に電圧は7.4V以下である必要があります。他の支援者の作品も参考にしてください"
+" https://www.facebook.com/groups/716473723088464/posts/777616293640873/"
 
 #: ../../guide/Assembly/MiniPupper.rst:498
 msgid "Install the battery pack."
-msgstr ""
+msgstr "バッテリーパックを取り付けます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:503
 msgid "Be careful of the carbon fiber front and rear orientation."
-msgstr ""
+msgstr "カーボンファイバーの前後の向きに注意してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:508
 msgid ""
 "Slide the battery backwards and secure it. Pass the cable through the "
 "hole in the bottom plate and bring it up to the top."
-msgstr ""
+msgstr "バッテリーを後ろにスライドさせて固定します。ケーブルを底板の穴に通して上に引き上げます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:515
 msgid "Step 5.5 Bottom plate"
-msgstr ""
+msgstr "ステップ5.5 底板"
 
 #: ../../guide/Assembly/MiniPupper.rst:517
 msgid "The orientation of the plate must be such that the hole is at the front."
-msgstr ""
+msgstr "プレートの向きは、穴が前面にくるようにする必要があります。"
 
 #: ../../guide/Assembly/MiniPupper.rst:522
 msgid "If the leg is stuck, turn the part ①"
-msgstr ""
+msgstr "脚が引っかかる場合は、パーツ①を回転させてください"
 
 #: ../../guide/Assembly/MiniPupper.rst:532
 msgid "Step 5.6 Display and Frame of face"
-msgstr ""
+msgstr "ステップ5.6 ディスプレイと前面フレーム"
 
 #: ../../guide/Assembly/MiniPupper.rst:534
 msgid ""
@@ -577,143 +589,145 @@ msgid ""
 " at the edge of the display. Attach the board and the display to the main"
 " unit. When attaching the display, you can use a stick to gently push the"
 " flexible cable, so that it goes as far back as possible."
-msgstr ""
+msgstr "ディスプレイの保護シートを剥がします。ディスプレイの端にある薄いフレキシブルケーブルを折り曲げます。ボードとディスプレイを本体に取り付けます。ディスプレイを取り付ける際は、棒を使ってフレキシブルケーブルを優しく押し、できるだけ奥まで入れることができます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:552
 msgid "Be careful with the yellow parts as it has a front and back."
-msgstr ""
+msgstr "黄色い部品には表裏があるので注意してください。"
 
 #: ../../guide/Assembly/MiniPupper.rst:565
 msgid "Step 5.7 Custom circuit board"
-msgstr ""
+msgstr "ステップ5.7 カスタム回路基板"
 
 #: ../../guide/Assembly/MiniPupper.rst:567
 msgid "Plug the display cable into the custom circuit board."
-msgstr ""
+msgstr "ディスプレイケーブルをカスタム回路基板に接続します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:575
 msgid ""
 "Insert the 12 servo cables. In the picture, you can see: J1,J2,J3.... . "
 "J12."
-msgstr ""
+msgstr "12本のサーボケーブルを挿入します。写真では：J1,J2,J3.... . J12が見えます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:580
 msgid "Use four M2x5mm screws and four short supports."
-msgstr ""
+msgstr "M2x5mmのネジ4本と短いサポート4本を使用します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:589
 msgid "put on the carbon fiber board"
-msgstr ""
+msgstr "カーボンファイバーボードを取り付けます"
 
 #: ../../guide/Assembly/MiniPupper.rst:594
 msgid ""
 "plug in the battery cable. This connector may interfere with the hips "
 "parts, so you have to slide it through a hole in the middle of the board."
-msgstr ""
+msgstr "バッテリーケーブルを接続します。このコネクタはヒップパーツと干渉する可能性があるため、ボードの中央の穴を通してスライドさせる必要があります。"
 
 #: ../../guide/Assembly/MiniPupper.rst:599
 msgid ""
 "Use eight M2x5mm screws. The orientation of the plate must be such that "
 "the large opening is at the front."
-msgstr ""
+msgstr "M2x5mmのネジを8本使用します。プレートの向きは、大きな開口部が前面にくるようにする必要があります。"
 
 #: ../../guide/Assembly/MiniPupper.rst:604
 msgid ""
 "Pull the custom circuit board closer to the body. The board may float, "
 "but you can use four long posts to hold it in place."
-msgstr ""
+msgstr "カスタム回路基板を本体に近づけます。基板が浮くかもしれませんが、4本の長いポストを使用して固定することができます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:616
 msgid ""
 "※ Need to pay attention to the cable of the No. 1 servo to prevent it "
 "from being overwhelmed."
-msgstr ""
+msgstr "※ No.1サーボのケーブルが過負荷にならないように注意が必要です。"
 
 #: ../../guide/Assembly/MiniPupper.rst:624
 msgid "Step 5.8 Fan"
-msgstr ""
+msgstr "ステップ5.8 ファン"
 
 #: ../../guide/Assembly/MiniPupper.rst:626
 msgid "To install the fan."
-msgstr ""
+msgstr "ファンを取り付けます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:636
 msgid "Step 5.9 Raspberry Pi 4"
-msgstr ""
+msgstr "ステップ5.9 Raspberry Pi 4"
 
 #: ../../guide/Assembly/MiniPupper.rst:647
 msgid "6. Cover Assembly"
-msgstr ""
+msgstr "6. カバーの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:658
 msgid "Step 6.1 Side panels"
-msgstr ""
+msgstr "ステップ6.1 サイドパネル"
 
 #: ../../guide/Assembly/MiniPupper.rst:667
 msgid "Step 6.2 Shin guards"
-msgstr ""
+msgstr "ステップ6.2 シンガード"
 
 #: ../../guide/Assembly/MiniPupper.rst:669
 msgid "Use four M2x10mm countersunk screws."
-msgstr ""
+msgstr "M2x10mmの皿ネジを4本使用します。"
 
 #: ../../guide/Assembly/MiniPupper.rst:678
 msgid "Step 6.3 Shoulders"
-msgstr ""
+msgstr "ステップ6.3 ショルダー"
 
 #: ../../guide/Assembly/MiniPupper.rst:680
 msgid ""
 "Insert only the screws first and then insert the shoulder parts into the "
 "gap. Insert the 2 mm hex driver into the hole in the shoulder part and "
 "tighten the screws."
-msgstr ""
+msgstr "まずネジだけを差し込み、その隙間にショルダーパーツを差し込みます。ショルダーパーツの穴に2mmの六角ドライバーを差し込んでネジを締めます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:695
 msgid "Step 6.4 Top cover"
-msgstr ""
+msgstr "ステップ6.4 トップカバー"
 
 #: ../../guide/Assembly/MiniPupper.rst:697
 msgid ""
 "Use four M2x10mm screws, if the holes are too small to fit the screws, as"
 " the part is made with a 3D printer, you can enlarge the holes by turning"
 " them with the supplied 2mm hexagonal screwdriver."
-msgstr ""
+msgstr "M2x10mmのネジを4本使用します。3Dプリンターで作られた部品のため、ネジが入らないほど穴が小さい場合は、付属の2mm六角ドライバーで回して穴を広げることができます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:709
 msgid "Step 6.5 Shoes"
-msgstr ""
+msgstr "ステップ6.5 シューズ"
 
 #: ../../guide/Assembly/MiniPupper.rst:711
 msgid "Put on 4 shoes."
-msgstr ""
+msgstr "4つのシューズを取り付けます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:721
 msgid "Step 6.6 Completion!"
-msgstr ""
+msgstr "ステップ6.6 完成！"
 
 #: ../../guide/Assembly/MiniPupper.rst:730
 msgid "7.Add-On Assembly"
-msgstr ""
+msgstr "7.アドオンの組み立て"
 
 #: ../../guide/Assembly/MiniPupper.rst:733
 msgid "Step 7.1 Lidar"
-msgstr ""
+msgstr "ステップ7.1 Lidar"
 
 #: ../../guide/Assembly/MiniPupper.rst:735
 msgid "If you order the Lidar, the Lidar holder will be shipped together."
-msgstr ""
+msgstr "Lidarを注文すると、Lidarホルダーが一緒に出荷されます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:747
 msgid "Step 7.2 Camera"
-msgstr ""
+msgstr "ステップ7.2 カメラ"
 
 #: ../../guide/Assembly/MiniPupper.rst:749
 msgid ""
 "You can print the holder by yourself using the `STL files "
 "<https://drive.google.com/drive/folders/1L4t1hxhqPaVPT9OIw9t5WhxEJ_s3Udym?usp=sharing>`_"
 msgstr ""
+"`STLファイル "
+"<https://drive.google.com/drive/folders/1L4t1hxhqPaVPT9OIw9t5WhxEJ_s3Udym?usp=sharing>`_"
+" を使用して、ホルダーを自分で印刷することができます。"
 
 #: ../../guide/Assembly/MiniPupper.rst:762
 msgid "Step 7.3 Completion!"
-msgstr ""
-
+msgstr "ステップ7.3 完成！"

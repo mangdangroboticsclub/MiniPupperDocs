@@ -22,5 +22,4 @@ msgstr ""
 
 #: ../../guide/Assembly/index.rst:2
 msgid "Assembly"
-msgstr ""
-
+msgstr "組み立て"
