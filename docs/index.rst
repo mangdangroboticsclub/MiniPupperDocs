@@ -55,7 +55,7 @@ We are all dreamers, and we look forward to connecting talents worldwide and inn
     guide/Features
     guide/HowToOrder
     guide/QuickStartGuide
-    guide/Assembly
+    guide/Assembly/index
     guide/SoftwareCalibration
     guide/ROS2Guide
     guide/MachineLearning
