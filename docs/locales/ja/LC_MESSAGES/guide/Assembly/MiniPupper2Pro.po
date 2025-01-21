@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, MangDang Technology Co., Limited
+# This file is distributed under the same license as the Mini Pupper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mini Pupper \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 00:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:3
+msgid "Assemble Mini Pupper 2 Pro"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:7
+msgid "Contents"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:9
+msgid "※ General DIY process:"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:11
+msgid "Assemble --> Calibration --> Run"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:13
+msgid "※ Attention:"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:15
+msgid ""
+"The MCU(ESP32 and AT32) software are both pre-installed, you don't need "
+"to flash any MCU image."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:16
+msgid ""
+"You don't need to set each servo number as Mini Pupper 2 because the "
+"servo number is fixed by the hardware design, please follow the guide to "
+"put the servo to the right positions."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:19
+msgid ""
+"Please refer to Mini Pupper 2 Fusion 360 CAD model for your reference: "
+"https://a360.co/485n8mP"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:28
+msgid "1. Write the pre-built image into microSD"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:31
+msgid "Tools"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:32
+msgid ""
+"In addition to the tools included in the kit, the following items are "
+"required for assembly."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:34
+msgid "USB keyboard"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:35
+msgid "USB mouse"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:36
+msgid "PC"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:37
+msgid "microSD card reader"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:38
+msgid "HDMI Display"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:39
+msgid "micro HDMI cable"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:40
+msgid "USB charger"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:44
+msgid "Step 1.1 Charging the battery"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:46
+msgid ""
+"The battery is charged via USB, see picture for USB socket, and can also "
+"be charged while attached to the Mini Pupper body."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:48
+msgid ""
+"※ LED light: Green means there is enough power, and Red means you need to"
+" charge it."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:50
+msgid ""
+"※ We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC "
+"will change it to 1A. It needs about 1 hour to charge 80% and the light "
+"will become green, and an additional 1 hour to 100%, anyway, you can use "
+"it when the light becomes green."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:56
+msgid "Step 1.2 Download the image"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:58
+msgid ""
+"You can download the pre-built image files from  `Mini Pupper pre-built "
+"images "
+"<https://drive.google.com/drive/folders/1DzxQ9rpvlqCwoGd5aP0Hki9Wre3UXc-h?usp=sharing>`_"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:60
+msgid "※ “v2Pro_stanford**.img” means the image is for Ubuntu 22.04 version."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:62
+msgid "The picture below is the custom carry board."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:68
+msgid "Step 1.3 Write the image into a microSD card"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:70
+msgid ""
+"Insert the microSD card into your PC's SD card reader and write the "
+"image. We recommend the image creation tool balenaEtcher or "
+"Win32DiskImager as it is easy and reliable. It may take a while to "
+"complete."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:74
+msgid "2. Position of the screws"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:76
+msgid "The pictures show the position of the screws briefly."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:89
+msgid "3. Legs Assembly"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:90
+#: ../../guide/Assembly/MiniPupper2Pro.rst:464
+msgid "Please refer to the below video clip."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:99
+msgid "Bolt to use"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:100
+msgid "M2x5mm        2x4=8   ①+②, ⑤+⑥"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:101
+msgid "M2x8mm        3x4=12  ②+③, ④+⑦, ③+④"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:102
+msgid "M2x12mm       1x4=4   ⑤+⑦"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:103
+msgid "M2x14mm       1x4=4   ③+⑤"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:106
+msgid "Step 3.1 Single leg"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:108
+msgid ""
+"Assemble the four legs. The front and back of the right side are the "
+"same, and so are the front and back of the left side. Show you how to "
+"assemble the right side."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:110
+msgid "Video Instructions, please refer to the link https://youtu.be/Ut7UnS3CTZs"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:113
+msgid "The parts are numbered as follows to explain."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:119
+msgid "Assemble ① and ②"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:127
+msgid "The two sides of bearings inside ② are different."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:135
+msgid "Assemble ② and ③"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:137
+msgid ""
+"Use an M2x8mm screw and an M2 locknut. Insert the screw from the bottom "
+"to the top of ③, pass through ② and tighten with the nut. It is important"
+" to pay attention to the orientation of ③. Look carefully at the position"
+" of the hole in the middle."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:146
+msgid "Adjustment of the length of ④"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:148
+msgid ""
+"The length of ④ must match the length of ⑤. When adjusting the length, it"
+" is easier to use two long screws to make sure that the lengths match. "
+"Once the lengths have been adjusted, take apart all."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:156
+msgid "If it's hard to twist, you can use two screwdrivers to assist."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:162
+msgid "Assemble ⑤ and ⑥"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:164
+msgid ""
+"Use one M2x5mm screw. Insert the screws into ⑤ first, insert them into "
+"the holes of ⑥, and tighten them. The large hole in ⑥ should be facing "
+"the surface."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:175
+msgid "Assemble ⑤ and ⑦"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:177
+msgid ""
+"Use an M2x12mm screw, an M2 locknut and two sets of ball bearings. Each "
+"ball bearing is made up of three parts, the top and bottom parts with the"
+" grooved side facing inwards. Insert a screw into a set of ball bearing. "
+"Then insert the screw into the hole ⑦. Taking care to look at the warped "
+"side of ⑦ to make sure it is facing the right way. Now screw in the "
+"another set of ball bearing. Finally, insert screw into ⑤ and tighten it "
+"with the nut."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:196
+msgid "Assemble ④ and ⑦"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:198
+msgid ""
+"Use an M2x8mm screw and an M2 nut. Insert the screw into ⑦ and put ④ "
+"through, then tighten it with the nut. The direction of the front and "
+"back of ④ can be either."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:200
+#: ../../guide/Assembly/MiniPupper2Pro.rst:215
+msgid "Left and right leg"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:211
+msgid "Assemble ③ and ④"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:213
+msgid ""
+"Use an M2x8mm screw and an M2 nut. Insert the screw into ③ and put ④ "
+"through, then tighten it with the nut."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:223
+msgid "Assemble ③ and ⑤"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:225
+msgid ""
+"Use M2x14mm screws and two sets of ball bearings. Thread the screws "
+"through the bearings, ③, bearings, ⑤, in that order. The screws are not "
+"fixed, but you will tighten them when you mount the servo in the next "
+"step."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:236
+msgid "Completion of a right leg"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:239
+msgid ""
+"Now we have one leg on the right side. Here are some pictures so you can "
+"see it from different angles. The left leg should be symmetrical with the"
+" right one."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:247
+msgid "opposite side"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:253
+msgid "Step 3.2 Four legs"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:259
+msgid "Step 3.3 Locktite"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:261
+msgid ""
+"After Mini Pupper run sometime, some screws or nuts will loose, you have "
+"to check and tighten them if needed. It's helpful to understand how it "
+"works."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:263
+msgid ""
+"※ We don't recommend new users to use the Loctite at first, you can use "
+"it after you have much background."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:265
+msgid ""
+"※ Loctite prevents the nut from loosening, but it is not essential, as it"
+" can be tightened only when looseness is noticed."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:273
+msgid "Some screws are also secured with glue as the below picture shows."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:279
+msgid "4. Display and Frame of face"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:281
+msgid ""
+"Remove the protective sheet for the display. Fold the thin flexible cable"
+" at the edge of the display. Attach the board and the display to the main"
+" unit."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:295
+msgid ""
+"When attaching the display, you can use a stick to gently push the "
+"flexible FPC cable, so that it goes as far back as possible. Don't bend "
+"this FPC cable at 180 degrees."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:305
+msgid "5. Body Frame and Hips Assembly"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:307
+msgid ""
+"Before you connect the CM4 module to the carry board, please make sure to"
+" remove the protective film on the Thermal Pad."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:313
+msgid ""
+"Don't need to set servo ID for v2 pro version, the servo ID is fixed by "
+"hardware design."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:314
+msgid "For the position of each servo, please refer to the below picture."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:320
+msgid "Step 5.1 Body center parts"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:322
+msgid "Connect the No.1, 4, 7, 10 servos to the body center parts."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:324
+msgid ""
+"It is useful to put masking tape on the cables and write the number of "
+"servos during this process to make it easier later."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:330
+msgid "Pay attention to the center part direction."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:339
+msgid "Step 5.2 Hip parts"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:340
+msgid "Assemble four hip parts, please refer to the servo positions."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:348
+msgid "Connect the No.1, 4, 7, 10 servos to the servo MCU PCB baord."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:353
+msgid "Connect the rest servos to the servo MCU PCB baord."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:358
+msgid "Pay attention to the servo cable connectors' directions."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:363
+msgid "Use the DIY cable to connect the top PCB board to the servo MCU PCB baord."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:368
+msgid "Power on the battery and connect to the top PCB board."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:373
+msgid "Connect the four black hip parts to the relative servos(No. 1,4,7,10)."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:378
+msgid "Connect the four hip parts to the body, please pay attention."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:380
+msgid "Don't power off the battery now."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:381
+msgid "Ensure all the servo positions are right."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:384
+msgid "Step 5.3 Front and back body parts"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:386
+msgid ""
+"Power off the battery, adjust the red cable position and connect the "
+"front and back body parts."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:391
+msgid "Use the screws to fix the top PCB board."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:396
+msgid "You can tighten the servo MCU PCB board with tape."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:402
+msgid ""
+"Power the battery and connect to the top PCB board to ensure the four "
+"black hip part positions are right."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:408
+msgid "Connect the center parts to the bottom carbon fiber."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:413
+msgid "Be careful of the carbon fiber front and rear orientation."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:417
+msgid "Step 5.4 Assemble four legs to the body"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:419
+msgid "Prepare the four pre-assembled legs"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:424
+msgid ""
+"Pay attention to the theoretically best angles, it's better to meet the "
+"theoretically best angles as much as possible."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:426
+msgid "But don't worry, we'll use the software to calibrate the angles later."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:436
+msgid "Step 5.5 Assemble the battery to the body"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:441
+msgid "Slide the battery backward and secure it."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:453
+msgid "Step 5.6 Assemble the speaker"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:463
+msgid "6. Cover Assembly"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:473
+msgid "Step 6.1 Side panels"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:482
+msgid "Step 6.2 Shin guards"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:484
+msgid "Use four M2x10mm countersunk screws."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:493
+msgid "Step 6.3 Shoulders"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:495
+msgid ""
+"Insert only the screws first and then insert the shoulder parts into the "
+"gap. Insert the 2 mm hex driver into the hole in the shoulder part and "
+"tighten the screws."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:510
+msgid "Step 6.4 Shoes"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:512
+msgid "Put on 4 shoes."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:522
+msgid "Complete!"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:527
+msgid "7. Add-On Assembly"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:530
+msgid "Step 7.1 Lidar"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:532
+msgid ""
+"If you order the Lidar, the 3D-printed Lidar holder and custom cable will"
+" be shipped together. You can also print the holder by yourself using the"
+"  `STL files <https://drive.google.com/drive/folders/1YyU4w-"
+"Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:537
+msgid "Connect the 3 holders to the 3D-printed part."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:542
+msgid "Connect the custom cable to the Lidar connector on the PCB board."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:547
+msgid "Fix the 3D-printed part on the PCB board."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:552
+msgid ""
+"Connect the custom cable to the Lidar module and fix it using the self-"
+"tapping screws."
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:558
+msgid "Step 7.2 Camera"
+msgstr ""
+
+#: ../../guide/Assembly/MiniPupper2Pro.rst:560
+msgid ""
+"Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite "
+"camera module. You can also print the holder by yourself using the `STL "
+"files <https://drive.google.com/drive/folders/1YyU4w-"
+"Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_"
+msgstr ""
+
