@@ -105,7 +105,7 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 ^^^^^^^^^^^^^^^^^^^^
 
 The steps below are for you to setup ROS2 environment of Mini Pupper by yourself.
-You can also download the `pre-built ROS image <https://drive.google.com/drive/folders/1ZF4vulHbXvVF4RPWWGxEe7rxcJ9LyeEu?usp=sharing>`_ for Mini Pupper side, named "YYYYMMDD_MD-Puppy2_ROS2Humble_Ubuntu22.04.img" or "YYYYMMDD_MD-Puppy1_ROS2Humble_Ubuntu22.04.img". Please select the appropriate image according to the date and the robot model.
+You can also download the `pre-built ROS image <https://drive.google.com/drive/folders/1_HNbIb2RDmHpwECjqiVlkylvU19BSfOh?usp=sharing>`_ for Mini Pupper side, named "YYYYMMDD_*_ROS2*.img". Please select the appropriate image according to the date and the robot model.
 
 1. The image can be flashed into the card using an adaptor. If your PC do not have a microSD slot, please use a microSD card reader to burn the image.
 2. Download ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz from the official website, and flash it into your SD card according to the following guide.
