@@ -18,11 +18,15 @@ rtd:
 rtd-ja:
 	python3 -m sphinx -T -E -b html -d "$(BUILDDIR)/doctrees" -D language=ja "$(SOURCEDIR)" "$(BUILDDIR)/html" $(SPHINXOPTS) $(O)
 
+rtd-all:
+	python3 -m sphinx -T -E -b html -d "$(BUILDDIR)/doctrees/en" -D language=en "$(SOURCEDIR)" "$(BUILDDIR)/html/en" $(SPHINXOPTS) $(O)
+	python3 -m sphinx -T -E -b html -d "$(BUILDDIR)/doctrees/ja" -D language=ja "$(SOURCEDIR)" "$(BUILDDIR)/html/ja" $(SPHINXOPTS) $(O)
+
 intl-ja:
 	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext" $(O)
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l ja $(O)
 
-.PHONY: help Makefile
+.PHONY: help Makefile rtd rtd-ja rtd-all intl-ja
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
