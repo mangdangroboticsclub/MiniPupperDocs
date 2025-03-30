@@ -3,9 +3,12 @@ Mini Pupper will make robotics easier for schools, homeschool families, enthusia
 
 「Mini Pupperは、学校、家庭学習、愛好家、そしてそれ以外の人々にも、ロボット工学をより身近なものにしてくれることでしょう」 by MangDang
 
+* [English](https://mangdangroboticsclub.github.io/MiniPupperDocs/en/)
+* [日本語](https://mangdangroboticsclub.github.io/MiniPupperDocs/ja/)
+
 ## Sphinx Document Buildling
 
-This document is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), designed following Sphinx practice, and hosted on [Read the Docs](https://minipupperdocs.readthedocs.io/en/latest/).
+This document is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), designed following Sphinx practice, and hosted on [Read the Docs](https://minipupperdocs.readthedocs.io/en/latest/) and [GitHub Pages](https://mangdangroboticsclub.github.io/MiniPupperDocs/en/).
 
 This document can also be built locally, where the following environment setup would be initially required:
 
