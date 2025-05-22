@@ -1,11 +1,15 @@
-MD Robot Starter Kits User Manual
+Mini Pupper User Manual
 ####################################
 
-Multimodal Generative AI, Open-source, ROS2, Robot Education Kit
+AI, Open-source, ROS2, Robot Education Kit
 ------------------------------------------------------------------
 Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub?tab=repositories/>`_
 
-MD Robot Starter Kit is a robot learning platform, it will make robotics easier for schools, homeschool families, enthusiasts, and beyond.
+Mini Pupper is a robot learning platform, it will make robotics easier for schools, homeschool families, enthusiasts, and beyond.
+
+
+※ Please refer to `quick start guide <https://minipupperdocs.readthedocs.io/en/latest/guide/QuickStartGuide.html>`_  for run it quickly.
+
 
 .. raw:: html
 
@@ -33,12 +37,12 @@ MD Robot Starter Kit is a robot learning platform, it will make robotics easier 
     </div>
 
 
-What is MD Robot Starter Kits?
+What is Mini Pupper Kits?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-MD Robot Starter Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022).
+Mini Pupper Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022).
 
-Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With MD Robot Starter Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
+Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
 
 About MangDang Technology Co., Limited

@@ -87,6 +87,17 @@ Run Mini Pupper 2 Generative AI functions
 Preparation
 ^^^^^^^^^^^^
 
+0. Assemble the camera module
+
+For convenient shipping, the camera module may be not assembled by default. After receiving it, please assemble it yourself.
+
+* The connector typically has a hinged, flip-up latch that you need to open to insert the ribbon cable. This latch helps ensure the ribbon cable stays securely connected to the board during use.
+* Take the ribbon cable that is compatible with your Camera Module and interface on the board.
+
+.. image:: ../_static/add-on.camera.assemble.jpg
+    :align: center
+
+
 1. Charging the battery
 
 * The battery is charged via USB, see picture for USB socket, and can also be charged while attached to the Mini Pupper body.
@@ -133,13 +144,11 @@ You can set the default WiFi on your phone before booting.
 
 * WiFi name: Mangdang
 * WiFi password: mangdang
+* Please refer to the following video demo: https://youtube.com/shorts/djDqob18IsQ
 
 .. image:: ../_static/wifi.default.jpg
     :align: center
 
-
-Please refer to the following video demo.
-https://youtube.com/shorts/djDqob18IsQ
 
 
 2. Try AI functions
