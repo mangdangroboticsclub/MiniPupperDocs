@@ -173,7 +173,30 @@ You can run it on your Windows or Ubuntu with Python environment, just like the 
 8. PID control
 ---------------
 
-Will update later!
+We prepared PID demo that utilize Minipupper2 IMU to create an auto-balance Mini Pupper, you can try it by
+
+::
+
+  cd StanfordQuadruped
+  python IMU.Balancing.MP2.py
+
+Try surfing with the pupper! See how it works in the following video clip.
+
+.. raw:: html
+
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://youtube.com/embed/N8gnD9P8Ht0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
+The Demo architecture
+
+.. image:: ../_static/IMU_PID_Chart.png
+  :height: 300px
+  :align: center
+
+
 
 9. Docker
 -------------
