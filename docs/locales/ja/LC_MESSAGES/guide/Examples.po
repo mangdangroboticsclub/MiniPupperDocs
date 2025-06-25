@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-15 20:42+0900\n"
+"POT-Creation-Date: 2025-06-25 05:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,18 +240,28 @@ msgid "8. PID control"
 msgstr "8. PID制御"
 
 #: ../../guide/Examples.rst:176
-msgid "Will update later!"
-msgstr ""
-
-#: ../../guide/Examples.rst:179
-msgid "9. Docker"
-msgstr ""
-
-#: ../../guide/Examples.rst:182
-msgid "9.1 Docker for Pupper"
+msgid ""
+"We prepared PID demo that utilize Minipupper2 IMU to create an auto-"
+"balance Mini Pupper, you can try it by"
 msgstr ""
 
 #: ../../guide/Examples.rst:183
+msgid "Try surfing with the pupper! See how it works in the following video clip."
+msgstr ""
+
+#: ../../guide/Examples.rst:193
+msgid "The Demo architecture"
+msgstr ""
+
+#: ../../guide/Examples.rst:202
+msgid "9. Docker"
+msgstr ""
+
+#: ../../guide/Examples.rst:205
+msgid "9.1 Docker for Pupper"
+msgstr ""
+
+#: ../../guide/Examples.rst:206
 msgid ""
 "Dockerfile for Mini Pupper ROS package, comes from `docker-mini-pupper-"
 "ros project <https://github.com/Tiryoh/docker-mini-pupper-ros.git>`_."
@@ -260,11 +270,11 @@ msgstr ""
 "。`docker-mini-pupper-ros project <https://github.com/Tiryoh/docker-mini-"
 "pupper-ros.git>`_"
 
-#: ../../guide/Examples.rst:186
+#: ../../guide/Examples.rst:209
 msgid "9.2 Docker for Host"
 msgstr "9.2 ホスト用Docker"
 
-#: ../../guide/Examples.rst:187
+#: ../../guide/Examples.rst:210
 msgid ""
 "Host computer setup for interfacing with a Mini Pupper over a network, "
 "comes from `mp_host_setup project "
@@ -274,11 +284,14 @@ msgstr ""
 "プロジェクトから取得します。`mp_host_setup project "
 "<https://github.com/zmk5/mp_host_setup.git>`_"
 
-#: ../../guide/Examples.rst:190
+#: ../../guide/Examples.rst:213
 msgid "10. Scratch program"
 msgstr ""
 
-#: ../../guide/Examples.rst:192
+#: ../../guide/Examples.rst:215
 msgid "Will update soon!"
 msgstr ""
+
+#~ msgid "Will update later!"
+#~ msgstr ""
 
