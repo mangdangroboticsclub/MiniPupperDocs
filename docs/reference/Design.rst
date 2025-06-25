@@ -16,13 +16,13 @@ Mini Pupper: https://a360.co/3wFLSlT
 
 BOM
 -----------
-Link: `Bill of Materials of Mini Pupper <https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_
+Link: `Bill of Materials of Mini Pupper <https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_
 
 .. raw:: html
 
-    <iframe height = 400 width = 600 src="https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167&rtpof=true&amp;headers=false"></iframe>
+    <iframe height = 400 width = 600 src="https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&amp;headers=false"></iframe>
 
 
-STL
+STL and Servo Specification
 ----------
-Link: `Mini Pupper STL files for 3D print  <https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_
+Link: `Mini Pupper STL files for 3D print  <https://drive.google.com/drive/folders/1L4t1hxhqPaVPT9OIw9t5WhxEJ_s3Udym?usp=sharing>`_ and `Servo specification  <https://drive.google.com/file/d/1RZikVobMhlcjw7Dm4ms8hMo-zpj1m8Hx/view?usp=sharing>`_
