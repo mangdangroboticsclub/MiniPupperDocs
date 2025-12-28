@@ -1,7 +1,7 @@
 Mini Pupper User Manual
 ####################################
 
-AI, Open-source, ROS2, Robot Education Kit
+Master Robotics and Al with Open-Source Ease
 ------------------------------------------------------------------
 Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub?tab=repositories/>`_
 
@@ -13,8 +13,8 @@ Mini Pupper is a robot learning platform, it will make robotics easier for schoo
 .. image:: _static/000.png
     :align: center
 
-※ Key Features:
 
+※ Key Features:
 * Mechanics: Quickly assemble and understand mechanical design within 1 hour.
 * Scratch Coding: The Easiest Start for K12 STEM. 
 * Robotics control: ready-to-study kinematics examples.
