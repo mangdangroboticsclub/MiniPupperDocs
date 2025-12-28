@@ -15,6 +15,7 @@ Mini Pupper is a robot learning platform, it will make robotics easier for schoo
 
 
 ※ Key Features:
+
 * Mechanics: Quickly assemble and understand mechanical design within 1 hour.
 * Scratch Coding: The Easiest Start for K12 STEM. 
 * Robotics control: ready-to-study kinematics examples.
