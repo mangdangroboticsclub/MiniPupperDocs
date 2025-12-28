@@ -10,20 +10,16 @@ Mini Pupper is a robot learning platform, it will make robotics easier for schoo
 
 ※ Please refer to `quick start guide <https://minipupperdocs.readthedocs.io/en/latest/guide/QuickStartGuide.html>`_  for run it quickly.
 
-
-.. raw:: html
-
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/08J82rEK5bw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+.. image:: _static/000.png
+    :align: center
 
 ※ Key Features:
 
-* Quick Setup: Set up your study environment in 30 minutes.
-* Mechanics: Quickly assemble and understand mechanical design in 60 minutes.
+* Mechanics: Quickly assemble and understand mechanical design within 1 hour.
+* Scratch Coding: The Easiest Start for K12 STEM. 
 * Robotics control: ready-to-study kinematics examples.
-* ROS(Robot Operating System): Study SLAM and navigation with example projects.
-* OpenCV: supports Pi single MIPI camera and OpenCV's official OAK-D-Lite 3D camera module.
+* ROS(Robot Operating System) : Study SLAM and navigation with example projects including ROS1 and ROS2.
+* OpenCV: Vision tutorials using camera module and OpenCV.
 * Generative AI: ChatGPT@OpenAI, Gemini@Google, Claude@AWS
 * Open-source: DIY and customize what you want!
 * Pi: it's super expandable, endorsed by Raspberry Pi.
@@ -47,13 +43,12 @@ Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticscl
 
 About MangDang Technology Co., Limited
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in  `Hong Kong Science Park <https://www.hkstp.org/en/directory/material-and-precision-engineering/mangdang-technology-colimited>`_. We are a global team with members from many countries and regions.
+Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
 
-We are all dreamers, and we look forward to connecting talents worldwide and innovating together to perform splendid times!
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Guide
 
     guide/Features
