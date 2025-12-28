@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 17:20+0900\n"
+"POT-Creation-Date: 2025-12-28 10:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../reference/Design.rst:2
 msgid "Mechanical Design for Mini Pupper"
@@ -39,21 +39,35 @@ msgid "BOM"
 msgstr "BOM"
 
 #: ../../reference/Design.rst:19
+#, fuzzy
 msgid ""
 "Link: `Bill of Materials of Mini Pupper "
-"<https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
+"<https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-"
+"jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_"
 msgstr ""
-"Link: `ミニぷぱ部品表"
-" <https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
+"Link: `ミニぷぱ部品表 "
+"<https://docs.google.com/spreadsheets/d/18kcRAv8SLu5tUWO7OH3dYtkm5W1PESd2/edit?usp=sharing&ouid=111309880631794759167>`_"
 
 #: ../../reference/Design.rst:27
-msgid "STL"
-msgstr "STL"
+msgid "STL and Servo Specification"
+msgstr ""
 
 #: ../../reference/Design.rst:28
 msgid ""
 "Link: `Mini Pupper STL files for 3D print  "
-"<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
+"<https://drive.google.com/drive/folders/1L4t1hxhqPaVPT9OIw9t5WhxEJ_s3Udym?usp=sharing>`_"
+" and `Servo specification  <https://drive.google.com/file/d"
+"/1RZikVobMhlcjw7Dm4ms8hMo-zpj1m8Hx/view?usp=sharing>`_"
 msgstr ""
-"Link: `3Dプリント用ミニぷぱSTLファイル  "
-"<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
+
+#~ msgid "STL"
+#~ msgstr "STL"
+
+#~ msgid ""
+#~ "Link: `Mini Pupper STL files for "
+#~ "3D print  "
+#~ "<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
+#~ msgstr ""
+#~ "Link: `3Dプリント用ミニぷぱSTLファイル  "
+#~ "<https://drive.google.com/drive/folders/1kafPZzHxWbbSfRwDxMcHOmNnpVqOlBKH?usp=sharing>`_"
+
