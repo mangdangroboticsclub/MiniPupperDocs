@@ -5,10 +5,17 @@ Master Robotics and Al with Open-Source Ease
 ------------------------------------------------------------------
 Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub?tab=repositories/>`_
 
-Mini Pupper is a robot learning platform, it will make robotics easier for schools, homeschool families, enthusiasts, and beyond.
+What is Mini Pupper Kits?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
-※ Please refer to `quick start guide <https://minipupperdocs.readthedocs.io/en/latest/guide/QuickStartGuide.html>`_  for run it quickly.
+Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022), and AI kit(launch in 2026).
+
+For general information, please refer to the following picture.
+
+.. image:: _static/KitSpecCompare.png
+    :align: center
 
 .. image:: _static/000.png
     :align: center
@@ -32,14 +39,6 @@ Mini Pupper is a robot learning platform, it will make robotics easier for schoo
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="680" height="382" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-
-What is Mini Pupper Kits?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Mini Pupper Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022).
-
-Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
 
 About MangDang Technology Co., Limited
