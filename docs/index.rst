@@ -10,12 +10,11 @@ What is Mini Pupper Kits?
 
 Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
-Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022), and AI kit(launch in 2026).
-
-For general information, please refer to the following picture.
+Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022), and AI kit(launch in 2026). For general information, please refer to the following picture.
 
 .. image:: _static/KitSpecCompare.png
     :align: center
+
 
 .. image:: _static/000.png
     :align: center
