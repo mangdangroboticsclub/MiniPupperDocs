@@ -9,7 +9,7 @@ Quick Start Guide
 Image flashing
 ----------------
 If you order the pre-built robot from us, the software is already inside the SD card, you can go to following steps directly.
-If you want to do `image flashing <https://minipupperdocs.readthedocs.io/en/latest/guide/ROS2Guide.html#image-flashing>`_ by self, please refer to the relative pre-built image files.
+If you want to do `image flashing <https://minipupperdocs.readthedocs.io/en/latest/guide/ROS2Guide.html#image-flashing>`_ by self( A 32GB SD card is recommended. ), please refer to the relative pre-built image files.
 
 *  `Mini Pupper 1 pre-built images <https://drive.google.com/drive/folders/1jJm_6qBIYGGp2dpZNm668D0eH1JpfCqn?usp=sharing>`_
 *  `Mini Pupper 2 pre-built images <https://drive.google.com/drive/folders/1_HNbIb2RDmHpwECjqiVlkylvU19BSfOh?usp=sharing>`_
