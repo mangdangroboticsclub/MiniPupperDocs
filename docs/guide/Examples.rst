@@ -166,7 +166,7 @@ We prepared a simple Inverse kinematics sample code based on Mini Pupper, you ca
 You can run it on your Windows or Ubuntu with Python environment, just like the following picture shows.
 
 
-.. image:: ../_static/ForwardKinematics_SimpleModeMove.png
+.. image:: ../_static/InverseKinematics_ExampleScript.png
   :align: center
 
 
