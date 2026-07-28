@@ -10,17 +10,12 @@ What is Mini Pupper Kits?
 
 Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
-Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022), and AI kit(launch in 2026). For general information, please refer to the following picture.
-
-.. image:: _static/KitSpecCompare.png
-    :align: center
-
+Our Robot Kits include Mini Pupper 1 (launched in 2021), Mini Pupper 2 (launched in 2022), and AI kit (launch in 2026). 
 
 .. image:: _static/000.png
     :align: center
 
-
-※ Key Features:
+**Key Features:**
 
 * Mechanics: Quickly assemble and understand mechanical design within 1 hour.
 * Scratch Coding: The Easiest Start for K12 STEM. 
@@ -31,7 +26,7 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
 * Open-source: DIY and customize what you want!
 * Pi: it's super expandable, endorsed by Raspberry Pi.
 
-※ Global Events together with Ubuntu, ROS, AWS, IEEE etc.
+**Global Events together with Ubuntu, ROS, AWS, IEEE etc.**
 
 .. raw:: html
 
@@ -39,16 +34,11 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
         <iframe width="680" height="382" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-
-About MangDang Technology Co., Limited
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
-
-
+Guide
+^^^^^^^^
 
 .. toctree::
     :maxdepth: 1
-    :caption: Guide
 
     guide/Features
     guide/HowToOrder
@@ -61,19 +51,23 @@ Founded in 2020, MangDang specializes in the research, development, and producti
     guide/MultimodalGenAI
     guide/Examples
 
+References
+^^^^^^^^^^^
+
 .. toctree::
     :maxdepth: 1
-    :caption: References
 
     reference/Design
     reference/PCB
     reference/FAQ
 
+About MangDang Technology Co., Limited
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
+
 About Translation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Japanese translation contributors
-
 * `naraki <https://github.com/naraki>`_
 * `Tech Life Hacking <https://github.com/tech-life-hacking>`_
 * `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
