@@ -44,7 +44,9 @@ You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 
     :align: center
 
 3. Wait until the controller binds to the robot, at which point the controller should turn a dim green (or whatever color you chose in pupper/HardwareConfig.py for the deactivated color).
+
 4. Press L1 on the controller to "activate" the robot. The controller should turn bright green (or again, whatever you chose in HardwareConfig).
+
 5. You're good to go! Check out the controls section below for operating instructions.
 
 Pupper Robot controls using controller
@@ -67,17 +69,16 @@ Pupper Robot controls using controller
     * Left/right: turns the robot left/right.
 
 * D-Pad
+
     * Forward/back: raises and lowers the body.
     * Left/rights: rolls the body left/right.
 
-* "X" button: Press it three times to complete a full hop.
+* "X" button: Press it 3 times to complete a full hop.
 
-* Shut down the system to press controller circle botton for 3 seconds.
+* To shut down the system, press and hold the circle button on the controller for 3 seconds.
 
 .. image:: ../_static/132.jpg
     :align: center
-
-* Power off the battery
 
 Important Notes using controller
 ----------------------------------
@@ -161,7 +162,6 @@ You can set the default WiFi on your phone before booting.
     :align: center
 
 
-
 2. Try AI functions
 
 When you turn on Mini Pupper, the display will connect to the default WiFi after about 30 seconds, the IP address will be displayed.
@@ -199,8 +199,6 @@ After clicking "AI On," wait for about 15 seconds until the display blinks once 
 .. image:: ../_static/LCD.HelloWord.png
     :align: center
 
-
-Run the AI functions
 
 You can talk to the robot and control it with the keywords
 
