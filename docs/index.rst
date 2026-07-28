@@ -12,12 +12,9 @@ Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticscl
 
 Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched in 2022), and AI kit(launch in 2026). For general information, please refer to the following picture.
 
-.. image:: _static/KitSpecCompare.png
-    :align: center
-
-
 .. image:: _static/000.png
     :align: center
+
 
 
 ※ Key Features:
