@@ -15,8 +15,6 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
 .. image:: _static/000.png
     :align: center
 
-
-
 ※ Key Features:
 
 * Mechanics: Quickly assemble and understand mechanical design within 1 hour.
@@ -35,13 +33,6 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="680" height="382" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-
-About MangDang Technology Co., Limited
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
-
-
 
 .. toctree::
     :maxdepth: 1
@@ -65,6 +56,10 @@ Founded in 2020, MangDang specializes in the research, development, and producti
     reference/Design
     reference/PCB
     reference/FAQ
+
+About MangDang Technology Co., Limited
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
 
 About Translation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
