@@ -176,9 +176,6 @@ After confirming the IP address of the robot, connect the robot using the browse
 .. image:: ../_static/mobile.IE.1.jpg
     :align: center
 
-
-Enable AI mode
-
 * Capture from the phone
 
 .. image:: ../_static/mobile.IE.2.jpg
