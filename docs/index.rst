@@ -15,7 +15,7 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
 .. image:: _static/000.png
     :align: center
 
-※ Key Features:
+**Key Features:**
 
 * Mechanics: Quickly assemble and understand mechanical design within 1 hour.
 * Scratch Coding: The Easiest Start for K12 STEM. 
@@ -26,7 +26,7 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
 * Open-source: DIY and customize what you want!
 * Pi: it's super expandable, endorsed by Raspberry Pi.
 
-※ Global Events together with Ubuntu, ROS, AWS, IEEE etc.
+**Global Events together with Ubuntu, ROS, AWS, IEEE etc.**
 
 .. raw:: html
 
@@ -34,9 +34,11 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
         <iframe width="680" height="382" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+Guide
+^^^^^^^^
+
 .. toctree::
     :maxdepth: 1
-    :caption: Guide
 
     guide/Features
     guide/HowToOrder
@@ -49,9 +51,11 @@ Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper 2(launched i
     guide/MultimodalGenAI
     guide/Examples
 
+References
+^^^^^^^^^^^
+
 .. toctree::
     :maxdepth: 1
-    :caption: References
 
     reference/Design
     reference/PCB
@@ -63,9 +67,7 @@ Founded in 2020, MangDang specializes in the research, development, and producti
 
 About Translation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Japanese translation contributors
-
 * `naraki <https://github.com/naraki>`_
 * `Tech Life Hacking <https://github.com/tech-life-hacking>`_
 * `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
