@@ -27,6 +27,8 @@ Mini Pupper Dimension
    :align: center
    :alt: Mini Pupper 1 Dimension
 
+|
+
 Add-ons & Modules
 =================
 
