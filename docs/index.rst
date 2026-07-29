@@ -1,73 +1,93 @@
+=======================
 Mini Pupper User Manual
-####################################
+=======================
 
-Master Robotics and Al with Open-Source Ease
-------------------------------------------------------------------
-Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ , `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord <https://discord.gg/xJdt3dHBVw>`_ , `Twitter <https://twitter.com/LeggedRobot>`_ ,  `Github <https://github.com/mangdangroboticsclub?tab=repositories/>`_
+Welcome to the official user manual for Mini Pupper, a low-cost, open-source personal quadruped robot dog kit. This documentation will guide you through assembly, calibration, and advanced AI/ROS programming.
 
-What is Mini Pupper Kits?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Quick Links
+-----------
+* **Official Store**: `Online Shop <https://mangdang.store>`_
+* **Developer Communities**: `Github <https://github.com>`_ | `Discord <https://discord.gg>`_
+* **Social Media**: `FaceBook <https://facebook.com>`_ | `Twitter <https://twitter.com>`_
 
-Mini Pupper, inspired by `Stanford Pupper <https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-cost, personal quadruped kit with open-source software. With Mini Pupper Kits, you can build a robot dog that can drive around and have enough horsepower to create exciting applications.
 
-Our Robot Kits include Mini Pupper 1 (launched in 2021), Mini Pupper 2 (launched in 2022), and AI kit (launch in 2026). 
+Introduction
+============
+
+What is Mini Pupper?
+--------------------
+Inspired by `Stanford Pupper <https://github.com>`_, Mini Pupper makes robotics and AI accessible with open-source software and expandable hardware. With our kits, you can build a robot dog with enough horsepower to create exciting real-world applications.
+
+Our expanding hardware ecosystem includes:
+* **Mini Pupper 1** (Launched in 2021)
+* **Mini Pupper 2** (Launched in 2022)
+* **AI Kit** (Launched in 2026)
 
 .. image:: _static/000.png
-    :align: center
+   :align: center
+   :alt: Mini Pupper Kit Overview
 
-**Key Features:**
+Key Features
+------------
+* **Mechanics**: Quickly assemble and understand mechanical design within 1 hour.
+* **Scratch Coding**: The easiest start for K12 STEM education.
+* **Robotics Control**: Ready-to-study kinematics examples out of the box.
+* **ROS (Robot Operating System)**: Study SLAM and navigation with example projects (ROS1 & ROS2).
+* **OpenCV**: Vision tutorials using the built-in camera module and OpenCV.
+* **Generative AI**: Integrated with ChatGPT (OpenAI), Gemini (Google), and Claude (AWS).
+* **Open-Source & Expandable**: Fully customizable DIY hardware, officially endorsed by Raspberry Pi.
 
-* Mechanics: Quickly assemble and understand mechanical design within 1 hour.
-* Scratch Coding: The Easiest Start for K12 STEM. 
-* Robotics control: ready-to-study kinematics examples.
-* ROS(Robot Operating System) : Study SLAM and navigation with example projects including ROS1 and ROS2.
-* OpenCV: Vision tutorials using camera module and OpenCV.
-* Generative AI: ChatGPT@OpenAI, Gemini@Google, Claude@AWS
-* Open-source: DIY and customize what you want!
-* Pi: it's super expandable, endorsed by Raspberry Pi.
 
-**Global Events together with Ubuntu, ROS, AWS, IEEE etc.**
+Documentation
+=============
+
+User Guides
+-----------
+.. toctree::
+   :maxdepth: 1
+
+   guide/Features
+   guide/HowToOrder
+   guide/QuickStartGuide
+   guide/Assembly/index
+   guide/SoftwareCalibration
+   guide/ROS2Guide
+   guide/MachineLearning
+   guide/ReinforcementLearning
+   guide/MultimodalGenAI
+   guide/Examples
+
+Technical References
+--------------------
+.. toctree::
+   :maxdepth: 1
+
+   reference/Design
+   reference/PCB
+   reference/FAQ
+
+
+About Us
+========
+
+MangDang Technology Co., Limited
+--------------------------------
+Founded in 2020 and headquartered in Hong Kong, MangDang specializes in the research, development, and production of innovative robot products that improve daily life. We are a global team with members from many countries and regions.
+
+Global Community & Events
+-------------------------
+Discover how our global community utilizes Mini Pupper together with Ubuntu, ROS, AWS, and IEEE:
 
 .. raw:: html
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="680" height="382" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; margin-top: 15px;">
+        <iframe width="680" height="382" src="https://youtube.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-Guide
-^^^^^^^^
+Translation Contributors
+------------------------
+Special thanks to our Japanese translation contributors:
 
-.. toctree::
-    :maxdepth: 1
-
-    guide/Features
-    guide/HowToOrder
-    guide/QuickStartGuide
-    guide/Assembly/index
-    guide/SoftwareCalibration
-    guide/ROS2Guide
-    guide/MachineLearning
-    guide/ReinforcementLearning
-    guide/MultimodalGenAI
-    guide/Examples
-
-References
-^^^^^^^^^^^
-
-.. toctree::
-    :maxdepth: 1
-
-    reference/Design
-    reference/PCB
-    reference/FAQ
-
-About MangDang Technology Co., Limited
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Founded in 2020, MangDang specializes in the research, development, and production of robot products that make people's lives better. MangDang is headquartered in Hong Kong. We are a global team with members from many countries and regions.
-
-About Translation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Japanese translation contributors
-* `naraki <https://github.com/naraki>`_
-* `Tech Life Hacking <https://github.com/tech-life-hacking>`_
-* `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
+* `naraki <https://github.com>`_
+* `Tech Life Hacking <https://github.com>`_
+* `Tiryoh (Daisuke Sato) <https://github.com>`_
