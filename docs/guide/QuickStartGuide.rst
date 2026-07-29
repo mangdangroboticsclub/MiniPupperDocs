@@ -159,9 +159,6 @@ You can set the default WiFi on your phone before booting.
 
 When you turn on Mini Pupper, the display will connect to the default WiFi after about 30 seconds, the IP address will be displayed.
 
-.. image:: ../_static/LCD.IPaddress.png
-    :align: center
-
 To connect to the robot, please use your mobile phone or PC browser (please connect to the default WiFi and make sure you are on the same network as the robot).
 After confirming the IP address of the robot, connect the robot using the browser. For example, if the IP address is "192.168.1.103," enter "192.168.1.103:8080" in the browser.
 
