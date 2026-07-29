@@ -3,7 +3,8 @@ Quick Start Guide
 ==================
 
 .. contents::
-  :depth: 2
+   :local:
+   :depth: 2
 
 
 Image flashing
