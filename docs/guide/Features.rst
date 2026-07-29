@@ -1,43 +1,45 @@
+========
 Features
-==============================
+========
 
 .. contents::
-  :depth: 2
+   :local:
+   :depth: 2
 
 .. image:: ../_static/MP1vs2.png
-    :align: center
-
+   :align: center
+   :alt: Mini Pupper 1 vs Mini Pupper 2 Overview
 
 
 Hardware Specifications
-^^^^^^^^^^^^^^^^^^^^^^^^
+=======================
 
 .. image:: ../_static/Spec.MP1vs2.png
-    :align: center
+   :align: center
+   :alt: Hardware Specifications
 
 
-
-Mini Pupper 1 Dimension
-^^^^^^^^^^^^^^^^^^^^^^^^
+Mini Pupper Dimension
+=======================
 
 .. image:: ../_static/Dimension.png
-    :align: center
+   :align: center
+   :alt: Mini Pupper 1 Dimension
 
 
-
-Add-ons
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add-ons & Modules
+=================
 
 .. image:: ../_static/MP1vs2.2.png
-    :align: center
+   :align: center
 
-* Lidar module
+* Lidar Module
 
-If you want to explore ROS SLAM, Navigation functions based on Lidar, you also need a Lidar module. We can ONLY ensure the STL-06P Lidar module can work well based on our source code, and NOT ensure that you get it from other channels. We customized the Lidar cable to connect our robot easily instead of using bulky wires.
+If you want to explore ROS SLAM and navigation functions based on Lidar, a Lidar module is required. We can ONLY guarantee that the STL-06P Lidar module works seamlessly with our official source code. We cannot ensure compatibility if purchased from other channels. We have customized the Lidar cable for easy connection, eliminating bulky wiring.
 
-* Camera module
+* Camera Module
 
-If you want to explore OpenCV camera AI functions, you can choose a single MIPI camera, such as Raspberry Pi v2 or v1.3 `camera module. <https://www.raspberrypi.com/documentation/accessories/camera.html>`_
+To explore OpenCV and vision-based AI functions, you can choose a single MIPI camera, such as the Raspberry Pi `Camera Module v1.3 or v2 <https://www.raspberrypi.com/documentation/accessories/camera.html>`_.
 
 .. image:: ../_static/Add-on.Lidar.png
-    :align: center
+   :align: center
