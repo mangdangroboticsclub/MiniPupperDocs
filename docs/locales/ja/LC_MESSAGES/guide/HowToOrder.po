@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 16:14+0900\n"
+"POT-Creation-Date: 2026-07-29 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,37 +19,34 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../guide/HowToOrder.rst:3
-msgid "How To Order"
+#, fuzzy
+msgid "How to Order"
 msgstr "注文方法"
 
-#: ../../guide/HowToOrder.rst:6
-msgid "Contents"
-msgstr "コンテンツ"
-
-#: ../../guide/HowToOrder.rst:9
+#: ../../guide/HowToOrder.rst:10
 msgid "Order parts individually"
 msgstr "部品の個別注文"
 
-#: ../../guide/HowToOrder.rst:10
+#: ../../guide/HowToOrder.rst:11
 #, fuzzy
 msgid ""
-"You can order all the parts one by one, Please find the BOM list to order"
-" `here <https://docs.google.com/spreadsheets/d/1MRM5Uv7YBxgJgxN-"
-"jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_"
-" ."
+"If you prefer to source and assemble all components independently, please"
+" refer to our complete `BOM List <https://docs.google.com/spreadsheets/d"
+"/1MRM5Uv7YBxgJgxN-"
+"jOnX2HifDylmcrXT/edit?usp=sharing&ouid=112702448470384036016&rtpof=true&sd=true>`_."
 msgstr ""
 "すべてのパーツを1つずつ注文することができます。 `こちら <https://drive.google.com/drive/folders"
 "/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi>`"
 
-#: ../../guide/HowToOrder.rst:12
-msgid ""
-"However, you can purchase a kit to build the robot from MangDang channel "
-"for cheaper and one-stop shopping."
-msgstr "MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
-
-#: ../../guide/HowToOrder.rst:16
+#: ../../guide/HowToOrder.rst:14
 msgid "One-stop channel"
 msgstr "ワンストップチャンネル"
+
+#: ../../guide/HowToOrder.rst:15
+msgid ""
+"Select your preferred store or regional distributor below to purchase an "
+"all-in-one Mini Pupper Kit:"
+msgstr ""
 
 #: ../../guide/HowToOrder.rst:18
 msgid "World Wide"
@@ -105,4 +102,14 @@ msgstr ""
 
 #~ msgid "`楽天市場 <https://www.rakuten.co.jp/mangdang/>`_"
 #~ msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr "コンテンツ"
+
+#~ msgid ""
+#~ "However, you can purchase a kit to"
+#~ " build the robot from MangDang "
+#~ "channel for cheaper and one-stop "
+#~ "shopping."
+#~ msgstr "MangDangチャンネルからロボットを組み立てるキットを購入することで、より安く、ワンストップで購入することができます。"
 
