@@ -83,6 +83,7 @@ Explore Mini Pupper in action across Ubuntu, ROS, AWS, and IEEE：
         <iframe width="685" height="385" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-Translation Contributors
-=======================================
-Special thanks to our Japanese translation contributors: * `naraki <https://github.com/naraki>`_ , `Tech Life Hacking <https://github.com/tech-life-hacking>`_ , `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
+|
+
+*Special thanks to our Japanese translation contributors:* `naraki <https://github.com/naraki>`_ , `Tech Life Hacking <https://github.com/tech-life-hacking>`_ , `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
+
