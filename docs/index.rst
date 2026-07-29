@@ -4,10 +4,9 @@ Mini Pupper User Manual
 
 Welcome to the official user manual for Mini Pupper, a low-cost, open-source personal quadruped robot dog kit. This documentation will guide you through assembly, calibration, and advanced AI/ROS programming.
 
-* **Official Store**: `Online Shop <https://mangdang.store>`_
-* **Developer Communities**: `Github <https://github.com>`_ | `Discord <https://discord.gg>`_
-* **Social Media**: `FaceBook <https://facebook.com>`_ | `Twitter <https://twitter.com>`_
-
+* **Official Store**: `Online Shop <https://mangdang.store/collections/shop>`_
+* **Developer Communities**: `Github <https://github.com/mangdangroboticsclub?tab=repositories>`_ | `Discord <https://discord.gg/xJdt3dHBVw>`_
+* **Social Media**: `X <https://x.com/leggedrobot>`_ | `FaceBook <https://www.facebook.com/groups/519009562699751>`_ | `Youtube <https://youtube.com/@MangDangRobotics>`_ | `Instagram <https://www.instagram.com/minirobotdog/>`_ | `Reddit <https://www.reddit.com/r/PhysicalAIRobot/>`_ 
 
 Introduction
 ----------------
@@ -24,9 +23,7 @@ Our expanding hardware ecosystem includes:
 .. image:: _static/000.png
    :align: center
    :alt: Mini Pupper Kit Overview
-
 |
-
 Key Features
 ==========================
 * **Mechanics**: Quickly assemble and understand mechanical design within 1 hour.
@@ -37,6 +34,7 @@ Key Features
 * **Generative AI**: Integrated with ChatGPT (OpenAI), Gemini (Google), and Claude (AWS).
 * **Open-Source & Expandable**: Fully customizable DIY hardware, officially endorsed by Raspberry Pi.
 
+|
 
 Documentation
 ---------------
@@ -66,6 +64,7 @@ Technical References
    reference/PCB
    reference/FAQ
 
+|
 
 About Us
 -------------
@@ -80,7 +79,7 @@ Discover how the global community utilizes Mini Pupper together with Ubuntu, ROS
 
 .. raw:: html
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; margin-top: 15px;">
+   <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="960" height="540" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
