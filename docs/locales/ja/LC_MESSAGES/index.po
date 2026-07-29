@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-03 01:41+0000\n"
+"POT-Creation-Date: 2026-07-29 03:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,143 +18,170 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../index.rst:49
-msgid "Guide"
-msgstr "ガイド"
-
-#: ../../index.rst:64
-msgid "References"
-msgstr "資料集"
-
-#: ../../index.rst:2
+#: ../../index.rst:3
 msgid "Mini Pupper User Manual"
 msgstr ""
 
 #: ../../index.rst:5
-msgid "Master Robotics and Al with Open-Source Ease"
+msgid ""
+"Welcome to the official user manual for Mini Pupper, a low-cost, open-"
+"source personal quadruped robot dog kit. This documentation will guide "
+"you through assembly, calibration, and advanced AI/ROS programming."
 msgstr ""
 
-#: ../../index.rst:6
-msgid ""
-"Our channels:  `Online Shop <https://mangdang.store/collections/shop>`_ ,"
-" `FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord"
-" <https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
-"<https://twitter.com/LeggedRobot>`_ ,  `Github "
-"<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+#: ../../index.rst:7
+msgid "**Official Store**: `Online Shop <https://mangdang.store>`_"
 msgstr ""
-"私達のチャンネル:  `オンラインショップ <https://mangdang.store/collections/shop>`_ , "
-"`FaceBook <https://www.facebook.com/groups/519009562699751>`_ , `Discord "
-"<https://discord.gg/xJdt3dHBVw>`_ , `Twitter "
-"<https://twitter.com/LeggedRobot>`_ ,  `Github "
-"<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+
+#: ../../index.rst:8
+msgid ""
+"**Developer Communities**: `Github <https://github.com>`_ | `Discord "
+"<https://discord.gg>`_"
+msgstr ""
 
 #: ../../index.rst:9
+msgid ""
+"**Social Media**: `FaceBook <https://facebook.com>`_ | `Twitter "
+"<https://twitter.com>`_"
+msgstr ""
+
+#: ../../index.rst:13
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:16
 #, fuzzy
-msgid "What is Mini Pupper Kits?"
+msgid "What is Mini Pupper?"
 msgstr "MD ロボット スターター キットとは?"
 
-#: ../../index.rst:11
+#: ../../index.rst:17
 #, fuzzy
 msgid ""
-"Mini Pupper, inspired by `Stanford Pupper "
-"<https://github.com/stanfordroboticsclub/StanfordQuadruped/>`_, is a low-"
-"cost, personal quadruped kit with open-source software. With Mini Pupper "
-"Kits, you can build a robot dog that can drive around and have enough "
-"horsepower to create exciting applications."
+"Inspired by `Stanford Pupper <https://github.com>`_, Mini Pupper makes "
+"robotics and AI accessible with open-source software and expandable "
+"hardware. With our kits, you can build a robot dog with enough horsepower"
+" to create exciting real-world applications."
 msgstr ""
 "ミニぷぱ（Mini Pupper）は、Stanford Pupper からインスピレーションを得た、オープンソース "
 "ソフトウェアの低コストの個人用四足歩行キットです。MD Robot Starter Kits "
 "で走行可能なエキサイティングなアプリケーションを作成するのに十分な馬力を持つロボット犬を構築できます。"
 
-#: ../../index.rst:13
+#: ../../index.rst:19
 #, fuzzy
 msgid ""
-"Our Robot Kits include Mini Pupper 1(launched in 2021), Mini Pupper "
-"2(launched in 2022), and AI kit(launch in 2026). For general information,"
-" please refer to the following picture."
+"Our expanding hardware ecosystem includes: * **Mini Pupper 1** (Launched "
+"in 2021) * **Mini Pupper 2** (Launched in 2022) * **AI Kit** (Launched in"
+" 2026)"
 msgstr ""
 "MD ロボット スターター キットには、「ミニぷぱ1」Mini Pupper 1 (2021 年発売)、「ミニぷぱ2」Mini Pupper 2 "
 "(2022 年発売) が含まれます。"
 
-#: ../../index.rst:23
-msgid "※ Key Features:"
-msgstr "※ 主な特徴"
-
-#: ../../index.rst:25
+#: ../../index.rst:24
 #, fuzzy
-msgid ""
-"Mechanics: Quickly assemble and understand mechanical design within 1 "
-"hour."
-msgstr "メカニクス: 60 分で機械設計をすばやく組み立てて理解します。"
-
-#: ../../index.rst:26
-msgid "Scratch Coding: The Easiest Start for K12 STEM."
-msgstr ""
-
-#: ../../index.rst:27
-msgid "Robotics control: ready-to-study kinematics examples."
-msgstr "ロボット制御: すぐに学習できる運動学の例"
-
-#: ../../index.rst:28
-#, fuzzy
-msgid ""
-"ROS(Robot Operating System) : Study SLAM and navigation with example "
-"projects including ROS1 and ROS2."
-msgstr "ROS (ロボット オペレーティング システム): サンプル プロジェクトで SLAM とナビゲーションを学習します。"
-
-#: ../../index.rst:29
-msgid "OpenCV: Vision tutorials using camera module and OpenCV."
-msgstr ""
-
-#: ../../index.rst:30
-msgid "Generative AI: ChatGPT@OpenAI, Gemini@Google, Claude@AWS"
-msgstr "生成 AI: ChatGPT@OpenAI、Gemini@Google、Claude@AWS"
+msgid "Mini Pupper Kit Overview"
+msgstr "MD ロボット スターター キットとは?"
 
 #: ../../index.rst:31
-msgid "Open-source: DIY and customize what you want!"
-msgstr "オープンソース: DIY で必要なものをカスタマイズしましょう!"
+#, fuzzy
+msgid "Key Features"
+msgstr "※ 主な特徴"
 
 #: ../../index.rst:32
-msgid "Pi: it's super expandable, endorsed by Raspberry Pi."
-msgstr "Pi: Raspberry Pi によって承認されている非常に拡張性の高いものです。"
+#, fuzzy
+msgid ""
+"**Mechanics**: Quickly assemble and understand mechanical design within 1"
+" hour."
+msgstr "メカニクス: 60 分で機械設計をすばやく組み立てて理解します。"
+
+#: ../../index.rst:33
+msgid "**Scratch Coding**: The easiest start for K12 STEM education."
+msgstr ""
 
 #: ../../index.rst:34
-msgid "※ Global Events together with Ubuntu, ROS, AWS, IEEE etc."
-msgstr "※ Ubuntu、ROS、AWS、IEEE 等と連携したグローバルイベント"
+#, fuzzy
+msgid "**Robotics Control**: Ready-to-study kinematics examples out of the box."
+msgstr "ロボット制御: すぐに学習できる運動学の例"
 
-#: ../../index.rst:44
-msgid "About MangDang Technology Co., Limited"
-msgstr "MangDang(マンダン テクノロジーカンパニー)について"
+#: ../../index.rst:35
+#, fuzzy
+msgid ""
+"**ROS (Robot Operating System)**: Study SLAM and navigation with example "
+"projects (ROS1 & ROS2)."
+msgstr "ROS (ロボット オペレーティング システム): サンプル プロジェクトで SLAM とナビゲーションを学習します。"
+
+#: ../../index.rst:36
+msgid "**OpenCV**: Vision tutorials using the built-in camera module and OpenCV."
+msgstr ""
+
+#: ../../index.rst:37
+#, fuzzy
+msgid ""
+"**Generative AI**: Integrated with ChatGPT (OpenAI), Gemini (Google), and"
+" Claude (AWS)."
+msgstr "生成 AI: ChatGPT@OpenAI、Gemini@Google、Claude@AWS"
+
+#: ../../index.rst:38
+msgid ""
+"**Open-Source & Expandable**: Fully customizable DIY hardware, officially"
+" endorsed by Raspberry Pi."
+msgstr ""
+
+#: ../../index.rst:42
+msgid "Documentation"
+msgstr ""
 
 #: ../../index.rst:45
 #, fuzzy
+msgid "User Guides"
+msgstr "ガイド"
+
+#: ../../index.rst:61
+#, fuzzy
+msgid "Technical References"
+msgstr "資料集"
+
+#: ../../index.rst:71
+msgid "About Us"
+msgstr ""
+
+#: ../../index.rst:74
+#, fuzzy
+msgid "MangDang Technology Co., Limited"
+msgstr "MangDang(マンダン テクノロジーカンパニー)について"
+
+#: ../../index.rst:75
+#, fuzzy
 msgid ""
-"Founded in 2020, MangDang specializes in the research, development, and "
-"production of robot products that make people's lives better. MangDang is"
-" headquartered in Hong Kong. We are a global team with members from many "
+"Founded in 2020 and headquartered in Hong Kong, MangDang specializes in "
+"the research, development, and production of innovative robot products "
+"that improve daily life. We are a global team with members from many "
 "countries and regions."
 msgstr ""
 "2020 年に設立されたマンダンは、人々の生活をより良くするロボット製品の研究、開発、製造を専門としています。マンダンの本社は香港サイエンス "
 "パークにあります。私たちは、多くの国や地域のメンバーで構成されるグローバル チームです。"
 
-#: ../../index.rst:73
-msgid "About Translation"
-msgstr "翻訳クレジット"
-
-#: ../../index.rst:75
-msgid "Japanese translation contributors"
-msgstr "日本語への翻訳協力"
-
-#: ../../index.rst:77
-msgid "`naraki <https://github.com/naraki>`_"
-msgstr ""
-
 #: ../../index.rst:78
-msgid "`Tech Life Hacking <https://github.com/tech-life-hacking>`_"
+msgid "Global Community & Events"
 msgstr ""
 
 #: ../../index.rst:79
-msgid "`Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_"
+#, fuzzy
+msgid ""
+"Discover how the global community utilizes Mini Pupper together with "
+"Ubuntu, ROS, AWS, and IEEE:"
+msgstr "※ Ubuntu、ROS、AWS、IEEE 等と連携したグローバルイベント"
+
+#: ../../index.rst:88
+#, fuzzy
+msgid "Translation Contributors"
+msgstr "日本語への翻訳協力"
+
+#: ../../index.rst:89
+msgid ""
+"Special thanks to our Japanese translation contributors: * `naraki "
+"<https://github.com/naraki>`_ , `Tech Life Hacking <https://github.com"
+"/tech-life-hacking>`_ , `Tiryoh (Daisuke Sato) "
+"<https://github.com/Tiryoh>`_"
 msgstr ""
 
 #~ msgid "MD Robot Starter Kits User Manual"
@@ -194,4 +221,48 @@ msgstr ""
 #~ " and innovating together to perform "
 #~ "splendid times!"
 #~ msgstr "私たちは皆、夢想家であり、世界中の才能を結びつけ、素晴らしい時間を演出するために一緒に革新することを楽しみにしています。"
+
+#~ msgid "Master Robotics and Al with Open-Source Ease"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our channels:  `Online Shop "
+#~ "<https://mangdang.store/collections/shop>`_ , `FaceBook"
+#~ " <https://www.facebook.com/groups/519009562699751>`_ , "
+#~ "`Discord <https://discord.gg/xJdt3dHBVw>`_ , "
+#~ "`Twitter <https://twitter.com/LeggedRobot>`_ ,  "
+#~ "`Github "
+#~ "<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+#~ msgstr ""
+#~ "私達のチャンネル:  `オンラインショップ "
+#~ "<https://mangdang.store/collections/shop>`_ , `FaceBook"
+#~ " <https://www.facebook.com/groups/519009562699751>`_ , "
+#~ "`Discord <https://discord.gg/xJdt3dHBVw>`_ , "
+#~ "`Twitter <https://twitter.com/LeggedRobot>`_ ,  "
+#~ "`Github "
+#~ "<https://github.com/mangdangroboticsclub?tab=repositories/>`_"
+
+#~ msgid "Scratch Coding: The Easiest Start for K12 STEM."
+#~ msgstr ""
+
+#~ msgid "OpenCV: Vision tutorials using camera module and OpenCV."
+#~ msgstr ""
+
+#~ msgid "Open-source: DIY and customize what you want!"
+#~ msgstr "オープンソース: DIY で必要なものをカスタマイズしましょう!"
+
+#~ msgid "Pi: it's super expandable, endorsed by Raspberry Pi."
+#~ msgstr "Pi: Raspberry Pi によって承認されている非常に拡張性の高いものです。"
+
+#~ msgid "About Translation"
+#~ msgstr "翻訳クレジット"
+
+#~ msgid "`naraki <https://github.com/naraki>`_"
+#~ msgstr ""
+
+#~ msgid "`Tech Life Hacking <https://github.com/tech-life-hacking>`_"
+#~ msgstr ""
+
+#~ msgid "`Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_"
+#~ msgstr ""
 
