@@ -3,8 +3,8 @@ Examples
 ==============================
 
 .. contents::
-  :depth: 2
-
+   :local:
+   :depth: 2
 
 
 1. Custom shell parts
@@ -12,18 +12,12 @@ Examples
 Mini Pupper is an open source project, that means, you can custom what you want.
 You can find all the `3D printed shell files <https://drive.google.com/drive/folders/12FDFbZzO61Euh8pJI9oCxN-eLVm5zjyi?usp=sharing>`_  and custom them.
 
-How about connect it to LEGO parts?
-
-.. image:: ../_static/LEGO.jpg
-  :align: center
-
-
-Or DIY it like @nisshan_
+How about connect it to LEGO parts? Or DIY it like @nisshan_
 
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PfGvPq9QuLQ?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/PfGvPq9QuLQ?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -121,7 +115,7 @@ Forward kinematics lecture
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nFqTsAEywpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/nFqTsAEywpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Follow-up lecture to clarify some things
@@ -129,7 +123,7 @@ Follow-up lecture to clarify some things
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XAUXrRtINTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/XAUXrRtINTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -156,7 +150,7 @@ You can also refer to the following video clips come from `Stanford Robotics Ind
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FvQ6NbqDR1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/FvQ6NbqDR1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Sample code
@@ -185,7 +179,7 @@ Try surfing with the pupper! See how it works in the following video clip.
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://youtube.com/embed/N8gnD9P8Ht0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://youtube.com/embed/N8gnD9P8Ht0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
