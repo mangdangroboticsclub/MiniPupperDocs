@@ -18,6 +18,7 @@ Hardware Specifications
    :align: center
    :alt: Hardware Specifications
 
+|
 
 Mini Pupper Dimension
 =======================
@@ -25,7 +26,6 @@ Mini Pupper Dimension
 .. image:: ../_static/Dimension.png
    :align: center
    :alt: Mini Pupper 1 Dimension
-
 
 Add-ons & Modules
 =================
