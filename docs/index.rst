@@ -25,6 +25,8 @@ Our expanding hardware ecosystem includes:
    :align: center
    :alt: Mini Pupper Kit Overview
 
+|
+
 Key Features
 ==========================
 * **Mechanics**: Quickly assemble and understand mechanical design within 1 hour.
@@ -84,8 +86,4 @@ Discover how the global community utilizes Mini Pupper together with Ubuntu, ROS
 
 Translation Contributors
 =======================================
-Special thanks to our Japanese translation contributors:
-
-* `naraki <https://github.com>`_
-* `Tech Life Hacking <https://github.com>`_
-* `Tiryoh (Daisuke Sato) <https://github.com>`_
+Special thanks to our Japanese translation contributors: * `naraki <https://github.com/naraki>`_ , `Tech Life Hacking <https://github.com/tech-life-hacking>`_ , `Tiryoh (Daisuke Sato) <https://github.com/Tiryoh>`_
