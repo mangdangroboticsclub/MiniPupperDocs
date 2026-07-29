@@ -4,18 +4,16 @@ Mini Pupper User Manual
 
 Welcome to the official user manual for Mini Pupper, a low-cost, open-source personal quadruped robot dog kit. This documentation will guide you through assembly, calibration, and advanced AI/ROS programming.
 
-Quick Links
------------
 * **Official Store**: `Online Shop <https://mangdang.store>`_
 * **Developer Communities**: `Github <https://github.com>`_ | `Discord <https://discord.gg>`_
 * **Social Media**: `FaceBook <https://facebook.com>`_ | `Twitter <https://twitter.com>`_
 
 
 Introduction
-============
+----------------
 
 What is Mini Pupper?
---------------------
+==========================
 Inspired by `Stanford Pupper <https://github.com>`_, Mini Pupper makes robotics and AI accessible with open-source software and expandable hardware. With our kits, you can build a robot dog with enough horsepower to create exciting real-world applications.
 
 Our expanding hardware ecosystem includes:
@@ -28,7 +26,7 @@ Our expanding hardware ecosystem includes:
    :alt: Mini Pupper Kit Overview
 
 Key Features
-------------
+==========================
 * **Mechanics**: Quickly assemble and understand mechanical design within 1 hour.
 * **Scratch Coding**: The easiest start for K12 STEM education.
 * **Robotics Control**: Ready-to-study kinematics examples out of the box.
@@ -39,10 +37,10 @@ Key Features
 
 
 Documentation
-=============
+---------------
 
 User Guides
------------
+==========================
 .. toctree::
    :maxdepth: 1
 
@@ -58,7 +56,7 @@ User Guides
    guide/Examples
 
 Technical References
---------------------
+==========================
 .. toctree::
    :maxdepth: 1
 
@@ -68,24 +66,24 @@ Technical References
 
 
 About Us
-========
+-------------
 
 MangDang Technology Co., Limited
---------------------------------
+=======================================
 Founded in 2020 and headquartered in Hong Kong, MangDang specializes in the research, development, and production of innovative robot products that improve daily life. We are a global team with members from many countries and regions.
 
 Global Community & Events
--------------------------
-Discover how our global community utilizes Mini Pupper together with Ubuntu, ROS, AWS, and IEEE:
+==========================
+Discover how the global community utilizes Mini Pupper together with Ubuntu, ROS, AWS, and IEEE:
 
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; margin-top: 15px;">
-        <iframe width="680" height="382" src="https://youtube.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/hKPx-dp6_Hw?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Translation Contributors
-------------------------
+=======================================
 Special thanks to our Japanese translation contributors:
 
 * `naraki <https://github.com>`_
