@@ -3,7 +3,8 @@ Assemble Mini Pupper 2
 =========================
 
 .. contents::
-  :depth: 2
+   :local:
+   :depth: 2
 
 
 1. Standard Kit Main Parts Assembly
@@ -59,8 +60,10 @@ Please refer to the below video clip.
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nw8dl4CGt9A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/Nw8dl4CGt9A?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+|
 
 Step 1 Side panels
 ---------------------------------------
@@ -79,9 +82,6 @@ Step 2 Shin guards
 .. image:: ../../_static/113.v2.jpg
     :align: center
 
-.. image:: ../../_static/114.v2.jpg
-    :align: center
-
 Step 3 Shoulders
 ---------------------------------------
 
@@ -93,10 +93,7 @@ Step 3 Shoulders
 .. image:: ../../_static/117.v2.jpg
     :align: center
 
-.. image:: ../../_static/117.v2.2.jpg
-    :align: center
-
-.. image:: ../../_static/122.v2.jpg
+.. image:: ../../_static/114.v2.jpg
     :align: center
 
 Step 4 Shoes
@@ -107,13 +104,8 @@ Step 4 Shoes
 .. image:: ../../_static/122.v2.jpg
     :align: center
 
-.. image:: ../../_static/123.v2.jpg
-    :align: center
-
-
 Complete!
 ----------
-
 
 
 3. Add-On Assembly

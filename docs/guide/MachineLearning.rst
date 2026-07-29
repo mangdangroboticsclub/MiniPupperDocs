@@ -3,7 +3,8 @@ Machine Learning
 ==============================
 
 .. contents::
-  :depth: 2
+   :local:
+   :depth: 2
 
 Summary
 -------
@@ -11,7 +12,7 @@ Summary
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Zi9soi4vEU?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="685" height="385" src="https://www.youtube.com/embed/3Zi9soi4vEU?mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
