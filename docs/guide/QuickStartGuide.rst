@@ -11,37 +11,38 @@ Image flashing
 If you order the pre-built robot from us, the software is already inside the SD card, you can go to following steps directly.
 If you want to do `image flashing <https://minipupperdocs.readthedocs.io/en/latest/guide/ROS2Guide.html#image-flashing>`_ by self( A 32GB SD card is recommended. ), please refer to the relative pre-built image files.
 
-*  `Mini Pupper 1 pre-built images <https://drive.google.com/drive/folders/1jJm_6qBIYGGp2dpZNm668D0eH1JpfCqn?usp=sharing>`_
-*  `Mini Pupper 2 pre-built images <https://drive.google.com/drive/folders/1_HNbIb2RDmHpwECjqiVlkylvU19BSfOh?usp=sharing>`_
-*  `Mini Pupper 2Pro pre-built images <https://drive.google.com/drive/folders/1DzxQ9rpvlqCwoGd5aP0Hki9Wre3UXc-h?usp=sharing>`_
+* `Mini Pupper 1 pre-built images <https://drive.google.com/drive/folders/1jJm_6qBIYGGp2dpZNm668D0eH1JpfCqn?usp=sharing>`_
+* `Mini Pupper 2 pre-built images <https://drive.google.com/drive/folders/1_HNbIb2RDmHpwECjqiVlkylvU19BSfOh?usp=sharing>`_
+* `Mini Pupper 2Pro pre-built images <https://drive.google.com/drive/folders/1DzxQ9rpvlqCwoGd5aP0Hki9Wre3UXc-h?usp=sharing>`_
 
 
 Run Pupper Robot using controller
 -----------------------------------
-
 You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 2, the steps are same.
 
 .. |youtu.be-pre-assembled-user-guide| raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FRBh3URTuuI?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="685" height="385" src="https://www.youtube.com/embed/FRBh3URTuuI?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. |youtu.be-pre-assembled-user-guide-ja| raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kZtt_XulZ7E?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="685" height="385" src="https://www.youtube.com/embed/kZtt_XulZ7E?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |youtu.be-pre-assembled-user-guide|
 
 1. Power On Mini Pupper
 
-    * Push on the battery power button for at least 3 seconds to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off.
+   * Push on the battery power button for at least 3 seconds to power on Mini Pupper. After power on, if you push on the power button for at least 3 seconds again, it will power off.
 
 2. Connect the controller to the Pi by putting it pairing mode.
 
-    * To put it into pairing mode, hold the share button and home button at the same time until it starts making quick double flashes.
-    * If it starts making slow single flashes, hold the home button down until it stops blinking(about 15s) and try again.
+   * To put it into pairing mode, hold the share button and home button at the same time until it starts making quick double flashes.
+   * If it starts making slow single flashes, hold the home button down until it stops blinking(about 15s) and try again.
 
 .. image:: ../_static/131.jpg
     :align: center
+
+|
 
 3. Wait until the controller binds to the robot, at which point the controller should turn a dim green (or whatever color you chose in pupper/HardwareConfig.py for the deactivated color).
 
@@ -49,29 +50,29 @@ You can use the controller to play Stanford Pupper, Mini Pupper and Mini Pupper 
 
 5. You're good to go! Check out the controls section below for operating instructions.
 
+
 Pupper Robot controls using controller
 ------------------------------------------
-
 * L1: Press to toggle active mode and deactivate mode.
 
-    * Note: the controller's front light will change colors to indicate if the robot is deactivated or activated.
+  * Note: the controller's front light will change colors to indicate if the robot is deactivated or activated.
 
 * R1: Press to transition between Rest mode and Trot mode.
 
 * Left joystick
 
-    * Forward/back: moves the robot forward/backward when in Trot mode.
-    * Left/right: moves the robot left/right when in Trot mode.
+  * Forward/back: moves the robot forward/backward when in Trot mode.
+  * Left/right: moves the robot left/right when in Trot mode.
 
 * Right joystick
 
-    * Forward/back: pitches the robot forward/backward.
-    * Left/right: turns the robot left/right.
+  * Forward/back: pitches the robot forward/backward.
+  * Left/right: turns the robot left/right.
 
 * D-Pad
 
-    * Forward/back: raises and lowers the body.
-    * Left/rights: rolls the body left/right.
+  * Forward/back: raises and lowers the body.
+  * Left/rights: rolls the body left/right.
 
 * "X" button: Press it 3 times to complete a full hop.
 
@@ -80,17 +81,18 @@ Pupper Robot controls using controller
 .. image:: ../_static/132.jpg
     :align: center
 
+|
+
 Important Notes using controller
 ----------------------------------
-
 * Controller pairing instructions (repeat of instructions above)
 
-    * To put it into pairing mode, hold the share button and home button at the same time until it starts making quick double flashes.
-    * If it starts making slow single flashes, hold the home button down until it stops blinking and try again.
+  * To put it into pairing mode, hold the share button and home button at the same time until it starts making quick double flashes.
+  * If it starts making slow single flashes, hold the home button down until it stops blinking and try again.
 
 * Battery voltage
 
-    * If you use external power supply to power the robot with anything higher than 8.4V (aka >2S) you'll almost certainly fry all your servos!
+  * If you use external power supply to power the robot with anything higher than 8.4V (aka >2S) you'll almost certainly fry all your servos!
 
 
 Run Mini Pupper 2 Generative AI functions
@@ -98,7 +100,6 @@ Run Mini Pupper 2 Generative AI functions
 
 Preparation
 ^^^^^^^^^^^^
-
 0. Assemble the camera module
 
 For convenient shipping, the camera module may be not assembled by default. After receiving it, please assemble it yourself.
@@ -109,7 +110,6 @@ For convenient shipping, the camera module may be not assembled by default. Afte
 .. image:: ../_static/add-on.camera.assemble.jpg
     :align: center
 
-
 1. Charging the battery
 
 * The battery is charged via USB, see picture for USB socket, and can also be charged while attached to the Mini Pupper body.
@@ -118,12 +118,7 @@ NOTE: LED light **GREEN** means there is enough power, and **RED** means you nee
 
 NOTE: We recommend 5V/1A adapter, if you use 5V/2A adapter, the battery IC will change it to 1A. It needs about 1 hour to charge 80% and the light will become green, and an additional 1 hour to 100%, anyway, you can use it when the light becomes green.
 
-.. image:: ../_static/100.jpg
-    :align: center
-
-
 The battery runs continuously for about 30 minutes, and if you want it to work for a long time, you can connect the adapter.
-
 
 2. Power On
 
@@ -132,22 +127,20 @@ Connect the battery by hand.
 .. image:: ../_static/powerOn.1.jpg
     :align: center
 
-
 If you press and hold the battery button manually for more than 3 seconds, the battery will turn green and light up.
 
 .. image:: ../_static/powerOn.2.jpg
     :align: center
-
 
 When the power adapter is connected to the robot, it starts automatically.
 
 .. image:: ../_static/powerOn.3.jpg
     :align: center
 
+|
 
 Quick start using the default WiFi
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 1. Connect the robot to the default WiFi
 
 The robot will find the default WiFi by itself after starting up.
@@ -161,14 +154,12 @@ You can set the default WiFi on your phone before booting.
 .. image:: ../_static/wifi.default.jpg
     :align: center
 
-
 2. Try AI functions
 
 When you turn on Mini Pupper, the display will connect to the default WiFi after about 30 seconds, the IP address will be displayed.
 
 .. image:: ../_static/LCD.IPaddress.png
     :align: center
-
 
 To connect to the robot, please use your mobile phone or PC browser (please connect to the default WiFi and make sure you are on the same network as the robot).
 After confirming the IP address of the robot, connect the robot using the browser. For example, if the IP address is "192.168.1.103," enter "192.168.1.103:8080" in the browser.
@@ -183,7 +174,6 @@ After confirming the IP address of the robot, connect the robot using the browse
 
 “Activate/Deactivate” -->  “三”  --> “Settings” --> “AI On” .
 
-
 * Capture from the PC
 
 .. image:: ../_static/PC.IE.1.png
@@ -196,14 +186,12 @@ After clicking "AI On," wait for about 15 seconds until the display blinks once 
 .. image:: ../_static/LCD.HelloWord.png
     :align: center
 
-
 You can talk to the robot and control it with the keywords
 
 * dance (The robot will dance when he hear the key word "dance".)
 * game (The robot will play rock-paper-scissors game with you when he hear the key word "game".)
 * picture(The robot will take a photo and analyze it when he hear the key word "picture".)
 * The robot will do relative actions when he hear the key word "look up" or "look down" or "look left" or "look right" or "come".
-
 
 To Disable the AI functions: click「AI off」button.
 
@@ -214,7 +202,7 @@ Tip: The AI function can work continuously for about 20 minutes. If you want to 
 
 
 Connect your own WiFi
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 If you want to set up your Mini Pupper to connect to WiFi in your home or office, follow the steps below.
 
