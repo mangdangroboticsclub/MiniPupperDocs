@@ -71,9 +71,6 @@ Step 1 Side panels
 .. image:: ../../_static/111.v2.jpg
     :align: center
 
-.. image:: ../../_static/112.v2.jpg
-    :align: center
-
 Step 2 Shin guards
 ---------------------------------------
 
@@ -86,12 +83,6 @@ Step 3 Shoulders
 ---------------------------------------
 
 * Insert only the screws first and then insert the shoulder parts into the gap. Insert the 2 mm hex driver into the hole in the shoulder part and tighten the screws.
-
-.. image:: ../../_static/114.v2.2.jpg
-    :align: center
-
-.. image:: ../../_static/117.v2.jpg
-    :align: center
 
 .. image:: ../../_static/114.v2.jpg
     :align: center
