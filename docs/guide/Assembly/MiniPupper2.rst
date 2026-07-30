@@ -107,28 +107,11 @@ Step 1 Lidar
 
 If you order the Lidar, the 3D-printed Lidar holder and custom cable will be shipped together. You can also print the holder by yourself using the  `STL files <https://drive.google.com/drive/folders/1YyU4w-Ry1G25047BGe2m4Fi_TPRtYV0c?usp=sharing>`_
 
+Connect the 3 holders to the 3D-printed part; Connect the custom cable to the Lidar connector on the PCB board; Fix the 3D-printed part on the PCB board; Connect the custom cable to the Lidar module and fix it using the self-tapping screws.
+
 .. image:: ../../_static/MP2.Lidar.1.jpg
     :align: center
 
-Connect the 3 holders to the 3D-printed part.
-
-.. image:: ../../_static/MP2.Lidar.2.jpg
-    :align: center
-
-Connect the custom cable to the Lidar connector on the PCB board.
-
-.. image:: ../../_static/MP2.Lidar.3.jpg
-    :align: center
-
-Fix the 3D-printed part on the PCB board.
-
-.. image:: ../../_static/MP2.Lidar.4.jpg
-    :align: center
-
-Connect the custom cable to the Lidar module and fix it using the self-tapping screws.
-
-.. image:: ../../_static/MP2.Lidar.5.jpg
-    :align: center
 
 Step 2 Camera
 ---------------------------------------
@@ -137,12 +120,6 @@ Mini Pupper 2 also supports the single Pi camera or OpenCV OAK-D-Lite camera mod
 
 
 .. image:: ../../_static/MP2.LidarCamera.1.jpg
-    :align: center
-
-.. image:: ../../_static/MP2.LidarCamera.2.jpg
-    :align: center
-
-.. image:: ../../_static/MP2.LidarCamera.3.jpg
     :align: center
 
 .. raw:: html
