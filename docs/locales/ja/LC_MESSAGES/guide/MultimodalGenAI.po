@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mini Pupper \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-15 20:42+0900\n"
+"POT-Creation-Date: 2026-08-18 09:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,74 +22,73 @@ msgstr ""
 msgid "Multimodal Generative AI"
 msgstr "マルチモーダル生成AI"
 
-#: ../../guide/MultimodalGenAI.rst:6
-msgid "Contents"
-msgstr "コンテンツ"
-
-#: ../../guide/MultimodalGenAI.rst:9
+#: ../../guide/MultimodalGenAI.rst:10
 msgid "Summary"
 msgstr "概要"
 
-#: ../../guide/MultimodalGenAI.rst:25
+#: ../../guide/MultimodalGenAI.rst:26
 msgid "MD Robot Kits support ChatGPT@OpenAI, Gemini@Google, and Claude@AWS."
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:28
+#: ../../guide/MultimodalGenAI.rst:29
 msgid "1. ChatGPT of OpenAI"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:30
+#: ../../guide/MultimodalGenAI.rst:31
 msgid "1.1 Preparation"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:31 ../../guide/MultimodalGenAI.rst:35
-#: ../../guide/MultimodalGenAI.rst:39 ../../guide/MultimodalGenAI.rst:45
-#: ../../guide/MultimodalGenAI.rst:49 ../../guide/MultimodalGenAI.rst:53
-#: ../../guide/MultimodalGenAI.rst:59 ../../guide/MultimodalGenAI.rst:63
-#: ../../guide/MultimodalGenAI.rst:67
+#: ../../guide/MultimodalGenAI.rst:32 ../../guide/MultimodalGenAI.rst:36
+#: ../../guide/MultimodalGenAI.rst:40 ../../guide/MultimodalGenAI.rst:46
+#: ../../guide/MultimodalGenAI.rst:50 ../../guide/MultimodalGenAI.rst:54
+#: ../../guide/MultimodalGenAI.rst:60 ../../guide/MultimodalGenAI.rst:64
+#: ../../guide/MultimodalGenAI.rst:68
 msgid "Will update late."
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:34
+#: ../../guide/MultimodalGenAI.rst:35
 msgid "1.2 Install"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:38
+#: ../../guide/MultimodalGenAI.rst:39
 msgid "1.3 Applications"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:42
+#: ../../guide/MultimodalGenAI.rst:43
 msgid "2. Gemini of Google"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:44
+#: ../../guide/MultimodalGenAI.rst:45
 msgid "2.1 Preparation"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:48
+#: ../../guide/MultimodalGenAI.rst:49
 msgid "2.2 Install"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:52
+#: ../../guide/MultimodalGenAI.rst:53
 msgid "2.3 Applications"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:56
+#: ../../guide/MultimodalGenAI.rst:57
 msgid "3. Claude of AWS"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:58
+#: ../../guide/MultimodalGenAI.rst:59
 msgid "3.1 Preparation"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:62
+#: ../../guide/MultimodalGenAI.rst:63
 msgid "3.2 Install"
 msgstr ""
 
-#: ../../guide/MultimodalGenAI.rst:66
+#: ../../guide/MultimodalGenAI.rst:67
 msgid "3.3 Applications"
 msgstr ""
 
 #~ msgid "1. chatGPT of OpenAI"
 #~ msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr "コンテンツ"
 
