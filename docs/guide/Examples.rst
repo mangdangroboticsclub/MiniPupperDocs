@@ -153,6 +153,7 @@ For convenient shipping, the camera module may be not assembled by default. Afte
 
 .. image:: ../_static/kinematics_1.gif
    :align: center
+   :width: 685px
 
 1.1 Install ROS 2 Humble
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -183,6 +184,7 @@ Open the terminal with Ctrl+Alt+T from Remote PC.
 
 .. image:: ../_static/kinematics_2.gif
    :align: center
+   :width: 685px
 
 Navigation
 ^^^^^^^^^^^^^^^^^
@@ -193,6 +195,7 @@ The following video shows how we can use the navigation function to make the Min
 
 .. image:: ../_static/kinematics_3.gif
    :align: center
+   :width: 685px
 
 2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the Navigation node.
 
@@ -205,6 +208,7 @@ The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The whit
 
 .. image:: ../_static/kinematics_4.gif
    :align: center
+   :width: 685px
 
 Lecture
 ^^^^^^^^^^^^^
