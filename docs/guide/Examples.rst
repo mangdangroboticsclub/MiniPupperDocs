@@ -137,11 +137,77 @@ You can run it on your Windows or Ubuntu with Python environment, just like the 
 .. image:: ../_static/ForwardKinematics_SimpleModeMove.png
   :align: center
 
+|
+
 7. Inverse Kinematics
 -------------------------
 
+Preparation
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+0. Assemble the camera module
+
+For convenient shipping, the camera module may be not assembled by default. After receiving it, please assemble it yourself.
+
+* The connector typically has a hinged, flip-up latch that you need to open to insert the ribbon cable. This latch helps ensure the ribbon cable stays securely connected to the board during use.
+* Take the ribbon cable that is compatible with your Camera Module and interface on the board.
+
+.. image:: ../_static/kinematics_1.gif
+   :align: center
+
+1.1 Install ROS 2 Humble
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Open the terminal with Ctrl+Alt+T from Remote PC.
+
+::
+
+	cd ~
+	sudo apt update
+	git clone https://github.com/Tiryoh/ros2_setup_scripts_ubuntu.git
+	~/ros2_setup_scripts_ubuntu/ros2-humble-ros-base-main.sh
+	source /opt/ros/humble/setup.bash
+
+After ROS 2 installation, download the Mini Pupper ROS package in the workspace.
+
+1.2 Install Mini Pupper ROS Repository
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Open the terminal with Ctrl+Alt+T from Remote PC.
+
+::
+
+	mkdir -p ~/ros2_ws/src
+	cd ~/ros2_ws/src
+	git clone https://github.com/mangdangroboticsclub/mini_pupper_ros.git -b ros2-dev mini_pupper_ros
+	vcs import < mini_pupper_ros/.minipupper.repos --recursive
+
+.. image:: ../_static/kinematics_2.gif
+   :align: center
+
+Navigation
+^^^^^^^^^^^^^^^^^
+
+Navigation allows the robot to move from one location to the specified destination based on the infomation of a map given from the IMU and the lidar sensor created from SLAM.
+
+The following video shows how we can use the navigation function to make the Mini Pupper move along the planned path.
+
+.. image:: ../_static/kinematics_3.gif
+   :align: center
+
+2. Open a new terminal from Remote PC with Ctrl + Alt + T and launch the Navigation node.
+
+::
+
+    . ~/ros2_ws/install/setup.bash
+    ros2 launch mini_pupper_navigation navigation.launch.py map:=$HOME/map.yaml
+
+The map used in navigation is two-dimensional Occupancy Grid Map (OGM). The white area is collision free area while black area is occupied and inaccessible area, and gray area represents the unknown area.
+
+.. image:: ../_static/kinematics_4.gif
+   :align: center
+
 Lecture
-^^^^^^^^
+^^^^^^^^^^^^^
 
 Please study the basic knowledge of inverse kinematics online first.
 
@@ -152,17 +218,6 @@ You can also refer to the following video clips come from `Stanford Robotics Ind
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="685" height="385" src="https://www.youtube.com/embed/FvQ6NbqDR1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-Sample code
-^^^^^^^^^^^^
-
-We prepared a simple Inverse kinematics sample code based on Mini Pupper, you can try it `here <https://drive.google.com/drive/folders/1QUYSe1RQOWlZGtCwDqMqtEGB5tKNtcVj?usp=sharing>`_.
-You can run it on your Windows or Ubuntu with Python environment, just like the following picture shows.
-
-
-.. image:: ../_static/InverseKinematics_ExampleScript.png
-  :align: center
-
 
 8. PID control
 ---------------
